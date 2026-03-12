@@ -1,0 +1,45 @@
+{
+  "repo_id": "UMG_Envoy_Resleever",
+  "mode": "private_single_agent",
+  "agent_id": "primary",
+  "description": "Private UMG homebase for one OpenClaw agent.",
+  "active_sleeve": null,
+  "active_stack": null,
+  "compiler": {
+    "enabled": true,
+    "path": "./compiler",
+    "mode": "local_repo_asset"
+  },
+  "paths": {
+    "root": ".",
+    "compiler": "./compiler",
+    "sleeves_root": "./sleeves",
+    "sleeves_active": "./sleeves/active",
+    "sleeves_archive": "./sleeves/archive",
+    "sleeves_manifests": "./sleeves/manifests",
+    "blocks_root": "./blocks",
+    "blocks_molt": "./blocks/molt",
+    "blocks_neoblocks": "./blocks/neoblocks",
+    "blocks_neostacks": "./blocks/neostacks",
+    "blocks_manifests": "./blocks/manifests",
+    "runtime_root": "./runtime",
+    "runtime_active_sleeve": "./runtime/active-sleeve.json",
+    "runtime_active_stack": "./runtime/active-stack.json",
+    "runtime_compile_output": "./runtime/compile-output",
+    "runtime_traces": "./runtime/traces",
+    "docs": "./docs"
+  },
+  "policies": {
+    "overwrite_source_assets": false,
+    "archive_previous_active_assets": true,
+    "allow_provisional_compile_outputs": true,
+    "allow_public_distribution": false,
+    "single_agent_only": true
+  },
+  "status": {
+    "skill_detected": true,
+    "compiler_loaded": false,
+    "sleeves_loaded": false,
+    "blocks_loaded": false
+  }
+}
