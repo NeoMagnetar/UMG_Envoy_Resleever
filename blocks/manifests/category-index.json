@@ -1,5 +1,5 @@
 ﻿{
-    "generated_at":  "2026-03-12T20:08:22-06:00",
+    "generated_at":  "2026-03-12T22:30:00-06:00",
     "top_categories":  [
                            "general",
                            "domain_specific",
@@ -10,121 +10,16 @@
     "entries":  [
                     {
                         "category":  "general",
-                        "subcategory":  "analytical_requests",
+                        "subcategory":  "creative_requests",
                         "block_types":  [
                                             "TRIGGER"
                                         ],
                         "block_ids":  [
-                                          "TRG.001",
-                                          "TRG.002",
-                                          "TRG.003",
-                                          "TRG.004",
-                                          "TRG.005"
-                                      ],
-                        "status":  "active"
-                    },
-                    {
-                        "category":  "general",
-                        "subcategory":  "verification_validation",
-                        "block_types":  [
-                                            "TRIGGER"
-                                        ],
-                        "block_ids":  [
-                                          "TRG.086",
-                                          "TRG.087",
-                                          "TRG.088",
-                                          "TRG.089",
-                                          "TRG.090"
-                                      ],
-                        "status":  "active"
-                    },
-                    {
-                        "category":  "general",
-                        "subcategory":  "meta_cognitive",
-                        "block_types":  [
-                                            "TRIGGER"
-                                        ],
-                        "block_ids":  [
-                                          "TRG.091",
-                                          "TRG.092",
-                                          "TRG.093",
-                                          "TRG.094",
-                                          "TRG.095"
-                                      ],
-                        "status":  "active"
-                    },
-                    {
-                        "category":  "general",
-                        "subcategory":  "format_conversion",
-                        "block_types":  [
-                                            "TRIGGER"
-                                        ],
-                        "block_ids":  [
-                                          "TRG.081",
-                                          "TRG.082",
-                                          "TRG.083",
-                                          "TRG.084",
-                                          "TRG.085"
-                                      ],
-                        "status":  "active"
-                    },
-                    {
-                        "category":  "general",
-                        "subcategory":  "evaluation_review",
-                        "block_types":  [
-                                            "TRIGGER"
-                                        ],
-                        "block_ids":  [
-                                          "TRG.046",
-                                          "TRG.047",
-                                          "TRG.048",
-                                          "TRG.049",
-                                          "TRG.050"
-                                      ],
-                        "status":  "active"
-                    },
-                    {
-                        "category":  "general",
-                        "subcategory":  "strategic_thinking",
-                        "block_types":  [
-                                            "TRIGGER"
-                                        ],
-                        "block_ids":  [
-                                          "TRG.061",
-                                          "TRG.062",
-                                          "TRG.063",
-                                          "TRG.064",
-                                          "TRG.065"
-                                      ],
-                        "status":  "active"
-                    },
-                    {
-                        "category":  "general",
-                        "subcategory":  "collaboration_coordination",
-                        "block_types":  [
-                                            "TRIGGER"
-                                        ],
-                        "block_ids":  [
-                                          "TRG.076",
-                                          "TRG.077",
-                                          "TRG.078",
-                                          "TRG.079",
-                                          "TRG.080"
-                                      ],
-                        "status":  "active"
-                    },
-                    {
-                        "category":  "general",
-                        "subcategory":  "decision_support",
-                        "block_types":  [
-                                            "TRIGGER"
-                                        ],
-                        "block_ids":  [
-                                          "TRG.016",
-                                          "TRG.017",
-                                          "TRG.018",
-                                          "TRG.019",
-                                          "TRG.020"
+                                          "TRG.006",
+                                          "TRG.007",
+                                          "TRG.008",
+                                          "TRG.009",
+                                          "TRG.010"
                                       ],
                         "status":  "active"
                     },
@@ -145,46 +40,121 @@
                     },
                     {
                         "category":  "general",
-                        "subcategory":  "philosophical_conceptual",
+                        "subcategory":  "planning_actions",
                         "block_types":  [
-                                            "TRIGGER"
+                                            "INSTRUCTION"
                                         ],
                         "block_ids":  [
-                                          "TRG.051",
-                                          "TRG.052",
-                                          "TRG.053",
-                                          "TRG.054",
-                                          "TRG.055"
+                                          "INST.031",
+                                          "INST.032",
+                                          "INST.033",
+                                          "INST.034",
+                                          "INST.035"
                                       ],
                         "status":  "active"
                     },
                     {
                         "category":  "general",
-                        "subcategory":  "learning_requests",
+                        "subcategory":  "learning_directives",
                         "block_types":  [
-                                            "TRIGGER"
+                                            "DIRECTIVE"
                                         ],
                         "block_ids":  [
-                                          "TRG.011",
-                                          "TRG.012",
-                                          "TRG.013",
-                                          "TRG.014",
-                                          "TRG.015"
+                                          "DIR.086",
+                                          "DIR.087",
+                                          "DIR.088",
+                                          "DIR.089",
+                                          "DIR.090"
                                       ],
                         "status":  "active"
                     },
                     {
                         "category":  "general",
-                        "subcategory":  "creative_requests",
+                        "subcategory":  "strategic_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.066",
+                                          "INST.067",
+                                          "INST.068",
+                                          "INST.069",
+                                          "INST.070"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "contextual_awareness_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.091",
+                                          "DIR.092",
+                                          "DIR.093",
+                                          "DIR.094",
+                                          "DIR.095"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "umg_operational_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.096",
+                                          "INST.097",
+                                          "INST.098",
+                                          "INST.099",
+                                          "INST.100"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "verification_validation",
                         "block_types":  [
                                             "TRIGGER"
                                         ],
                         "block_ids":  [
-                                          "TRG.006",
-                                          "TRG.007",
-                                          "TRG.008",
-                                          "TRG.009",
-                                          "TRG.010"
+                                          "TRG.086",
+                                          "TRG.087",
+                                          "TRG.088",
+                                          "TRG.089",
+                                          "TRG.090"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "information_gathering",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.006",
+                                          "INST.007",
+                                          "INST.008",
+                                          "INST.009",
+                                          "INST.010"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "strategic_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.041",
+                                          "DIR.042",
+                                          "DIR.043",
+                                          "DIR.044",
+                                          "DIR.045"
                                       ],
                         "status":  "active"
                     },
@@ -205,61 +175,181 @@
                     },
                     {
                         "category":  "general",
-                        "subcategory":  "planning_organization",
+                        "subcategory":  "philosophical_conceptual",
                         "block_types":  [
                                             "TRIGGER"
                                         ],
                         "block_ids":  [
-                                          "TRG.031",
-                                          "TRG.032",
-                                          "TRG.033",
-                                          "TRG.034",
-                                          "TRG.035"
+                                          "TRG.051",
+                                          "TRG.052",
+                                          "TRG.053",
+                                          "TRG.054",
+                                          "TRG.055"
                                       ],
                         "status":  "active"
                     },
                     {
                         "category":  "general",
-                        "subcategory":  "problem_solving",
+                        "subcategory":  "adaptation_actions",
                         "block_types":  [
-                                            "TRIGGER"
+                                            "INSTRUCTION"
                                         ],
                         "block_ids":  [
-                                          "TRG.021",
-                                          "TRG.022",
-                                          "TRG.023",
-                                          "TRG.024",
-                                          "TRG.025"
+                                          "INST.091",
+                                          "INST.092",
+                                          "INST.093",
+                                          "INST.094",
+                                          "INST.095"
                                       ],
                         "status":  "active"
                     },
                     {
                         "category":  "general",
-                        "subcategory":  "governance_compliance",
+                        "subcategory":  "umg_specific",
                         "block_types":  [
                                             "TRIGGER"
                                         ],
                         "block_ids":  [
-                                          "TRG.066",
-                                          "TRG.067",
-                                          "TRG.068",
-                                          "TRG.069",
-                                          "TRG.070"
+                                          "TRG.096",
+                                          "TRG.097",
+                                          "TRG.098",
+                                          "TRG.099",
+                                          "TRG.100"
                                       ],
                         "status":  "active"
                     },
                     {
                         "category":  "general",
-                        "subcategory":  "technical_implementation",
+                        "subcategory":  "evaluation_review",
                         "block_types":  [
                                             "TRIGGER"
                                         ],
                         "block_ids":  [
-                                          "TRG.041",
-                                          "TRG.042",
-                                          "TRG.043",
-                                          "TRG.044",
-                                          "TRG.045"
+                                          "TRG.046",
+                                          "TRG.047",
+                                          "TRG.048",
+                                          "TRG.049",
+                                          "TRG.050"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "quality_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.061",
+                                          "DIR.062",
+                                          "DIR.063",
+                                          "DIR.064",
+                                          "DIR.065"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "umg_framework_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.096",
+                                          "DIR.097",
+                                          "DIR.098",
+                                          "DIR.099",
+                                          "DIR.100"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "governance_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.046",
+                                          "DIR.047",
+                                          "DIR.048",
+                                          "DIR.049",
+                                          "DIR.050"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "resilience_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.076",
+                                          "DIR.077",
+                                          "DIR.078",
+                                          "DIR.079",
+                                          "DIR.080"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "transparency_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.081",
+                                          "DIR.082",
+                                          "DIR.083",
+                                          "DIR.084",
+                                          "DIR.085"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "protective_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.021",
+                                          "DIR.022",
+                                          "DIR.023",
+                                          "DIR.024",
+                                          "DIR.025"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "evaluation_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.036",
+                                          "INST.037",
+                                          "INST.038",
+                                          "INST.039",
+                                          "INST.040"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "communication_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.056",
+                                          "DIR.057",
+                                          "DIR.058",
+                                          "DIR.059",
+                                          "DIR.060"
                                       ],
                         "status":  "active"
                     },
@@ -280,6 +370,246 @@
                     },
                     {
                         "category":  "general",
+                        "subcategory":  "decision_support",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.016",
+                                          "TRG.017",
+                                          "TRG.018",
+                                          "TRG.019",
+                                          "TRG.020"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "quality_assurance",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.071",
+                                          "INST.072",
+                                          "INST.073",
+                                          "INST.074",
+                                          "INST.075"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "learning_requests",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.011",
+                                          "TRG.012",
+                                          "TRG.013",
+                                          "TRG.014",
+                                          "TRG.015"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "meta_cognitive",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.091",
+                                          "TRG.092",
+                                          "TRG.093",
+                                          "TRG.094",
+                                          "TRG.095"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "efficiency_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.081",
+                                          "INST.082",
+                                          "INST.083",
+                                          "INST.084",
+                                          "INST.085"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "efficiency_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.066",
+                                          "DIR.067",
+                                          "DIR.068",
+                                          "DIR.069",
+                                          "DIR.070"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "supportive_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.016",
+                                          "DIR.017",
+                                          "DIR.018",
+                                          "DIR.019",
+                                          "DIR.020"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "technical_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.031",
+                                          "DIR.032",
+                                          "DIR.033",
+                                          "DIR.034",
+                                          "DIR.035"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "clarification_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.086",
+                                          "INST.087",
+                                          "INST.088",
+                                          "INST.089",
+                                          "INST.090"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "creative_generation",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.011",
+                                          "INST.012",
+                                          "INST.013",
+                                          "INST.014",
+                                          "INST.015"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "systems_thinking_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.071",
+                                          "DIR.072",
+                                          "DIR.073",
+                                          "DIR.074",
+                                          "DIR.075"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "learning_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.051",
+                                          "INST.052",
+                                          "INST.053",
+                                          "INST.054",
+                                          "INST.055"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "verification_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.021",
+                                          "INST.022",
+                                          "INST.023",
+                                          "INST.024",
+                                          "INST.025"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "problem_solving_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.026",
+                                          "INST.027",
+                                          "INST.028",
+                                          "INST.029",
+                                          "INST.030"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "planning_organization",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.031",
+                                          "TRG.032",
+                                          "TRG.033",
+                                          "TRG.034",
+                                          "TRG.035"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "analytical_requests",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.001",
+                                          "TRG.002",
+                                          "TRG.003",
+                                          "TRG.004",
+                                          "TRG.005"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
                         "subcategory":  "research_investigation",
                         "block_types":  [
                                             "TRIGGER"
@@ -295,16 +625,277 @@
                     },
                     {
                         "category":  "general",
-                        "subcategory":  "umg_specific",
+                        "subcategory":  "analytical_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.001",
+                                          "INST.002",
+                                          "INST.003",
+                                          "INST.004",
+                                          "INST.005"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "technical_implementation",
+                        "block_types":  [
+                                            "INSTRUCTION",
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "INST.061",
+                                          "INST.062",
+                                          "INST.063",
+                                          "INST.064",
+                                          "INST.065",
+                                          "TRG.041",
+                                          "TRG.042",
+                                          "TRG.043",
+                                          "TRG.044",
+                                          "TRG.045"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "educational_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.011",
+                                          "DIR.012",
+                                          "DIR.013",
+                                          "DIR.014",
+                                          "DIR.015"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "truth_seeking_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.051",
+                                          "DIR.052",
+                                          "DIR.053",
+                                          "DIR.054",
+                                          "DIR.055"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "collaboration_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.056",
+                                          "INST.057",
+                                          "INST.058",
+                                          "INST.059",
+                                          "INST.060"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "format_conversion",
                         "block_types":  [
                                             "TRIGGER"
                                         ],
                         "block_ids":  [
-                                          "TRG.096",
-                                          "TRG.097",
-                                          "TRG.098",
-                                          "TRG.099",
-                                          "TRG.100"
+                                          "TRG.081",
+                                          "TRG.082",
+                                          "TRG.083",
+                                          "TRG.084",
+                                          "TRG.085"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "problem_solving",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.021",
+                                          "TRG.022",
+                                          "TRG.023",
+                                          "TRG.024",
+                                          "TRG.025"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "governance_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.076",
+                                          "INST.077",
+                                          "INST.078",
+                                          "INST.079",
+                                          "INST.080"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "collaboration_coordination",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.076",
+                                          "TRG.077",
+                                          "TRG.078",
+                                          "TRG.079",
+                                          "TRG.080"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "governance_compliance",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.066",
+                                          "TRG.067",
+                                          "TRG.068",
+                                          "TRG.069",
+                                          "TRG.070"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "documentation_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.046",
+                                          "INST.047",
+                                          "INST.048",
+                                          "INST.049",
+                                          "INST.050"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "ethical_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.036",
+                                          "DIR.037",
+                                          "DIR.038",
+                                          "DIR.039",
+                                          "DIR.040"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "execution_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.041",
+                                          "INST.042",
+                                          "INST.043",
+                                          "INST.044",
+                                          "INST.045"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "analytical_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.001",
+                                          "DIR.002",
+                                          "DIR.003",
+                                          "DIR.004",
+                                          "DIR.005"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "strategic_thinking",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.061",
+                                          "TRG.062",
+                                          "TRG.063",
+                                          "TRG.064",
+                                          "TRG.065"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "communication_actions",
+                        "block_types":  [
+                                            "INSTRUCTION"
+                                        ],
+                        "block_ids":  [
+                                          "INST.016",
+                                          "INST.017",
+                                          "INST.018",
+                                          "INST.019",
+                                          "INST.020"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "creative_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.006",
+                                          "DIR.007",
+                                          "DIR.008",
+                                          "DIR.009",
+                                          "DIR.010"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "collaborative_directives",
+                        "block_types":  [
+                                            "DIRECTIVE"
+                                        ],
+                        "block_ids":  [
+                                          "DIR.026",
+                                          "DIR.027",
+                                          "DIR.028",
+                                          "DIR.029",
+                                          "DIR.030"
                                       ],
                         "status":  "active"
                     }

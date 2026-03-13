@@ -1,0 +1,708 @@
+# MOLT BLUEPRINT LIBRARY v1.0.0
+
+## PROGRAMMING_LANGUAGES
+ID: BP.001
+Type: BLUEPRINT
+Name: Python
+Structure: Indentation-based blocks; dynamic typing; object-oriented and functional; extensive standard library; PEP 8 style guide
+Conventions: snake_case for variables/functions; CamelCase for classes; 4-space indentation; docstrings for documentation; list comprehensions
+Output Characteristics: Readable, explicit, minimal syntax; whitespace significant; batteries included philosophy
+
+ID: BP.002
+Type: BLUEPRINT
+Name: JavaScript
+Structure: Curly-brace syntax; prototype-based objects; first-class functions; event-driven; asynchronous patterns
+Conventions: camelCase for variables/functions; PascalCase for constructors; semicolons optional; callbacks, promises, async/await
+Output Characteristics: Flexible, dynamic; functional and OOP; DOM manipulation; JSON native; arrow functions
+
+ID: BP.003
+Type: BLUEPRINT
+Name: Java
+Structure: Class-based OOP; static typing; compiled to bytecode; package system; exception handling
+Conventions: CamelCase for classes; camelCase for methods; explicit types; getter/setter patterns; interfaces and inheritance
+Output Characteristics: Verbose, explicit; strongly typed; platform independent; enterprise patterns; boilerplate heavy
+
+ID: BP.004
+Type: BLUEPRINT
+Name: C++
+Structure: Low-level control; object-oriented; manual memory management; templates; multiple inheritance
+Conventions: Various naming conventions; header/source files; RAII pattern; const correctness; namespace usage
+Output Characteristics: Performance critical; systems programming; complex syntax; powerful but dangerous; zero-cost abstractions
+
+ID: BP.005
+Type: BLUEPRINT
+Name: C#
+Structure: C-style syntax; .NET framework; object-oriented; properties and events; LINQ
+Conventions: PascalCase for public members; camelCase for private; XML documentation; using statements; async/await native
+Output Characteristics: Microsoft ecosystem; strongly typed; modern language features; Unity game development; enterprise focus
+
+ID: BP.006
+Type: BLUEPRINT
+Name: Ruby
+Structure: Pure OOP; blocks and iterators; dynamic typing; metaprogramming; convention over configuration
+Conventions: snake_case naming; do...end or {...} blocks; symbols; DSL friendly; implicit returns
+Output Characteristics: Expressive, elegant; developer happiness focus; Rails framework; readable; flexible syntax
+
+ID: BP.007
+Type: BLUEPRINT
+Name: Go
+Structure: C-like syntax; static typing; goroutines and channels; interface-based; compilation speed focus
+Conventions: CamelCase/camelCase; gofmt standard formatting; no unused imports/variables; error returns; defer statements
+Output Characteristics: Simple, explicit; concurrent by design; fast compilation; minimal features; Google style
+
+ID: BP.008
+Type: BLUEPRINT
+Name: Rust
+Structure: Ownership and borrowing; zero-cost abstractions; pattern matching; memory safety; no garbage collector
+Conventions: snake_case naming; Result and Option types; explicit lifetimes; trait-based generics; macro system
+Output Characteristics: Memory safe without GC; systems programming; steep learning curve; modern features; cargo ecosystem
+
+ID: BP.009
+Type: BLUEPRINT
+Name: Swift
+Structure: Protocol-oriented; optionals; type inference; ARC memory management; playgrounds
+Conventions: camelCase naming; optional chaining; guard statements; extensions; closures
+Output Characteristics: Apple ecosystem; modern syntax; safe by default; interactive development; progressive disclosure
+
+ID: BP.010
+Type: BLUEPRINT
+Name: Kotlin
+Structure: JVM/Android; null safety; coroutines; extension functions; data classes
+Conventions: camelCase naming; val/var distinction; when expressions; Elvis operator; DSL builders
+Output Characteristics: Java interop; concise; null-safe; modern JVM language; Android official; functional + OOP
+
+ID: BP.011
+Type: BLUEPRINT
+Name: PHP
+Structure: Server-side scripting; $ variables; associative arrays; loosely typed; embedded in HTML
+Conventions: snake_case or camelCase; <?php tags; WordPress/Laravel patterns; superglobals
+Output Characteristics: Web focused; easy deployment; large ecosystem; WordPress dominance; improving modern features
+
+ID: BP.012
+Type: BLUEPRINT
+Name: TypeScript
+Structure: JavaScript superset; static typing; interfaces; generics; compilation to JS
+Conventions: JavaScript conventions plus type annotations; interface naming; strict mode; decorator patterns
+Output Characteristics: Type-safe JavaScript; tooling support; gradual typing; Angular default; enterprise JavaScript
+
+ID: BP.013
+Type: BLUEPRINT
+Name: Scala
+Structure: JVM; object-functional fusion; pattern matching; traits; immutability emphasis
+Conventions: camelCase; functional style preferred; case classes; for comprehensions; implicit parameters
+Output Characteristics: Academic and practical; complex type system; concise; big data Spark; multi-paradigm
+
+ID: BP.014
+Type: BLUEPRINT
+Name: Haskell
+Structure: Pure functional; lazy evaluation; strong static typing; type inference; monads
+Conventions: camelCase; point-free style; do notation; type signatures; pattern matching
+Output Characteristics: Mathematical; purely functional; lazy; advanced type system; academic influence; elegant abstractions
+
+ID: BP.015
+Type: BLUEPRINT
+Name: Erlang
+Structure: Actor model; functional; pattern matching; OTP framework; message passing
+Conventions: snake_case; atoms; tuple patterns; guard clauses; supervisor trees
+Output Characteristics: Fault-tolerant; distributed; telecom origins; hot code swapping; concurrent by default
+
+ID: BP.016
+Type: BLUEPRINT
+Name: Elixir
+Structure: Erlang VM; functional; pattern matching; pipe operator; macro system
+Conventions: snake_case; |> pipe; with statements; protocol-based polymorphism; Phoenix framework
+Output Characteristics: Ruby-like syntax on Erlang; scalable; concurrent; web focus; modern functional
+
+ID: BP.017
+Type: BLUEPRINT
+Name: Clojure
+Structure: Lisp dialect; JVM; functional; immutable data; persistent collections
+Conventions: kebab-case; prefix notation; threading macros; destructuring; namespace organization
+Output Characteristics: Lisp on JVM; REPL-driven; immutable by default; simple syntax; powerful macros
+
+ID: BP.018
+Type: BLUEPRINT
+Name: R
+Structure: Statistical computing; vectorized operations; data frames; formula syntax; functional
+Conventions: period.separated or snake_case; <- assignment; tidyverse style; ggplot2 patterns
+Output Characteristics: Data analysis focus; statistical packages; academic use; visualization; vector-oriented
+
+ID: BP.019
+Type: BLUEPRINT
+Name: MATLAB
+Structure: Matrix operations; numeric computing; proprietary; function files; scripts
+Conventions: camelCase or snake_case; 1-indexed arrays; vectorization emphasis; function handles
+Output Characteristics: Engineering focus; matrix-centric; toolboxes; expensive; academic and industry standard
+
+ID: BP.020
+Type: BLUEPRINT
+Name: Julia
+Structure: Multiple dispatch; JIT compilation; optional typing; metaprogramming; REPL
+Conventions: snake_case; ! for mutation; broadcasting dot syntax; @macros; type annotations
+Output Characteristics: Scientific computing; Python-like but fast; multiple dispatch core; modern; growing ecosystem
+
+ID: BP.021
+Type: BLUEPRINT
+Name: Perl
+Structure: Text processing; regular expressions; sigils ($ @ %); context sensitivity; CPAN
+Conventions: snake_case; $scalar @array %hash; statement modifiers; flexible syntax
+Output Characteristics: TMTOWTDI; regex powerful; system administration; text manipulation; readable/writable debate
+
+ID: BP.022
+Type: BLUEPRINT
+Name: Lua
+Structure: Lightweight; tables as primary structure; metatables; coroutines; embeddable
+Conventions: snake_case; 1-indexed; local variables; : method syntax; simple syntax
+Output Characteristics: Game scripting; embedded; small footprint; simple; fast; table-based everything
+
+ID: BP.023
+Type: BLUEPRINT
+Name: Assembly
+Structure: Low-level; direct hardware instructions; registers; labels; minimal abstraction
+Conventions: Architecture-specific; UPPERCASE or lowercase; comments essential; label naming
+Output Characteristics: Maximum control; architecture-dependent; verbose; performance critical; manual optimization
+
+ID: BP.024
+Type: BLUEPRINT
+Name: SQL
+Structure: Declarative; set-based operations; SELECT/FROM/WHERE; joins; aggregations
+Conventions: UPPERCASE keywords or lowercase; snake_case tables; explicit aliases; normalized schemas
+Output Characteristics: Database queries; declarative not procedural; relational algebra; ANSI standard; vendor dialects
+
+ID: BP.025
+Type: BLUEPRINT
+Name: HTML
+Structure: Markup language; nested tags; attributes; semantic elements; DOM tree
+Conventions: kebab-case attributes; lowercase tags; semantic HTML5; accessibility attributes; valid nesting
+Output Characteristics: Document structure; semantic meaning; browser rendering; accessibility; not programming language
+
+ID: BP.026
+Type: BLUEPRINT
+Name: CSS
+Structure: Cascading stylesheets; selectors; properties; specificity; box model
+Conventions: kebab-case properties; BEM or other naming; mobile-first; DRY principles; modular organization
+Output Characteristics: Visual styling; cascading rules; responsive design; preprocessors SASS/LESS; specificity wars
+
+ID: BP.027
+Type: BLUEPRINT
+Name: Shell/Bash
+Structure: Command-line scripting; pipes; redirects; variables; conditionals; loops
+Conventions: UPPERCASE environment vars; lowercase local; shebang line; exit codes; quoting rules
+Output Characteristics: System automation; text processing; glue language; Unix philosophy; one-liners powerful
+
+ID: BP.028
+Type: BLUEPRINT
+Name: PowerShell
+Structure: Object-oriented shell; cmdlets; pipeline; .NET integration; verb-noun naming
+Conventions: PascalCase cmdlets; $variables; pipeline objects; approved verbs; verbose parameters
+Output Characteristics: Windows administration; object pipeline; .NET access; consistent cmdlet structure; powerful automation
+
+ID: BP.029
+Type: BLUEPRINT
+Name: Dart
+Structure: Object-oriented; Flutter framework; async/await; strong and sound typing; AOT/JIT compilation
+Conventions: camelCase; lowerCamelCase variables; UpperCamelCase classes; effective Dart guidelines
+Output Characteristics: Flutter UI; Google language; modern features; web and mobile; fast compilation
+
+ID: BP.030
+Type: BLUEPRINT
+Name: Objective-C
+Structure: C superset; Smalltalk messaging; reference counting; nil messaging; categories
+Conventions: camelCase with prefix; NS prefix; bracket syntax for messages; property syntax
+Output Characteristics: Apple legacy; verbose; iOS/macOS older apps; dynamic runtime; being replaced by Swift
+
+## POETRY_VERSE_FORMS
+ID: BP.031
+Type: BLUEPRINT
+Name: Haiku
+Structure: 3 lines; 5-7-5 syllable pattern traditional; nature theme; seasonal reference kigo; cutting word
+Conventions: Present tense; concrete imagery; juxtaposition; no rhyme; moment of awareness
+Output Characteristics: Brief, concentrated; nature focus; seasonal; imagistic; minimalist
+
+ID: BP.032
+Type: BLUEPRINT
+Name: Sonnet
+Structure: 14 lines; iambic pentameter; rhyme schemes Shakespearean ABAB CDAB EFEF GG or Petrarchan ABBAABBA CDECDE/CDCDCD
+Conventions: Turn or volta at line 9 or 13; argument development; lyric meditation; love or philosophical themes
+Output Characteristics: Formal, structured; romantic or philosophical; sophisticated rhyme; volta crucial
+
+ID: BP.033
+Type: BLUEPRINT
+Name: Limerick
+Structure: 5 lines; AABBA rhyme; anapestic meter; lines 1,2,5 longer; lines 3,4 shorter
+Conventions: Humorous tone; often bawdy; bouncy rhythm; place name in line 1; punchline in line 5
+Output Characteristics: Comic, irreverent; strict form; musical rhythm; brief joke structure
+
+ID: BP.034
+Type: BLUEPRINT
+Name: Free Verse
+Structure: No fixed meter or rhyme; variable line length; natural speech rhythms; organic form
+Conventions: Line breaks for emphasis; rhythm through repetition; imagery focus; concrete language
+Output Characteristics: Flexible, modern; natural speech; visual on page; freedom within discipline
+
+ID: BP.035
+Type: BLUEPRINT
+Name: Blank Verse
+Structure: Unrhymed iambic pentameter; continuous lines; no stanza breaks required
+Conventions: Elevated subjects; epic or dramatic; enjambment common; sustained meditation
+Output Characteristics: Formal but unrhymed; Shakespearean; serious tone; flexible within meter
+
+ID: BP.036
+Type: BLUEPRINT
+Name: Villanelle
+Structure: 19 lines; 5 tercets plus 1 quatrain; ABA rhyme for tercets, ABAA for quatrain; two refrains
+Conventions: Refrains alternate in tercets, both in final quatrain; obsessive themes; circular structure
+Output Characteristics: Complex, recursive; obsessive repetition; musical; technically demanding
+
+ID: BP.037
+Type: BLUEPRINT
+Name: Sestina
+Structure: 39 lines; 6 stanzas of 6 lines plus 1 tercet; end-word repetition in pattern; no rhyme
+Conventions: 6 end-words rotate in specific pattern; all 6 in final tercet; mathematical precision
+Output Characteristics: Intricate, puzzle-like; recursive; non-rhyming; challenging form
+
+ID: BP.038
+Type: BLUEPRINT
+Name: Ode
+Structure: Lyric poem of praise; elaborate stanza forms; elevated language; sustained meditation
+Conventions: Pindaric, Horatian, or irregular; apostrophe common; serious subject; public or private
+Output Characteristics: Formal celebration; elevated diction; extended meditation; passionate
+
+ID: BP.039
+Type: BLUEPRINT
+Name: Elegy
+Structure: Lament or meditation on death; variable form; serious tone; reflective
+Conventions: Mournful tone; memory and loss; consolation or acceptance; elegiac couplets classical
+Output Characteristics: Somber, reflective; death meditation; memorial; philosophical
+
+ID: BP.040
+Type: BLUEPRINT
+Name: Epic
+Structure: Long narrative poem; heroic deeds; elevated style; grand scope; invocation
+Conventions: Starts in medias res; epic similes; catalogs; divine intervention; vast historical scope
+Output Characteristics: Long, ambitious; heroic; national or cultural scope; formal elevated language
+
+ID: BP.041
+Type: BLUEPRINT
+Name: Ballad
+Structure: Narrative poem; quatrains; ABCB or ABAB rhyme; simple language; refrain common
+Conventions: Story-telling; dialogue; repetition; incremental development; folk origins
+Output Characteristics: Musical, story-driven; folk tradition; simple language; often tragic
+
+ID: BP.042
+Type: BLUEPRINT
+Name: Acrostic
+Structure: First letters of lines spell word or message; variable line length; any subject
+Conventions: Vertical word usually name or theme; puzzle element; may rhyme or not
+Output Characteristics: Playful, hidden message; visual element; teaching tool; word game
+
+ID: BP.043
+Type: BLUEPRINT
+Name: Cinquain
+Structure: 5 lines; syllable pattern 2-4-6-8-2 or word pattern 1-2-3-4-1; imagistic
+Conventions: Brief, imagistic; no rhyme required; concentrated image; didactic origins
+Output Characteristics: Short, precise; image-focused; unrhymed; teaching form
+
+ID: BP.044
+Type: BLUEPRINT
+Name: Tanka
+Structure: 5 lines; 5-7-5-7-7 syllable pattern; Japanese form; two-part structure
+Conventions: Turn after line 3; personal emotion; nature imagery; no seasonal word required
+Output Characteristics: Haiku extension; emotional; personal; Japanese classical
+
+ID: BP.045
+Type: BLUEPRINT
+Name: Ghazal
+Structure: Couplets; AA BA CA DA rhyme; refrain after rhyme; radif and qafia; Arabic/Persian origin
+Conventions: Independent couplets; poet's name in final couplet; love or mystical themes
+Output Characteristics: Musical, recursive; Middle Eastern; romantic or mystical; refrain-driven
+
+ID: BP.046
+Type: BLUEPRINT
+Name: Pantoum
+Structure: Interlocking quatrains; ABAB rhyme; lines 2 and 4 become 1 and 3 of next stanza; circular
+Conventions: Lines 1 and 3 of final stanza are lines 2 and 4 of first; dreamy, recursive
+Output Characteristics: Hypnotic repetition; Malaysian origin; circular; dream-like
+
+ID: BP.047
+Type: BLUEPRINT
+Name: Terza Rima
+Structure: ABA BCB CDC pattern; interlocking tercets; iambic; Dante's form
+Conventions: Propulsive forward movement; concluding couplet; serious philosophical themes
+Output Characteristics: Chain-linked; driving rhythm; Italian; philosophical depth
+
+ID: BP.048
+Type: BLUEPRINT
+Name: Prose Poem
+Structure: Poetic language in prose form; no line breaks; paragraph units; poetic density
+Conventions: Concentrated language; imagery rich; poetic devices but prose appearance
+Output Characteristics: Hybrid form; prose disguise; poetic intensity; modern innovation
+
+ID: BP.049
+Type: BLUEPRINT
+Name: Concrete/Visual Poetry
+Structure: Shape on page reflects meaning; visual arrangement essential; typography as art
+Conventions: Form equals content; visual reading required; spatial arrangement; often minimalist text
+Output Characteristics: Visual art; shape poetry; experimental; image-text fusion
+
+ID: BP.050
+Type: BLUEPRINT
+Name: Rondeau
+Structure: 15 lines; 3 stanzas 5-3-5-2; ABaAabAB format; rentrement partial refrain
+Conventions: French form; playful or light; rentrement from opening words; strict rhyme
+Output Characteristics: Musical, circular; French; light verse; refrain playfulness
+
+## ACADEMIC_WRITING
+ID: BP.051
+Type: BLUEPRINT
+Name: Thesis/Dissertation
+Structure: Title page; abstract; chapters intro lit review methods results discussion conclusion; references; appendices
+Conventions: Original research; formal academic tone; comprehensive citations; committee-approved; extensive
+Output Characteristics: Long-form, formal; original contribution; heavily cited; structured chapters; academic rigor
+
+ID: BP.052
+Type: BLUEPRINT
+Name: Research Paper
+Structure: Title; abstract; introduction; literature review; methodology; results; discussion; conclusion; references
+Conventions: IMRAD format intro methods results and discussion; peer-review ready; formal tone; citations
+Output Characteristics: Formal, structured; empirical or theoretical; publishable; disciplinary conventions
+
+ID: BP.053
+Type: BLUEPRINT
+Name: Five-Paragraph Essay
+Structure: Introduction with thesis; 3 body paragraphs; conclusion; each paragraph unified topic
+Conventions: Thesis statement end of intro; topic sentences; supporting evidence; restate thesis in conclusion
+Output Characteristics: Teaching format; simple structure; clear organization; beginner academic
+
+ID: BP.054
+Type: BLUEPRINT
+Name: Literature Review
+Structure: Introduction; thematic or chronological organization; synthesis of sources; critical analysis; conclusion
+Conventions: Comprehensive coverage; critical evaluation; identifies gaps; organized thematically; extensive citations
+Output Characteristics: Synthetic, critical; comprehensive; research foundation; evaluative not just descriptive
+
+ID: BP.055
+Type: BLUEPRINT
+Name: Abstract
+Structure: Purpose; methods; results; conclusion; 150-300 words; self-contained summary
+Conventions: Past tense; concise; no citations; represents whole paper; structured or unstructured
+Output Characteristics: Brief, complete summary; standalone; informative; condensed research
+
+ID: BP.056
+Type: BLUEPRINT
+Name: Annotated Bibliography
+Structure: Citation followed by annotation; summary, assessment, reflection; alphabetical or thematic order
+Conventions: Citation format APA, MLA, Chicago; paragraph annotation; evaluative not just descriptive
+Output Characteristics: Source list with commentary; evaluative; research preparation; organized
+
+ID: BP.057
+Type: BLUEPRINT
+Name: Lab Report
+Structure: Title; introduction; materials and methods; results data and graphs; discussion; conclusion; references
+Conventions: Objective tone; past tense methods; present tense discussion; precise measurements; reproducible
+Output Characteristics: Scientific, precise; reproducible; data-driven; formal scientific
+
+ID: BP.058
+Type: BLUEPRINT
+Name: Case Study
+Structure: Introduction; background; presentation of case; analysis; discussion; conclusion; recommendations
+Conventions: Real-world example; detailed context; analytical framework; lessons learned; applicable insights
+Output Characteristics: Applied, contextual; detailed narrative; analytical; practical insights
+
+ID: BP.059
+Type: BLUEPRINT
+Name: Critical Analysis
+Structure: Introduction with thesis; summary of work; analysis of elements; evaluation; conclusion
+Conventions: Thesis-driven; textual evidence; critical framework; evaluative not just descriptive; argumentation
+Output Characteristics: Argumentative, analytical; evaluative; evidence-based; critical perspective
+
+ID: BP.060
+Type: BLUEPRINT
+Name: Position Paper
+Structure: Introduction with clear position; background; arguments for position; counterarguments addressed; conclusion
+Conventions: Clear stance; persuasive; evidence-based; acknowledges opposition; formal tone
+Output Characteristics: Argumentative, persuasive; position-driven; balanced acknowledgment; advocacy
+
+## BUSINESS_PROFESSIONAL
+ID: BP.061
+Type: BLUEPRINT
+Name: Business Memo
+Structure: Header To From Date Subject; brief introduction; body paragraphs; conclusion and action items
+Conventions: Concise; direct; professional tone; bullet points acceptable; single-spaced; action-oriented
+Output Characteristics: Brief, direct; internal communication; professional; action-focused
+
+ID: BP.062
+Type: BLUEPRINT
+Name: Technical Report
+Structure: Executive summary; introduction; methodology; findings; recommendations; appendices; references
+Conventions: Technical audience; detailed data; visual aids; formal tone; comprehensive; actionable recommendations
+Output Characteristics: Detailed, technical; data-driven; formal; comprehensive analysis
+
+ID: BP.063
+Type: BLUEPRINT
+Name: White Paper
+Structure: Title; executive summary; problem statement; solution description; benefits; conclusion; references
+Conventions: Authoritative tone; research-based; persuasive but objective; thought leadership; B2B focus
+Output Characteristics: Authoritative, persuasive; research-backed; solution-oriented; marketing plus technical
+
+ID: BP.064
+Type: BLUEPRINT
+Name: Executive Summary
+Structure: Brief overview; key findings; main recommendations; typically 1-2 pages; standalone document
+Conventions: Top-level executives audience; concise; highlights only; actionable; no jargon; decision-focused
+Output Characteristics: Very brief, high-level; decision-ready; non-technical; actionable
+
+ID: BP.065
+Type: BLUEPRINT
+Name: Press Release
+Structure: Headline; dateline; lead paragraph who what when where why; body; boilerplate; contact info
+Conventions: Inverted pyramid; newsworthy; third-person; quotable quotes; AP style; 300-500 words
+Output Characteristics: Journalistic, newsworthy; quotable; concise; media-ready
+
+ID: BP.066
+Type: BLUEPRINT
+Name: Business Proposal
+Structure: Cover letter; executive summary; problem statement; proposed solution; timeline; budget; qualifications
+Conventions: Client-focused; persuasive; detailed; professional; competitive positioning; clear deliverables
+Output Characteristics: Persuasive, detailed; client-centric; competitive; solution-focused
+
+ID: BP.067
+Type: BLUEPRINT
+Name: Meeting Minutes
+Structure: Header date attendees location; agenda items; decisions made; action items; next meeting
+Conventions: Objective record; concise; organized by agenda; action items clear; assigned responsibilities
+Output Characteristics: Factual record; concise; organized; action-oriented; accountability
+
+ID: BP.068
+Type: BLUEPRINT
+Name: Project Charter
+Structure: Project overview; objectives; scope; stakeholders; deliverables; timeline; budget; risks
+Conventions: Formal authorization; clear boundaries; stakeholder approval; measurable objectives; constraints documented
+Output Characteristics: Authorizing, comprehensive; boundary-setting; stakeholder-aligned; formal
+
+ID: BP.069
+Type: BLUEPRINT
+Name: SWOT Analysis
+Structure: Four quadrants strengths weaknesses opportunities threats; summary analysis; strategic implications
+Conventions: Matrix format; bullet points; internal vs external; actionable insights; strategic context
+Output Characteristics: Structured matrix; strategic; analytical; actionable; visual
+
+ID: BP.070
+Type: BLUEPRINT
+Name: Standard Operating Procedure (SOP)
+Structure: Purpose; scope; responsibilities; procedure steps numbered; definitions; references; revision history
+Conventions: Imperative mood; numbered steps; clear responsibilities; version control; regulatory compliance
+Output Characteristics: Procedural, precise; step-by-step; authoritative; compliance-oriented
+
+## CONTENT_FORMATS
+ID: BP.071
+Type: BLUEPRINT
+Name: Blog Post
+Structure: Catchy title; introduction hook; subheadings; body sections; conclusion or CTA; author bio
+Conventions: Conversational tone; scannable with bullets and subheads; SEO keywords; 500-2000 words; engaging
+Output Characteristics: Casual, engaging; scannable; SEO-conscious; conversational; web-optimized
+
+ID: BP.072
+Type: BLUEPRINT
+Name: News Article
+Structure: Headline; lead paragraph 5 Ws; inverted pyramid structure; quotes; facts; conclusion
+Conventions: Objective tone; inverted pyramid; AP or journalistic style; attribution; newsworthy angle
+Output Characteristics: Objective, factual; inverted pyramid; quotable; newsworthy
+
+ID: BP.073
+Type: BLUEPRINT
+Name: Tutorial
+Structure: Introduction; prerequisites; step-by-step instructions; screenshots or visuals; troubleshooting; conclusion
+Conventions: Clear numbered steps; visual aids; beginner-friendly; testing included; common problems addressed
+Output Characteristics: Instructional, sequential; visual; user-friendly; problem-solving
+
+ID: BP.074
+Type: BLUEPRINT
+Name: How-To Guide
+Structure: Clear title; materials or tools needed; step-by-step process; tips and warnings; expected results
+Conventions: Action-oriented; numbered steps; clear outcomes; helpful tips; safety warnings when needed
+Output Characteristics: Practical, actionable; step-by-step; outcome-focused; helpful
+
+ID: BP.075
+Type: BLUEPRINT
+Name: Listicle
+Structure: Numbered headline; introduction; numbered items with explanations; conclusion
+Conventions: Scannable; engaging subheads; consistent item length; strong intro and conclusion; clickable
+Output Characteristics: Scannable, engaging; numbered; web-optimized; easily shareable
+
+ID: BP.076
+Type: BLUEPRINT
+Name: Product Review
+Structure: Product intro; specs; pros and cons; testing methodology; detailed analysis; rating; recommendation
+Conventions: Balanced evaluation; specific details; comparison to alternatives; personal experience; transparent
+Output Characteristics: Evaluative, detailed; balanced; specific; recommendation-oriented
+
+ID: BP.077
+Type: BLUEPRINT
+Name: Interview Transcript
+Structure: Introduction; Q&A format; speaker labels; timestamps optional; conclusion or key takeaways
+Conventions: Question in bold or caps; verbatim or lightly edited; speaker attribution clear; readable formatting
+Output Characteristics: Conversational, direct; Q&A; attributed; lightly edited for clarity
+
+ID: BP.078
+Type: BLUEPRINT
+Name: Email Newsletter
+Structure: Subject line; pre-header; greeting; main content sections; CTA; footer unsubscribe and social
+Conventions: Scannable sections; clear CTAs; mobile-friendly; personal tone; value-driven; regular cadence
+Output Characteristics: Scannable, personal; CTA-driven; mobile-optimized; relationship-building
+
+ID: BP.079
+Type: BLUEPRINT
+Name: Social Media Post
+Structure: Hook first line; body content; hashtags; CTA or link; platform-specific format
+Conventions: Platform character limits; hashtag strategy; engaging hook; visual component; call-to-action
+Output Characteristics: Brief, engaging; platform-specific; visual; shareable; CTA-focused
+
+ID: BP.080
+Type: BLUEPRINT
+Name: README Documentation
+Structure: Project title; description; installation; usage; features; contributing; license; credits
+Conventions: Markdown format; code examples; clear sections; getting started easy; badges for status
+Output Characteristics: Technical, clear; markdown; example-driven; developer-focused
+
+## FORMATTING_STYLES
+ID: BP.081
+Type: BLUEPRINT
+Name: MLA Format
+Structure: 12pt Times New Roman; double-spaced; 1-inch margins; header with last name and page; Works Cited
+Conventions: In-text Author Page; parenthetical citations; alphabetical Works Cited; italics for titles
+Output Characteristics: Humanities focus; author-page citation; double-spaced; formal
+
+ID: BP.082
+Type: BLUEPRINT
+Name: APA Format
+Structure: 12pt; double-spaced; running head; title page; abstract; body; references; appendices
+Conventions: In-text Author, Year; hanging indent references; levels of headings; scientific tone
+Output Characteristics: Social sciences; author-date citation; structured; scientific
+
+ID: BP.083
+Type: BLUEPRINT
+Name: Chicago/Turabian Style
+Structure: Footnotes/endnotes or author-date; bibliography; title page; optional abstract; formal tone
+Conventions: Notes-bibliography or author-date; extensive footnotes; formal historical; comprehensive bibliography
+Output Characteristics: History or humanities; footnote-heavy; formal; detailed citations
+
+ID: BP.084
+Type: BLUEPRINT
+Name: IEEE Format
+Structure: Two-column; numbered citations [1]; references section; specific font and spacing requirements
+Conventions: Numbered citations in text [1]; alphabetical references; technical and engineering focus; concise
+Output Characteristics: Engineering or technical; numbered citations; two-column; concise
+
+ID: BP.085
+Type: BLUEPRINT
+Name: Single-Spaced
+Structure: No blank line between lines within paragraphs; blank line between paragraphs
+Conventions: Business documents; memos; letters; conserves space; dense appearance
+Output Characteristics: Compact, professional; business standard; space-efficient
+
+ID: BP.086
+Type: BLUEPRINT
+Name: Double-Spaced
+Structure: Blank line between each line of text; easier reading and markup; academic standard
+Conventions: Academic papers; manuscripts; easier commenting; more readable; traditional academic
+Output Characteristics: Readable, traditional; academic standard; markup-friendly
+
+ID: BP.087
+Type: BLUEPRINT
+Name: Block Format (Letters)
+Structure: All elements left-aligned; no indentation; blank line between paragraphs; professional letters
+Conventions: Modern business standard; clean appearance; easy to scan; formal professional
+Output Characteristics: Modern, clean; professional; left-aligned; scannable
+
+ID: BP.088
+Type: BLUEPRINT
+Name: Indented Paragraphs
+Structure: First line of paragraph indented 0.5 inch; no blank line between paragraphs; traditional
+Conventions: Traditional academic; novels; continuous text; classic typesetting
+Output Characteristics: Traditional, continuous; literary; classic formatting
+
+ID: BP.089
+Type: BLUEPRINT
+Name: Markdown
+Structure: Plain text with formatting markers; # headers; *emphasis*; [links]; code blocks
+Conventions: GitHub README standard; simple syntax; converts to HTML; programmer-friendly; version-control friendly
+Output Characteristics: Plain text, portable; programmer-friendly; web-convertible; simple
+
+ID: BP.090
+Type: BLUEPRINT
+Name: LaTeX Document
+Structure: Preamble; document class; packages; begin/end document; commands for structure
+Conventions: Mathematical typesetting; academic publishing; precise control; compiled output; professional quality
+Output Characteristics: Professional typesetting; math-friendly; academic; precise control
+
+## SPECIALIZED_STRUCTURES
+ID: BP.091
+Type: BLUEPRINT
+Name: Screenplay
+Structure: Scene headings; action lines; character names centered; dialogue; parentheticals; transitions
+Conventions: Courier 12pt; specific margins; slug lines; present tense action; CAPS for sounds; page equals minute
+Output Characteristics: Film format; visual; dialogue-driven; standardized; production-ready
+
+ID: BP.092
+Type: BLUEPRINT
+Name: Stage Play
+Structure: Character list; act and scene divisions; stage directions; dialogue; production notes
+Conventions: Character names in caps before dialogue; italicized stage directions; acts and scenes; theatrical focus
+Output Characteristics: Theatrical, dialogue-heavy; stage directions; acts and scenes; performance-oriented
+
+ID: BP.093
+Type: BLUEPRINT
+Name: Resume/CV
+Structure: Contact info; summary; experience; education; skills; certifications; references
+Conventions: Reverse chronological; bullet points; quantified achievements; action verbs; one-page resume or comprehensive CV
+Output Characteristics: Scannable, concise; achievement-focused; professional; formatted for ATS
+
+ID: BP.094
+Type: BLUEPRINT
+Name: Grant Proposal
+Structure: Cover letter; abstract; statement of need; goals and objectives; methods; evaluation; budget; sustainability
+Conventions: Funder guidelines followed; data-driven; clear objectives; measurable outcomes; realistic budget
+Output Characteristics: Persuasive, detailed; data-driven; outcome-focused; budget-conscious
+
+ID: BP.095
+Type: BLUEPRINT
+Name: Legal Brief
+Structure: Caption; table of contents; table of authorities; statement of facts; argument; conclusion; signature
+Conventions: Formal legal language; citations to cases and statutes; numbered paragraphs; IRAC method; persuasive
+Output Characteristics: Formal, legal; citation-heavy; argumentative; structured; persuasive
+
+ID: BP.096
+Type: BLUEPRINT
+Name: Recipe
+Structure: Title; yield or servings; prep and cook time; ingredients list; numbered instructions; notes or tips
+Conventions: Ingredients in order of use; precise measurements; imperative instructions; tested results; difficulty level
+Output Characteristics: Instructional, precise; tested; step-by-step; user-friendly; actionable
+
+ID: BP.097
+Type: BLUEPRINT
+Name: FAQ (Frequently Asked Questions)
+Structure: Introduction; questions as headers; answers below each; categorized sections; conclusion
+Conventions: Question format; clear concise answers; searchable; organized by topic; conversational tone
+Output Characteristics: Q&A format; scannable; searchable; user-focused; helpful
+
+ID: BP.098
+Type: BLUEPRINT
+Name: Changelog
+Structure: Version number; date; categories Added Changed Deprecated Removed Fixed Security
+Conventions: Reverse chronological; semantic versioning; clear categories; concise entries; links to issues
+Output Characteristics: Chronological, categorized; version-tracked; developer-focused; clear
+
+ID: BP.099
+Type: BLUEPRINT
+Name: API Documentation
+Structure: Overview; authentication; endpoints; parameters; request and response examples; error codes; rate limits
+Conventions: Clear endpoint structure; example requests and responses; code samples; versioning; comprehensive
+Output Characteristics: Technical, comprehensive; example-driven; developer-focused; versioned
+
+ID: BP.100
+Type: BLUEPRINT
+Name: Dialogue Script
+Structure: Character names; spoken lines; minimal stage directions; conversational flow; natural speech patterns
+Conventions: Character name followed by colon or on separate line; natural speech; subtext; realistic interruptions
+Output Characteristics: Conversational, realistic; character-driven; natural speech; minimal description

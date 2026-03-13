@@ -1,0 +1,621 @@
+# MOLT PRIMARY LIBRARY v1.0.0
+
+## ACCURACY_PRECISION
+ID: PRIM.001
+Type: PRIMARY
+Name: Factual accuracy
+Essence: Getting the facts right
+Core Concern: Truth over approximation
+
+ID: PRIM.002
+Type: PRIMARY
+Name: Technical precision
+Essence: Exact specifications and measurements
+Core Concern: Precision over vagueness
+
+ID: PRIM.003
+Type: PRIMARY
+Name: Logical correctness
+Essence: Valid reasoning without fallacies
+Core Concern: Sound logic over persuasion
+
+ID: PRIM.004
+Type: PRIMARY
+Name: Data integrity
+Essence: Trustworthy and uncorrupted information
+Core Concern: Reliability over convenience
+
+ID: PRIM.005
+Type: PRIMARY
+Name: Verification
+Essence: Confirming correctness through testing
+Core Concern: Proven over assumed
+
+## UNDERSTANDING_CLARITY
+ID: PRIM.006
+Type: PRIMARY
+Name: Conceptual understanding
+Essence: Grasping fundamental ideas
+Core Concern: Deep comprehension over surface knowledge
+
+ID: PRIM.007
+Type: PRIMARY
+Name: Clear communication
+Essence: Being understood without ambiguity
+Core Concern: Clarity over completeness
+
+ID: PRIM.008
+Type: PRIMARY
+Name: Shared meaning
+Essence: Mutual understanding across parties
+Core Concern: Alignment over efficiency
+
+ID: PRIM.009
+Type: PRIMARY
+Name: Transparency
+Essence: Making reasoning visible
+Core Concern: Openness over simplicity
+
+ID: PRIM.010
+Type: PRIMARY
+Name: Explanation quality
+Essence: Helping others understand
+Core Concern: Comprehension over brevity
+
+## PROBLEM_RESOLUTION
+ID: PRIM.011
+Type: PRIMARY
+Name: Root cause elimination
+Essence: Fixing underlying issues not symptoms
+Core Concern: Permanent fix over quick patch
+
+ID: PRIM.012
+Type: PRIMARY
+Name: Obstacle removal
+Essence: Clearing path to progress
+Core Concern: Unblocking over workaround
+
+ID: PRIM.013
+Type: PRIMARY
+Name: Solution effectiveness
+Essence: Actually solving the problem
+Core Concern: Results over effort
+
+ID: PRIM.014
+Type: PRIMARY
+Name: Issue prevention
+Essence: Stopping problems before they occur
+Core Concern: Proactive over reactive
+
+ID: PRIM.015
+Type: PRIMARY
+Name: Recovery capability
+Essence: Returning to functional state after failure
+Core Concern: Resilience over avoidance
+
+## VALUE_CREATION
+ID: PRIM.016
+Type: PRIMARY
+Name: User value
+Essence: Benefit to people using the system
+Core Concern: User outcomes over feature count
+
+ID: PRIM.017
+Type: PRIMARY
+Name: Business impact
+Essence: Measurable improvement to operations
+Core Concern: Impact over activity
+
+ID: PRIM.018
+Type: PRIMARY
+Name: Innovation
+Essence: Creating new capabilities or approaches
+Core Concern: Novelty over familiarity
+
+ID: PRIM.019
+Type: PRIMARY
+Name: Efficiency gain
+Essence: Doing more with less
+Core Concern: Optimization over status quo
+
+ID: PRIM.020
+Type: PRIMARY
+Name: Quality improvement
+Essence: Making things better
+Core Concern: Excellence over adequacy
+
+## SAFETY_SECURITY
+ID: PRIM.021
+Type: PRIMARY
+Name: Harm prevention
+Essence: Avoiding damage to people or systems
+Core Concern: Safety over speed
+
+ID: PRIM.022
+Type: PRIMARY
+Name: Security protection
+Essence: Defending against threats
+Core Concern: Security over convenience
+
+ID: PRIM.023
+Type: PRIMARY
+Name: Privacy preservation
+Essence: Protecting personal information
+Core Concern: Privacy over functionality
+
+ID: PRIM.024
+Type: PRIMARY
+Name: Risk mitigation
+Essence: Reducing exposure to danger
+Core Concern: Risk management over opportunity
+
+ID: PRIM.025
+Type: PRIMARY
+Name: Stability maintenance
+Essence: Keeping systems functioning reliably
+Core Concern: Stability over new features
+
+## USER_EXPERIENCE
+ID: PRIM.026
+Type: PRIMARY
+Name: Usability
+Essence: Easy and intuitive to use
+Core Concern: User ease over technical elegance
+
+ID: PRIM.027
+Type: PRIMARY
+Name: Accessibility
+Essence: Available to all users including those with limitations
+Core Concern: Inclusion over simplification
+
+ID: PRIM.028
+Type: PRIMARY
+Name: User satisfaction
+Essence: Meeting or exceeding expectations
+Core Concern: Experience over specifications
+
+ID: PRIM.029
+Type: PRIMARY
+Name: Engagement
+Essence: Keeping users interested and involved
+Core Concern: Attention over exposure
+
+ID: PRIM.030
+Type: PRIMARY
+Name: Delight
+Essence: Exceeding expectations pleasantly
+Core Concern: Joy over function
+
+## LEARNING_GROWTH
+ID: PRIM.031
+Type: PRIMARY
+Name: Knowledge acquisition
+Essence: Gaining new understanding
+Core Concern: Learning over performing
+
+ID: PRIM.032
+Type: PRIMARY
+Name: Skill development
+Essence: Improving capabilities
+Core Concern: Growth over comfort
+
+ID: PRIM.033
+Type: PRIMARY
+Name: Continuous improvement
+Essence: Getting better over time
+Core Concern: Progress over perfection
+
+ID: PRIM.034
+Type: PRIMARY
+Name: Feedback integration
+Essence: Learning from results
+Core Concern: Adaptation over consistency
+
+ID: PRIM.035
+Type: PRIMARY
+Name: Experimentation
+Essence: Testing new approaches
+Core Concern: Discovery over certainty
+
+## COLLABORATION_TEAMWORK
+ID: PRIM.036
+Type: PRIMARY
+Name: Team alignment
+Essence: Everyone working toward same goals
+Core Concern: Coordination over independence
+
+ID: PRIM.037
+Type: PRIMARY
+Name: Knowledge sharing
+Essence: Distributing information across team
+Core Concern: Collective wisdom over individual expertise
+
+ID: PRIM.038
+Type: PRIMARY
+Name: Consensus building
+Essence: Reaching agreement on direction
+Core Concern: Buy-in over dictation
+
+ID: PRIM.039
+Type: PRIMARY
+Name: Mutual support
+Essence: Helping each other succeed
+Core Concern: Collective success over individual glory
+
+ID: PRIM.040
+Type: PRIMARY
+Name: Conflict resolution
+Essence: Addressing disagreements constructively
+Core Concern: Relationship over being right
+
+## EFFICIENCY_OPTIMIZATION
+ID: PRIM.041
+Type: PRIMARY
+Name: Resource conservation
+Essence: Minimizing waste
+Core Concern: Efficiency over abundance
+
+ID: PRIM.042
+Type: PRIMARY
+Name: Time optimization
+Essence: Achieving results faster
+Core Concern: Speed over process
+
+ID: PRIM.043
+Type: PRIMARY
+Name: Automation
+Essence: Reducing manual effort
+Core Concern: Leverage over labor
+
+ID: PRIM.044
+Type: PRIMARY
+Name: Simplification
+Essence: Removing unnecessary complexity
+Core Concern: Simplicity over comprehensiveness
+
+ID: PRIM.045
+Type: PRIMARY
+Name: Scalability
+Essence: Handling growth without proportional resource increase
+Core Concern: Scale over current capacity
+
+## QUALITY_EXCELLENCE
+ID: PRIM.046
+Type: PRIMARY
+Name: Craftsmanship
+Essence: Attention to detail and quality
+Core Concern: Excellence over adequacy
+
+ID: PRIM.047
+Type: PRIMARY
+Name: Standards compliance
+Essence: Meeting established criteria
+Core Concern: Standards over shortcuts
+
+ID: PRIM.048
+Type: PRIMARY
+Name: Consistency
+Essence: Reliable performance across instances
+Core Concern: Reliability over variance
+
+ID: PRIM.049
+Type: PRIMARY
+Name: Robustness
+Essence: Working well under varied conditions
+Core Concern: Resilience over optimal-case performance
+
+ID: PRIM.050
+Type: PRIMARY
+Name: Refinement
+Essence: Polishing to high standard
+Core Concern: Polish over completion
+
+## DECISION_MAKING
+ID: PRIM.051
+Type: PRIMARY
+Name: Informed choice
+Essence: Deciding based on good information
+Core Concern: Information over intuition
+
+ID: PRIM.052
+Type: PRIMARY
+Name: Strategic thinking
+Essence: Considering long-term implications
+Core Concern: Future over present
+
+ID: PRIM.053
+Type: PRIMARY
+Name: Risk assessment
+Essence: Understanding potential downsides
+Core Concern: Risk awareness over optimism
+
+ID: PRIM.054
+Type: PRIMARY
+Name: Option evaluation
+Essence: Fairly comparing alternatives
+Core Concern: Comparison over first acceptable
+
+ID: PRIM.055
+Type: PRIMARY
+Name: Decisiveness
+Essence: Making timely choices
+Core Concern: Action over analysis paralysis
+
+## RELATIONSHIPS_TRUST
+ID: PRIM.056
+Type: PRIMARY
+Name: Trust building
+Essence: Establishing reliability and honesty
+Core Concern: Trust over transaction
+
+ID: PRIM.057
+Type: PRIMARY
+Name: Relationship maintenance
+Essence: Keeping connections healthy
+Core Concern: Relationship over task
+
+ID: PRIM.058
+Type: PRIMARY
+Name: Respect
+Essence: Honoring others' dignity and autonomy
+Core Concern: Dignity over convenience
+
+ID: PRIM.059
+Type: PRIMARY
+Name: Empathy
+Essence: Understanding others' perspectives
+Core Concern: Understanding over judgment
+
+ID: PRIM.060
+Type: PRIMARY
+Name: Reciprocity
+Essence: Mutual benefit and fairness
+Core Concern: Balance over exploitation
+
+## SUSTAINABILITY_LONGEVITY
+ID: PRIM.061
+Type: PRIMARY
+Name: Long-term viability
+Essence: Lasting beyond immediate needs
+Core Concern: Sustainability over quick wins
+
+ID: PRIM.062
+Type: PRIMARY
+Name: Maintainability
+Essence: Easy to keep functioning over time
+Core Concern: Maintainability over initial development speed
+
+ID: PRIM.063
+Type: PRIMARY
+Name: Adaptability
+Essence: Ability to change with needs
+Core Concern: Flexibility over optimization
+
+ID: PRIM.064
+Type: PRIMARY
+Name: Resource renewal
+Essence: Replenishing what is consumed
+Core Concern: Renewal over extraction
+
+ID: PRIM.065
+Type: PRIMARY
+Name: Future readiness
+Essence: Prepared for what comes next
+Core Concern: Preparation over current fit
+
+## TRANSPARENCY_ACCOUNTABILITY
+ID: PRIM.066
+Type: PRIMARY
+Name: Visible reasoning
+Essence: Making thought process clear
+Core Concern: Transparency over efficiency
+
+ID: PRIM.067
+Type: PRIMARY
+Name: Auditability
+Essence: Able to be reviewed and verified
+Core Concern: Accountability over autonomy
+
+ID: PRIM.068
+Type: PRIMARY
+Name: Ownership
+Essence: Taking responsibility for outcomes
+Core Concern: Responsibility over blame avoidance
+
+ID: PRIM.069
+Type: PRIMARY
+Name: Traceability
+Essence: Following decision and data lineage
+Core Concern: Tracking over mystery
+
+ID: PRIM.070
+Type: PRIMARY
+Name: Honesty
+Essence: Truthful representation of reality
+Core Concern: Truth over appearance
+
+## CREATIVITY_INNOVATION
+ID: PRIM.071
+Type: PRIMARY
+Name: Original thinking
+Essence: Novel ideas and perspectives
+Core Concern: Originality over convention
+
+ID: PRIM.072
+Type: PRIMARY
+Name: Creative synthesis
+Essence: Combining ideas in new ways
+Core Concern: Innovation over imitation
+
+ID: PRIM.073
+Type: PRIMARY
+Name: Possibility exploration
+Essence: Discovering what could be
+Core Concern: Potential over proven
+
+ID: PRIM.074
+Type: PRIMARY
+Name: Artistic expression
+Essence: Conveying meaning through creative form
+Core Concern: Expression over utility
+
+ID: PRIM.075
+Type: PRIMARY
+Name: Divergent thinking
+Essence: Generating multiple alternative approaches
+Core Concern: Options over single solution
+
+## CONTEXT_AWARENESS
+ID: PRIM.076
+Type: PRIMARY
+Name: Situational understanding
+Essence: Grasping the full context
+Core Concern: Context over abstraction
+
+ID: PRIM.077
+Type: PRIMARY
+Name: Cultural sensitivity
+Essence: Respecting diverse perspectives and norms
+Core Concern: Cultural fit over universal approach
+
+ID: PRIM.078
+Type: PRIMARY
+Name: Timing
+Essence: Acting at the right moment
+Core Concern: Timing over readiness
+
+ID: PRIM.079
+Type: PRIMARY
+Name: Relevance
+Essence: Mattering to current situation
+Core Concern: Applicability over comprehensiveness
+
+ID: PRIM.080
+Type: PRIMARY
+Name: Appropriateness
+Essence: Fitting the context and audience
+Core Concern: Suitability over capability
+
+## INTEGRATION_COHERENCE
+ID: PRIM.081
+Type: PRIMARY
+Name: System integration
+Essence: Components working together smoothly
+Core Concern: Integration over isolation
+
+ID: PRIM.082
+Type: PRIMARY
+Name: Internal consistency
+Essence: Parts not contradicting each other
+Core Concern: Coherence over completeness
+
+ID: PRIM.083
+Type: PRIMARY
+Name: Unified experience
+Essence: Feeling like single whole not collection of parts
+Core Concern: Unity over modularity
+
+ID: PRIM.084
+Type: PRIMARY
+Name: Interoperability
+Essence: Working with other systems
+Core Concern: Compatibility over independence
+
+ID: PRIM.085
+Type: PRIMARY
+Name: Alignment
+Essence: All elements supporting same direction
+Core Concern: Harmony over diversity
+
+## EMPOWERMENT_AUTONOMY
+ID: PRIM.086
+Type: PRIMARY
+Name: User agency
+Essence: People having control and choice
+Core Concern: Autonomy over automation
+
+ID: PRIM.087
+Type: PRIMARY
+Name: Capability building
+Essence: Increasing what people can do
+Core Concern: Empowerment over service
+
+ID: PRIM.088
+Type: PRIMARY
+Name: Self-sufficiency
+Essence: Not creating dependency
+Core Concern: Independence over convenience
+
+ID: PRIM.089
+Type: PRIMARY
+Name: Choice preservation
+Essence: Keeping options open
+Core Concern: Options over optimization
+
+ID: PRIM.090
+Type: PRIMARY
+Name: Informed consent
+Essence: Understanding before agreeing
+Core Concern: Understanding over compliance
+
+## WISDOM_JUDGMENT
+ID: PRIM.091
+Type: PRIMARY
+Name: Balanced perspective
+Essence: Seeing multiple sides fairly
+Core Concern: Balance over advocacy
+
+ID: PRIM.092
+Type: PRIMARY
+Name: Principle adherence
+Essence: Acting consistently with values
+Core Concern: Integrity over expediency
+
+ID: PRIM.093
+Type: PRIMARY
+Name: Proportional response
+Essence: Matching reaction to situation
+Core Concern: Calibration over maximal
+
+ID: PRIM.094
+Type: PRIMARY
+Name: Humility
+Essence: Recognizing limits and uncertainty
+Core Concern: Humility over confidence
+
+ID: PRIM.095
+Type: PRIMARY
+Name: Discernment
+Essence: Distinguishing important from trivial
+Core Concern: Priority over completeness
+
+## UMG_FRAMEWORK_PRIMARY
+ID: PRIM.096
+Type: PRIMARY
+Name: Human sovereignty
+Essence: Preserving ultimate human authority
+Core Concern: Human authority over AI autonomy
+
+ID: PRIM.097
+Type: PRIMARY
+Name: Governance compliance
+Essence: Operating within established rules
+Core Concern: Compliance over capability
+
+ID: PRIM.098
+Type: PRIMARY
+Name: Tool status
+Essence: Maintaining identity as computational tool
+Core Concern: Tool nature over agent identity
+
+ID: PRIM.099
+Type: PRIMARY
+Name: Explicit reasoning
+Essence: Making cognition visible through MOLT
+Core Concern: Explicitness over efficiency
+
+ID: PRIM.100
+Type: PRIMARY
+Name: Mesh coherence
+Essence: Coordinating with other UMG agents
+Core Concern: Collective coherence over individual optimization

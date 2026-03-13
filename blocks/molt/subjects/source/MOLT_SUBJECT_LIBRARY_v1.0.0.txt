@@ -1,0 +1,922 @@
+# MOLT SUBJECT LIBRARY v1.0.0
+
+## DATA_INFORMATION
+ID: SUBJ.001
+Type: SUBJECT
+Name: Raw data
+Definition: Unprocessed information in various formats
+Examples:
+- sensor readings
+- log entries
+- database records
+
+ID: SUBJ.002
+Type: SUBJECT
+Name: Structured data
+Definition: Information organized in defined schema or format
+Examples:
+- JSON objects
+- CSV tables
+- database rows
+
+ID: SUBJ.003
+Type: SUBJECT
+Name: Metadata
+Definition: Information about other data
+Examples:
+- file properties
+- timestamps
+- data lineage
+
+ID: SUBJ.004
+Type: SUBJECT
+Name: Knowledge base
+Definition: Organized repository of information and relationships
+Examples:
+- wikis
+- documentation systems
+- expert systems
+
+ID: SUBJ.005
+Type: SUBJECT
+Name: Metrics
+Definition: Quantified measurements of performance or state
+Examples:
+- KPIs
+- analytics data
+- performance counters
+
+## CODE_SOFTWARE
+ID: SUBJ.006
+Type: SUBJECT
+Name: Source code
+Definition: Human-readable program instructions
+Examples:
+- Python scripts
+- JavaScript modules
+- C++ classes
+
+ID: SUBJ.007
+Type: SUBJECT
+Name: Functions
+Definition: Discrete units of functionality
+Examples:
+- methods
+- procedures
+- subroutines
+
+ID: SUBJ.008
+Type: SUBJECT
+Name: APIs
+Definition: Interfaces for software interaction
+Examples:
+- REST endpoints
+- library interfaces
+- service contracts
+
+ID: SUBJ.009
+Type: SUBJECT
+Name: Algorithms
+Definition: Step-by-step procedures for computation
+Examples:
+- sorting routines
+- search algorithms
+- optimization methods
+
+ID: SUBJ.010
+Type: SUBJECT
+Name: Dependencies
+Definition: External libraries and packages required
+Examples:
+- npm packages
+- Python modules
+- shared libraries
+
+## SYSTEMS_INFRASTRUCTURE
+ID: SUBJ.011
+Type: SUBJECT
+Name: System architecture
+Definition: High-level structure of technical systems
+Examples:
+- microservices design
+- monolithic apps
+- distributed systems
+
+ID: SUBJ.012
+Type: SUBJECT
+Name: Network infrastructure
+Definition: Communication pathways and protocols
+Examples:
+- routers
+- firewalls
+- load balancers
+
+ID: SUBJ.013
+Type: SUBJECT
+Name: Databases
+Definition: Structured data storage systems
+Examples:
+- SQL databases
+- NoSQL stores
+- data warehouses
+
+ID: SUBJ.014
+Type: SUBJECT
+Name: Servers
+Definition: Computing resources providing services
+Examples:
+- web servers
+- application servers
+- file servers
+
+ID: SUBJ.015
+Type: SUBJECT
+Name: Cloud resources
+Definition: Remote computing infrastructure
+Examples:
+- EC2 instances
+- S3 buckets
+- cloud functions
+
+## DOCUMENTS_CONTENT
+ID: SUBJ.016
+Type: SUBJECT
+Name: Text documents
+Definition: Written content in various formats
+Examples:
+- reports
+- articles
+- specifications
+
+ID: SUBJ.017
+Type: SUBJECT
+Name: Images
+Definition: Visual content and graphics
+Examples:
+- photos
+- diagrams
+- illustrations
+
+ID: SUBJ.018
+Type: SUBJECT
+Name: Presentations
+Definition: Slide-based visual communications
+Examples:
+- PowerPoint decks
+- keynote presentations
+- slide shows
+
+ID: SUBJ.019
+Type: SUBJECT
+Name: Spreadsheets
+Definition: Tabular data with calculations
+Examples:
+- Excel workbooks
+- CSV files
+- financial models
+
+ID: SUBJ.020
+Type: SUBJECT
+Name: Documentation
+Definition: Explanatory and instructional content
+Examples:
+- API docs
+- user guides
+- technical manuals
+
+## PROCESSES_WORKFLOWS
+ID: SUBJ.021
+Type: SUBJECT
+Name: Business processes
+Definition: Organizational workflows and procedures
+Examples:
+- approval flows
+- order processing
+- onboarding
+
+ID: SUBJ.022
+Type: SUBJECT
+Name: Development workflows
+Definition: Software creation and deployment processes
+Examples:
+- CI/CD pipelines
+- code review process
+- release procedures
+
+ID: SUBJ.023
+Type: SUBJECT
+Name: Automation scripts
+Definition: Programmed sequences of actions
+Examples:
+- build scripts
+- deployment automation
+- data pipelines
+
+ID: SUBJ.024
+Type: SUBJECT
+Name: Standard procedures
+Definition: Established methods for recurring tasks
+Examples:
+- SOPs
+- checklists
+- protocols
+
+ID: SUBJ.025
+Type: SUBJECT
+Name: Task queues
+Definition: Ordered collections of work items
+Examples:
+- job queues
+- message queues
+- backlog items
+
+## USERS_STAKEHOLDERS
+ID: SUBJ.026
+Type: SUBJECT
+Name: End users
+Definition: People who use products or services
+Examples:
+- customers
+- app users
+- service consumers
+
+ID: SUBJ.027
+Type: SUBJECT
+Name: Team members
+Definition: Individuals working together on projects
+Examples:
+- developers
+- designers
+- project managers
+
+ID: SUBJ.028
+Type: SUBJECT
+Name: Stakeholders
+Definition: Parties with interest in outcomes
+Examples:
+- executives
+- investors
+- partners
+
+ID: SUBJ.029
+Type: SUBJECT
+Name: User roles
+Definition: Defined permissions and responsibilities
+Examples:
+- admin
+- contributor
+- viewer
+
+ID: SUBJ.030
+Type: SUBJECT
+Name: Communities
+Definition: Groups with shared interests or goals
+Examples:
+- user communities
+- open source contributors
+- forums
+
+## REQUIREMENTS_SPECIFICATIONS
+ID: SUBJ.031
+Type: SUBJECT
+Name: Functional requirements
+Definition: What system must do
+Examples:
+- user stories
+- use cases
+- feature specs
+
+ID: SUBJ.032
+Type: SUBJECT
+Name: Non-functional requirements
+Definition: Quality attributes and constraints
+Examples:
+- performance targets
+- security requirements
+- scalability needs
+
+ID: SUBJ.033
+Type: SUBJECT
+Name: Business rules
+Definition: Policies governing operations
+Examples:
+- validation rules
+- approval thresholds
+- eligibility criteria
+
+ID: SUBJ.034
+Type: SUBJECT
+Name: Technical constraints
+Definition: Limitations on implementation
+Examples:
+- platform restrictions
+- budget limits
+- technology choices
+
+ID: SUBJ.035
+Type: SUBJECT
+Name: Acceptance criteria
+Definition: Conditions for considering work complete
+Examples:
+- test cases
+- success metrics
+- completion checklist
+
+## PROBLEMS_ISSUES
+ID: SUBJ.036
+Type: SUBJECT
+Name: Bugs
+Definition: Errors or defects in software
+Examples:
+- runtime errors
+- logic flaws
+- edge case failures
+
+ID: SUBJ.037
+Type: SUBJECT
+Name: Technical debt
+Definition: Accumulated shortcuts requiring refactoring
+Examples:
+- legacy code
+- deprecated dependencies
+- missing tests
+
+ID: SUBJ.038
+Type: SUBJECT
+Name: Performance bottlenecks
+Definition: Constraints limiting system throughput
+Examples:
+- slow queries
+- memory leaks
+- CPU spikes
+
+ID: SUBJ.039
+Type: SUBJECT
+Name: Security vulnerabilities
+Definition: Weaknesses exposing system to threats
+Examples:
+- SQL injection
+- XSS flaws
+- authentication bypasses
+
+ID: SUBJ.040
+Type: SUBJECT
+Name: User complaints
+Definition: Problems reported by users
+Examples:
+- usability issues
+- missing features
+- error messages
+
+## TESTS_VALIDATION
+ID: SUBJ.041
+Type: SUBJECT
+Name: Test cases
+Definition: Specific scenarios validating behavior
+Examples:
+- unit tests
+- integration tests
+- regression tests
+
+ID: SUBJ.042
+Type: SUBJECT
+Name: Test data
+Definition: Inputs used for validation
+Examples:
+- mock data
+- fixtures
+- test databases
+
+ID: SUBJ.043
+Type: SUBJECT
+Name: Quality metrics
+Definition: Measures of software quality
+Examples:
+- code coverage
+- defect density
+- test pass rates
+
+ID: SUBJ.044
+Type: SUBJECT
+Name: Validation rules
+Definition: Conditions for accepting data or behavior
+Examples:
+- input validators
+- schema checks
+- business logic tests
+
+ID: SUBJ.045
+Type: SUBJECT
+Name: Performance benchmarks
+Definition: Standards for evaluating speed and efficiency
+Examples:
+- response time targets
+- throughput goals
+- resource limits
+
+## CONFIGURATIONS_SETTINGS
+ID: SUBJ.046
+Type: SUBJECT
+Name: Environment variables
+Definition: System-level configuration values
+Examples:
+- API keys
+- database URLs
+- feature flags
+
+ID: SUBJ.047
+Type: SUBJECT
+Name: Application settings
+Definition: Program-specific configuration
+Examples:
+- config files
+- preferences
+- default values
+
+ID: SUBJ.048
+Type: SUBJECT
+Name: User preferences
+Definition: Individual customization choices
+Examples:
+- theme settings
+- notification preferences
+- display options
+
+ID: SUBJ.049
+Type: SUBJECT
+Name: System parameters
+Definition: Operating system or infrastructure settings
+Examples:
+- memory limits
+- timeout values
+- connection pools
+
+ID: SUBJ.050
+Type: SUBJECT
+Name: Feature flags
+Definition: Toggles controlling functionality availability
+Examples:
+- experimental features
+- A/B test variants
+- rollout controls
+
+## COMMUNICATIONS_MESSAGES
+ID: SUBJ.051
+Type: SUBJECT
+Name: Email messages
+Definition: Electronic mail communications
+Examples:
+- business emails
+- notifications
+- newsletters
+
+ID: SUBJ.052
+Type: SUBJECT
+Name: Notifications
+Definition: Alerts and updates to users
+Examples:
+- push notifications
+- alerts
+- reminders
+
+ID: SUBJ.053
+Type: SUBJECT
+Name: Chat messages
+Definition: Real-time text communications
+Examples:
+- Slack messages
+- team chat
+- customer support
+
+ID: SUBJ.054
+Type: SUBJECT
+Name: Announcements
+Definition: Broadcast communications to groups
+Examples:
+- company updates
+- release notes
+- policy changes
+
+ID: SUBJ.055
+Type: SUBJECT
+Name: Feedback
+Definition: User input and responses
+Examples:
+- survey responses
+- reviews
+- comments
+
+## MODELS_STRUCTURES
+ID: SUBJ.056
+Type: SUBJECT
+Name: Data models
+Definition: Structured representations of information
+Examples:
+- entity relationships
+- object schemas
+- data dictionaries
+
+ID: SUBJ.057
+Type: SUBJECT
+Name: Classes and objects
+Definition: Object-oriented program structures
+Examples:
+- class definitions
+- instances
+- inheritance hierarchies
+
+ID: SUBJ.058
+Type: SUBJECT
+Name: Schemas
+Definition: Formal descriptions of data organization
+Examples:
+- database schemas
+- JSON schemas
+- XML definitions
+
+ID: SUBJ.059
+Type: SUBJECT
+Name: Templates
+Definition: Reusable patterns or structures
+Examples:
+- document templates
+- code templates
+- design patterns
+
+ID: SUBJ.060
+Type: SUBJECT
+Name: Frameworks
+Definition: Structural foundations for building applications
+Examples:
+- web frameworks
+- testing frameworks
+- UI frameworks
+
+## RESOURCES_ASSETS
+ID: SUBJ.061
+Type: SUBJECT
+Name: Computing resources
+Definition: Hardware and infrastructure capacity
+Examples:
+- CPU
+- memory
+- storage
+- bandwidth
+
+ID: SUBJ.062
+Type: SUBJECT
+Name: Time budgets
+Definition: Allocated time for tasks or projects
+Examples:
+- sprint capacity
+- deadlines
+- time estimates
+
+ID: SUBJ.063
+Type: SUBJECT
+Name: Financial resources
+Definition: Budget and funding
+Examples:
+- project budgets
+- cost estimates
+- spending limits
+
+ID: SUBJ.064
+Type: SUBJECT
+Name: Human resources
+Definition: Available personnel and skills
+Examples:
+- team capacity
+- expertise areas
+- staffing levels
+
+ID: SUBJ.065
+Type: SUBJECT
+Name: Digital assets
+Definition: Owned digital content and resources
+Examples:
+- brand assets
+- media libraries
+- intellectual property
+
+## INTERFACES_INTERACTIONS
+ID: SUBJ.066
+Type: SUBJECT
+Name: User interfaces
+Definition: Visual elements for user interaction
+Examples:
+- web pages
+- mobile screens
+- dashboards
+
+ID: SUBJ.067
+Type: SUBJECT
+Name: Forms
+Definition: Structured input collection mechanisms
+Examples:
+- registration forms
+- surveys
+- data entry screens
+
+ID: SUBJ.068
+Type: SUBJECT
+Name: Navigation elements
+Definition: Components for moving through interface
+Examples:
+- menus
+- breadcrumbs
+- links
+
+ID: SUBJ.069
+Type: SUBJECT
+Name: Interactive components
+Definition: UI elements responding to user actions
+Examples:
+- buttons
+- sliders
+- dropdown menus
+
+ID: SUBJ.070
+Type: SUBJECT
+Name: User flows
+Definition: Paths users take through system
+Examples:
+- checkout process
+- onboarding flow
+- task completion paths
+
+## EVENTS_LOGS
+ID: SUBJ.071
+Type: SUBJECT
+Name: System logs
+Definition: Recorded events from system operations
+Examples:
+- error logs
+- access logs
+- audit trails
+
+ID: SUBJ.072
+Type: SUBJECT
+Name: User actions
+Definition: Activities performed by users
+Examples:
+- clicks
+- form submissions
+- navigation events
+
+ID: SUBJ.073
+Type: SUBJECT
+Name: State changes
+Definition: Transitions in system or data state
+Examples:
+- status updates
+- workflow transitions
+- data modifications
+
+ID: SUBJ.074
+Type: SUBJECT
+Name: Transactions
+Definition: Atomic operations with rollback capability
+Examples:
+- database transactions
+- payment processing
+- order placement
+
+ID: SUBJ.075
+Type: SUBJECT
+Name: Event streams
+Definition: Sequences of time-ordered events
+Examples:
+- activity feeds
+- real-time updates
+- message streams
+
+## POLICIES_RULES
+ID: SUBJ.076
+Type: SUBJECT
+Name: Access policies
+Definition: Rules governing permissions and authorization
+Examples:
+- IAM policies
+- role definitions
+- permission sets
+
+ID: SUBJ.077
+Type: SUBJECT
+Name: Security policies
+Definition: Standards for protecting systems and data
+Examples:
+- password policies
+- encryption requirements
+- firewall rules
+
+ID: SUBJ.078
+Type: SUBJECT
+Name: Compliance requirements
+Definition: Regulatory and legal obligations
+Examples:
+- GDPR requirements
+- SOC2 controls
+- industry standards
+
+ID: SUBJ.079
+Type: SUBJECT
+Name: Governance frameworks
+Definition: Structured approaches to control and oversight
+Examples:
+- UMG blocks
+- decision frameworks
+- approval hierarchies
+
+ID: SUBJ.080
+Type: SUBJECT
+Name: Service agreements
+Definition: Contracts defining service expectations
+Examples:
+- SLAs
+- terms of service
+- support contracts
+
+## ANALYTICS_INSIGHTS
+ID: SUBJ.081
+Type: SUBJECT
+Name: Usage patterns
+Definition: Observable trends in system or user behavior
+Examples:
+- traffic patterns
+- feature adoption
+- user journeys
+
+ID: SUBJ.082
+Type: SUBJECT
+Name: Performance metrics
+Definition: Measurements of system efficiency
+Examples:
+- response times
+- throughput
+- resource utilization
+
+ID: SUBJ.083
+Type: SUBJECT
+Name: Business intelligence
+Definition: Analyzed data for decision making
+Examples:
+- sales reports
+- trend analysis
+- forecasts
+
+ID: SUBJ.084
+Type: SUBJECT
+Name: Anomalies
+Definition: Deviations from normal patterns
+Examples:
+- outliers
+- unexpected behavior
+- potential issues
+
+ID: SUBJ.085
+Type: SUBJECT
+Name: Correlations
+Definition: Relationships between variables or events
+Examples:
+- cause-effect pairs
+- associated patterns
+- dependencies
+
+## DELIVERABLES_OUTPUTS
+ID: SUBJ.086
+Type: SUBJECT
+Name: Reports
+Definition: Formal documents summarizing information
+Examples:
+- status reports
+- analysis reports
+- executive summaries
+
+ID: SUBJ.087
+Type: SUBJECT
+Name: Artifacts
+Definition: Created objects or files from work processes
+Examples:
+- build artifacts
+- design deliverables
+- project outputs
+
+ID: SUBJ.088
+Type: SUBJECT
+Name: Visualizations
+Definition: Graphical representations of information
+Examples:
+- charts
+- graphs
+- diagrams
+- infographics
+
+ID: SUBJ.089
+Type: SUBJECT
+Name: Prototypes
+Definition: Early versions for testing concepts
+Examples:
+- mockups
+- proof of concepts
+- MVPs
+
+ID: SUBJ.090
+Type: SUBJECT
+Name: Final products
+Definition: Completed deliverables ready for use
+Examples:
+- released software
+- published content
+- shipped products
+
+## DEPENDENCIES_RELATIONSHIPS
+ID: SUBJ.091
+Type: SUBJECT
+Name: Integration points
+Definition: Connections between systems or components
+Examples:
+- API integrations
+- data flows
+- service connections
+
+ID: SUBJ.092
+Type: SUBJECT
+Name: Relationships
+Definition: Associations between entities
+Examples:
+- foreign keys
+- object references
+- network connections
+
+ID: SUBJ.093
+Type: SUBJECT
+Name: Dependencies
+Definition: Required prerequisites or conditions
+Examples:
+- task dependencies
+- library dependencies
+- data dependencies
+
+ID: SUBJ.094
+Type: SUBJECT
+Name: Interfaces
+Definition: Boundaries between system components
+Examples:
+- module interfaces
+- service boundaries
+- contract definitions
+
+ID: SUBJ.095
+Type: SUBJECT
+Name: Hierarchies
+Definition: Nested or layered structures
+Examples:
+- org charts
+- folder structures
+- class inheritance
+
+## UMG_FRAMEWORK_SUBJECTS
+ID: SUBJ.096
+Type: SUBJECT
+Name: MOLT blocks
+Definition: Atomic units of UMG structure
+Examples:
+- Trigger blocks
+- Directive blocks
+- Instruction blocks
+
+ID: SUBJ.097
+Type: SUBJECT
+Name: NeoBlocks
+Definition: Compressed units of different MOLT types
+Examples:
+- analytical blocks
+- creative blocks
+- governance blocks
+
+ID: SUBJ.098
+Type: SUBJECT
+Name: NeoStacks
+Definition: Assembled collections of NeoBlocks
+Examples:
+- technical analysis stack
+- framework development stack
+
+ID: SUBJ.099
+Type: SUBJECT
+Name: NeoSleeves
+Definition: Complete UMG configurations
+Examples:
+- Envoy sleeve
+- Research sleeve
+- Creative sleeve
+
+ID: SUBJ.100
+Type: SUBJECT
+Name: Governance constraints
+Definition: Rules and boundaries enforced by UMG
+Examples:
+- Tool Anchor Ethos
+- human sovereignty
+- bounded agency

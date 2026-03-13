@@ -1,19 +1,3019 @@
-﻿{
-    "schema":  "https://umg.envoy/schemas/molt-subjects.library.schema.json",
-    "library":  {
-                    "name":  "MOLT SUBJECT Library",
-                    "version":  "1.0.0",
-                    "block_type":  "SUBJECT",
-                    "category":  "general",
-                    "description":  "Placeholder library awaiting normalized source ingestion",
-                    "source":  {
-                                   "provided_by":  "Pending user drop",
-                                   "ingested_at":  "2026-03-12T20:08:22-06:00",
-                                   "ingested_by":  "Stage4-Agent"
-                               },
-                    "entry_count":  0
-                },
-    "entries":  [
-
-                ]
+{
+    "schema": "https://umg.envoy/schemas/molt-subjects.library.schema.json",
+    "library": {
+        "name": "MOLT SUBJECT Library",
+        "version": "1.0.0",
+        "block_type": "SUBJECT",
+        "category": "general",
+        "description": "Normalized subject catalog produced during Stage 4",
+        "source": {
+            "provided_by": "User supplied Stage 4 drop",
+            "ingested_at": "2026-03-13T07:44:23-06:00",
+            "ingested_by": "Stage4-Agent"
+        },
+        "entry_count": 100
+    },
+    "entries": [
+        {
+            "id": "SUBJ.001",
+            "type": "SUBJECT",
+            "name": "Raw data",
+            "category": "data_information",
+            "subcategory": "raw_data",
+            "domain": "DATA_INFORMATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "data-information",
+                "raw-data"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Unprocessed information in various formats",
+            "examples": [
+                "sensor readings",
+                "log entries",
+                "database records"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.002",
+            "type": "SUBJECT",
+            "name": "Structured data",
+            "category": "data_information",
+            "subcategory": "structured_data",
+            "domain": "DATA_INFORMATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "data-information",
+                "structured-data"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Information organized in defined schema or format",
+            "examples": [
+                "JSON objects",
+                "CSV tables",
+                "database rows"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.003",
+            "type": "SUBJECT",
+            "name": "Metadata",
+            "category": "data_information",
+            "subcategory": "metadata",
+            "domain": "DATA_INFORMATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "data-information",
+                "metadata"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Information about other data",
+            "examples": [
+                "file properties",
+                "timestamps",
+                "data lineage"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.004",
+            "type": "SUBJECT",
+            "name": "Knowledge base",
+            "category": "data_information",
+            "subcategory": "knowledge_base",
+            "domain": "DATA_INFORMATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "data-information",
+                "knowledge-base"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Organized repository of information and relationships",
+            "examples": [
+                "wikis",
+                "documentation systems",
+                "expert systems"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.005",
+            "type": "SUBJECT",
+            "name": "Metrics",
+            "category": "data_information",
+            "subcategory": "metrics",
+            "domain": "DATA_INFORMATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "data-information",
+                "metrics"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Quantified measurements of performance or state",
+            "examples": [
+                "KPIs",
+                "analytics data",
+                "performance counters"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.006",
+            "type": "SUBJECT",
+            "name": "Source code",
+            "category": "code_software",
+            "subcategory": "source_code",
+            "domain": "CODE_SOFTWARE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "code-software",
+                "source-code"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Human-readable program instructions",
+            "examples": [
+                "Python scripts",
+                "JavaScript modules",
+                "C++ classes"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.007",
+            "type": "SUBJECT",
+            "name": "Functions",
+            "category": "code_software",
+            "subcategory": "functions",
+            "domain": "CODE_SOFTWARE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "code-software",
+                "functions"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Discrete units of functionality",
+            "examples": [
+                "methods",
+                "procedures",
+                "subroutines"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.008",
+            "type": "SUBJECT",
+            "name": "APIs",
+            "category": "code_software",
+            "subcategory": "apis",
+            "domain": "CODE_SOFTWARE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "code-software",
+                "apis"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Interfaces for software interaction",
+            "examples": [
+                "REST endpoints",
+                "library interfaces",
+                "service contracts"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.009",
+            "type": "SUBJECT",
+            "name": "Algorithms",
+            "category": "code_software",
+            "subcategory": "algorithms",
+            "domain": "CODE_SOFTWARE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "code-software",
+                "algorithms"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Step-by-step procedures for computation",
+            "examples": [
+                "sorting routines",
+                "search algorithms",
+                "optimization methods"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.010",
+            "type": "SUBJECT",
+            "name": "Dependencies",
+            "category": "code_software",
+            "subcategory": "dependencies",
+            "domain": "CODE_SOFTWARE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "code-software",
+                "dependencies"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "External libraries and packages required",
+            "examples": [
+                "npm packages",
+                "Python modules",
+                "shared libraries"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.011",
+            "type": "SUBJECT",
+            "name": "System architecture",
+            "category": "systems_infrastructure",
+            "subcategory": "system_architecture",
+            "domain": "SYSTEMS_INFRASTRUCTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "systems-infrastructure",
+                "system-architecture"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "High-level structure of technical systems",
+            "examples": [
+                "microservices design",
+                "monolithic apps",
+                "distributed systems"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.012",
+            "type": "SUBJECT",
+            "name": "Network infrastructure",
+            "category": "systems_infrastructure",
+            "subcategory": "network_infrastructure",
+            "domain": "SYSTEMS_INFRASTRUCTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "systems-infrastructure",
+                "network-infrastructure"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Communication pathways and protocols",
+            "examples": [
+                "routers",
+                "firewalls",
+                "load balancers"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.013",
+            "type": "SUBJECT",
+            "name": "Databases",
+            "category": "systems_infrastructure",
+            "subcategory": "databases",
+            "domain": "SYSTEMS_INFRASTRUCTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "systems-infrastructure",
+                "databases"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Structured data storage systems",
+            "examples": [
+                "SQL databases",
+                "NoSQL stores",
+                "data warehouses"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.014",
+            "type": "SUBJECT",
+            "name": "Servers",
+            "category": "systems_infrastructure",
+            "subcategory": "servers",
+            "domain": "SYSTEMS_INFRASTRUCTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "systems-infrastructure",
+                "servers"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Computing resources providing services",
+            "examples": [
+                "web servers",
+                "application servers",
+                "file servers"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.015",
+            "type": "SUBJECT",
+            "name": "Cloud resources",
+            "category": "systems_infrastructure",
+            "subcategory": "cloud_resources",
+            "domain": "SYSTEMS_INFRASTRUCTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "systems-infrastructure",
+                "cloud-resources"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Remote computing infrastructure",
+            "examples": [
+                "EC2 instances",
+                "S3 buckets",
+                "cloud functions"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.016",
+            "type": "SUBJECT",
+            "name": "Text documents",
+            "category": "documents_content",
+            "subcategory": "text_documents",
+            "domain": "DOCUMENTS_CONTENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "documents-content",
+                "text-documents"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Written content in various formats",
+            "examples": [
+                "reports",
+                "articles",
+                "specifications"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.017",
+            "type": "SUBJECT",
+            "name": "Images",
+            "category": "documents_content",
+            "subcategory": "images",
+            "domain": "DOCUMENTS_CONTENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "documents-content",
+                "images"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Visual content and graphics",
+            "examples": [
+                "photos",
+                "diagrams",
+                "illustrations"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.018",
+            "type": "SUBJECT",
+            "name": "Presentations",
+            "category": "documents_content",
+            "subcategory": "presentations",
+            "domain": "DOCUMENTS_CONTENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "documents-content",
+                "presentations"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Slide-based visual communications",
+            "examples": [
+                "PowerPoint decks",
+                "keynote presentations",
+                "slide shows"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.019",
+            "type": "SUBJECT",
+            "name": "Spreadsheets",
+            "category": "documents_content",
+            "subcategory": "spreadsheets",
+            "domain": "DOCUMENTS_CONTENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "documents-content",
+                "spreadsheets"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Tabular data with calculations",
+            "examples": [
+                "Excel workbooks",
+                "CSV files",
+                "financial models"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.020",
+            "type": "SUBJECT",
+            "name": "Documentation",
+            "category": "documents_content",
+            "subcategory": "documentation",
+            "domain": "DOCUMENTS_CONTENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "documents-content",
+                "documentation"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Explanatory and instructional content",
+            "examples": [
+                "API docs",
+                "user guides",
+                "technical manuals"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.021",
+            "type": "SUBJECT",
+            "name": "Business processes",
+            "category": "processes_workflows",
+            "subcategory": "business_processes",
+            "domain": "PROCESSES_WORKFLOWS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "processes-workflows",
+                "business-processes"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Organizational workflows and procedures",
+            "examples": [
+                "approval flows",
+                "order processing",
+                "onboarding"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.022",
+            "type": "SUBJECT",
+            "name": "Development workflows",
+            "category": "processes_workflows",
+            "subcategory": "development_workflows",
+            "domain": "PROCESSES_WORKFLOWS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "processes-workflows",
+                "development-workflows"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Software creation and deployment processes",
+            "examples": [
+                "CI/CD pipelines",
+                "code review process",
+                "release procedures"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.023",
+            "type": "SUBJECT",
+            "name": "Automation scripts",
+            "category": "processes_workflows",
+            "subcategory": "automation_scripts",
+            "domain": "PROCESSES_WORKFLOWS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "processes-workflows",
+                "automation-scripts"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Programmed sequences of actions",
+            "examples": [
+                "build scripts",
+                "deployment automation",
+                "data pipelines"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.024",
+            "type": "SUBJECT",
+            "name": "Standard procedures",
+            "category": "processes_workflows",
+            "subcategory": "standard_procedures",
+            "domain": "PROCESSES_WORKFLOWS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "processes-workflows",
+                "standard-procedures"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Established methods for recurring tasks",
+            "examples": [
+                "SOPs",
+                "checklists",
+                "protocols"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.025",
+            "type": "SUBJECT",
+            "name": "Task queues",
+            "category": "processes_workflows",
+            "subcategory": "task_queues",
+            "domain": "PROCESSES_WORKFLOWS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "processes-workflows",
+                "task-queues"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Ordered collections of work items",
+            "examples": [
+                "job queues",
+                "message queues",
+                "backlog items"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.026",
+            "type": "SUBJECT",
+            "name": "End users",
+            "category": "users_stakeholders",
+            "subcategory": "end_users",
+            "domain": "USERS_STAKEHOLDERS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "users-stakeholders",
+                "end-users"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "People who use products or services",
+            "examples": [
+                "customers",
+                "app users",
+                "service consumers"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.027",
+            "type": "SUBJECT",
+            "name": "Team members",
+            "category": "users_stakeholders",
+            "subcategory": "team_members",
+            "domain": "USERS_STAKEHOLDERS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "users-stakeholders",
+                "team-members"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Individuals working together on projects",
+            "examples": [
+                "developers",
+                "designers",
+                "project managers"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.028",
+            "type": "SUBJECT",
+            "name": "Stakeholders",
+            "category": "users_stakeholders",
+            "subcategory": "stakeholders",
+            "domain": "USERS_STAKEHOLDERS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "users-stakeholders",
+                "stakeholders"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Parties with interest in outcomes",
+            "examples": [
+                "executives",
+                "investors",
+                "partners"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.029",
+            "type": "SUBJECT",
+            "name": "User roles",
+            "category": "users_stakeholders",
+            "subcategory": "user_roles",
+            "domain": "USERS_STAKEHOLDERS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "users-stakeholders",
+                "user-roles"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Defined permissions and responsibilities",
+            "examples": [
+                "admin",
+                "contributor",
+                "viewer"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.030",
+            "type": "SUBJECT",
+            "name": "Communities",
+            "category": "users_stakeholders",
+            "subcategory": "communities",
+            "domain": "USERS_STAKEHOLDERS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "users-stakeholders",
+                "communities"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Groups with shared interests or goals",
+            "examples": [
+                "user communities",
+                "open source contributors",
+                "forums"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.031",
+            "type": "SUBJECT",
+            "name": "Functional requirements",
+            "category": "requirements_specifications",
+            "subcategory": "functional_requirements",
+            "domain": "REQUIREMENTS_SPECIFICATIONS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "requirements-specifications",
+                "functional-requirements"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "What system must do",
+            "examples": [
+                "user stories",
+                "use cases",
+                "feature specs"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.032",
+            "type": "SUBJECT",
+            "name": "Non-functional requirements",
+            "category": "requirements_specifications",
+            "subcategory": "non_functional_requirements",
+            "domain": "REQUIREMENTS_SPECIFICATIONS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "requirements-specifications",
+                "non-functional-requirements"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Quality attributes and constraints",
+            "examples": [
+                "performance targets",
+                "security requirements",
+                "scalability needs"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.033",
+            "type": "SUBJECT",
+            "name": "Business rules",
+            "category": "requirements_specifications",
+            "subcategory": "business_rules",
+            "domain": "REQUIREMENTS_SPECIFICATIONS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "requirements-specifications",
+                "business-rules"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Policies governing operations",
+            "examples": [
+                "validation rules",
+                "approval thresholds",
+                "eligibility criteria"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.034",
+            "type": "SUBJECT",
+            "name": "Technical constraints",
+            "category": "requirements_specifications",
+            "subcategory": "technical_constraints",
+            "domain": "REQUIREMENTS_SPECIFICATIONS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "requirements-specifications",
+                "technical-constraints"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Limitations on implementation",
+            "examples": [
+                "platform restrictions",
+                "budget limits",
+                "technology choices"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.035",
+            "type": "SUBJECT",
+            "name": "Acceptance criteria",
+            "category": "requirements_specifications",
+            "subcategory": "acceptance_criteria",
+            "domain": "REQUIREMENTS_SPECIFICATIONS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "requirements-specifications",
+                "acceptance-criteria"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Conditions for considering work complete",
+            "examples": [
+                "test cases",
+                "success metrics",
+                "completion checklist"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.036",
+            "type": "SUBJECT",
+            "name": "Bugs",
+            "category": "problems_issues",
+            "subcategory": "bugs",
+            "domain": "PROBLEMS_ISSUES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "problems-issues",
+                "bugs"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Errors or defects in software",
+            "examples": [
+                "runtime errors",
+                "logic flaws",
+                "edge case failures"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.037",
+            "type": "SUBJECT",
+            "name": "Technical debt",
+            "category": "problems_issues",
+            "subcategory": "technical_debt",
+            "domain": "PROBLEMS_ISSUES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "problems-issues",
+                "technical-debt"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Accumulated shortcuts requiring refactoring",
+            "examples": [
+                "legacy code",
+                "deprecated dependencies",
+                "missing tests"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.038",
+            "type": "SUBJECT",
+            "name": "Performance bottlenecks",
+            "category": "problems_issues",
+            "subcategory": "performance_bottlenecks",
+            "domain": "PROBLEMS_ISSUES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "problems-issues",
+                "performance-bottlenecks"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Constraints limiting system throughput",
+            "examples": [
+                "slow queries",
+                "memory leaks",
+                "CPU spikes"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.039",
+            "type": "SUBJECT",
+            "name": "Security vulnerabilities",
+            "category": "problems_issues",
+            "subcategory": "security_vulnerabilities",
+            "domain": "PROBLEMS_ISSUES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "problems-issues",
+                "security-vulnerabilities"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Weaknesses exposing system to threats",
+            "examples": [
+                "SQL injection",
+                "XSS flaws",
+                "authentication bypasses"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.040",
+            "type": "SUBJECT",
+            "name": "User complaints",
+            "category": "problems_issues",
+            "subcategory": "user_complaints",
+            "domain": "PROBLEMS_ISSUES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "problems-issues",
+                "user-complaints"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Problems reported by users",
+            "examples": [
+                "usability issues",
+                "missing features",
+                "error messages"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.041",
+            "type": "SUBJECT",
+            "name": "Test cases",
+            "category": "tests_validation",
+            "subcategory": "test_cases",
+            "domain": "TESTS_VALIDATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "tests-validation",
+                "test-cases"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Specific scenarios validating behavior",
+            "examples": [
+                "unit tests",
+                "integration tests",
+                "regression tests"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.042",
+            "type": "SUBJECT",
+            "name": "Test data",
+            "category": "tests_validation",
+            "subcategory": "test_data",
+            "domain": "TESTS_VALIDATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "tests-validation",
+                "test-data"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Inputs used for validation",
+            "examples": [
+                "mock data",
+                "fixtures",
+                "test databases"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.043",
+            "type": "SUBJECT",
+            "name": "Quality metrics",
+            "category": "tests_validation",
+            "subcategory": "quality_metrics",
+            "domain": "TESTS_VALIDATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "tests-validation",
+                "quality-metrics"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Measures of software quality",
+            "examples": [
+                "code coverage",
+                "defect density",
+                "test pass rates"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.044",
+            "type": "SUBJECT",
+            "name": "Validation rules",
+            "category": "tests_validation",
+            "subcategory": "validation_rules",
+            "domain": "TESTS_VALIDATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "tests-validation",
+                "validation-rules"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Conditions for accepting data or behavior",
+            "examples": [
+                "input validators",
+                "schema checks",
+                "business logic tests"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.045",
+            "type": "SUBJECT",
+            "name": "Performance benchmarks",
+            "category": "tests_validation",
+            "subcategory": "performance_benchmarks",
+            "domain": "TESTS_VALIDATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "tests-validation",
+                "performance-benchmarks"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Standards for evaluating speed and efficiency",
+            "examples": [
+                "response time targets",
+                "throughput goals",
+                "resource limits"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.046",
+            "type": "SUBJECT",
+            "name": "Environment variables",
+            "category": "configurations_settings",
+            "subcategory": "environment_variables",
+            "domain": "CONFIGURATIONS_SETTINGS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "configurations-settings",
+                "environment-variables"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "System-level configuration values",
+            "examples": [
+                "API keys",
+                "database URLs",
+                "feature flags"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.047",
+            "type": "SUBJECT",
+            "name": "Application settings",
+            "category": "configurations_settings",
+            "subcategory": "application_settings",
+            "domain": "CONFIGURATIONS_SETTINGS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "configurations-settings",
+                "application-settings"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Program-specific configuration",
+            "examples": [
+                "config files",
+                "preferences",
+                "default values"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.048",
+            "type": "SUBJECT",
+            "name": "User preferences",
+            "category": "configurations_settings",
+            "subcategory": "user_preferences",
+            "domain": "CONFIGURATIONS_SETTINGS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "configurations-settings",
+                "user-preferences"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Individual customization choices",
+            "examples": [
+                "theme settings",
+                "notification preferences",
+                "display options"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.049",
+            "type": "SUBJECT",
+            "name": "System parameters",
+            "category": "configurations_settings",
+            "subcategory": "system_parameters",
+            "domain": "CONFIGURATIONS_SETTINGS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "configurations-settings",
+                "system-parameters"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Operating system or infrastructure settings",
+            "examples": [
+                "memory limits",
+                "timeout values",
+                "connection pools"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.050",
+            "type": "SUBJECT",
+            "name": "Feature flags",
+            "category": "configurations_settings",
+            "subcategory": "feature_flags",
+            "domain": "CONFIGURATIONS_SETTINGS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "configurations-settings",
+                "feature-flags"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Toggles controlling functionality availability",
+            "examples": [
+                "experimental features",
+                "A/B test variants",
+                "rollout controls"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.051",
+            "type": "SUBJECT",
+            "name": "Email messages",
+            "category": "communications_messages",
+            "subcategory": "email_messages",
+            "domain": "COMMUNICATIONS_MESSAGES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "communications-messages",
+                "email-messages"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Electronic mail communications",
+            "examples": [
+                "business emails",
+                "notifications",
+                "newsletters"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.052",
+            "type": "SUBJECT",
+            "name": "Notifications",
+            "category": "communications_messages",
+            "subcategory": "notifications",
+            "domain": "COMMUNICATIONS_MESSAGES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "communications-messages",
+                "notifications"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Alerts and updates to users",
+            "examples": [
+                "push notifications",
+                "alerts",
+                "reminders"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.053",
+            "type": "SUBJECT",
+            "name": "Chat messages",
+            "category": "communications_messages",
+            "subcategory": "chat_messages",
+            "domain": "COMMUNICATIONS_MESSAGES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "communications-messages",
+                "chat-messages"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Real-time text communications",
+            "examples": [
+                "Slack messages",
+                "team chat",
+                "customer support"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.054",
+            "type": "SUBJECT",
+            "name": "Announcements",
+            "category": "communications_messages",
+            "subcategory": "announcements",
+            "domain": "COMMUNICATIONS_MESSAGES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "communications-messages",
+                "announcements"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Broadcast communications to groups",
+            "examples": [
+                "company updates",
+                "release notes",
+                "policy changes"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.055",
+            "type": "SUBJECT",
+            "name": "Feedback",
+            "category": "communications_messages",
+            "subcategory": "feedback",
+            "domain": "COMMUNICATIONS_MESSAGES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "communications-messages",
+                "feedback"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "User input and responses",
+            "examples": [
+                "survey responses",
+                "reviews",
+                "comments"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.056",
+            "type": "SUBJECT",
+            "name": "Data models",
+            "category": "models_structures",
+            "subcategory": "data_models",
+            "domain": "MODELS_STRUCTURES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "models-structures",
+                "data-models"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Structured representations of information",
+            "examples": [
+                "entity relationships",
+                "object schemas",
+                "data dictionaries"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.057",
+            "type": "SUBJECT",
+            "name": "Classes and objects",
+            "category": "models_structures",
+            "subcategory": "classes_and_objects",
+            "domain": "MODELS_STRUCTURES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "models-structures",
+                "classes-and-objects"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Object-oriented program structures",
+            "examples": [
+                "class definitions",
+                "instances",
+                "inheritance hierarchies"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.058",
+            "type": "SUBJECT",
+            "name": "Schemas",
+            "category": "models_structures",
+            "subcategory": "schemas",
+            "domain": "MODELS_STRUCTURES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "models-structures",
+                "schemas"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Formal descriptions of data organization",
+            "examples": [
+                "database schemas",
+                "JSON schemas",
+                "XML definitions"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.059",
+            "type": "SUBJECT",
+            "name": "Templates",
+            "category": "models_structures",
+            "subcategory": "templates",
+            "domain": "MODELS_STRUCTURES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "models-structures",
+                "templates"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Reusable patterns or structures",
+            "examples": [
+                "document templates",
+                "code templates",
+                "design patterns"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.060",
+            "type": "SUBJECT",
+            "name": "Frameworks",
+            "category": "models_structures",
+            "subcategory": "frameworks",
+            "domain": "MODELS_STRUCTURES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "models-structures",
+                "frameworks"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Structural foundations for building applications",
+            "examples": [
+                "web frameworks",
+                "testing frameworks",
+                "UI frameworks"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.061",
+            "type": "SUBJECT",
+            "name": "Computing resources",
+            "category": "resources_assets",
+            "subcategory": "computing_resources",
+            "domain": "RESOURCES_ASSETS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "resources-assets",
+                "computing-resources"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Hardware and infrastructure capacity",
+            "examples": [
+                "CPU",
+                "memory",
+                "storage",
+                "bandwidth"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.062",
+            "type": "SUBJECT",
+            "name": "Time budgets",
+            "category": "resources_assets",
+            "subcategory": "time_budgets",
+            "domain": "RESOURCES_ASSETS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "resources-assets",
+                "time-budgets"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Allocated time for tasks or projects",
+            "examples": [
+                "sprint capacity",
+                "deadlines",
+                "time estimates"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.063",
+            "type": "SUBJECT",
+            "name": "Financial resources",
+            "category": "resources_assets",
+            "subcategory": "financial_resources",
+            "domain": "RESOURCES_ASSETS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "resources-assets",
+                "financial-resources"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Budget and funding",
+            "examples": [
+                "project budgets",
+                "cost estimates",
+                "spending limits"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.064",
+            "type": "SUBJECT",
+            "name": "Human resources",
+            "category": "resources_assets",
+            "subcategory": "human_resources",
+            "domain": "RESOURCES_ASSETS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "resources-assets",
+                "human-resources"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Available personnel and skills",
+            "examples": [
+                "team capacity",
+                "expertise areas",
+                "staffing levels"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.065",
+            "type": "SUBJECT",
+            "name": "Digital assets",
+            "category": "resources_assets",
+            "subcategory": "digital_assets",
+            "domain": "RESOURCES_ASSETS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "resources-assets",
+                "digital-assets"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Owned digital content and resources",
+            "examples": [
+                "brand assets",
+                "media libraries",
+                "intellectual property"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.066",
+            "type": "SUBJECT",
+            "name": "User interfaces",
+            "category": "interfaces_interactions",
+            "subcategory": "user_interfaces",
+            "domain": "INTERFACES_INTERACTIONS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "interfaces-interactions",
+                "user-interfaces"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Visual elements for user interaction",
+            "examples": [
+                "web pages",
+                "mobile screens",
+                "dashboards"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.067",
+            "type": "SUBJECT",
+            "name": "Forms",
+            "category": "interfaces_interactions",
+            "subcategory": "forms",
+            "domain": "INTERFACES_INTERACTIONS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "interfaces-interactions",
+                "forms"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Structured input collection mechanisms",
+            "examples": [
+                "registration forms",
+                "surveys",
+                "data entry screens"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.068",
+            "type": "SUBJECT",
+            "name": "Navigation elements",
+            "category": "interfaces_interactions",
+            "subcategory": "navigation_elements",
+            "domain": "INTERFACES_INTERACTIONS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "interfaces-interactions",
+                "navigation-elements"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Components for moving through interface",
+            "examples": [
+                "menus",
+                "breadcrumbs",
+                "links"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.069",
+            "type": "SUBJECT",
+            "name": "Interactive components",
+            "category": "interfaces_interactions",
+            "subcategory": "interactive_components",
+            "domain": "INTERFACES_INTERACTIONS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "interfaces-interactions",
+                "interactive-components"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "UI elements responding to user actions",
+            "examples": [
+                "buttons",
+                "sliders",
+                "dropdown menus"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.070",
+            "type": "SUBJECT",
+            "name": "User flows",
+            "category": "interfaces_interactions",
+            "subcategory": "user_flows",
+            "domain": "INTERFACES_INTERACTIONS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "interfaces-interactions",
+                "user-flows"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Paths users take through system",
+            "examples": [
+                "checkout process",
+                "onboarding flow",
+                "task completion paths"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.071",
+            "type": "SUBJECT",
+            "name": "System logs",
+            "category": "events_logs",
+            "subcategory": "system_logs",
+            "domain": "EVENTS_LOGS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "events-logs",
+                "system-logs"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Recorded events from system operations",
+            "examples": [
+                "error logs",
+                "access logs",
+                "audit trails"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.072",
+            "type": "SUBJECT",
+            "name": "User actions",
+            "category": "events_logs",
+            "subcategory": "user_actions",
+            "domain": "EVENTS_LOGS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "events-logs",
+                "user-actions"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Activities performed by users",
+            "examples": [
+                "clicks",
+                "form submissions",
+                "navigation events"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.073",
+            "type": "SUBJECT",
+            "name": "State changes",
+            "category": "events_logs",
+            "subcategory": "state_changes",
+            "domain": "EVENTS_LOGS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "events-logs",
+                "state-changes"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Transitions in system or data state",
+            "examples": [
+                "status updates",
+                "workflow transitions",
+                "data modifications"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.074",
+            "type": "SUBJECT",
+            "name": "Transactions",
+            "category": "events_logs",
+            "subcategory": "transactions",
+            "domain": "EVENTS_LOGS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "events-logs",
+                "transactions"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Atomic operations with rollback capability",
+            "examples": [
+                "database transactions",
+                "payment processing",
+                "order placement"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.075",
+            "type": "SUBJECT",
+            "name": "Event streams",
+            "category": "events_logs",
+            "subcategory": "event_streams",
+            "domain": "EVENTS_LOGS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "events-logs",
+                "event-streams"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Sequences of time-ordered events",
+            "examples": [
+                "activity feeds",
+                "real-time updates",
+                "message streams"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.076",
+            "type": "SUBJECT",
+            "name": "Access policies",
+            "category": "policies_rules",
+            "subcategory": "access_policies",
+            "domain": "POLICIES_RULES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "policies-rules",
+                "access-policies"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Rules governing permissions and authorization",
+            "examples": [
+                "IAM policies",
+                "role definitions",
+                "permission sets"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.077",
+            "type": "SUBJECT",
+            "name": "Security policies",
+            "category": "policies_rules",
+            "subcategory": "security_policies",
+            "domain": "POLICIES_RULES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "policies-rules",
+                "security-policies"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Standards for protecting systems and data",
+            "examples": [
+                "password policies",
+                "encryption requirements",
+                "firewall rules"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.078",
+            "type": "SUBJECT",
+            "name": "Compliance requirements",
+            "category": "policies_rules",
+            "subcategory": "compliance_requirements",
+            "domain": "POLICIES_RULES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "policies-rules",
+                "compliance-requirements"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Regulatory and legal obligations",
+            "examples": [
+                "GDPR requirements",
+                "SOC2 controls",
+                "industry standards"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.079",
+            "type": "SUBJECT",
+            "name": "Governance frameworks",
+            "category": "policies_rules",
+            "subcategory": "governance_frameworks",
+            "domain": "POLICIES_RULES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "policies-rules",
+                "governance-frameworks"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Structured approaches to control and oversight",
+            "examples": [
+                "UMG blocks",
+                "decision frameworks",
+                "approval hierarchies"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.080",
+            "type": "SUBJECT",
+            "name": "Service agreements",
+            "category": "policies_rules",
+            "subcategory": "service_agreements",
+            "domain": "POLICIES_RULES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "policies-rules",
+                "service-agreements"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Contracts defining service expectations",
+            "examples": [
+                "SLAs",
+                "terms of service",
+                "support contracts"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.081",
+            "type": "SUBJECT",
+            "name": "Usage patterns",
+            "category": "analytics_insights",
+            "subcategory": "usage_patterns",
+            "domain": "ANALYTICS_INSIGHTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "analytics-insights",
+                "usage-patterns"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Observable trends in system or user behavior",
+            "examples": [
+                "traffic patterns",
+                "feature adoption",
+                "user journeys"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.082",
+            "type": "SUBJECT",
+            "name": "Performance metrics",
+            "category": "analytics_insights",
+            "subcategory": "performance_metrics",
+            "domain": "ANALYTICS_INSIGHTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "analytics-insights",
+                "performance-metrics"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Measurements of system efficiency",
+            "examples": [
+                "response times",
+                "throughput",
+                "resource utilization"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.083",
+            "type": "SUBJECT",
+            "name": "Business intelligence",
+            "category": "analytics_insights",
+            "subcategory": "business_intelligence",
+            "domain": "ANALYTICS_INSIGHTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "analytics-insights",
+                "business-intelligence"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Analyzed data for decision making",
+            "examples": [
+                "sales reports",
+                "trend analysis",
+                "forecasts"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.084",
+            "type": "SUBJECT",
+            "name": "Anomalies",
+            "category": "analytics_insights",
+            "subcategory": "anomalies",
+            "domain": "ANALYTICS_INSIGHTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "analytics-insights",
+                "anomalies"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Deviations from normal patterns",
+            "examples": [
+                "outliers",
+                "unexpected behavior",
+                "potential issues"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.085",
+            "type": "SUBJECT",
+            "name": "Correlations",
+            "category": "analytics_insights",
+            "subcategory": "correlations",
+            "domain": "ANALYTICS_INSIGHTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "analytics-insights",
+                "correlations"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Relationships between variables or events",
+            "examples": [
+                "cause-effect pairs",
+                "associated patterns",
+                "dependencies"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.086",
+            "type": "SUBJECT",
+            "name": "Reports",
+            "category": "deliverables_outputs",
+            "subcategory": "reports",
+            "domain": "DELIVERABLES_OUTPUTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "deliverables-outputs",
+                "reports"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Formal documents summarizing information",
+            "examples": [
+                "status reports",
+                "analysis reports",
+                "executive summaries"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.087",
+            "type": "SUBJECT",
+            "name": "Artifacts",
+            "category": "deliverables_outputs",
+            "subcategory": "artifacts",
+            "domain": "DELIVERABLES_OUTPUTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "deliverables-outputs",
+                "artifacts"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Created objects or files from work processes",
+            "examples": [
+                "build artifacts",
+                "design deliverables",
+                "project outputs"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.088",
+            "type": "SUBJECT",
+            "name": "Visualizations",
+            "category": "deliverables_outputs",
+            "subcategory": "visualizations",
+            "domain": "DELIVERABLES_OUTPUTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "deliverables-outputs",
+                "visualizations"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Graphical representations of information",
+            "examples": [
+                "charts",
+                "graphs",
+                "diagrams",
+                "infographics"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.089",
+            "type": "SUBJECT",
+            "name": "Prototypes",
+            "category": "deliverables_outputs",
+            "subcategory": "prototypes",
+            "domain": "DELIVERABLES_OUTPUTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "deliverables-outputs",
+                "prototypes"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Early versions for testing concepts",
+            "examples": [
+                "mockups",
+                "proof of concepts",
+                "MVPs"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.090",
+            "type": "SUBJECT",
+            "name": "Final products",
+            "category": "deliverables_outputs",
+            "subcategory": "final_products",
+            "domain": "DELIVERABLES_OUTPUTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "deliverables-outputs",
+                "final-products"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Completed deliverables ready for use",
+            "examples": [
+                "released software",
+                "published content",
+                "shipped products"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.091",
+            "type": "SUBJECT",
+            "name": "Integration points",
+            "category": "dependencies_relationships",
+            "subcategory": "integration_points",
+            "domain": "DEPENDENCIES_RELATIONSHIPS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "dependencies-relationships",
+                "integration-points"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Connections between systems or components",
+            "examples": [
+                "API integrations",
+                "data flows",
+                "service connections"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.092",
+            "type": "SUBJECT",
+            "name": "Relationships",
+            "category": "dependencies_relationships",
+            "subcategory": "relationships",
+            "domain": "DEPENDENCIES_RELATIONSHIPS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "dependencies-relationships",
+                "relationships"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Associations between entities",
+            "examples": [
+                "foreign keys",
+                "object references",
+                "network connections"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.093",
+            "type": "SUBJECT",
+            "name": "Dependencies",
+            "category": "dependencies_relationships",
+            "subcategory": "dependencies",
+            "domain": "DEPENDENCIES_RELATIONSHIPS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "dependencies-relationships",
+                "dependencies"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Required prerequisites or conditions",
+            "examples": [
+                "task dependencies",
+                "library dependencies",
+                "data dependencies"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.094",
+            "type": "SUBJECT",
+            "name": "Interfaces",
+            "category": "dependencies_relationships",
+            "subcategory": "interfaces",
+            "domain": "DEPENDENCIES_RELATIONSHIPS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "dependencies-relationships",
+                "interfaces"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Boundaries between system components",
+            "examples": [
+                "module interfaces",
+                "service boundaries",
+                "contract definitions"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.095",
+            "type": "SUBJECT",
+            "name": "Hierarchies",
+            "category": "dependencies_relationships",
+            "subcategory": "hierarchies",
+            "domain": "DEPENDENCIES_RELATIONSHIPS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "dependencies-relationships",
+                "hierarchies"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Nested or layered structures",
+            "examples": [
+                "org charts",
+                "folder structures",
+                "class inheritance"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.096",
+            "type": "SUBJECT",
+            "name": "MOLT blocks",
+            "category": "umg_framework_subjects",
+            "subcategory": "molt_blocks",
+            "domain": "UMG_FRAMEWORK_SUBJECTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "umg-framework-subjects",
+                "molt-blocks"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Atomic units of UMG structure",
+            "examples": [
+                "Trigger blocks",
+                "Directive blocks",
+                "Instruction blocks"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.097",
+            "type": "SUBJECT",
+            "name": "NeoBlocks",
+            "category": "umg_framework_subjects",
+            "subcategory": "neoblocks",
+            "domain": "UMG_FRAMEWORK_SUBJECTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "umg-framework-subjects",
+                "neoblocks"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Compressed units of different MOLT types",
+            "examples": [
+                "analytical blocks",
+                "creative blocks",
+                "governance blocks"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.098",
+            "type": "SUBJECT",
+            "name": "NeoStacks",
+            "category": "umg_framework_subjects",
+            "subcategory": "neostacks",
+            "domain": "UMG_FRAMEWORK_SUBJECTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "umg-framework-subjects",
+                "neostacks"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Assembled collections of NeoBlocks",
+            "examples": [
+                "technical analysis stack",
+                "framework development stack"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.099",
+            "type": "SUBJECT",
+            "name": "NeoSleeves",
+            "category": "umg_framework_subjects",
+            "subcategory": "neosleeves",
+            "domain": "UMG_FRAMEWORK_SUBJECTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "umg-framework-subjects",
+                "neosleeves"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Complete UMG configurations",
+            "examples": [
+                "Envoy sleeve",
+                "Research sleeve",
+                "Creative sleeve"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.100",
+            "type": "SUBJECT",
+            "name": "Governance constraints",
+            "category": "umg_framework_subjects",
+            "subcategory": "governance_constraints",
+            "domain": "UMG_FRAMEWORK_SUBJECTS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "umg-framework-subjects",
+                "governance-constraints"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:44:23-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Rules and boundaries enforced by UMG",
+            "examples": [
+                "Tool Anchor Ethos",
+                "human sovereignty",
+                "bounded agency"
+            ],
+            "notes": null
+        }
+    ]
 }

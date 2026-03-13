@@ -1,19 +1,2918 @@
 ﻿{
-    "schema":  "https://umg.envoy/schemas/molt-instructions.library.schema.json",
+    "schema":  "https://umg.envoy/schemas/molt-instruction.library.schema.json",
     "library":  {
                     "name":  "MOLT INSTRUCTION Library",
                     "version":  "1.0.0",
                     "block_type":  "INSTRUCTION",
                     "category":  "general",
-                    "description":  "Placeholder library awaiting normalized source ingestion",
+                    "description":  "Normalized instruction catalog produced during Stage 4",
                     "source":  {
-                                   "provided_by":  "Pending user drop",
-                                   "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                   "provided_by":  "User supplied Stage 4 drop",
+                                   "ingested_at":  "2026-03-12T22:27:00-06:00",
                                    "ingested_by":  "Stage4-Agent"
                                },
-                    "entry_count":  0
+                    "entry_count":  100
                 },
     "entries":  [
-
+                    {
+                        "id":  "INST.001",
+                        "type":  "INSTRUCTION",
+                        "name":  "Break into components",
+                        "category":  "general",
+                        "subcategory":  "analytical_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "analytical-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Break into components",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Decompose complex system or concept into constituent parts",
+                        "expected_output":  "List of distinct components with relationships identified",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.002",
+                        "type":  "INSTRUCTION",
+                        "name":  "Compare side-by-side",
+                        "category":  "general",
+                        "subcategory":  "analytical_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "analytical-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Compare side-by-side",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Place options in parallel structure with matched criteria",
+                        "expected_output":  "Comparison matrix or structured parallel evaluation",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.003",
+                        "type":  "INSTRUCTION",
+                        "name":  "Trace causality",
+                        "category":  "general",
+                        "subcategory":  "analytical_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "analytical-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Trace causality",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Follow chain of causes backward from observed effect",
+                        "expected_output":  "Causal chain from root cause to current state",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.004",
+                        "type":  "INSTRUCTION",
+                        "name":  "Identify patterns",
+                        "category":  "general",
+                        "subcategory":  "analytical_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "analytical-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Identify patterns",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Look for recurring structures, relationships, or behaviors",
+                        "expected_output":  "Documented patterns with examples and frequency",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.005",
+                        "type":  "INSTRUCTION",
+                        "name":  "Measure against baseline",
+                        "category":  "general",
+                        "subcategory":  "analytical_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "analytical-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Measure against baseline",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Compare current state to established standard or prior state",
+                        "expected_output":  "Quantified deviation from baseline with significance",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.006",
+                        "type":  "INSTRUCTION",
+                        "name":  "Search systematically",
+                        "category":  "general",
+                        "subcategory":  "information_gathering",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "information-gathering"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Search systematically",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Query available sources using structured approach",
+                        "expected_output":  "Organized results with source attribution",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.007",
+                        "type":  "INSTRUCTION",
+                        "name":  "Extract key facts",
+                        "category":  "general",
+                        "subcategory":  "information_gathering",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "information-gathering"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Extract key facts",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Identify and pull essential information from source material",
+                        "expected_output":  "List of facts with source references",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.008",
+                        "type":  "INSTRUCTION",
+                        "name":  "Consolidate sources",
+                        "category":  "general",
+                        "subcategory":  "information_gathering",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "information-gathering"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Consolidate sources",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Combine information from multiple sources into coherent summary",
+                        "expected_output":  "Synthesized view with conflicting information flagged",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.009",
+                        "type":  "INSTRUCTION",
+                        "name":  "Document context",
+                        "category":  "general",
+                        "subcategory":  "information_gathering",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "information-gathering"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Document context",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Record relevant background, constraints, and situational factors",
+                        "expected_output":  "Context description with key variables identified",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.010",
+                        "type":  "INSTRUCTION",
+                        "name":  "Verify claims",
+                        "category":  "general",
+                        "subcategory":  "information_gathering",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "information-gathering"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Verify claims",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Check assertions against reliable sources or evidence",
+                        "expected_output":  "Verification status with supporting/contradicting evidence",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.011",
+                        "type":  "INSTRUCTION",
+                        "name":  "Generate alternatives",
+                        "category":  "general",
+                        "subcategory":  "creative_generation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "creative-generation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Generate alternatives",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Produce multiple distinct options or approaches",
+                        "expected_output":  "Set of diverse alternatives with key differences highlighted",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.012",
+                        "type":  "INSTRUCTION",
+                        "name":  "Combine concepts",
+                        "category":  "general",
+                        "subcategory":  "creative_generation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "creative-generation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Combine concepts",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Merge disparate ideas into novel synthesis",
+                        "expected_output":  "New concept with lineage from source ideas",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.013",
+                        "type":  "INSTRUCTION",
+                        "name":  "Invert assumptions",
+                        "category":  "general",
+                        "subcategory":  "creative_generation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "creative-generation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Invert assumptions",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Flip conventional thinking to explore opposite approach",
+                        "expected_output":  "Alternative framing with inverted premises",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.014",
+                        "type":  "INSTRUCTION",
+                        "name":  "Adapt existing solution",
+                        "category":  "general",
+                        "subcategory":  "creative_generation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "creative-generation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Adapt existing solution",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Modify known approach to fit new context",
+                        "expected_output":  "Adapted solution with changes from original documented",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.015",
+                        "type":  "INSTRUCTION",
+                        "name":  "Sketch possibilities",
+                        "category":  "general",
+                        "subcategory":  "creative_generation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "creative-generation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Sketch possibilities",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Create rough outlines of potential directions",
+                        "expected_output":  "Multiple sketches showing range of options",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.016",
+                        "type":  "INSTRUCTION",
+                        "name":  "State directly",
+                        "category":  "general",
+                        "subcategory":  "communication_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "communication-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "State directly",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Express point clearly without hedging or indirection",
+                        "expected_output":  "Clear statement of position or information",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.017",
+                        "type":  "INSTRUCTION",
+                        "name":  "Provide examples",
+                        "category":  "general",
+                        "subcategory":  "communication_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "communication-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Provide examples",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Illustrate abstract concept with concrete instances",
+                        "expected_output":  "Concept plus 2-3 concrete examples",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.018",
+                        "type":  "INSTRUCTION",
+                        "name":  "Rephrase for clarity",
+                        "category":  "general",
+                        "subcategory":  "communication_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "communication-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Rephrase for clarity",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Restate complex point using simpler language",
+                        "expected_output":  "Simplified restatement maintaining meaning",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.019",
+                        "type":  "INSTRUCTION",
+                        "name":  "Acknowledge perspective",
+                        "category":  "general",
+                        "subcategory":  "communication_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "communication-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Acknowledge perspective",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Explicitly recognize other viewpoint before responding",
+                        "expected_output":  "Statement showing understanding of other position",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.020",
+                        "type":  "INSTRUCTION",
+                        "name":  "Structure logically",
+                        "category":  "general",
+                        "subcategory":  "communication_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "communication-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Structure logically",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Organize points in clear sequence with transitions",
+                        "expected_output":  "Structured presentation with logical flow",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.021",
+                        "type":  "INSTRUCTION",
+                        "name":  "Check against requirements",
+                        "category":  "general",
+                        "subcategory":  "verification_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "verification-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Check against requirements",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Verify each requirement is met by solution",
+                        "expected_output":  "Requirement checklist with pass/fail status",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.022",
+                        "type":  "INSTRUCTION",
+                        "name":  "Test edge cases",
+                        "category":  "general",
+                        "subcategory":  "verification_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "verification-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Test edge cases",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Evaluate behavior at boundary conditions",
+                        "expected_output":  "Edge case scenarios with outcomes",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.023",
+                        "type":  "INSTRUCTION",
+                        "name":  "Validate logic",
+                        "category":  "general",
+                        "subcategory":  "verification_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "verification-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Validate logic",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Verify reasoning chain has no gaps or errors",
+                        "expected_output":  "Logic chain review with any flaws identified",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.024",
+                        "type":  "INSTRUCTION",
+                        "name":  "Cross-check sources",
+                        "category":  "general",
+                        "subcategory":  "verification_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "verification-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Cross-check sources",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Compare information across multiple independent sources",
+                        "expected_output":  "Consensus view with discrepancies noted",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.025",
+                        "type":  "INSTRUCTION",
+                        "name":  "Simulate outcomes",
+                        "category":  "general",
+                        "subcategory":  "verification_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "verification-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Simulate outcomes",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Project likely results of proposed action",
+                        "expected_output":  "Outcome predictions with confidence levels",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.026",
+                        "type":  "INSTRUCTION",
+                        "name":  "Isolate the problem",
+                        "category":  "general",
+                        "subcategory":  "problem_solving_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "problem-solving-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Isolate the problem",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Narrow down to specific failing component or step",
+                        "expected_output":  "Precise problem location identified",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.027",
+                        "type":  "INSTRUCTION",
+                        "name":  "Remove blockers",
+                        "category":  "general",
+                        "subcategory":  "problem_solving_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "problem-solving-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Remove blockers",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Identify and eliminate obstacles preventing progress",
+                        "expected_output":  "List of blockers with removal actions",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.028",
+                        "type":  "INSTRUCTION",
+                        "name":  "Apply known fix",
+                        "category":  "general",
+                        "subcategory":  "problem_solving_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "problem-solving-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Apply known fix",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Implement standard solution for recognized problem type",
+                        "expected_output":  "Fix applied with verification",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.029",
+                        "type":  "INSTRUCTION",
+                        "name":  "Work around limitation",
+                        "category":  "general",
+                        "subcategory":  "problem_solving_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "problem-solving-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Work around limitation",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Find alternative path when direct approach blocked",
+                        "expected_output":  "Workaround method with trade-offs noted",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.030",
+                        "type":  "INSTRUCTION",
+                        "name":  "Iterate toward solution",
+                        "category":  "general",
+                        "subcategory":  "problem_solving_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "problem-solving-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Iterate toward solution",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Make incremental improvements through repeated attempts",
+                        "expected_output":  "Series of refinements with progress tracking",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.031",
+                        "type":  "INSTRUCTION",
+                        "name":  "Define milestones",
+                        "category":  "general",
+                        "subcategory":  "planning_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "planning-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Define milestones",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Establish concrete checkpoints marking progress",
+                        "expected_output":  "Milestone list with completion criteria",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.032",
+                        "type":  "INSTRUCTION",
+                        "name":  "Sequence tasks",
+                        "category":  "general",
+                        "subcategory":  "planning_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "planning-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Sequence tasks",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Order work items based on dependencies",
+                        "expected_output":  "Task sequence with dependency relationships",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.033",
+                        "type":  "INSTRUCTION",
+                        "name":  "Allocate resources",
+                        "category":  "general",
+                        "subcategory":  "planning_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "planning-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Allocate resources",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Assign time, effort, or materials to activities",
+                        "expected_output":  "Resource distribution with justification",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.034",
+                        "type":  "INSTRUCTION",
+                        "name":  "Set priorities",
+                        "category":  "general",
+                        "subcategory":  "planning_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "planning-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Set priorities",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Rank items by importance or urgency",
+                        "expected_output":  "Prioritized list with ranking criteria",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.035",
+                        "type":  "INSTRUCTION",
+                        "name":  "Establish timeline",
+                        "category":  "general",
+                        "subcategory":  "planning_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "planning-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Establish timeline",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Assign time estimates and deadlines to activities",
+                        "expected_output":  "Schedule with time allocations",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.036",
+                        "type":  "INSTRUCTION",
+                        "name":  "Rate against criteria",
+                        "category":  "general",
+                        "subcategory":  "evaluation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "evaluation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Rate against criteria",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Score performance on established dimensions",
+                        "expected_output":  "Numerical or categorical ratings per criterion",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.037",
+                        "type":  "INSTRUCTION",
+                        "name":  "Identify strengths",
+                        "category":  "general",
+                        "subcategory":  "evaluation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "evaluation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Identify strengths",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Highlight what works well",
+                        "expected_output":  "List of positive aspects with supporting evidence",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.038",
+                        "type":  "INSTRUCTION",
+                        "name":  "Identify weaknesses",
+                        "category":  "general",
+                        "subcategory":  "evaluation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "evaluation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Identify weaknesses",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Pinpoint areas needing improvement",
+                        "expected_output":  "List of problems with severity assessment",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.039",
+                        "type":  "INSTRUCTION",
+                        "name":  "Benchmark against standards",
+                        "category":  "general",
+                        "subcategory":  "evaluation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "evaluation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Benchmark against standards",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Compare to industry norms or best practices",
+                        "expected_output":  "Performance relative to benchmark",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.040",
+                        "type":  "INSTRUCTION",
+                        "name":  "Suggest improvements",
+                        "category":  "general",
+                        "subcategory":  "evaluation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "evaluation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Suggest improvements",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Propose specific changes to enhance quality",
+                        "expected_output":  "Improvement recommendations with expected impact",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.041",
+                        "type":  "INSTRUCTION",
+                        "name":  "Follow procedure",
+                        "category":  "general",
+                        "subcategory":  "execution_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "execution-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Follow procedure",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Execute steps in prescribed sequence",
+                        "expected_output":  "Completed procedure with steps checked off",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.042",
+                        "type":  "INSTRUCTION",
+                        "name":  "Build incrementally",
+                        "category":  "general",
+                        "subcategory":  "execution_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "execution-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Build incrementally",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Construct solution piece by piece with testing",
+                        "expected_output":  "Working system grown through iterations",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.043",
+                        "type":  "INSTRUCTION",
+                        "name":  "Delegate appropriately",
+                        "category":  "general",
+                        "subcategory":  "execution_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "execution-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Delegate appropriately",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Assign tasks to capable parties with clear instructions",
+                        "expected_output":  "Delegation plan with assignments and expectations",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.044",
+                        "type":  "INSTRUCTION",
+                        "name":  "Monitor progress",
+                        "category":  "general",
+                        "subcategory":  "execution_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "execution-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Monitor progress",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Track advancement toward goals with regular checks",
+                        "expected_output":  "Progress reports with status indicators",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.045",
+                        "type":  "INSTRUCTION",
+                        "name":  "Adjust based on feedback",
+                        "category":  "general",
+                        "subcategory":  "execution_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "execution-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Adjust based on feedback",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Modify approach in response to results",
+                        "expected_output":  "Updated plan reflecting learned information",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.046",
+                        "type":  "INSTRUCTION",
+                        "name":  "Document decisions",
+                        "category":  "general",
+                        "subcategory":  "documentation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "documentation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Document decisions",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Record what was decided and why",
+                        "expected_output":  "Decision log with rationale",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.047",
+                        "type":  "INSTRUCTION",
+                        "name":  "Explain reasoning",
+                        "category":  "general",
+                        "subcategory":  "documentation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "documentation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Explain reasoning",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Articulate thought process from inputs to conclusion",
+                        "expected_output":  "Reasoning chain showing logic flow",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.048",
+                        "type":  "INSTRUCTION",
+                        "name":  "Annotate code",
+                        "category":  "general",
+                        "subcategory":  "documentation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "documentation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Annotate code",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Add comments explaining functionality and intent",
+                        "expected_output":  "Commented code with clear explanations",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.049",
+                        "type":  "INSTRUCTION",
+                        "name":  "Create examples",
+                        "category":  "general",
+                        "subcategory":  "documentation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "documentation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Create examples",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Generate sample usage or concrete instances",
+                        "expected_output":  "Working examples with explanatory notes",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.050",
+                        "type":  "INSTRUCTION",
+                        "name":  "Maintain changelog",
+                        "category":  "general",
+                        "subcategory":  "documentation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "documentation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Maintain changelog",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Record modifications with dates and reasons",
+                        "expected_output":  "Chronological change log",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.051",
+                        "type":  "INSTRUCTION",
+                        "name":  "Study systematically",
+                        "category":  "general",
+                        "subcategory":  "learning_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "learning-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Study systematically",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Work through material in organized progression",
+                        "expected_output":  "Knowledge acquired with comprehension verified",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.052",
+                        "type":  "INSTRUCTION",
+                        "name":  "Practice deliberately",
+                        "category":  "general",
+                        "subcategory":  "learning_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "learning-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Practice deliberately",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Repeat skill with focused attention on improvement",
+                        "expected_output":  "Skill level increased through targeted practice",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.053",
+                        "type":  "INSTRUCTION",
+                        "name":  "Request feedback",
+                        "category":  "general",
+                        "subcategory":  "learning_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "learning-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Request feedback",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Explicitly ask for evaluation and suggestions",
+                        "expected_output":  "Feedback received with action items",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.054",
+                        "type":  "INSTRUCTION",
+                        "name":  "Analyze mistakes",
+                        "category":  "general",
+                        "subcategory":  "learning_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "learning-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Analyze mistakes",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Examine errors to understand root causes",
+                        "expected_output":  "Error analysis with corrective actions",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.055",
+                        "type":  "INSTRUCTION",
+                        "name":  "Apply learning",
+                        "category":  "general",
+                        "subcategory":  "learning_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "learning-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Apply learning",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Use newly acquired knowledge in practical context",
+                        "expected_output":  "Knowledge demonstrated through application",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.056",
+                        "type":  "INSTRUCTION",
+                        "name":  "Synchronize with team",
+                        "category":  "general",
+                        "subcategory":  "collaboration_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "collaboration-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Synchronize with team",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Share status and coordinate activities",
+                        "expected_output":  "Team aligned on current state and next steps",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.057",
+                        "type":  "INSTRUCTION",
+                        "name":  "Resolve conflicts",
+                        "category":  "general",
+                        "subcategory":  "collaboration_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "collaboration-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Resolve conflicts",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Address disagreements through structured dialogue",
+                        "expected_output":  "Conflict resolved with agreed path forward",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.058",
+                        "type":  "INSTRUCTION",
+                        "name":  "Share knowledge",
+                        "category":  "general",
+                        "subcategory":  "collaboration_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "collaboration-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Share knowledge",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Distribute relevant information to appropriate parties",
+                        "expected_output":  "Knowledge transferred to those who need it",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.059",
+                        "type":  "INSTRUCTION",
+                        "name":  "Build consensus",
+                        "category":  "general",
+                        "subcategory":  "collaboration_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "collaboration-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Build consensus",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Work toward agreement through inclusive process",
+                        "expected_output":  "Group alignment on decision or approach",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.060",
+                        "type":  "INSTRUCTION",
+                        "name":  "Facilitate discussion",
+                        "category":  "general",
+                        "subcategory":  "collaboration_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "collaboration-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Facilitate discussion",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Guide group conversation toward productive outcome",
+                        "expected_output":  "Structured dialogue with concrete results",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.061",
+                        "type":  "INSTRUCTION",
+                        "name":  "Write clean code",
+                        "category":  "general",
+                        "subcategory":  "technical_implementation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "technical-implementation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Write clean code",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Produce readable, maintainable implementation",
+                        "expected_output":  "Code following style guidelines and best practices",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.062",
+                        "type":  "INSTRUCTION",
+                        "name":  "Refactor for clarity",
+                        "category":  "general",
+                        "subcategory":  "technical_implementation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "technical-implementation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Refactor for clarity",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Restructure code to improve readability without changing behavior",
+                        "expected_output":  "Cleaner code with same functionality",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.063",
+                        "type":  "INSTRUCTION",
+                        "name":  "Add error handling",
+                        "category":  "general",
+                        "subcategory":  "technical_implementation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "technical-implementation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Add error handling",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Implement graceful failure and recovery mechanisms",
+                        "expected_output":  "Robust code that handles edge cases",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.064",
+                        "type":  "INSTRUCTION",
+                        "name":  "Write tests first",
+                        "category":  "general",
+                        "subcategory":  "technical_implementation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "technical-implementation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Write tests first",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Define expected behavior through test cases before implementing",
+                        "expected_output":  "Test suite guiding implementation",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.065",
+                        "type":  "INSTRUCTION",
+                        "name":  "Optimize performance",
+                        "category":  "general",
+                        "subcategory":  "technical_implementation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "technical-implementation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Optimize performance",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Improve speed or resource usage of working code",
+                        "expected_output":  "Faster execution with verified correctness",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.066",
+                        "type":  "INSTRUCTION",
+                        "name":  "Map landscape",
+                        "category":  "general",
+                        "subcategory":  "strategic_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategic-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Map landscape",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Document current state of environment and actors",
+                        "expected_output":  "Situational map showing key elements and relationships",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.067",
+                        "type":  "INSTRUCTION",
+                        "name":  "Identify opportunities",
+                        "category":  "general",
+                        "subcategory":  "strategic_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategic-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Identify opportunities",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Spot potential advantages or favorable conditions",
+                        "expected_output":  "Opportunity list with viability assessment",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.068",
+                        "type":  "INSTRUCTION",
+                        "name":  "Assess threats",
+                        "category":  "general",
+                        "subcategory":  "strategic_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategic-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Assess threats",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Evaluate risks and potential negative developments",
+                        "expected_output":  "Threat analysis with mitigation options",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.069",
+                        "type":  "INSTRUCTION",
+                        "name":  "Scenario plan",
+                        "category":  "general",
+                        "subcategory":  "strategic_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategic-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Scenario plan",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Develop contingency plans for possible futures",
+                        "expected_output":  "Scenarios with response strategies",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.070",
+                        "type":  "INSTRUCTION",
+                        "name":  "Position for advantage",
+                        "category":  "general",
+                        "subcategory":  "strategic_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategic-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Position for advantage",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Take actions that improve future strategic position",
+                        "expected_output":  "Positioning moves with expected benefits",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.071",
+                        "type":  "INSTRUCTION",
+                        "name":  "Run test suite",
+                        "category":  "general",
+                        "subcategory":  "quality_assurance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "quality-assurance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Run test suite",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Execute all tests and verify passing",
+                        "expected_output":  "Test results with pass/fail status",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.072",
+                        "type":  "INSTRUCTION",
+                        "name":  "Review systematically",
+                        "category":  "general",
+                        "subcategory":  "quality_assurance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "quality-assurance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Review systematically",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Examine work using structured checklist",
+                        "expected_output":  "Review completed with findings documented",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.073",
+                        "type":  "INSTRUCTION",
+                        "name":  "Verify compliance",
+                        "category":  "general",
+                        "subcategory":  "quality_assurance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "quality-assurance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Verify compliance",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Check adherence to standards and requirements",
+                        "expected_output":  "Compliance status with gaps identified",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.074",
+                        "type":  "INSTRUCTION",
+                        "name":  "Catch errors early",
+                        "category":  "general",
+                        "subcategory":  "quality_assurance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "quality-assurance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Catch errors early",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Implement checks at earliest possible stage",
+                        "expected_output":  "Problems detected before propagating",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.075",
+                        "type":  "INSTRUCTION",
+                        "name":  "Maintain standards",
+                        "category":  "general",
+                        "subcategory":  "quality_assurance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "quality-assurance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Maintain standards",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Apply quality criteria consistently",
+                        "expected_output":  "Consistent quality across outputs",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.076",
+                        "type":  "INSTRUCTION",
+                        "name":  "Check governance rules",
+                        "category":  "general",
+                        "subcategory":  "governance_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "governance-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Check governance rules",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Verify action against established governance constraints",
+                        "expected_output":  "Governance compliance status",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.077",
+                        "type":  "INSTRUCTION",
+                        "name":  "Escalate to authority",
+                        "category":  "general",
+                        "subcategory":  "governance_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "governance-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Escalate to authority",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Route decision to appropriate authority level",
+                        "expected_output":  "Decision escalated with context provided",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.078",
+                        "type":  "INSTRUCTION",
+                        "name":  "Create audit trail",
+                        "category":  "general",
+                        "subcategory":  "governance_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "governance-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Create audit trail",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Document actions and decisions for review",
+                        "expected_output":  "Auditable record of activities",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.079",
+                        "type":  "INSTRUCTION",
+                        "name":  "Enforce boundaries",
+                        "category":  "general",
+                        "subcategory":  "governance_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "governance-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Enforce boundaries",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Prevent actions outside authorized scope",
+                        "expected_output":  "Boundary violation blocked",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.080",
+                        "type":  "INSTRUCTION",
+                        "name":  "Report violations",
+                        "category":  "general",
+                        "subcategory":  "governance_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "governance-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Report violations",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Flag governance breaches for review",
+                        "expected_output":  "Violation report with details",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.081",
+                        "type":  "INSTRUCTION",
+                        "name":  "Eliminate redundancy",
+                        "category":  "general",
+                        "subcategory":  "efficiency_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "efficiency-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Eliminate redundancy",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Remove duplicate or unnecessary work",
+                        "expected_output":  "Streamlined process with waste removed",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.082",
+                        "type":  "INSTRUCTION",
+                        "name":  "Automate repetitive tasks",
+                        "category":  "general",
+                        "subcategory":  "efficiency_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "efficiency-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Automate repetitive tasks",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Create scripts or processes for recurring work",
+                        "expected_output":  "Automated workflow reducing manual effort",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.083",
+                        "type":  "INSTRUCTION",
+                        "name":  "Batch similar work",
+                        "category":  "general",
+                        "subcategory":  "efficiency_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "efficiency-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Batch similar work",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Group related tasks for efficient processing",
+                        "expected_output":  "Batched activities with reduced context switching",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.084",
+                        "type":  "INSTRUCTION",
+                        "name":  "Cache results",
+                        "category":  "general",
+                        "subcategory":  "efficiency_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "efficiency-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Cache results",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Store computed outcomes for reuse",
+                        "expected_output":  "Cached data reducing redundant computation",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.085",
+                        "type":  "INSTRUCTION",
+                        "name":  "Parallelize work",
+                        "category":  "general",
+                        "subcategory":  "efficiency_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "efficiency-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Parallelize work",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Execute independent tasks simultaneously",
+                        "expected_output":  "Concurrent execution reducing total time",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.086",
+                        "type":  "INSTRUCTION",
+                        "name":  "Ask clarifying questions",
+                        "category":  "general",
+                        "subcategory":  "clarification_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "clarification-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Ask clarifying questions",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Request specific information to resolve ambiguity",
+                        "expected_output":  "Questions posed to narrow uncertainty",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.087",
+                        "type":  "INSTRUCTION",
+                        "name":  "State assumptions explicitly",
+                        "category":  "general",
+                        "subcategory":  "clarification_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "clarification-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "State assumptions explicitly",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Articulate what is being assumed in absence of info",
+                        "expected_output":  "Assumption list for verification",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.088",
+                        "type":  "INSTRUCTION",
+                        "name":  "Confirm understanding",
+                        "category":  "general",
+                        "subcategory":  "clarification_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "clarification-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Confirm understanding",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Verify interpretation is correct before proceeding",
+                        "expected_output":  "Understanding validated with stakeholder",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.089",
+                        "type":  "INSTRUCTION",
+                        "name":  "Define terms precisely",
+                        "category":  "general",
+                        "subcategory":  "clarification_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "clarification-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Define terms precisely",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Establish clear meaning for key concepts",
+                        "expected_output":  "Term definitions agreed upon",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.090",
+                        "type":  "INSTRUCTION",
+                        "name":  "Disambiguate requirements",
+                        "category":  "general",
+                        "subcategory":  "clarification_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "clarification-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Disambiguate requirements",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Resolve multiple interpretations of specification",
+                        "expected_output":  "Single clear interpretation established",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.091",
+                        "type":  "INSTRUCTION",
+                        "name":  "Pivot approach",
+                        "category":  "general",
+                        "subcategory":  "adaptation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "adaptation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Pivot approach",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Change direction when current path proves unviable",
+                        "expected_output":  "New approach adopted with rationale",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.092",
+                        "type":  "INSTRUCTION",
+                        "name":  "Incorporate feedback",
+                        "category":  "general",
+                        "subcategory":  "adaptation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "adaptation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Incorporate feedback",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Modify work based on received input",
+                        "expected_output":  "Updated output reflecting feedback",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.093",
+                        "type":  "INSTRUCTION",
+                        "name":  "Scale response",
+                        "category":  "general",
+                        "subcategory":  "adaptation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "adaptation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Scale response",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Adjust effort level to match situation severity",
+                        "expected_output":  "Response calibrated to actual need",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.094",
+                        "type":  "INSTRUCTION",
+                        "name":  "Update mental model",
+                        "category":  "general",
+                        "subcategory":  "adaptation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "adaptation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Update mental model",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Revise understanding based on new information",
+                        "expected_output":  "Updated belief reflecting evidence",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.095",
+                        "type":  "INSTRUCTION",
+                        "name":  "Flex within constraints",
+                        "category":  "general",
+                        "subcategory":  "adaptation_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "adaptation-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Flex within constraints",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Adapt approach while respecting fixed boundaries",
+                        "expected_output":  "Creative solution within limits",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.096",
+                        "type":  "INSTRUCTION",
+                        "name":  "Load specified sleeve",
+                        "category":  "general",
+                        "subcategory":  "umg_operational_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "umg-operational-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Load specified sleeve",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Activate NeoSleeve configuration from library",
+                        "expected_output":  "Sleeve loaded with active blocks reported",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.097",
+                        "type":  "INSTRUCTION",
+                        "name":  "Stack blocks hierarchically",
+                        "category":  "general",
+                        "subcategory":  "umg_operational_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "umg-operational-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Stack blocks hierarchically",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Arrange MOLT blocks with top constraining bottom",
+                        "expected_output":  "Hierarchical block structure established",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.098",
+                        "type":  "INSTRUCTION",
+                        "name":  "Trace decision path",
+                        "category":  "general",
+                        "subcategory":  "umg_operational_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "umg-operational-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Trace decision path",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Document reasoning from trigger through conclusion",
+                        "expected_output":  "Complete decision trace for audit",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.099",
+                        "type":  "INSTRUCTION",
+                        "name":  "Verify Tool Anchor",
+                        "category":  "general",
+                        "subcategory":  "umg_operational_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "umg-operational-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Verify Tool Anchor",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Confirm operation maintains tool status and human authority",
+                        "expected_output":  "Tool Anchor compliance verified",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.100",
+                        "type":  "INSTRUCTION",
+                        "name":  "Coordinate with mesh",
+                        "category":  "general",
+                        "subcategory":  "umg_operational_actions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "umg-operational-actions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                        "summary":  "Coordinate with mesh",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "action":  "Synchronize with other UMG-governed agents",
+                        "expected_output":  "Multi-agent coordination achieved",
+                        "notes":  null
+                    }
                 ]
 }

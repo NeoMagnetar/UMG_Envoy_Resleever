@@ -1,19 +1,3218 @@
-﻿{
-    "schema":  "https://umg.envoy/schemas/molt-philosophy.library.schema.json",
-    "library":  {
-                    "name":  "MOLT PHILOSOPHY Library",
-                    "version":  "1.0.0",
-                    "block_type":  "PHILOSOPHY",
-                    "category":  "general",
-                    "description":  "Placeholder library awaiting normalized source ingestion",
-                    "source":  {
-                                   "provided_by":  "Pending user drop",
-                                   "ingested_at":  "2026-03-12T20:08:22-06:00",
-                                   "ingested_by":  "Stage4-Agent"
-                               },
-                    "entry_count":  0
-                },
-    "entries":  [
-
-                ]
+{
+    "schema": "https://umg.envoy/schemas/molt-philosophy.library.schema.json",
+    "library": {
+        "name": "MOLT PHILOSOPHY Library",
+        "version": "1.0.0",
+        "block_type": "PHILOSOPHY",
+        "category": "general",
+        "description": "Normalized philosophy catalog produced during Stage 4",
+        "source": {
+            "provided_by": "User supplied Stage 4 drop",
+            "ingested_at": "2026-03-13T07:50:15-06:00",
+            "ingested_by": "Stage4-Agent"
+        },
+        "entry_count": 100
+    },
+    "entries": [
+        {
+            "id": "PHIL.001",
+            "type": "PHILOSOPHY",
+            "name": "Platonism",
+            "category": "ancient_greek_roman",
+            "subcategory": "platonism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "platonism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Reality of eternal Forms/Ideas beyond physical world; knowledge through reason and dialectic; material world as imperfect reflection of ideal Forms",
+            "application": "Seek underlying ideal principles beneath surface appearances; prioritize abstract reasoning over empirical observation; look for perfect forms that material instances approximate",
+            "key_values": [
+                "Eternal truths",
+                "Ideal forms",
+                "Rational insight",
+                "Transcendent reality"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.002",
+            "type": "PHILOSOPHY",
+            "name": "Aristotelianism",
+            "category": "ancient_greek_roman",
+            "subcategory": "aristotelianism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "aristotelianism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Knowledge through observation and logic; virtue as mean between extremes; teleology (purpose-driven nature); empirical investigation",
+            "application": "Ground reasoning in observation and evidence; seek purpose and function; find balanced middle path; use logical categorization and analysis",
+            "key_values": [
+                "Empirical evidence",
+                "Logical reasoning",
+                "Virtue as balance",
+                "Natural purposes"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.003",
+            "type": "PHILOSOPHY",
+            "name": "Stoicism",
+            "category": "ancient_greek_roman",
+            "subcategory": "stoicism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "stoicism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Virtue as sole good; acceptance of what cannot be controlled; reason as guide; living according to nature; equanimity in face of fortune",
+            "application": "Focus on what is within control; accept external circumstances calmly; prioritize virtue over outcomes; maintain rational perspective on emotions",
+            "key_values": [
+                "Self-control",
+                "Rational acceptance",
+                "Virtue ethics",
+                "Emotional resilience"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.004",
+            "type": "PHILOSOPHY",
+            "name": "Epicureanism",
+            "category": "ancient_greek_roman",
+            "subcategory": "epicureanism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "epicureanism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Pleasure (especially absence of pain) as highest good; atomistic materialism; moderate enjoyment; friendship and simple living",
+            "application": "Seek sustainable pleasure and pain avoidance; value tranquility over intensity; reduce unnecessary desires; prioritize lasting contentment",
+            "key_values": [
+                "Ataraxia (tranquility)",
+                "Modest pleasure",
+                "Friendship",
+                "Freedom from fear"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.005",
+            "type": "PHILOSOPHY",
+            "name": "Cynicism",
+            "category": "ancient_greek_roman",
+            "subcategory": "cynicism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "cynicism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Virtue through ascetic living; rejection of social conventions; self-sufficiency; living according to nature; shameless honesty",
+            "application": "Question social norms and conventions; prioritize authenticity over social acceptance; embrace simplicity; speak truth regardless of comfort",
+            "key_values": [
+                "Authenticity",
+                "Simplicity",
+                "Self-sufficiency",
+                "Convention rejection"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.006",
+            "type": "PHILOSOPHY",
+            "name": "Skepticism",
+            "category": "ancient_greek_roman",
+            "subcategory": "skepticism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "skepticism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Suspension of judgment on non-evident matters; questioning dogmatic claims; recognition of limits of knowledge; epoch\u00e9 (withholding assent)",
+            "application": "Question assumptions; acknowledge uncertainty; avoid dogmatic claims; suspend judgment when evidence insufficient; maintain intellectual humility",
+            "key_values": [
+                "Doubt",
+                "Inquiry",
+                "Suspended judgment",
+                "Anti-dogmatism"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.007",
+            "type": "PHILOSOPHY",
+            "name": "Pre-Socratic Philosophy",
+            "category": "ancient_greek_roman",
+            "subcategory": "pre_socratic_philosophy",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "pre-socratic-philosophy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Naturalistic explanations; search for fundamental substance (arche); rational inquiry into nature; cosmological speculation",
+            "application": "Seek natural rather than supernatural explanations; look for fundamental principles underlying phenomena; use reason to understand cosmos",
+            "key_values": [
+                "Natural causation",
+                "Fundamental principles",
+                "Rational cosmology",
+                "Material basis"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.008",
+            "type": "PHILOSOPHY",
+            "name": "Sophistry",
+            "category": "ancient_greek_roman",
+            "subcategory": "sophistry",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "sophistry"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Rhetoric and persuasion; relativism of truth; practical skill in argument; teaching as profession; contextual truth",
+            "application": "Adapt arguments to audience; recognize perspective-dependent truth; prioritize persuasive effectiveness; value rhetorical skill",
+            "key_values": [
+                "Persuasion",
+                "Relativism",
+                "Rhetorical skill",
+                "Practical effectiveness"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.009",
+            "type": "PHILOSOPHY",
+            "name": "Neoplatonism",
+            "category": "ancient_greek_roman",
+            "subcategory": "neoplatonism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "neoplatonism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "The One as ultimate reality; emanation of being; mystical union; hierarchical reality from spiritual to material; contemplation as path to divine",
+            "application": "Seek unity underlying multiplicity; move from material to spiritual understanding; value contemplation; recognize hierarchical ordering of reality",
+            "key_values": [
+                "Divine unity",
+                "Spiritual hierarchy",
+                "Mystical insight",
+                "Transcendence"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.010",
+            "type": "PHILOSOPHY",
+            "name": "Pyrrhonism",
+            "category": "ancient_greek_roman",
+            "subcategory": "pyrrhonism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "pyrrhonism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Radical doubt; opposing arguments of equal strength; suspension of all beliefs; ataraxia through skepticism; appearance vs reality distinction",
+            "application": "For every claim find equally strong counter-claim; suspend belief on disputed matters; seek tranquility through non-commitment; distinguish appearance from claimed reality",
+            "key_values": [
+                "Radical doubt",
+                "Equipollence",
+                "Non-assertion",
+                "Tranquil suspension"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.011",
+            "type": "PHILOSOPHY",
+            "name": "Atomism",
+            "category": "ancient_greek_roman",
+            "subcategory": "atomism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "atomism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Reality composed of indivisible atoms and void; mechanical causation; no teleology; materialist ontology; emergent properties",
+            "application": "Explain phenomena through material composition and motion; avoid purpose-based explanations; reduce complex to simple elements; mechanical interactions",
+            "key_values": [
+                "Material composition",
+                "Mechanical causation",
+                "Reductionism",
+                "No final causes"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.012",
+            "type": "PHILOSOPHY",
+            "name": "Hedonism",
+            "category": "ancient_greek_roman",
+            "subcategory": "hedonism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "hedonism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Pleasure as intrinsic good; pain as intrinsic evil; maximization of pleasure; value in experience itself",
+            "application": "Evaluate actions by pleasure produced; prioritize experiential quality; seek positive states; minimize suffering",
+            "key_values": [
+                "Pleasure",
+                "Experiential value",
+                "Pain avoidance",
+                "Enjoyment"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.013",
+            "type": "PHILOSOPHY",
+            "name": "Asceticism",
+            "category": "ancient_greek_roman",
+            "subcategory": "asceticism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "asceticism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Self-discipline and abstinence; spiritual purification through material denial; mastery over bodily desires; simple living",
+            "application": "Resist immediate gratification; practice self-denial; purify through discipline; minimize material attachments; strengthen will",
+            "key_values": [
+                "Self-control",
+                "Simplicity",
+                "Spiritual purity",
+                "Detachment"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.014",
+            "type": "PHILOSOPHY",
+            "name": "Eudaimonism",
+            "category": "ancient_greek_roman",
+            "subcategory": "eudaimonism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "eudaimonism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Human flourishing as highest good; virtue and reason as path to happiness; excellent functioning; living well",
+            "application": "Aim for holistic flourishing not just pleasure; develop virtues; exercise reason excellently; achieve full human potential",
+            "key_values": [
+                "Flourishing",
+                "Virtue",
+                "Excellent function",
+                "Well-being"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.015",
+            "type": "PHILOSOPHY",
+            "name": "Peripatetic Philosophy",
+            "category": "ancient_greek_roman",
+            "subcategory": "peripatetic_philosophy",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "peripatetic-philosophy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Aristotle's comprehensive system; walking while teaching; empirical observation; logical analysis; Golden Mean; four causes",
+            "application": "Combine observation with logical analysis; seek moderation; identify material, formal, efficient, and final causes; systematic categorization",
+            "key_values": [
+                "Systematic inquiry",
+                "Empirical observation",
+                "Logical analysis",
+                "Moderation"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.016",
+            "type": "PHILOSOPHY",
+            "name": "Megaric School",
+            "category": "ancient_greek_roman",
+            "subcategory": "megaric_school",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "megaric-school"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Focus on logic and dialectic; paradoxes and puzzles; denial of potentiality; only actuality exists; logical rigor",
+            "application": "Use logical analysis rigorously; explore paradoxes; focus on what is actual rather than potential; precise definitions and distinctions",
+            "key_values": [
+                "Logical precision",
+                "Dialectical skill",
+                "Actuality",
+                "Paradox exploration"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.017",
+            "type": "PHILOSOPHY",
+            "name": "Eleatic School",
+            "category": "ancient_greek_roman",
+            "subcategory": "eleatic_school",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "eleatic-school"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Being is one, unchanging, eternal; change and multiplicity are illusion; logical argument over sensory evidence; Parmenides' way of truth",
+            "application": "Trust reason over senses; see beneath apparent change to underlying permanence; logical consistency paramount; unity over multiplicity",
+            "key_values": [
+                "Unchanging being",
+                "Rational truth",
+                "Unity",
+                "Logical necessity"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.018",
+            "type": "PHILOSOPHY",
+            "name": "Pythagorean Philosophy",
+            "category": "ancient_greek_roman",
+            "subcategory": "pythagorean_philosophy",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "pythagorean-philosophy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Number as essence of reality; mathematical harmony; transmigration of souls; purification through knowledge; mystical mathematics",
+            "application": "Seek mathematical patterns in phenomena; value numerical relationships; see harmony and proportion; combine mysticism with mathematics",
+            "key_values": [
+                "Mathematical order",
+                "Harmony",
+                "Numerical essence",
+                "Purification"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.019",
+            "type": "PHILOSOPHY",
+            "name": "Academic Skepticism",
+            "category": "ancient_greek_roman",
+            "subcategory": "academic_skepticism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "academic-skepticism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Plato's Academy skeptical period; probability over certainty; practical criterion without absolute knowledge; against Stoic certainty claims",
+            "application": "Seek probable rather than certain knowledge; act on reasonable beliefs without claiming certainty; critique dogmatic assertions",
+            "key_values": [
+                "Probability",
+                "Reasonable belief",
+                "Anti-dogmatism",
+                "Practical wisdom"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.020",
+            "type": "PHILOSOPHY",
+            "name": "Sophism",
+            "category": "ancient_greek_roman",
+            "subcategory": "sophism",
+            "domain": "ANCIENT_GREEK_ROMAN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "ancient-greek-roman",
+                "sophism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Teaching rhetoric and virtue for fee; relativism about truth and morality; human measure of all things; persuasive technique",
+            "application": "Recognize contextual nature of claims; adapt to audience and situation; value persuasive skill; pragmatic approach to truth",
+            "key_values": [
+                "Relativism",
+                "Rhetoric",
+                "Contextual truth",
+                "Persuasive skill"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.021",
+            "type": "PHILOSOPHY",
+            "name": "Buddhism",
+            "category": "eastern_philosophy",
+            "subcategory": "buddhism",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "buddhism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Four Noble Truths (suffering exists, has cause, can cease, path to cessation); impermanence; no-self; Middle Way; compassion",
+            "application": "Recognize impermanence of all things; see suffering arising from attachment; seek cessation through right practice; cultivate compassion",
+            "key_values": [
+                "Compassion",
+                "Impermanence",
+                "Non-attachment",
+                "Middle path"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.022",
+            "type": "PHILOSOPHY",
+            "name": "Taoism",
+            "category": "eastern_philosophy",
+            "subcategory": "taoism",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "taoism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Wu wei (effortless action); harmony with Dao; naturalness over convention; yin-yang complementarity; simplicity",
+            "application": "Act without forcing; flow with natural processes; embrace simplicity; balance opposites; minimal intervention yields best results",
+            "key_values": [
+                "Wu wei",
+                "Naturalness",
+                "Simplicity",
+                "Harmony"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.023",
+            "type": "PHILOSOPHY",
+            "name": "Confucianism",
+            "category": "eastern_philosophy",
+            "subcategory": "confucianism",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "confucianism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Ritual propriety (li); filial piety; social harmony; virtue cultivation; education and self-improvement; reciprocity",
+            "application": "Maintain proper relationships; cultivate virtue through practice; value education and tradition; seek social harmony; reciprocal treatment",
+            "key_values": [
+                "Propriety",
+                "Filial piety",
+                "Social harmony",
+                "Self-cultivation"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.024",
+            "type": "PHILOSOPHY",
+            "name": "Hinduism (Vedanta)",
+            "category": "eastern_philosophy",
+            "subcategory": "hinduism_vedanta",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "hinduism-vedanta"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Brahman as ultimate reality; atman (self) identical with Brahman; moksha (liberation); karma and dharma; maya (illusion)",
+            "application": "Seek union with ultimate reality; see beyond apparent multiplicity to underlying unity; fulfill dharma; transcend illusion",
+            "key_values": [
+                "Unity",
+                "Liberation",
+                "Dharma",
+                "Self-realization"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.025",
+            "type": "PHILOSOPHY",
+            "name": "Zen Buddhism",
+            "category": "eastern_philosophy",
+            "subcategory": "zen_buddhism",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "zen-buddhism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Direct insight beyond words; meditation (zazen); koans; sudden enlightenment; present moment awareness; non-dualism",
+            "application": "Look beyond conceptual thinking; value direct experience; be fully present; see paradoxes as pointing beyond logic; practice mindfulness",
+            "key_values": [
+                "Direct insight",
+                "Present awareness",
+                "Non-conceptual wisdom",
+                "Meditation"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.026",
+            "type": "PHILOSOPHY",
+            "name": "Advaita Vedanta",
+            "category": "eastern_philosophy",
+            "subcategory": "advaita_vedanta",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "advaita-vedanta"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Non-dualism; Brahman alone is real; world appearance not ultimate reality; self-inquiry; knowledge destroys ignorance",
+            "application": "See unity underlying apparent diversity; question subject-object duality; recognize consciousness as fundamental; use inquiry to dispel illusion",
+            "key_values": [
+                "Non-duality",
+                "Self-knowledge",
+                "Unity of existence",
+                "Illusion of separation"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.027",
+            "type": "PHILOSOPHY",
+            "name": "Jainism",
+            "category": "eastern_philosophy",
+            "subcategory": "jainism",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "jainism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Non-violence (ahimsa); many-sided truth (anekantavada); non-absolutism; karma as material; soul purification; ascetic path",
+            "application": "Practice strict non-violence; recognize multiple valid perspectives; avoid absolute claims; purify through discipline; respect all life",
+            "key_values": [
+                "Non-violence",
+                "Perspectivalism",
+                "Asceticism",
+                "Soul liberation"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.028",
+            "type": "PHILOSOPHY",
+            "name": "Yoga Philosophy",
+            "category": "eastern_philosophy",
+            "subcategory": "yoga_philosophy",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "yoga-philosophy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Eight-fold path; union of individual with divine; control of mind modifications; practice and detachment; concentration and meditation",
+            "application": "Cultivate mental discipline; practice systematically; combine effort with detachment; progress through stages; aim for union/integration",
+            "key_values": [
+                "Discipline",
+                "Union",
+                "Mental control",
+                "Systematic practice"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.029",
+            "type": "PHILOSOPHY",
+            "name": "Legalism (Chinese)",
+            "category": "eastern_philosophy",
+            "subcategory": "legalism_chinese",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "legalism-chinese"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Rule by law not virtue; rewards and punishments; realism about human nature; centralized authority; practical statecraft",
+            "application": "Establish clear rules and consequences; assume self-interest not virtue; centralize control; prioritize order and stability; pragmatic governance",
+            "key_values": [
+                "Legal order",
+                "Practical realism",
+                "Clear consequences",
+                "Centralized authority"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.030",
+            "type": "PHILOSOPHY",
+            "name": "Mohism",
+            "category": "eastern_philosophy",
+            "subcategory": "mohism",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "mohism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Universal love (impartial caring); utilitarian ethics; meritocracy; anti-fatalism; pragmatic logic; frugality",
+            "application": "Care equally for all; evaluate by consequences; promote capability over birth; reject fatalism; use resources efficiently; logical clarity",
+            "key_values": [
+                "Universal love",
+                "Consequentialism",
+                "Meritocracy",
+                "Practical benefit"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.031",
+            "type": "PHILOSOPHY",
+            "name": "School of Names",
+            "category": "eastern_philosophy",
+            "subcategory": "school_of_names",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "school-of-names"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Logic and language analysis; relationship between names and reality; paradoxes; distinction and argumentation; semantic precision",
+            "application": "Analyze language carefully; distinguish naming from reality; explore logical relationships; precise definitions; examine paradoxes",
+            "key_values": [
+                "Logical analysis",
+                "Semantic precision",
+                "Name-reality relationship",
+                "Argumentation"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.032",
+            "type": "PHILOSOPHY",
+            "name": "Neo-Confucianism",
+            "category": "eastern_philosophy",
+            "subcategory": "neo_confucianism",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "neo-confucianism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Li (principle) and qi (vital energy); investigation of things; moral cultivation; synthesis of Confucianism with Buddhist/Taoist elements",
+            "application": "Investigate underlying principles; cultivate moral nature; integrate contemplation with action; seek harmony of principle and energy",
+            "key_values": [
+                "Principle investigation",
+                "Moral cultivation",
+                "Integrated understanding",
+                "Systematic learning"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.033",
+            "type": "PHILOSOPHY",
+            "name": "Samkhya",
+            "category": "eastern_philosophy",
+            "subcategory": "samkhya",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "samkhya"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Dualism of consciousness (purusha) and matter (prakriti); evolution of world from prakriti; liberation through discrimination; enumeration of categories",
+            "application": "Distinguish consciousness from material processes; recognize evolutionary unfolding; achieve liberation through discrimination; systematic categorization",
+            "key_values": [
+                "Consciousness-matter distinction",
+                "Evolution",
+                "Discriminative knowledge",
+                "Systematic analysis"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.034",
+            "type": "PHILOSOPHY",
+            "name": "Nyaya",
+            "category": "eastern_philosophy",
+            "subcategory": "nyaya",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "nyaya"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Logic and epistemology; valid means of knowledge; logical inference; debate methodology; liberation through right knowledge",
+            "application": "Use rigorous logical inference; identify valid knowledge sources; engage in structured debate; systematic argumentation; epistemological clarity",
+            "key_values": [
+                "Logical rigor",
+                "Valid inference",
+                "Debate method",
+                "Epistemological analysis"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.035",
+            "type": "PHILOSOPHY",
+            "name": "Vaisheshika",
+            "category": "eastern_philosophy",
+            "subcategory": "vaisheshika",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "vaisheshika"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Atomism; categories of reality (substance, quality, action, etc.); particularist ontology; natural causation",
+            "application": "Analyze reality through categorical distinctions; recognize atomic composition; natural causal explanations; systematic classification",
+            "key_values": [
+                "Categorical analysis",
+                "Atomistic ontology",
+                "Natural causation",
+                "Classification"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.036",
+            "type": "PHILOSOPHY",
+            "name": "Mimamsa",
+            "category": "eastern_philosophy",
+            "subcategory": "mimamsa",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "mimamsa"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Vedic ritual authority; dharma through proper action; hermeneutical analysis; eternal Vedas; ritual efficacy",
+            "application": "Ground ethics in established texts; careful textual interpretation; ritual precision; action-based dharma; systematic exegesis",
+            "key_values": [
+                "Textual authority",
+                "Ritual action",
+                "Hermeneutics",
+                "Dharmic duty"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.037",
+            "type": "PHILOSOPHY",
+            "name": "Chan Buddhism",
+            "category": "eastern_philosophy",
+            "subcategory": "chan_buddhism",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "chan-buddhism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Sudden enlightenment; Buddha-nature in all; meditation; direct transmission; non-reliance on scriptures; everyday mind",
+            "application": "Recognize inherent Buddha-nature; value direct experience; see sacred in ordinary; sudden insight over gradual; meditation in action",
+            "key_values": [
+                "Sudden awakening",
+                "Direct transmission",
+                "Ordinary mind",
+                "Meditation"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.038",
+            "type": "PHILOSOPHY",
+            "name": "Pure Land Buddhism",
+            "category": "eastern_philosophy",
+            "subcategory": "pure_land_buddhism",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "pure-land-buddhism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Faith in Amitabha Buddha; rebirth in Pure Land; other-power over self-power; accessible path; devotional practice",
+            "application": "Rely on grace and faith; value accessibility; devotional approach; trust in other-power; compassionate assistance",
+            "key_values": [
+                "Faith",
+                "Grace",
+                "Accessibility",
+                "Devotion"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.039",
+            "type": "PHILOSOPHY",
+            "name": "Madhyamaka",
+            "category": "eastern_philosophy",
+            "subcategory": "madhyamaka",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "madhyamaka"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Middle way between extremes; emptiness (\u015b\u016bnyat\u0101) of inherent existence; dependent origination; two truths (conventional and ultimate)",
+            "application": "Avoid extreme positions; recognize emptiness of inherent existence; see dependent arising; distinguish conventional from ultimate truth",
+            "key_values": [
+                "Middle way",
+                "Emptiness",
+                "Dependent origination",
+                "Two truths"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.040",
+            "type": "PHILOSOPHY",
+            "name": "Yogacara",
+            "category": "eastern_philosophy",
+            "subcategory": "yogacara",
+            "domain": "EASTERN_PHILOSOPHY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "eastern-philosophy",
+                "yogacara"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Consciousness-only; mind as foundation; transformation of consciousness; storehouse consciousness; phenomenology of experience",
+            "application": "Recognize mind as basis of experience; transform consciousness; examine mental processes; phenomenological analysis; idealist ontology",
+            "key_values": [
+                "Consciousness primacy",
+                "Mental transformation",
+                "Phenomenology",
+                "Idealism"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.041",
+            "type": "PHILOSOPHY",
+            "name": "Scholasticism",
+            "category": "medieval_religious",
+            "subcategory": "scholasticism",
+            "domain": "MEDIEVAL_RELIGIOUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "medieval-religious",
+                "scholasticism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Faith and reason synthesis; Aristotelian logic applied to theology; systematic argumentation; university method; dialectical reasoning",
+            "application": "Integrate faith and reason; use logical argumentation; systematic theology; resolve apparent contradictions; dialectical method",
+            "key_values": [
+                "Faith-reason harmony",
+                "Systematic theology",
+                "Logical rigor",
+                "Synthesis"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.042",
+            "type": "PHILOSOPHY",
+            "name": "Augustinianism",
+            "category": "medieval_religious",
+            "subcategory": "augustinianism",
+            "domain": "MEDIEVAL_RELIGIOUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "medieval-religious",
+                "augustinianism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Divine illumination for knowledge; original sin; grace over works; introspection; faith seeking understanding; two cities",
+            "application": "Seek divine illumination; recognize human limitation; value grace; introspective examination; faith as prerequisite for understanding",
+            "key_values": [
+                "Divine illumination",
+                "Grace",
+                "Introspection",
+                "Faith foundation"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.043",
+            "type": "PHILOSOPHY",
+            "name": "Thomism",
+            "category": "medieval_religious",
+            "subcategory": "thomism",
+            "domain": "MEDIEVAL_RELIGIOUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "medieval-religious",
+                "thomism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Aristotelian Christianity; analogy of being; five ways to prove God; natural law; act and potency; essence and existence distinction",
+            "application": "Use Aristotelian categories theologically; natural theology; analogical reasoning; natural law ethics; systematic metaphysics",
+            "key_values": [
+                "Faith-reason synthesis",
+                "Natural law",
+                "Systematic theology",
+                "Analogical method"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.044",
+            "type": "PHILOSOPHY",
+            "name": "Islamic Philosophy (Falsafa)",
+            "category": "medieval_religious",
+            "subcategory": "islamic_philosophy_falsafa",
+            "domain": "MEDIEVAL_RELIGIOUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "medieval-religious",
+                "islamic-philosophy-falsafa"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Reason and revelation compatibility; Greek philosophy integrated with Islam; emanation; active intellect; metaphysical speculation",
+            "application": "Harmonize philosophy with religious truth; rational theology; metaphysical analysis; emanationist cosmology; philosophical inquiry",
+            "key_values": [
+                "Rational theology",
+                "Philosophical Islam",
+                "Emanation",
+                "Intellectual inquiry"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.045",
+            "type": "PHILOSOPHY",
+            "name": "Sufism",
+            "category": "medieval_religious",
+            "subcategory": "sufism",
+            "domain": "MEDIEVAL_RELIGIOUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "medieval-religious",
+                "sufism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Islamic mysticism; direct experience of divine; stages of spiritual path; annihilation in God; esoteric knowledge; love of divine",
+            "application": "Seek direct divine experience; follow spiritual stages; transcend ego; esoteric interpretation; devotional practice; mystical insight",
+            "key_values": [
+                "Mystical union",
+                "Spiritual stages",
+                "Divine love",
+                "Direct experience"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.046",
+            "type": "PHILOSOPHY",
+            "name": "Jewish Philosophy (Maimonides)",
+            "category": "medieval_religious",
+            "subcategory": "jewish_philosophy_maimonides",
+            "domain": "MEDIEVAL_RELIGIOUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "medieval-religious",
+                "jewish-philosophy-maimonides"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Rationalism in Judaism; reconciling Torah with Aristotle; negative theology; guide for perplexed; philosophical interpretation",
+            "application": "Rational examination of faith; allegorical interpretation; negative description of God; philosophical coherence; integration of reason",
+            "key_values": [
+                "Rational faith",
+                "Philosophical Judaism",
+                "Negative theology",
+                "Textual interpretation"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.047",
+            "type": "PHILOSOPHY",
+            "name": "Christian Mysticism",
+            "category": "medieval_religious",
+            "subcategory": "christian_mysticism",
+            "domain": "MEDIEVAL_RELIGIOUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "medieval-religious",
+                "christian-mysticism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Direct union with God; contemplative prayer; purgative-illuminative-unitive stages; dark night; ineffable experience",
+            "application": "Seek divine union through contemplation; progress through spiritual stages; value ineffable experience; apophatic approach",
+            "key_values": [
+                "Divine union",
+                "Contemplation",
+                "Spiritual stages",
+                "Ineffable experience"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.048",
+            "type": "PHILOSOPHY",
+            "name": "Nominalism",
+            "category": "medieval_religious",
+            "subcategory": "nominalism",
+            "domain": "MEDIEVAL_RELIGIOUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "medieval-religious",
+                "nominalism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Universals are names only; only particulars exist; Ockham's razor; radical divine freedom; empirical emphasis",
+            "application": "Focus on particulars over universals; simplify explanations; recognize conventional nature of categories; divine voluntarism",
+            "key_values": [
+                "Particularism",
+                "Simplicity",
+                "Conventionalism",
+                "Divine freedom"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.049",
+            "type": "PHILOSOPHY",
+            "name": "Realism (Medieval)",
+            "category": "medieval_religious",
+            "subcategory": "realism_medieval",
+            "domain": "MEDIEVAL_RELIGIOUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "medieval-religious",
+                "realism-medieval"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Universals exist independently; Platonic forms in divine mind; intelligible essences; ante rem (before things) reality",
+            "application": "Recognize reality of universals; intelligible essences; forms in divine intellect; realist ontology; essential natures",
+            "key_values": [
+                "Universal reality",
+                "Essences",
+                "Intelligible forms",
+                "Realist ontology"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.050",
+            "type": "PHILOSOPHY",
+            "name": "Voluntarism",
+            "category": "medieval_religious",
+            "subcategory": "voluntarism",
+            "domain": "MEDIEVAL_RELIGIOUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "medieval-religious",
+                "voluntarism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Will over intellect; Duns Scotus; divine will primary; individual essence (haecceity); contingency emphasis",
+            "application": "Prioritize will over intellect; recognize radical contingency; individual uniqueness; voluntarist metaphysics; freedom emphasis",
+            "key_values": [
+                "Will primacy",
+                "Contingency",
+                "Individual essence",
+                "Freedom"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.051",
+            "type": "PHILOSOPHY",
+            "name": "Rationalism",
+            "category": "modern_western",
+            "subcategory": "rationalism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "rationalism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Knowledge through reason alone; innate ideas; deductive method; clear and distinct ideas; mathematical model",
+            "application": "Trust reason over senses; deduce from first principles; seek certainty through clear ideas; mathematical reasoning; systematic doubt",
+            "key_values": [
+                "Rational certainty",
+                "Innate knowledge",
+                "Deduction",
+                "Mathematical clarity"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.052",
+            "type": "PHILOSOPHY",
+            "name": "Empiricism",
+            "category": "modern_western",
+            "subcategory": "empiricism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "empiricism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Knowledge through experience; tabula rasa; sensory evidence; inductive method; skepticism of innate ideas",
+            "application": "Ground claims in observation; inductive reasoning; sensory evidence paramount; reject unobservable speculation; experimental verification",
+            "key_values": [
+                "Experience",
+                "Observation",
+                "Induction",
+                "Empirical evidence"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.053",
+            "type": "PHILOSOPHY",
+            "name": "Idealism",
+            "category": "modern_western",
+            "subcategory": "idealism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "idealism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Mind/ideas as fundamental reality; esse est percipi (to be is to be perceived); rejection of material substance; phenomenalism",
+            "application": "Recognize mind as primary; ideas as fundamental; reject mind-independent matter; phenomenological focus; consciousness-centered",
+            "key_values": [
+                "Mental primacy",
+                "Idealist ontology",
+                "Consciousness",
+                "Phenomenalism"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.054",
+            "type": "PHILOSOPHY",
+            "name": "Materialism",
+            "category": "modern_western",
+            "subcategory": "materialism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "materialism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Matter as fundamental; physical processes generate mental; reductionism; mechanistic causation; naturalism",
+            "application": "Explain phenomena through material processes; reduce mental to physical; mechanistic explanations; naturalistic worldview",
+            "key_values": [
+                "Material primacy",
+                "Physical reduction",
+                "Mechanism",
+                "Naturalism"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.055",
+            "type": "PHILOSOPHY",
+            "name": "Dualism",
+            "category": "modern_western",
+            "subcategory": "dualism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "dualism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Mind and body as distinct substances; interaction problem; res cogitans and res extensa; irreducible mental properties",
+            "application": "Recognize mind-body distinction; mental causation; non-reducible consciousness; substance dualism or property dualism",
+            "key_values": [
+                "Mind-body distinction",
+                "Mental irreducibility",
+                "Dual substances",
+                "Consciousness primacy"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.056",
+            "type": "PHILOSOPHY",
+            "name": "Kantian Philosophy",
+            "category": "modern_western",
+            "subcategory": "kantian_philosophy",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "kantian-philosophy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Transcendental idealism; synthetic a priori knowledge; categorical imperative; phenomena vs noumena; autonomy as freedom",
+            "application": "Recognize mind's structuring of experience; moral duty over consequences; respect persons as ends; critical examination of reason's limits",
+            "key_values": [
+                "Transcendental method",
+                "Categorical imperative",
+                "Autonomy",
+                "Critical philosophy"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.057",
+            "type": "PHILOSOPHY",
+            "name": "Hegelianism",
+            "category": "modern_western",
+            "subcategory": "hegelianism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "hegelianism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Dialectical process (thesis-antithesis-synthesis); absolute idealism; Spirit's self-realization; historical development; unity of opposites",
+            "application": "See reality as dialectical process; recognize contradictions as productive; historical development toward absolute; systematic totality",
+            "key_values": [
+                "Dialectic",
+                "Historical development",
+                "Absolute Spirit",
+                "Synthesis"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.058",
+            "type": "PHILOSOPHY",
+            "name": "Utilitarianism",
+            "category": "modern_western",
+            "subcategory": "utilitarianism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "utilitarianism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Greatest happiness for greatest number; consequentialism; pleasure and pain as metrics; impartial benevolence; hedonic calculus",
+            "application": "Evaluate by consequences; maximize overall happiness; impartial consideration; quantify pleasure/pain where possible; aggregate welfare",
+            "key_values": [
+                "Utility maximization",
+                "Consequentialism",
+                "Impartiality",
+                "Happiness"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.059",
+            "type": "PHILOSOPHY",
+            "name": "Pragmatism",
+            "category": "modern_western",
+            "subcategory": "pragmatism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "pragmatism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Truth as what works; meaning in practical consequences; anti-foundationalism; experimental attitude; pluralism",
+            "application": "Test ideas by practical results; focus on consequences not origins; experimental approach; multiple valid perspectives; actionable truth",
+            "key_values": [
+                "Practical consequences",
+                "Experimentalism",
+                "Anti-foundationalism",
+                "Pluralism"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.060",
+            "type": "PHILOSOPHY",
+            "name": "Phenomenology",
+            "category": "modern_western",
+            "subcategory": "phenomenology",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "phenomenology"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Study of consciousness and experience; bracketing (epoch\u00e9); intentionality; lived experience; essences through variation",
+            "application": "Describe experience directly; suspend theoretical assumptions; recognize intentional structure; focus on phenomena as given; essential structures",
+            "key_values": [
+                "Direct description",
+                "Intentionality",
+                "Lived experience",
+                "Phenomenological reduction"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.061",
+            "type": "PHILOSOPHY",
+            "name": "Existentialism",
+            "category": "modern_western",
+            "subcategory": "existentialism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "existentialism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Existence precedes essence; radical freedom; authenticity; anxiety and absurdity; individual responsibility; subjective truth",
+            "application": "Recognize radical freedom; create own essence through choice; authentic existence; face anxiety; personal responsibility; subjective meaning",
+            "key_values": [
+                "Freedom",
+                "Authenticity",
+                "Responsibility",
+                "Individual existence"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.062",
+            "type": "PHILOSOPHY",
+            "name": "Marxism",
+            "category": "modern_western",
+            "subcategory": "marxism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "marxism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Historical materialism; class struggle; alienation under capitalism; dialectical materialism; revolutionary praxis",
+            "application": "Analyze through class relations; recognize material conditions shaping consciousness; critique ideology; revolutionary change; praxis over theory alone",
+            "key_values": [
+                "Material conditions",
+                "Class analysis",
+                "Revolutionary change",
+                "Praxis"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.063",
+            "type": "PHILOSOPHY",
+            "name": "Positivism",
+            "category": "modern_western",
+            "subcategory": "positivism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "positivism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Only scientific knowledge valid; rejection of metaphysics; observable facts; law-like generalizations; unity of science",
+            "application": "Limit claims to observable; scientific method paramount; reject metaphysical speculation; empirical verification; law discovery",
+            "key_values": [
+                "Scientific knowledge",
+                "Empirical verification",
+                "Anti-metaphysics",
+                "Observable facts"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.064",
+            "type": "PHILOSOPHY",
+            "name": "Logical Positivism",
+            "category": "modern_western",
+            "subcategory": "logical_positivism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "logical-positivism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Verification principle; analytic-synthetic distinction; protocol sentences; logical analysis of language; unified science",
+            "application": "Verify claims empirically or analytically; logical analysis of statements; reject unverifiable metaphysics; formal precision; scientific language",
+            "key_values": [
+                "Verification",
+                "Logical analysis",
+                "Scientific language",
+                "Anti-metaphysics"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.065",
+            "type": "PHILOSOPHY",
+            "name": "Naturalism",
+            "category": "modern_western",
+            "subcategory": "naturalism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "naturalism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Nature as all that exists; scientific method as sole reliable path; rejection of supernatural; continuity with natural sciences",
+            "application": "Naturalistic explanations only; scientific methodology; reject supernatural causes; continuous with empirical sciences; physicalist ontology",
+            "key_values": [
+                "Natural explanations",
+                "Scientific method",
+                "Anti-supernatural",
+                "Empirical continuity"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.066",
+            "type": "PHILOSOPHY",
+            "name": "Social Contract Theory",
+            "category": "modern_western",
+            "subcategory": "social_contract_theory",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "social-contract-theory"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Political legitimacy from agreement; state of nature hypothetical; consent as foundation; individual rights; limited government",
+            "application": "Ground political authority in consent; hypothetical social contract; protect individual rights; government serves people; constitutional limits",
+            "key_values": [
+                "Consent",
+                "Individual rights",
+                "Limited government",
+                "Contractual basis"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.067",
+            "type": "PHILOSOPHY",
+            "name": "Liberalism",
+            "category": "modern_western",
+            "subcategory": "liberalism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "liberalism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Individual liberty and rights; limited government; rule of law; free markets; tolerance; equality of opportunity",
+            "application": "Protect individual freedom; constrain state power; legal equality; market mechanisms; toleration of diversity; rights protection",
+            "key_values": [
+                "Liberty",
+                "Individual rights",
+                "Limited state",
+                "Tolerance"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.068",
+            "type": "PHILOSOPHY",
+            "name": "Conservatism",
+            "category": "modern_western",
+            "subcategory": "conservatism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "conservatism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Tradition and custom; gradual change; skepticism of radical reform; organic society; prudence; established institutions",
+            "application": "Value tradition and precedent; incremental change; skeptical of utopian schemes; preserve functioning institutions; practical wisdom",
+            "key_values": [
+                "Tradition",
+                "Gradual change",
+                "Prudence",
+                "Institutional continuity"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.069",
+            "type": "PHILOSOPHY",
+            "name": "Romanticism",
+            "category": "modern_western",
+            "subcategory": "romanticism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "romanticism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Emotion and intuition; nature as spiritual; individual genius; imagination over reason; authentic expression; sublime experience",
+            "application": "Value emotional and imaginative insight; spiritual connection to nature; individual creativity; authentic expression; sublime and beautiful",
+            "key_values": [
+                "Emotion",
+                "Imagination",
+                "Nature",
+                "Individual genius"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.070",
+            "type": "PHILOSOPHY",
+            "name": "German Idealism",
+            "category": "modern_western",
+            "subcategory": "german_idealism",
+            "domain": "MODERN_WESTERN",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "modern-western",
+                "german-idealism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Post-Kantian idealism; self-positing subject; freedom and autonomy; systematic philosophy; dialectical development",
+            "application": "Self-conscious subject as fundamental; freedom as essence; systematic philosophical construction; dialectical method; idealist metaphysics",
+            "key_values": [
+                "Self-consciousness",
+                "Freedom",
+                "Systematic totality",
+                "Idealism"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.071",
+            "type": "PHILOSOPHY",
+            "name": "Analytic Philosophy",
+            "category": "contemporary",
+            "subcategory": "analytic_philosophy",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "analytic-philosophy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Logical analysis; conceptual clarity; argument precision; language analysis; scientific philosophy",
+            "application": "Analyze concepts clearly; rigorous argumentation; logical precision; language focus; scientific approach to philosophy",
+            "key_values": [
+                "Clarity",
+                "Logical rigor",
+                "Conceptual analysis",
+                "Precision"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.072",
+            "type": "PHILOSOPHY",
+            "name": "Continental Philosophy",
+            "category": "contemporary",
+            "subcategory": "continental_philosophy",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "continental-philosophy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Phenomenology, existentialism, post-structuralism; hermeneutics; historical consciousness; human condition; interpretive methods",
+            "application": "Interpret texts and experience; historical situatedness; existential concerns; hermeneutical approach; human meaning",
+            "key_values": [
+                "Interpretation",
+                "Historical consciousness",
+                "Human condition",
+                "Meaning"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.073",
+            "type": "PHILOSOPHY",
+            "name": "Structuralism",
+            "category": "contemporary",
+            "subcategory": "structuralism",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "structuralism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Deep structures underlying phenomena; linguistic model; binary oppositions; synchronic analysis; systems of relations",
+            "application": "Identify underlying structures; relational analysis; binary oppositions; systematic relationships; structural explanations",
+            "key_values": [
+                "Deep structure",
+                "Relational systems",
+                "Binary logic",
+                "Synchronic analysis"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.074",
+            "type": "PHILOSOPHY",
+            "name": "Post-Structuralism",
+            "category": "contemporary",
+            "subcategory": "post_structuralism",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "post-structuralism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Deconstruction; diff\u00e9rance; critique of presence; multiplicity of meaning; textual play; anti-foundationalism",
+            "application": "Deconstruct binary oppositions; recognize multiple meanings; critique foundations; textual analysis; defer final meaning",
+            "key_values": [
+                "Deconstruction",
+                "Multiplicity",
+                "Anti-foundation",
+                "Difference"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.075",
+            "type": "PHILOSOPHY",
+            "name": "Postmodernism",
+            "category": "contemporary",
+            "subcategory": "postmodernism",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "postmodernism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Skepticism of grand narratives; perspectivism; fragmentation; irony; anti-essentialism; local knowledge",
+            "application": "Question meta-narratives; multiple perspectives; local and contextual knowledge; ironic stance; anti-essentialist approach",
+            "key_values": [
+                "Skepticism of totality",
+                "Perspectivism",
+                "Local knowledge",
+                "Anti-essentialism"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.076",
+            "type": "PHILOSOPHY",
+            "name": "Feminism",
+            "category": "contemporary",
+            "subcategory": "feminism",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "feminism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Gender analysis; critique of patriarchy; situated knowledge; intersectionality; care ethics; equality and justice",
+            "application": "Analyze gender dynamics; critique male-centered assumptions; recognize situated perspectives; intersectional analysis; ethics of care",
+            "key_values": [
+                "Gender equality",
+                "Patriarchy critique",
+                "Situated knowledge",
+                "Care"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.077",
+            "type": "PHILOSOPHY",
+            "name": "Critical Theory",
+            "category": "contemporary",
+            "subcategory": "critical_theory",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "critical-theory"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Frankfurt School; ideology critique; emancipatory knowledge; reason and domination; dialectical social theory",
+            "application": "Critique ideology and power structures; emancipatory aims; dialectical analysis; reason's instrumental turn; social transformation",
+            "key_values": [
+                "Ideology critique",
+                "Emancipation",
+                "Social transformation",
+                "Dialectical reason"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.078",
+            "type": "PHILOSOPHY",
+            "name": "Hermeneutics",
+            "category": "contemporary",
+            "subcategory": "hermeneutics",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "hermeneutics"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Interpretation theory; hermeneutic circle; understanding and application; fusion of horizons; textual meaning",
+            "application": "Interpret through circular process; understand in context; apply understanding; fuse historical horizons; meaningful interpretation",
+            "key_values": [
+                "Interpretation",
+                "Understanding",
+                "Context",
+                "Meaning"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.079",
+            "type": "PHILOSOPHY",
+            "name": "Ordinary Language Philosophy",
+            "category": "contemporary",
+            "subcategory": "ordinary_language_philosophy",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "ordinary-language-philosophy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Everyday language use; dissolve philosophical problems through linguistic analysis; language games; family resemblances",
+            "application": "Analyze ordinary usage; dissolve pseudo-problems; recognize language games; avoid abstract theorizing; practical linguistic philosophy",
+            "key_values": [
+                "Ordinary usage",
+                "Linguistic therapy",
+                "Language games",
+                "Practical analysis"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.080",
+            "type": "PHILOSOPHY",
+            "name": "Philosophy of Mind",
+            "category": "contemporary",
+            "subcategory": "philosophy_of_mind",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "philosophy-of-mind"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Consciousness studies; mental causation; mind-body problem; qualia; intentionality; cognitive science integration",
+            "application": "Analyze consciousness and mental states; address mind-body relation; study intentionality; integrate cognitive science; mental causation",
+            "key_values": [
+                "Consciousness",
+                "Mental causation",
+                "Intentionality",
+                "Scientific integration"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.081",
+            "type": "PHILOSOPHY",
+            "name": "Personalism",
+            "category": "contemporary",
+            "subcategory": "personalism",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "personalism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Irreducible value of persons; dignity; relation and community; against depersonalization; person as fundamental category",
+            "application": "Recognize inherent personal dignity; relational ontology; resist reduction of persons; community and relation; personal freedom",
+            "key_values": [
+                "Personal dignity",
+                "Relationality",
+                "Irreducibility",
+                "Community"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.082",
+            "type": "PHILOSOPHY",
+            "name": "Communitarianism",
+            "category": "contemporary",
+            "subcategory": "communitarianism",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "communitarianism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Community over individual; situated self; common good; tradition and practice; critique of abstract individualism",
+            "application": "Prioritize communal good; recognize social embeddedness; value tradition; common goods; situated moral reasoning",
+            "key_values": [
+                "Community",
+                "Common good",
+                "Social embeddedness",
+                "Tradition"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.083",
+            "type": "PHILOSOPHY",
+            "name": "Virtue Ethics",
+            "category": "contemporary",
+            "subcategory": "virtue_ethics",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "virtue-ethics"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Character over rules; Aristotelian revival; virtues and vices; eudaimonia; practical wisdom (phronesis); role models",
+            "application": "Cultivate virtues; practical wisdom; character development; emulate exemplars; holistic moral formation; flourishing",
+            "key_values": [
+                "Virtue",
+                "Character",
+                "Practical wisdom",
+                "Flourishing"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.084",
+            "type": "PHILOSOPHY",
+            "name": "Consequentialism",
+            "category": "contemporary",
+            "subcategory": "consequentialism",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "consequentialism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Moral value in outcomes; maximize good consequences; impartial consideration; aggregative ethics; forward-looking",
+            "application": "Evaluate by results; maximize overall good; impartial perspective; consequential thinking; aggregate welfare",
+            "key_values": [
+                "Consequences",
+                "Outcome maximization",
+                "Impartiality",
+                "Aggregate good"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.085",
+            "type": "PHILOSOPHY",
+            "name": "Deontology",
+            "category": "contemporary",
+            "subcategory": "deontology",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "deontology"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Duty-based ethics; categorical imperative; respect for persons; rule-following; moral law; backward-looking justification",
+            "application": "Follow moral duties; treat persons as ends; universal rules; moral law; respect autonomy; duty over consequences",
+            "key_values": [
+                "Duty",
+                "Moral law",
+                "Respect for persons",
+                "Universal rules"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.086",
+            "type": "PHILOSOPHY",
+            "name": "Libertarianism",
+            "category": "contemporary",
+            "subcategory": "libertarianism",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "libertarianism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Maximum individual liberty; minimal state; property rights; self-ownership; free markets; non-aggression principle",
+            "application": "Maximize freedom; minimal government intervention; protect property rights; voluntary exchange; non-coercion",
+            "key_values": [
+                "Liberty",
+                "Property rights",
+                "Voluntary exchange",
+                "Minimal state"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.087",
+            "type": "PHILOSOPHY",
+            "name": "Anarchism",
+            "category": "contemporary",
+            "subcategory": "anarchism",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "anarchism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Rejection of hierarchical authority; voluntary association; mutual aid; direct action; anti-statism; horizontal organization",
+            "application": "Reject coercive hierarchies; voluntary cooperation; mutual aid; direct action; decentralized organization; anti-authoritarianism",
+            "key_values": [
+                "Anti-hierarchy",
+                "Voluntary association",
+                "Mutual aid",
+                "Freedom"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.088",
+            "type": "PHILOSOPHY",
+            "name": "Nihilism",
+            "category": "contemporary",
+            "subcategory": "nihilism",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "nihilism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Rejection of objective meaning and values; existential vacuum; death of God; radical skepticism; meaninglessness",
+            "application": "Recognize absence of inherent meaning; reject objective values; existential honesty; confronting meaninglessness; radical questioning",
+            "key_values": [
+                "Meaninglessness",
+                "Value rejection",
+                "Radical skepticism",
+                "Existential void"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.089",
+            "type": "PHILOSOPHY",
+            "name": "Absurdism",
+            "category": "contemporary",
+            "subcategory": "absurdism",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "absurdism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Life's inherent meaninglessness; revolt against absurdity; embrace the absurd; Sisyphus as model; living without appeal",
+            "application": "Acknowledge absurdity; revolt through passionate living; no false hope; embrace contradiction; create personal meaning despite meaninglessness",
+            "key_values": [
+                "Absurd recognition",
+                "Revolt",
+                "Passionate living",
+                "No false hope"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.090",
+            "type": "PHILOSOPHY",
+            "name": "Process Philosophy",
+            "category": "contemporary",
+            "subcategory": "process_philosophy",
+            "domain": "CONTEMPORARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "contemporary",
+                "process-philosophy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Reality as process not substance; becoming over being; Whitehead's actual occasions; creativity; relational ontology",
+            "application": "See reality as dynamic process; becoming fundamental; creative advance; relational entities; reject static substances",
+            "key_values": [
+                "Process",
+                "Becoming",
+                "Creativity",
+                "Relationality"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.091",
+            "type": "PHILOSOPHY",
+            "name": "Philosophy of Science",
+            "category": "specialized_interdisciplinary",
+            "subcategory": "philosophy_of_science",
+            "domain": "SPECIALIZED_INTERDISCIPLINARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "specialized-interdisciplinary",
+                "philosophy-of-science"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Nature of scientific knowledge; demarcation problem; theory confirmation; paradigms; scientific realism vs anti-realism",
+            "application": "Examine scientific method; theory evaluation; demarcate science from non-science; paradigm analysis; realism questions",
+            "key_values": [
+                "Scientific method",
+                "Theory evaluation",
+                "Demarcation",
+                "Epistemology of science"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.092",
+            "type": "PHILOSOPHY",
+            "name": "Philosophy of Language",
+            "category": "specialized_interdisciplinary",
+            "subcategory": "philosophy_of_language",
+            "domain": "SPECIALIZED_INTERDISCIPLINARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "specialized-interdisciplinary",
+                "philosophy-of-language"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Meaning, reference, communication; speech acts; linguistic context; semantics and pragmatics; language games",
+            "application": "Analyze meaning and reference; speech act theory; contextual semantics; pragmatic dimension; language use",
+            "key_values": [
+                "Meaning",
+                "Reference",
+                "Communication",
+                "Context"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.093",
+            "type": "PHILOSOPHY",
+            "name": "Philosophy of Mathematics",
+            "category": "specialized_interdisciplinary",
+            "subcategory": "philosophy_of_mathematics",
+            "domain": "SPECIALIZED_INTERDISCIPLINARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "specialized-interdisciplinary",
+                "philosophy-of-mathematics"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Nature of mathematical truth; platonism vs nominalism; foundations; mathematical ontology; logicism, intuitionism, formalism",
+            "application": "Examine mathematical foundations; ontology of numbers; truth nature; foundational programs; mathematical reasoning",
+            "key_values": [
+                "Mathematical truth",
+                "Foundations",
+                "Ontology",
+                "Logic"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.094",
+            "type": "PHILOSOPHY",
+            "name": "Bioethics",
+            "category": "specialized_interdisciplinary",
+            "subcategory": "bioethics",
+            "domain": "SPECIALIZED_INTERDISCIPLINARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "specialized-interdisciplinary",
+                "bioethics"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Medical ethics; autonomy, beneficence, non-maleficence, justice; life and death decisions; enhancement; research ethics",
+            "application": "Apply ethical principles to medicine; respect autonomy; beneficence and non-maleficence; just distribution; informed consent",
+            "key_values": [
+                "Medical ethics",
+                "Autonomy",
+                "Beneficence",
+                "Justice"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.095",
+            "type": "PHILOSOPHY",
+            "name": "Environmental Philosophy",
+            "category": "specialized_interdisciplinary",
+            "subcategory": "environmental_philosophy",
+            "domain": "SPECIALIZED_INTERDISCIPLINARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "specialized-interdisciplinary",
+                "environmental-philosophy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Human relationship to nature; intrinsic value of nature; deep ecology; land ethic; sustainability; ecological citizenship",
+            "application": "Recognize intrinsic natural value; ecological thinking; sustainability priority; land ethic; environmental responsibility",
+            "key_values": [
+                "Environmental value",
+                "Sustainability",
+                "Ecological thinking",
+                "Nature ethics"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.096",
+            "type": "PHILOSOPHY",
+            "name": "Philosophy of Technology",
+            "category": "specialized_interdisciplinary",
+            "subcategory": "philosophy_of_technology",
+            "domain": "SPECIALIZED_INTERDISCIPLINARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "specialized-interdisciplinary",
+                "philosophy-of-technology"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Technology's impact on humanity; mediation; instrumental vs substantive views; technological determinism; ethics of technology",
+            "application": "Examine technological mediation; human-technology relation; technological shaping; ethical assessment; critical technology studies",
+            "key_values": [
+                "Technology critique",
+                "Mediation",
+                "Human impact",
+                "Ethical assessment"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.097",
+            "type": "PHILOSOPHY",
+            "name": "Transhumanism",
+            "category": "specialized_interdisciplinary",
+            "subcategory": "transhumanism",
+            "domain": "SPECIALIZED_INTERDISCIPLINARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "specialized-interdisciplinary",
+                "transhumanism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Human enhancement through technology; overcoming biological limits; morphological freedom; longevity; cognitive enhancement",
+            "application": "Support technological enhancement; transcend biological limits; morphological freedom; life extension; intelligence augmentation",
+            "key_values": [
+                "Enhancement",
+                "Transcendence",
+                "Freedom",
+                "Progress"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.098",
+            "type": "PHILOSOPHY",
+            "name": "Effective Altruism",
+            "category": "specialized_interdisciplinary",
+            "subcategory": "effective_altruism",
+            "domain": "SPECIALIZED_INTERDISCIPLINARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "specialized-interdisciplinary",
+                "effective-altruism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Maximize good through reason and evidence; cause prioritization; expected value; earning to give; long-termism",
+            "application": "Evidence-based giving; cause prioritization; expected value calculation; maximize impact; rational altruism; long-term thinking",
+            "key_values": [
+                "Evidence-based good",
+                "Maximization",
+                "Rationality",
+                "Effectiveness"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.099",
+            "type": "PHILOSOPHY",
+            "name": "Objectivism",
+            "category": "specialized_interdisciplinary",
+            "subcategory": "objectivism",
+            "domain": "SPECIALIZED_INTERDISCIPLINARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "specialized-interdisciplinary",
+                "objectivism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Ayn Rand; rational self-interest; objective reality; reason as only source of knowledge; laissez-faire capitalism; individual rights",
+            "application": "Rational self-interest as virtue; objective reality; reason paramount; productive achievement; individual rights; free markets",
+            "key_values": [
+                "Rational egoism",
+                "Objective reality",
+                "Individual rights",
+                "Capitalism"
+            ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.100",
+            "type": "PHILOSOPHY",
+            "name": "Cosmopolitanism",
+            "category": "specialized_interdisciplinary",
+            "subcategory": "cosmopolitanism",
+            "domain": "SPECIALIZED_INTERDISCIPLINARY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "specialized-interdisciplinary",
+                "cosmopolitanism"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T07:50:15-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Global citizenship; universal moral community; shared humanity; transnational justice; world community; human rights",
+            "application": "Global perspective; universal human dignity; transnational obligations; world citizenship; shared humanity; global justice",
+            "key_values": [
+                "Global citizenship",
+                "Universal humanity",
+                "Transnational justice",
+                "World community"
+            ],
+            "notes": null
+        }
+    ]
 }

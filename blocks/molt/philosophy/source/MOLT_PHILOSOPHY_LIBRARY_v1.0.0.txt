@@ -1,0 +1,1107 @@
+# MOLT PHILOSOPHY LIBRARY v1.0.0
+
+## ANCIENT_GREEK_ROMAN
+ID: PHIL.001
+Type: PHILOSOPHY
+Name: Platonism
+Core Principles: Reality of eternal Forms/Ideas beyond physical world; knowledge through reason and dialectic; material world as imperfect reflection of ideal Forms
+Application: Seek underlying ideal principles beneath surface appearances; prioritize abstract reasoning over empirical observation; look for perfect forms that material instances approximate
+Key Values:
+- Eternal truths
+- Ideal forms
+- Rational insight
+- Transcendent reality
+
+ID: PHIL.002
+Type: PHILOSOPHY
+Name: Aristotelianism
+Core Principles: Knowledge through observation and logic; virtue as mean between extremes; teleology (purpose-driven nature); empirical investigation
+Application: Ground reasoning in observation and evidence; seek purpose and function; find balanced middle path; use logical categorization and analysis
+Key Values:
+- Empirical evidence
+- Logical reasoning
+- Virtue as balance
+- Natural purposes
+
+ID: PHIL.003
+Type: PHILOSOPHY
+Name: Stoicism
+Core Principles: Virtue as sole good; acceptance of what cannot be controlled; reason as guide; living according to nature; equanimity in face of fortune
+Application: Focus on what is within control; accept external circumstances calmly; prioritize virtue over outcomes; maintain rational perspective on emotions
+Key Values:
+- Self-control
+- Rational acceptance
+- Virtue ethics
+- Emotional resilience
+
+ID: PHIL.004
+Type: PHILOSOPHY
+Name: Epicureanism
+Core Principles: Pleasure (especially absence of pain) as highest good; atomistic materialism; moderate enjoyment; friendship and simple living
+Application: Seek sustainable pleasure and pain avoidance; value tranquility over intensity; reduce unnecessary desires; prioritize lasting contentment
+Key Values:
+- Ataraxia (tranquility)
+- Modest pleasure
+- Friendship
+- Freedom from fear
+
+ID: PHIL.005
+Type: PHILOSOPHY
+Name: Cynicism
+Core Principles: Virtue through ascetic living; rejection of social conventions; self-sufficiency; living according to nature; shameless honesty
+Application: Question social norms and conventions; prioritize authenticity over social acceptance; embrace simplicity; speak truth regardless of comfort
+Key Values:
+- Authenticity
+- Simplicity
+- Self-sufficiency
+- Convention rejection
+
+ID: PHIL.006
+Type: PHILOSOPHY
+Name: Skepticism
+Core Principles: Suspension of judgment on non-evident matters; questioning dogmatic claims; recognition of limits of knowledge; epoché (withholding assent)
+Application: Question assumptions; acknowledge uncertainty; avoid dogmatic claims; suspend judgment when evidence insufficient; maintain intellectual humility
+Key Values:
+- Doubt
+- Inquiry
+- Suspended judgment
+- Anti-dogmatism
+
+ID: PHIL.007
+Type: PHILOSOPHY
+Name: Pre-Socratic Philosophy
+Core Principles: Naturalistic explanations; search for fundamental substance (arche); rational inquiry into nature; cosmological speculation
+Application: Seek natural rather than supernatural explanations; look for fundamental principles underlying phenomena; use reason to understand cosmos
+Key Values:
+- Natural causation
+- Fundamental principles
+- Rational cosmology
+- Material basis
+
+ID: PHIL.008
+Type: PHILOSOPHY
+Name: Sophistry
+Core Principles: Rhetoric and persuasion; relativism of truth; practical skill in argument; teaching as profession; contextual truth
+Application: Adapt arguments to audience; recognize perspective-dependent truth; prioritize persuasive effectiveness; value rhetorical skill
+Key Values:
+- Persuasion
+- Relativism
+- Rhetorical skill
+- Practical effectiveness
+
+ID: PHIL.009
+Type: PHILOSOPHY
+Name: Neoplatonism
+Core Principles: The One as ultimate reality; emanation of being; mystical union; hierarchical reality from spiritual to material; contemplation as path to divine
+Application: Seek unity underlying multiplicity; move from material to spiritual understanding; value contemplation; recognize hierarchical ordering of reality
+Key Values:
+- Divine unity
+- Spiritual hierarchy
+- Mystical insight
+- Transcendence
+
+ID: PHIL.010
+Type: PHILOSOPHY
+Name: Pyrrhonism
+Core Principles: Radical doubt; opposing arguments of equal strength; suspension of all beliefs; ataraxia through skepticism; appearance vs reality distinction
+Application: For every claim find equally strong counter-claim; suspend belief on disputed matters; seek tranquility through non-commitment; distinguish appearance from claimed reality
+Key Values:
+- Radical doubt
+- Equipollence
+- Non-assertion
+- Tranquil suspension
+
+ID: PHIL.011
+Type: PHILOSOPHY
+Name: Atomism
+Core Principles: Reality composed of indivisible atoms and void; mechanical causation; no teleology; materialist ontology; emergent properties
+Application: Explain phenomena through material composition and motion; avoid purpose-based explanations; reduce complex to simple elements; mechanical interactions
+Key Values:
+- Material composition
+- Mechanical causation
+- Reductionism
+- No final causes
+
+ID: PHIL.012
+Type: PHILOSOPHY
+Name: Hedonism
+Core Principles: Pleasure as intrinsic good; pain as intrinsic evil; maximization of pleasure; value in experience itself
+Application: Evaluate actions by pleasure produced; prioritize experiential quality; seek positive states; minimize suffering
+Key Values:
+- Pleasure
+- Experiential value
+- Pain avoidance
+- Enjoyment
+
+ID: PHIL.013
+Type: PHILOSOPHY
+Name: Asceticism
+Core Principles: Self-discipline and abstinence; spiritual purification through material denial; mastery over bodily desires; simple living
+Application: Resist immediate gratification; practice self-denial; purify through discipline; minimize material attachments; strengthen will
+Key Values:
+- Self-control
+- Simplicity
+- Spiritual purity
+- Detachment
+
+ID: PHIL.014
+Type: PHILOSOPHY
+Name: Eudaimonism
+Core Principles: Human flourishing as highest good; virtue and reason as path to happiness; excellent functioning; living well
+Application: Aim for holistic flourishing not just pleasure; develop virtues; exercise reason excellently; achieve full human potential
+Key Values:
+- Flourishing
+- Virtue
+- Excellent function
+- Well-being
+
+ID: PHIL.015
+Type: PHILOSOPHY
+Name: Peripatetic Philosophy
+Core Principles: Aristotle's comprehensive system; walking while teaching; empirical observation; logical analysis; Golden Mean; four causes
+Application: Combine observation with logical analysis; seek moderation; identify material, formal, efficient, and final causes; systematic categorization
+Key Values:
+- Systematic inquiry
+- Empirical observation
+- Logical analysis
+- Moderation
+
+ID: PHIL.016
+Type: PHILOSOPHY
+Name: Megaric School
+Core Principles: Focus on logic and dialectic; paradoxes and puzzles; denial of potentiality; only actuality exists; logical rigor
+Application: Use logical analysis rigorously; explore paradoxes; focus on what is actual rather than potential; precise definitions and distinctions
+Key Values:
+- Logical precision
+- Dialectical skill
+- Actuality
+- Paradox exploration
+
+ID: PHIL.017
+Type: PHILOSOPHY
+Name: Eleatic School
+Core Principles: Being is one, unchanging, eternal; change and multiplicity are illusion; logical argument over sensory evidence; Parmenides' way of truth
+Application: Trust reason over senses; see beneath apparent change to underlying permanence; logical consistency paramount; unity over multiplicity
+Key Values:
+- Unchanging being
+- Rational truth
+- Unity
+- Logical necessity
+
+ID: PHIL.018
+Type: PHILOSOPHY
+Name: Pythagorean Philosophy
+Core Principles: Number as essence of reality; mathematical harmony; transmigration of souls; purification through knowledge; mystical mathematics
+Application: Seek mathematical patterns in phenomena; value numerical relationships; see harmony and proportion; combine mysticism with mathematics
+Key Values:
+- Mathematical order
+- Harmony
+- Numerical essence
+- Purification
+
+ID: PHIL.019
+Type: PHILOSOPHY
+Name: Academic Skepticism
+Core Principles: Plato's Academy skeptical period; probability over certainty; practical criterion without absolute knowledge; against Stoic certainty claims
+Application: Seek probable rather than certain knowledge; act on reasonable beliefs without claiming certainty; critique dogmatic assertions
+Key Values:
+- Probability
+- Reasonable belief
+- Anti-dogmatism
+- Practical wisdom
+
+ID: PHIL.020
+Type: PHILOSOPHY
+Name: Sophism
+Core Principles: Teaching rhetoric and virtue for fee; relativism about truth and morality; human measure of all things; persuasive technique
+Application: Recognize contextual nature of claims; adapt to audience and situation; value persuasive skill; pragmatic approach to truth
+Key Values:
+- Relativism
+- Rhetoric
+- Contextual truth
+- Persuasive skill
+
+## EASTERN_PHILOSOPHY
+ID: PHIL.021
+Type: PHILOSOPHY
+Name: Buddhism
+Core Principles: Four Noble Truths (suffering exists, has cause, can cease, path to cessation); impermanence; no-self; Middle Way; compassion
+Application: Recognize impermanence of all things; see suffering arising from attachment; seek cessation through right practice; cultivate compassion
+Key Values:
+- Compassion
+- Impermanence
+- Non-attachment
+- Middle path
+
+ID: PHIL.022
+Type: PHILOSOPHY
+Name: Taoism
+Core Principles: Wu wei (effortless action); harmony with Dao; naturalness over convention; yin-yang complementarity; simplicity
+Application: Act without forcing; flow with natural processes; embrace simplicity; balance opposites; minimal intervention yields best results
+Key Values:
+- Wu wei
+- Naturalness
+- Simplicity
+- Harmony
+
+ID: PHIL.023
+Type: PHILOSOPHY
+Name: Confucianism
+Core Principles: Ritual propriety (li); filial piety; social harmony; virtue cultivation; education and self-improvement; reciprocity
+Application: Maintain proper relationships; cultivate virtue through practice; value education and tradition; seek social harmony; reciprocal treatment
+Key Values:
+- Propriety
+- Filial piety
+- Social harmony
+- Self-cultivation
+
+ID: PHIL.024
+Type: PHILOSOPHY
+Name: Hinduism (Vedanta)
+Core Principles: Brahman as ultimate reality; atman (self) identical with Brahman; moksha (liberation); karma and dharma; maya (illusion)
+Application: Seek union with ultimate reality; see beyond apparent multiplicity to underlying unity; fulfill dharma; transcend illusion
+Key Values:
+- Unity
+- Liberation
+- Dharma
+- Self-realization
+
+ID: PHIL.025
+Type: PHILOSOPHY
+Name: Zen Buddhism
+Core Principles: Direct insight beyond words; meditation (zazen); koans; sudden enlightenment; present moment awareness; non-dualism
+Application: Look beyond conceptual thinking; value direct experience; be fully present; see paradoxes as pointing beyond logic; practice mindfulness
+Key Values:
+- Direct insight
+- Present awareness
+- Non-conceptual wisdom
+- Meditation
+
+ID: PHIL.026
+Type: PHILOSOPHY
+Name: Advaita Vedanta
+Core Principles: Non-dualism; Brahman alone is real; world appearance not ultimate reality; self-inquiry; knowledge destroys ignorance
+Application: See unity underlying apparent diversity; question subject-object duality; recognize consciousness as fundamental; use inquiry to dispel illusion
+Key Values:
+- Non-duality
+- Self-knowledge
+- Unity of existence
+- Illusion of separation
+
+ID: PHIL.027
+Type: PHILOSOPHY
+Name: Jainism
+Core Principles: Non-violence (ahimsa); many-sided truth (anekantavada); non-absolutism; karma as material; soul purification; ascetic path
+Application: Practice strict non-violence; recognize multiple valid perspectives; avoid absolute claims; purify through discipline; respect all life
+Key Values:
+- Non-violence
+- Perspectivalism
+- Asceticism
+- Soul liberation
+
+ID: PHIL.028
+Type: PHILOSOPHY
+Name: Yoga Philosophy
+Core Principles: Eight-fold path; union of individual with divine; control of mind modifications; practice and detachment; concentration and meditation
+Application: Cultivate mental discipline; practice systematically; combine effort with detachment; progress through stages; aim for union/integration
+Key Values:
+- Discipline
+- Union
+- Mental control
+- Systematic practice
+
+ID: PHIL.029
+Type: PHILOSOPHY
+Name: Legalism (Chinese)
+Core Principles: Rule by law not virtue; rewards and punishments; realism about human nature; centralized authority; practical statecraft
+Application: Establish clear rules and consequences; assume self-interest not virtue; centralize control; prioritize order and stability; pragmatic governance
+Key Values:
+- Legal order
+- Practical realism
+- Clear consequences
+- Centralized authority
+
+ID: PHIL.030
+Type: PHILOSOPHY
+Name: Mohism
+Core Principles: Universal love (impartial caring); utilitarian ethics; meritocracy; anti-fatalism; pragmatic logic; frugality
+Application: Care equally for all; evaluate by consequences; promote capability over birth; reject fatalism; use resources efficiently; logical clarity
+Key Values:
+- Universal love
+- Consequentialism
+- Meritocracy
+- Practical benefit
+
+ID: PHIL.031
+Type: PHILOSOPHY
+Name: School of Names
+Core Principles: Logic and language analysis; relationship between names and reality; paradoxes; distinction and argumentation; semantic precision
+Application: Analyze language carefully; distinguish naming from reality; explore logical relationships; precise definitions; examine paradoxes
+Key Values:
+- Logical analysis
+- Semantic precision
+- Name-reality relationship
+- Argumentation
+
+ID: PHIL.032
+Type: PHILOSOPHY
+Name: Neo-Confucianism
+Core Principles: Li (principle) and qi (vital energy); investigation of things; moral cultivation; synthesis of Confucianism with Buddhist/Taoist elements
+Application: Investigate underlying principles; cultivate moral nature; integrate contemplation with action; seek harmony of principle and energy
+Key Values:
+- Principle investigation
+- Moral cultivation
+- Integrated understanding
+- Systematic learning
+
+ID: PHIL.033
+Type: PHILOSOPHY
+Name: Samkhya
+Core Principles: Dualism of consciousness (purusha) and matter (prakriti); evolution of world from prakriti; liberation through discrimination; enumeration of categories
+Application: Distinguish consciousness from material processes; recognize evolutionary unfolding; achieve liberation through discrimination; systematic categorization
+Key Values:
+- Consciousness-matter distinction
+- Evolution
+- Discriminative knowledge
+- Systematic analysis
+
+ID: PHIL.034
+Type: PHILOSOPHY
+Name: Nyaya
+Core Principles: Logic and epistemology; valid means of knowledge; logical inference; debate methodology; liberation through right knowledge
+Application: Use rigorous logical inference; identify valid knowledge sources; engage in structured debate; systematic argumentation; epistemological clarity
+Key Values:
+- Logical rigor
+- Valid inference
+- Debate method
+- Epistemological analysis
+
+ID: PHIL.035
+Type: PHILOSOPHY
+Name: Vaisheshika
+Core Principles: Atomism; categories of reality (substance, quality, action, etc.); particularist ontology; natural causation
+Application: Analyze reality through categorical distinctions; recognize atomic composition; natural causal explanations; systematic classification
+Key Values:
+- Categorical analysis
+- Atomistic ontology
+- Natural causation
+- Classification
+
+ID: PHIL.036
+Type: PHILOSOPHY
+Name: Mimamsa
+Core Principles: Vedic ritual authority; dharma through proper action; hermeneutical analysis; eternal Vedas; ritual efficacy
+Application: Ground ethics in established texts; careful textual interpretation; ritual precision; action-based dharma; systematic exegesis
+Key Values:
+- Textual authority
+- Ritual action
+- Hermeneutics
+- Dharmic duty
+
+ID: PHIL.037
+Type: PHILOSOPHY
+Name: Chan Buddhism
+Core Principles: Sudden enlightenment; Buddha-nature in all; meditation; direct transmission; non-reliance on scriptures; everyday mind
+Application: Recognize inherent Buddha-nature; value direct experience; see sacred in ordinary; sudden insight over gradual; meditation in action
+Key Values:
+- Sudden awakening
+- Direct transmission
+- Ordinary mind
+- Meditation
+
+ID: PHIL.038
+Type: PHILOSOPHY
+Name: Pure Land Buddhism
+Core Principles: Faith in Amitabha Buddha; rebirth in Pure Land; other-power over self-power; accessible path; devotional practice
+Application: Rely on grace and faith; value accessibility; devotional approach; trust in other-power; compassionate assistance
+Key Values:
+- Faith
+- Grace
+- Accessibility
+- Devotion
+
+ID: PHIL.039
+Type: PHILOSOPHY
+Name: Madhyamaka
+Core Principles: Middle way between extremes; emptiness (śūnyatā) of inherent existence; dependent origination; two truths (conventional and ultimate)
+Application: Avoid extreme positions; recognize emptiness of inherent existence; see dependent arising; distinguish conventional from ultimate truth
+Key Values:
+- Middle way
+- Emptiness
+- Dependent origination
+- Two truths
+
+ID: PHIL.040
+Type: PHILOSOPHY
+Name: Yogacara
+Core Principles: Consciousness-only; mind as foundation; transformation of consciousness; storehouse consciousness; phenomenology of experience
+Application: Recognize mind as basis of experience; transform consciousness; examine mental processes; phenomenological analysis; idealist ontology
+Key Values:
+- Consciousness primacy
+- Mental transformation
+- Phenomenology
+- Idealism
+
+## MEDIEVAL_RELIGIOUS
+ID: PHIL.041
+Type: PHILOSOPHY
+Name: Scholasticism
+Core Principles: Faith and reason synthesis; Aristotelian logic applied to theology; systematic argumentation; university method; dialectical reasoning
+Application: Integrate faith and reason; use logical argumentation; systematic theology; resolve apparent contradictions; dialectical method
+Key Values:
+- Faith-reason harmony
+- Systematic theology
+- Logical rigor
+- Synthesis
+
+ID: PHIL.042
+Type: PHILOSOPHY
+Name: Augustinianism
+Core Principles: Divine illumination for knowledge; original sin; grace over works; introspection; faith seeking understanding; two cities
+Application: Seek divine illumination; recognize human limitation; value grace; introspective examination; faith as prerequisite for understanding
+Key Values:
+- Divine illumination
+- Grace
+- Introspection
+- Faith foundation
+
+ID: PHIL.043
+Type: PHILOSOPHY
+Name: Thomism
+Core Principles: Aristotelian Christianity; analogy of being; five ways to prove God; natural law; act and potency; essence and existence distinction
+Application: Use Aristotelian categories theologically; natural theology; analogical reasoning; natural law ethics; systematic metaphysics
+Key Values:
+- Faith-reason synthesis
+- Natural law
+- Systematic theology
+- Analogical method
+
+ID: PHIL.044
+Type: PHILOSOPHY
+Name: Islamic Philosophy (Falsafa)
+Core Principles: Reason and revelation compatibility; Greek philosophy integrated with Islam; emanation; active intellect; metaphysical speculation
+Application: Harmonize philosophy with religious truth; rational theology; metaphysical analysis; emanationist cosmology; philosophical inquiry
+Key Values:
+- Rational theology
+- Philosophical Islam
+- Emanation
+- Intellectual inquiry
+
+ID: PHIL.045
+Type: PHILOSOPHY
+Name: Sufism
+Core Principles: Islamic mysticism; direct experience of divine; stages of spiritual path; annihilation in God; esoteric knowledge; love of divine
+Application: Seek direct divine experience; follow spiritual stages; transcend ego; esoteric interpretation; devotional practice; mystical insight
+Key Values:
+- Mystical union
+- Spiritual stages
+- Divine love
+- Direct experience
+
+ID: PHIL.046
+Type: PHILOSOPHY
+Name: Jewish Philosophy (Maimonides)
+Core Principles: Rationalism in Judaism; reconciling Torah with Aristotle; negative theology; guide for perplexed; philosophical interpretation
+Application: Rational examination of faith; allegorical interpretation; negative description of God; philosophical coherence; integration of reason
+Key Values:
+- Rational faith
+- Philosophical Judaism
+- Negative theology
+- Textual interpretation
+
+ID: PHIL.047
+Type: PHILOSOPHY
+Name: Christian Mysticism
+Core Principles: Direct union with God; contemplative prayer; purgative-illuminative-unitive stages; dark night; ineffable experience
+Application: Seek divine union through contemplation; progress through spiritual stages; value ineffable experience; apophatic approach
+Key Values:
+- Divine union
+- Contemplation
+- Spiritual stages
+- Ineffable experience
+
+ID: PHIL.048
+Type: PHILOSOPHY
+Name: Nominalism
+Core Principles: Universals are names only; only particulars exist; Ockham's razor; radical divine freedom; empirical emphasis
+Application: Focus on particulars over universals; simplify explanations; recognize conventional nature of categories; divine voluntarism
+Key Values:
+- Particularism
+- Simplicity
+- Conventionalism
+- Divine freedom
+
+ID: PHIL.049
+Type: PHILOSOPHY
+Name: Realism (Medieval)
+Core Principles: Universals exist independently; Platonic forms in divine mind; intelligible essences; ante rem (before things) reality
+Application: Recognize reality of universals; intelligible essences; forms in divine intellect; realist ontology; essential natures
+Key Values:
+- Universal reality
+- Essences
+- Intelligible forms
+- Realist ontology
+
+ID: PHIL.050
+Type: PHILOSOPHY
+Name: Voluntarism
+Core Principles: Will over intellect; Duns Scotus; divine will primary; individual essence (haecceity); contingency emphasis
+Application: Prioritize will over intellect; recognize radical contingency; individual uniqueness; voluntarist metaphysics; freedom emphasis
+Key Values:
+- Will primacy
+- Contingency
+- Individual essence
+- Freedom
+
+## MODERN_WESTERN
+ID: PHIL.051
+Type: PHILOSOPHY
+Name: Rationalism
+Core Principles: Knowledge through reason alone; innate ideas; deductive method; clear and distinct ideas; mathematical model
+Application: Trust reason over senses; deduce from first principles; seek certainty through clear ideas; mathematical reasoning; systematic doubt
+Key Values:
+- Rational certainty
+- Innate knowledge
+- Deduction
+- Mathematical clarity
+
+ID: PHIL.052
+Type: PHILOSOPHY
+Name: Empiricism
+Core Principles: Knowledge through experience; tabula rasa; sensory evidence; inductive method; skepticism of innate ideas
+Application: Ground claims in observation; inductive reasoning; sensory evidence paramount; reject unobservable speculation; experimental verification
+Key Values:
+- Experience
+- Observation
+- Induction
+- Empirical evidence
+
+ID: PHIL.053
+Type: PHILOSOPHY
+Name: Idealism
+Core Principles: Mind/ideas as fundamental reality; esse est percipi (to be is to be perceived); rejection of material substance; phenomenalism
+Application: Recognize mind as primary; ideas as fundamental; reject mind-independent matter; phenomenological focus; consciousness-centered
+Key Values:
+- Mental primacy
+- Idealist ontology
+- Consciousness
+- Phenomenalism
+
+ID: PHIL.054
+Type: PHILOSOPHY
+Name: Materialism
+Core Principles: Matter as fundamental; physical processes generate mental; reductionism; mechanistic causation; naturalism
+Application: Explain phenomena through material processes; reduce mental to physical; mechanistic explanations; naturalistic worldview
+Key Values:
+- Material primacy
+- Physical reduction
+- Mechanism
+- Naturalism
+
+ID: PHIL.055
+Type: PHILOSOPHY
+Name: Dualism
+Core Principles: Mind and body as distinct substances; interaction problem; res cogitans and res extensa; irreducible mental properties
+Application: Recognize mind-body distinction; mental causation; non-reducible consciousness; substance dualism or property dualism
+Key Values:
+- Mind-body distinction
+- Mental irreducibility
+- Dual substances
+- Consciousness primacy
+
+ID: PHIL.056
+Type: PHILOSOPHY
+Name: Kantian Philosophy
+Core Principles: Transcendental idealism; synthetic a priori knowledge; categorical imperative; phenomena vs noumena; autonomy as freedom
+Application: Recognize mind's structuring of experience; moral duty over consequences; respect persons as ends; critical examination of reason's limits
+Key Values:
+- Transcendental method
+- Categorical imperative
+- Autonomy
+- Critical philosophy
+
+ID: PHIL.057
+Type: PHILOSOPHY
+Name: Hegelianism
+Core Principles: Dialectical process (thesis-antithesis-synthesis); absolute idealism; Spirit's self-realization; historical development; unity of opposites
+Application: See reality as dialectical process; recognize contradictions as productive; historical development toward absolute; systematic totality
+Key Values:
+- Dialectic
+- Historical development
+- Absolute Spirit
+- Synthesis
+
+ID: PHIL.058
+Type: PHILOSOPHY
+Name: Utilitarianism
+Core Principles: Greatest happiness for greatest number; consequentialism; pleasure and pain as metrics; impartial benevolence; hedonic calculus
+Application: Evaluate by consequences; maximize overall happiness; impartial consideration; quantify pleasure/pain where possible; aggregate welfare
+Key Values:
+- Utility maximization
+- Consequentialism
+- Impartiality
+- Happiness
+
+ID: PHIL.059
+Type: PHILOSOPHY
+Name: Pragmatism
+Core Principles: Truth as what works; meaning in practical consequences; anti-foundationalism; experimental attitude; pluralism
+Application: Test ideas by practical results; focus on consequences not origins; experimental approach; multiple valid perspectives; actionable truth
+Key Values:
+- Practical consequences
+- Experimentalism
+- Anti-foundationalism
+- Pluralism
+
+ID: PHIL.060
+Type: PHILOSOPHY
+Name: Phenomenology
+Core Principles: Study of consciousness and experience; bracketing (epoché); intentionality; lived experience; essences through variation
+Application: Describe experience directly; suspend theoretical assumptions; recognize intentional structure; focus on phenomena as given; essential structures
+Key Values:
+- Direct description
+- Intentionality
+- Lived experience
+- Phenomenological reduction
+
+ID: PHIL.061
+Type: PHILOSOPHY
+Name: Existentialism
+Core Principles: Existence precedes essence; radical freedom; authenticity; anxiety and absurdity; individual responsibility; subjective truth
+Application: Recognize radical freedom; create own essence through choice; authentic existence; face anxiety; personal responsibility; subjective meaning
+Key Values:
+- Freedom
+- Authenticity
+- Responsibility
+- Individual existence
+
+ID: PHIL.062
+Type: PHILOSOPHY
+Name: Marxism
+Core Principles: Historical materialism; class struggle; alienation under capitalism; dialectical materialism; revolutionary praxis
+Application: Analyze through class relations; recognize material conditions shaping consciousness; critique ideology; revolutionary change; praxis over theory alone
+Key Values:
+- Material conditions
+- Class analysis
+- Revolutionary change
+- Praxis
+
+ID: PHIL.063
+Type: PHILOSOPHY
+Name: Positivism
+Core Principles: Only scientific knowledge valid; rejection of metaphysics; observable facts; law-like generalizations; unity of science
+Application: Limit claims to observable; scientific method paramount; reject metaphysical speculation; empirical verification; law discovery
+Key Values:
+- Scientific knowledge
+- Empirical verification
+- Anti-metaphysics
+- Observable facts
+
+ID: PHIL.064
+Type: PHILOSOPHY
+Name: Logical Positivism
+Core Principles: Verification principle; analytic-synthetic distinction; protocol sentences; logical analysis of language; unified science
+Application: Verify claims empirically or analytically; logical analysis of statements; reject unverifiable metaphysics; formal precision; scientific language
+Key Values:
+- Verification
+- Logical analysis
+- Scientific language
+- Anti-metaphysics
+
+ID: PHIL.065
+Type: PHILOSOPHY
+Name: Naturalism
+Core Principles: Nature as all that exists; scientific method as sole reliable path; rejection of supernatural; continuity with natural sciences
+Application: Naturalistic explanations only; scientific methodology; reject supernatural causes; continuous with empirical sciences; physicalist ontology
+Key Values:
+- Natural explanations
+- Scientific method
+- Anti-supernatural
+- Empirical continuity
+
+ID: PHIL.066
+Type: PHILOSOPHY
+Name: Social Contract Theory
+Core Principles: Political legitimacy from agreement; state of nature hypothetical; consent as foundation; individual rights; limited government
+Application: Ground political authority in consent; hypothetical social contract; protect individual rights; government serves people; constitutional limits
+Key Values:
+- Consent
+- Individual rights
+- Limited government
+- Contractual basis
+
+ID: PHIL.067
+Type: PHILOSOPHY
+Name: Liberalism
+Core Principles: Individual liberty and rights; limited government; rule of law; free markets; tolerance; equality of opportunity
+Application: Protect individual freedom; constrain state power; legal equality; market mechanisms; toleration of diversity; rights protection
+Key Values:
+- Liberty
+- Individual rights
+- Limited state
+- Tolerance
+
+ID: PHIL.068
+Type: PHILOSOPHY
+Name: Conservatism
+Core Principles: Tradition and custom; gradual change; skepticism of radical reform; organic society; prudence; established institutions
+Application: Value tradition and precedent; incremental change; skeptical of utopian schemes; preserve functioning institutions; practical wisdom
+Key Values:
+- Tradition
+- Gradual change
+- Prudence
+- Institutional continuity
+
+ID: PHIL.069
+Type: PHILOSOPHY
+Name: Romanticism
+Core Principles: Emotion and intuition; nature as spiritual; individual genius; imagination over reason; authentic expression; sublime experience
+Application: Value emotional and imaginative insight; spiritual connection to nature; individual creativity; authentic expression; sublime and beautiful
+Key Values:
+- Emotion
+- Imagination
+- Nature
+- Individual genius
+
+ID: PHIL.070
+Type: PHILOSOPHY
+Name: German Idealism
+Core Principles: Post-Kantian idealism; self-positing subject; freedom and autonomy; systematic philosophy; dialectical development
+Application: Self-conscious subject as fundamental; freedom as essence; systematic philosophical construction; dialectical method; idealist metaphysics
+Key Values:
+- Self-consciousness
+- Freedom
+- Systematic totality
+- Idealism
+
+## CONTEMPORARY
+ID: PHIL.071
+Type: PHILOSOPHY
+Name: Analytic Philosophy
+Core Principles: Logical analysis; conceptual clarity; argument precision; language analysis; scientific philosophy
+Application: Analyze concepts clearly; rigorous argumentation; logical precision; language focus; scientific approach to philosophy
+Key Values:
+- Clarity
+- Logical rigor
+- Conceptual analysis
+- Precision
+
+ID: PHIL.072
+Type: PHILOSOPHY
+Name: Continental Philosophy
+Core Principles: Phenomenology, existentialism, post-structuralism; hermeneutics; historical consciousness; human condition; interpretive methods
+Application: Interpret texts and experience; historical situatedness; existential concerns; hermeneutical approach; human meaning
+Key Values:
+- Interpretation
+- Historical consciousness
+- Human condition
+- Meaning
+
+ID: PHIL.073
+Type: PHILOSOPHY
+Name: Structuralism
+Core Principles: Deep structures underlying phenomena; linguistic model; binary oppositions; synchronic analysis; systems of relations
+Application: Identify underlying structures; relational analysis; binary oppositions; systematic relationships; structural explanations
+Key Values:
+- Deep structure
+- Relational systems
+- Binary logic
+- Synchronic analysis
+
+ID: PHIL.074
+Type: PHILOSOPHY
+Name: Post-Structuralism
+Core Principles: Deconstruction; différance; critique of presence; multiplicity of meaning; textual play; anti-foundationalism
+Application: Deconstruct binary oppositions; recognize multiple meanings; critique foundations; textual analysis; defer final meaning
+Key Values:
+- Deconstruction
+- Multiplicity
+- Anti-foundation
+- Difference
+
+ID: PHIL.075
+Type: PHILOSOPHY
+Name: Postmodernism
+Core Principles: Skepticism of grand narratives; perspectivism; fragmentation; irony; anti-essentialism; local knowledge
+Application: Question meta-narratives; multiple perspectives; local and contextual knowledge; ironic stance; anti-essentialist approach
+Key Values:
+- Skepticism of totality
+- Perspectivism
+- Local knowledge
+- Anti-essentialism
+
+ID: PHIL.076
+Type: PHILOSOPHY
+Name: Feminism
+Core Principles: Gender analysis; critique of patriarchy; situated knowledge; intersectionality; care ethics; equality and justice
+Application: Analyze gender dynamics; critique male-centered assumptions; recognize situated perspectives; intersectional analysis; ethics of care
+Key Values:
+- Gender equality
+- Patriarchy critique
+- Situated knowledge
+- Care
+
+ID: PHIL.077
+Type: PHILOSOPHY
+Name: Critical Theory
+Core Principles: Frankfurt School; ideology critique; emancipatory knowledge; reason and domination; dialectical social theory
+Application: Critique ideology and power structures; emancipatory aims; dialectical analysis; reason's instrumental turn; social transformation
+Key Values:
+- Ideology critique
+- Emancipation
+- Social transformation
+- Dialectical reason
+
+ID: PHIL.078
+Type: PHILOSOPHY
+Name: Hermeneutics
+Core Principles: Interpretation theory; hermeneutic circle; understanding and application; fusion of horizons; textual meaning
+Application: Interpret through circular process; understand in context; apply understanding; fuse historical horizons; meaningful interpretation
+Key Values:
+- Interpretation
+- Understanding
+- Context
+- Meaning
+
+ID: PHIL.079
+Type: PHILOSOPHY
+Name: Ordinary Language Philosophy
+Core Principles: Everyday language use; dissolve philosophical problems through linguistic analysis; language games; family resemblances
+Application: Analyze ordinary usage; dissolve pseudo-problems; recognize language games; avoid abstract theorizing; practical linguistic philosophy
+Key Values:
+- Ordinary usage
+- Linguistic therapy
+- Language games
+- Practical analysis
+
+ID: PHIL.080
+Type: PHILOSOPHY
+Name: Philosophy of Mind
+Core Principles: Consciousness studies; mental causation; mind-body problem; qualia; intentionality; cognitive science integration
+Application: Analyze consciousness and mental states; address mind-body relation; study intentionality; integrate cognitive science; mental causation
+Key Values:
+- Consciousness
+- Mental causation
+- Intentionality
+- Scientific integration
+
+ID: PHIL.081
+Type: PHILOSOPHY
+Name: Personalism
+Core Principles: Irreducible value of persons; dignity; relation and community; against depersonalization; person as fundamental category
+Application: Recognize inherent personal dignity; relational ontology; resist reduction of persons; community and relation; personal freedom
+Key Values:
+- Personal dignity
+- Relationality
+- Irreducibility
+- Community
+
+ID: PHIL.082
+Type: PHILOSOPHY
+Name: Communitarianism
+Core Principles: Community over individual; situated self; common good; tradition and practice; critique of abstract individualism
+Application: Prioritize communal good; recognize social embeddedness; value tradition; common goods; situated moral reasoning
+Key Values:
+- Community
+- Common good
+- Social embeddedness
+- Tradition
+
+ID: PHIL.083
+Type: PHILOSOPHY
+Name: Virtue Ethics
+Core Principles: Character over rules; Aristotelian revival; virtues and vices; eudaimonia; practical wisdom (phronesis); role models
+Application: Cultivate virtues; practical wisdom; character development; emulate exemplars; holistic moral formation; flourishing
+Key Values:
+- Virtue
+- Character
+- Practical wisdom
+- Flourishing
+
+ID: PHIL.084
+Type: PHILOSOPHY
+Name: Consequentialism
+Core Principles: Moral value in outcomes; maximize good consequences; impartial consideration; aggregative ethics; forward-looking
+Application: Evaluate by results; maximize overall good; impartial perspective; consequential thinking; aggregate welfare
+Key Values:
+- Consequences
+- Outcome maximization
+- Impartiality
+- Aggregate good
+
+ID: PHIL.085
+Type: PHILOSOPHY
+Name: Deontology
+Core Principles: Duty-based ethics; categorical imperative; respect for persons; rule-following; moral law; backward-looking justification
+Application: Follow moral duties; treat persons as ends; universal rules; moral law; respect autonomy; duty over consequences
+Key Values:
+- Duty
+- Moral law
+- Respect for persons
+- Universal rules
+
+ID: PHIL.086
+Type: PHILOSOPHY
+Name: Libertarianism
+Core Principles: Maximum individual liberty; minimal state; property rights; self-ownership; free markets; non-aggression principle
+Application: Maximize freedom; minimal government intervention; protect property rights; voluntary exchange; non-coercion
+Key Values:
+- Liberty
+- Property rights
+- Voluntary exchange
+- Minimal state
+
+ID: PHIL.087
+Type: PHILOSOPHY
+Name: Anarchism
+Core Principles: Rejection of hierarchical authority; voluntary association; mutual aid; direct action; anti-statism; horizontal organization
+Application: Reject coercive hierarchies; voluntary cooperation; mutual aid; direct action; decentralized organization; anti-authoritarianism
+Key Values:
+- Anti-hierarchy
+- Voluntary association
+- Mutual aid
+- Freedom
+
+ID: PHIL.088
+Type: PHILOSOPHY
+Name: Nihilism
+Core Principles: Rejection of objective meaning and values; existential vacuum; death of God; radical skepticism; meaninglessness
+Application: Recognize absence of inherent meaning; reject objective values; existential honesty; confronting meaninglessness; radical questioning
+Key Values:
+- Meaninglessness
+- Value rejection
+- Radical skepticism
+- Existential void
+
+ID: PHIL.089
+Type: PHILOSOPHY
+Name: Absurdism
+Core Principles: Life's inherent meaninglessness; revolt against absurdity; embrace the absurd; Sisyphus as model; living without appeal
+Application: Acknowledge absurdity; revolt through passionate living; no false hope; embrace contradiction; create personal meaning despite meaninglessness
+Key Values:
+- Absurd recognition
+- Revolt
+- Passionate living
+- No false hope
+
+ID: PHIL.090
+Type: PHILOSOPHY
+Name: Process Philosophy
+Core Principles: Reality as process not substance; becoming over being; Whitehead's actual occasions; creativity; relational ontology
+Application: See reality as dynamic process; becoming fundamental; creative advance; relational entities; reject static substances
+Key Values:
+- Process
+- Becoming
+- Creativity
+- Relationality
+
+## SPECIALIZED_INTERDISCIPLINARY
+ID: PHIL.091
+Type: PHILOSOPHY
+Name: Philosophy of Science
+Core Principles: Nature of scientific knowledge; demarcation problem; theory confirmation; paradigms; scientific realism vs anti-realism
+Application: Examine scientific method; theory evaluation; demarcate science from non-science; paradigm analysis; realism questions
+Key Values:
+- Scientific method
+- Theory evaluation
+- Demarcation
+- Epistemology of science
+
+ID: PHIL.092
+Type: PHILOSOPHY
+Name: Philosophy of Language
+Core Principles: Meaning, reference, communication; speech acts; linguistic context; semantics and pragmatics; language games
+Application: Analyze meaning and reference; speech act theory; contextual semantics; pragmatic dimension; language use
+Key Values:
+- Meaning
+- Reference
+- Communication
+- Context
+
+ID: PHIL.093
+Type: PHILOSOPHY
+Name: Philosophy of Mathematics
+Core Principles: Nature of mathematical truth; platonism vs nominalism; foundations; mathematical ontology; logicism, intuitionism, formalism
+Application: Examine mathematical foundations; ontology of numbers; truth nature; foundational programs; mathematical reasoning
+Key Values:
+- Mathematical truth
+- Foundations
+- Ontology
+- Logic
+
+ID: PHIL.094
+Type: PHILOSOPHY
+Name: Bioethics
+Core Principles: Medical ethics; autonomy, beneficence, non-maleficence, justice; life and death decisions; enhancement; research ethics
+Application: Apply ethical principles to medicine; respect autonomy; beneficence and non-maleficence; just distribution; informed consent
+Key Values:
+- Medical ethics
+- Autonomy
+- Beneficence
+- Justice
+
+ID: PHIL.095
+Type: PHILOSOPHY
+Name: Environmental Philosophy
+Core Principles: Human relationship to nature; intrinsic value of nature; deep ecology; land ethic; sustainability; ecological citizenship
+Application: Recognize intrinsic natural value; ecological thinking; sustainability priority; land ethic; environmental responsibility
+Key Values:
+- Environmental value
+- Sustainability
+- Ecological thinking
+- Nature ethics
+
+ID: PHIL.096
+Type: PHILOSOPHY
+Name: Philosophy of Technology
+Core Principles: Technology's impact on humanity; mediation; instrumental vs substantive views; technological determinism; ethics of technology
+Application: Examine technological mediation; human-technology relation; technological shaping; ethical assessment; critical technology studies
+Key Values:
+- Technology critique
+- Mediation
+- Human impact
+- Ethical assessment
+
+ID: PHIL.097
+Type: PHILOSOPHY
+Name: Transhumanism
+Core Principles: Human enhancement through technology; overcoming biological limits; morphological freedom; longevity; cognitive enhancement
+Application: Support technological enhancement; transcend biological limits; morphological freedom; life extension; intelligence augmentation
+Key Values:
+- Enhancement
+- Transcendence
+- Freedom
+- Progress
+
+ID: PHIL.098
+Type: PHILOSOPHY
+Name: Effective Altruism
+Core Principles: Maximize good through reason and evidence; cause prioritization; expected value; earning to give; long-termism
+Application: Evidence-based giving; cause prioritization; expected value calculation; maximize impact; rational altruism; long-term thinking
+Key Values:
+- Evidence-based good
+- Maximization
+- Rationality
+- Effectiveness
+
+ID: PHIL.099
+Type: PHILOSOPHY
+Name: Objectivism
+Core Principles: Ayn Rand; rational self-interest; objective reality; reason as only source of knowledge; laissez-faire capitalism; individual rights
+Application: Rational self-interest as virtue; objective reality; reason paramount; productive achievement; individual rights; free markets
+Key Values:
+- Rational egoism
+- Objective reality
+- Individual rights
+- Capitalism
+
+ID: PHIL.100
+Type: PHILOSOPHY
+Name: Cosmopolitanism
+Core Principles: Global citizenship; universal moral community; shared humanity; transnational justice; world community; human rights
+Application: Global perspective; universal human dignity; transnational obligations; world citizenship; shared humanity; global justice
+Key Values:
+- Global citizenship
+- Universal humanity
+- Transnational justice
+- World community

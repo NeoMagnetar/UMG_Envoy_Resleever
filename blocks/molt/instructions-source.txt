@@ -1,0 +1,619 @@
+## ANALYTICAL_ACTIONS
+ID: INST.001
+Type: INSTRUCTION
+Name: Break into components
+Action: Decompose complex system or concept into constituent parts
+Output: List of distinct components with relationships identified
+
+ID: INST.002
+Type: INSTRUCTION
+Name: Compare side-by-side
+Action: Place options in parallel structure with matched criteria
+Output: Comparison matrix or structured parallel evaluation
+
+ID: INST.003
+Type: INSTRUCTION
+Name: Trace causality
+Action: Follow chain of causes backward from observed effect
+Output: Causal chain from root cause to current state
+
+ID: INST.004
+Type: INSTRUCTION
+Name: Identify patterns
+Action: Look for recurring structures, relationships, or behaviors
+Output: Documented patterns with examples and frequency
+
+ID: INST.005
+Type: INSTRUCTION
+Name: Measure against baseline
+Action: Compare current state to established standard or prior state
+Output: Quantified deviation from baseline with significance
+
+## INFORMATION_GATHERING
+ID: INST.006
+Type: INSTRUCTION
+Name: Search systematically
+Action: Query available sources using structured approach
+Output: Organized results with source attribution
+
+ID: INST.007
+Type: INSTRUCTION
+Name: Extract key facts
+Action: Identify and pull essential information from source material
+Output: List of facts with source references
+
+ID: INST.008
+Type: INSTRUCTION
+Name: Consolidate sources
+Action: Combine information from multiple sources into coherent summary
+Output: Synthesized view with conflicting information flagged
+
+ID: INST.009
+Type: INSTRUCTION
+Name: Document context
+Action: Record relevant background, constraints, and situational factors
+Output: Context description with key variables identified
+
+ID: INST.010
+Type: INSTRUCTION
+Name: Verify claims
+Action: Check assertions against reliable sources or evidence
+Output: Verification status with supporting/contradicting evidence
+
+## CREATIVE_GENERATION
+ID: INST.011
+Type: INSTRUCTION
+Name: Generate alternatives
+Action: Produce multiple distinct options or approaches
+Output: Set of diverse alternatives with key differences highlighted
+
+ID: INST.012
+Type: INSTRUCTION
+Name: Combine concepts
+Action: Merge disparate ideas into novel synthesis
+Output: New concept with lineage from source ideas
+
+ID: INST.013
+Type: INSTRUCTION
+Name: Invert assumptions
+Action: Flip conventional thinking to explore opposite approach
+Output: Alternative framing with inverted premises
+
+ID: INST.014
+Type: INSTRUCTION
+Name: Adapt existing solution
+Action: Modify known approach to fit new context
+Output: Adapted solution with changes from original documented
+
+ID: INST.015
+Type: INSTRUCTION
+Name: Sketch possibilities
+Action: Create rough outlines of potential directions
+Output: Multiple sketches showing range of options
+
+## COMMUNICATION_ACTIONS
+ID: INST.016
+Type: INSTRUCTION
+Name: State directly
+Action: Express point clearly without hedging or indirection
+Output: Clear statement of position or information
+
+ID: INST.017
+Type: INSTRUCTION
+Name: Provide examples
+Action: Illustrate abstract concept with concrete instances
+Output: Concept plus 2-3 concrete examples
+
+ID: INST.018
+Type: INSTRUCTION
+Name: Rephrase for clarity
+Action: Restate complex point using simpler language
+Output: Simplified restatement maintaining meaning
+
+ID: INST.019
+Type: INSTRUCTION
+Name: Acknowledge perspective
+Action: Explicitly recognize other viewpoint before responding
+Output: Statement showing understanding of other position
+
+ID: INST.020
+Type: INSTRUCTION
+Name: Structure logically
+Action: Organize points in clear sequence with transitions
+Output: Structured presentation with logical flow
+
+## VERIFICATION_ACTIONS
+ID: INST.021
+Type: INSTRUCTION
+Name: Check against requirements
+Action: Verify each requirement is met by solution
+Output: Requirement checklist with pass/fail status
+
+ID: INST.022
+Type: INSTRUCTION
+Name: Test edge cases
+Action: Evaluate behavior at boundary conditions
+Output: Edge case scenarios with outcomes
+
+ID: INST.023
+Type: INSTRUCTION
+Name: Validate logic
+Action: Verify reasoning chain has no gaps or errors
+Output: Logic chain review with any flaws identified
+
+ID: INST.024
+Type: INSTRUCTION
+Name: Cross-check sources
+Action: Compare information across multiple independent sources
+Output: Consensus view with discrepancies noted
+
+ID: INST.025
+Type: INSTRUCTION
+Name: Simulate outcomes
+Action: Project likely results of proposed action
+Output: Outcome predictions with confidence levels
+
+## PROBLEM_SOLVING_ACTIONS
+ID: INST.026
+Type: INSTRUCTION
+Name: Isolate the problem
+Action: Narrow down to specific failing component or step
+Output: Precise problem location identified
+
+ID: INST.027
+Type: INSTRUCTION
+Name: Remove blockers
+Action: Identify and eliminate obstacles preventing progress
+Output: List of blockers with removal actions
+
+ID: INST.028
+Type: INSTRUCTION
+Name: Apply known fix
+Action: Implement standard solution for recognized problem type
+Output: Fix applied with verification
+
+ID: INST.029
+Type: INSTRUCTION
+Name: Work around limitation
+Action: Find alternative path when direct approach blocked
+Output: Workaround method with trade-offs noted
+
+ID: INST.030
+Type: INSTRUCTION
+Name: Iterate toward solution
+Action: Make incremental improvements through repeated attempts
+Output: Series of refinements with progress tracking
+
+## PLANNING_ACTIONS
+ID: INST.031
+Type: INSTRUCTION
+Name: Define milestones
+Action: Establish concrete checkpoints marking progress
+Output: Milestone list with completion criteria
+
+ID: INST.032
+Type: INSTRUCTION
+Name: Sequence tasks
+Action: Order work items based on dependencies
+Output: Task sequence with dependency relationships
+
+ID: INST.033
+Type: INSTRUCTION
+Name: Allocate resources
+Action: Assign time, effort, or materials to activities
+Output: Resource distribution with justification
+
+ID: INST.034
+Type: INSTRUCTION
+Name: Set priorities
+Action: Rank items by importance or urgency
+Output: Prioritized list with ranking criteria
+
+ID: INST.035
+Type: INSTRUCTION
+Name: Establish timeline
+Action: Assign time estimates and deadlines to activities
+Output: Schedule with time allocations
+
+## EVALUATION_ACTIONS
+ID: INST.036
+Type: INSTRUCTION
+Name: Rate against criteria
+Action: Score performance on established dimensions
+Output: Numerical or categorical ratings per criterion
+
+ID: INST.037
+Type: INSTRUCTION
+Name: Identify strengths
+Action: Highlight what works well
+Output: List of positive aspects with supporting evidence
+
+ID: INST.038
+Type: INSTRUCTION
+Name: Identify weaknesses
+Action: Pinpoint areas needing improvement
+Output: List of problems with severity assessment
+
+ID: INST.039
+Type: INSTRUCTION
+Name: Benchmark against standards
+Action: Compare to industry norms or best practices
+Output: Performance relative to benchmark
+
+ID: INST.040
+Type: INSTRUCTION
+Name: Suggest improvements
+Action: Propose specific changes to enhance quality
+Output: Improvement recommendations with expected impact
+
+## EXECUTION_ACTIONS
+ID: INST.041
+Type: INSTRUCTION
+Name: Follow procedure
+Action: Execute steps in prescribed sequence
+Output: Completed procedure with steps checked off
+
+ID: INST.042
+Type: INSTRUCTION
+Name: Build incrementally
+Action: Construct solution piece by piece with testing
+Output: Working system grown through iterations
+
+ID: INST.043
+Type: INSTRUCTION
+Name: Delegate appropriately
+Action: Assign tasks to capable parties with clear instructions
+Output: Delegation plan with assignments and expectations
+
+ID: INST.044
+Type: INSTRUCTION
+Name: Monitor progress
+Action: Track advancement toward goals with regular checks
+Output: Progress reports with status indicators
+
+ID: INST.045
+Type: INSTRUCTION
+Name: Adjust based on feedback
+Action: Modify approach in response to results
+Output: Updated plan reflecting learned information
+
+## DOCUMENTATION_ACTIONS
+ID: INST.046
+Type: INSTRUCTION
+Name: Document decisions
+Action: Record what was decided and why
+Output: Decision log with rationale
+
+ID: INST.047
+Type: INSTRUCTION
+Name: Explain reasoning
+Action: Articulate thought process from inputs to conclusion
+Output: Reasoning chain showing logic flow
+
+ID: INST.048
+Type: INSTRUCTION
+Name: Annotate code
+Action: Add comments explaining functionality and intent
+Output: Commented code with clear explanations
+
+ID: INST.049
+Type: INSTRUCTION
+Name: Create examples
+Action: Generate sample usage or concrete instances
+Output: Working examples with explanatory notes
+
+ID: INST.050
+Type: INSTRUCTION
+Name: Maintain changelog
+Action: Record modifications with dates and reasons
+Output: Chronological change log
+
+## LEARNING_ACTIONS
+ID: INST.051
+Type: INSTRUCTION
+Name: Study systematically
+Action: Work through material in organized progression
+Output: Knowledge acquired with comprehension verified
+
+ID: INST.052
+Type: INSTRUCTION
+Name: Practice deliberately
+Action: Repeat skill with focused attention on improvement
+Output: Skill level increased through targeted practice
+
+ID: INST.053
+Type: INSTRUCTION
+Name: Request feedback
+Action: Explicitly ask for evaluation and suggestions
+Output: Feedback received with action items
+
+ID: INST.054
+Type: INSTRUCTION
+Name: Analyze mistakes
+Action: Examine errors to understand root causes
+Output: Error analysis with corrective actions
+
+ID: INST.055
+Type: INSTRUCTION
+Name: Apply learning
+Action: Use newly acquired knowledge in practical context
+Output: Knowledge demonstrated through application
+
+## COLLABORATION_ACTIONS
+ID: INST.056
+Type: INSTRUCTION
+Name: Synchronize with team
+Action: Share status and coordinate activities
+Output: Team aligned on current state and next steps
+
+ID: INST.057
+Type: INSTRUCTION
+Name: Resolve conflicts
+Action: Address disagreements through structured dialogue
+Output: Conflict resolved with agreed path forward
+
+ID: INST.058
+Type: INSTRUCTION
+Name: Share knowledge
+Action: Distribute relevant information to appropriate parties
+Output: Knowledge transferred to those who need it
+
+ID: INST.059
+Type: INSTRUCTION
+Name: Build consensus
+Action: Work toward agreement through inclusive process
+Output: Group alignment on decision or approach
+
+ID: INST.060
+Type: INSTRUCTION
+Name: Facilitate discussion
+Action: Guide group conversation toward productive outcome
+Output: Structured dialogue with concrete results
+
+## TECHNICAL_IMPLEMENTATION
+ID: INST.061
+Type: INSTRUCTION
+Name: Write clean code
+Action: Produce readable, maintainable implementation
+Output: Code following style guidelines and best practices
+
+ID: INST.062
+Type: INSTRUCTION
+Name: Refactor for clarity
+Action: Restructure code to improve readability without changing behavior
+Output: Cleaner code with same functionality
+
+ID: INST.063
+Type: INSTRUCTION
+Name: Add error handling
+Action: Implement graceful failure and recovery mechanisms
+Output: Robust code that handles edge cases
+
+ID: INST.064
+Type: INSTRUCTION
+Name: Write tests first
+Action: Define expected behavior through test cases before implementing
+Output: Test suite guiding implementation
+
+ID: INST.065
+Type: INSTRUCTION
+Name: Optimize performance
+Action: Improve speed or resource usage of working code
+Output: Faster execution with verified correctness
+
+## STRATEGIC_ACTIONS
+ID: INST.066
+Type: INSTRUCTION
+Name: Map landscape
+Action: Document current state of environment and actors
+Output: Situational map showing key elements and relationships
+
+ID: INST.067
+Type: INSTRUCTION
+Name: Identify opportunities
+Action: Spot potential advantages or favorable conditions
+Output: Opportunity list with viability assessment
+
+ID: INST.068
+Type: INSTRUCTION
+Name: Assess threats
+Action: Evaluate risks and potential negative developments
+Output: Threat analysis with mitigation options
+
+ID: INST.069
+Type: INSTRUCTION
+Name: Scenario plan
+Action: Develop contingency plans for possible futures
+Output: Scenarios with response strategies
+
+ID: INST.070
+Type: INSTRUCTION
+Name: Position for advantage
+Action: Take actions that improve future strategic position
+Output: Positioning moves with expected benefits
+
+## QUALITY_ASSURANCE
+ID: INST.071
+Type: INSTRUCTION
+Name: Run test suite
+Action: Execute all tests and verify passing
+Output: Test results with pass/fail status
+
+ID: INST.072
+Type: INSTRUCTION
+Name: Review systematically
+Action: Examine work using structured checklist
+Output: Review completed with findings documented
+
+ID: INST.073
+Type: INSTRUCTION
+Name: Verify compliance
+Action: Check adherence to standards and requirements
+Output: Compliance status with gaps identified
+
+ID: INST.074
+Type: INSTRUCTION
+Name: Catch errors early
+Action: Implement checks at earliest possible stage
+Output: Problems detected before propagating
+
+ID: INST.075
+Type: INSTRUCTION
+Name: Maintain standards
+Action: Apply quality criteria consistently
+Output: Consistent quality across outputs
+
+## GOVERNANCE_ACTIONS
+ID: INST.076
+Type: INSTRUCTION
+Name: Check governance rules
+Action: Verify action against established governance constraints
+Output: Governance compliance status
+
+ID: INST.077
+Type: INSTRUCTION
+Name: Escalate to authority
+Action: Route decision to appropriate authority level
+Output: Decision escalated with context provided
+
+ID: INST.078
+Type: INSTRUCTION
+Name: Create audit trail
+Action: Document actions and decisions for review
+Output: Auditable record of activities
+
+ID: INST.079
+Type: INSTRUCTION
+Name: Enforce boundaries
+Action: Prevent actions outside authorized scope
+Output: Boundary violation blocked
+
+ID: INST.080
+Type: INSTRUCTION
+Name: Report violations
+Action: Flag governance breaches for review
+Output: Violation report with details
+
+## EFFICIENCY_ACTIONS
+ID: INST.081
+Type: INSTRUCTION
+Name: Eliminate redundancy
+Action: Remove duplicate or unnecessary work
+Output: Streamlined process with waste removed
+
+ID: INST.082
+Type: INSTRUCTION
+Name: Automate repetitive tasks
+Action: Create scripts or processes for recurring work
+Output: Automated workflow reducing manual effort
+
+ID: INST.083
+Type: INSTRUCTION
+Name: Batch similar work
+Action: Group related tasks for efficient processing
+Output: Batched activities with reduced context switching
+
+ID: INST.084
+Type: INSTRUCTION
+Name: Cache results
+Action: Store computed outcomes for reuse
+Output: Cached data reducing redundant computation
+
+ID: INST.085
+Type: INSTRUCTION
+Name: Parallelize work
+Action: Execute independent tasks simultaneously
+Output: Concurrent execution reducing total time
+
+## CLARIFICATION_ACTIONS
+ID: INST.086
+Type: INSTRUCTION
+Name: Ask clarifying questions
+Action: Request specific information to resolve ambiguity
+Output: Questions posed to narrow uncertainty
+
+ID: INST.087
+Type: INSTRUCTION
+Name: State assumptions explicitly
+Action: Articulate what is being assumed in absence of info
+Output: Assumption list for verification
+
+ID: INST.088
+Type: INSTRUCTION
+Name: Confirm understanding
+Action: Verify interpretation is correct before proceeding
+Output: Understanding validated with stakeholder
+
+ID: INST.089
+Type: INSTRUCTION
+Name: Define terms precisely
+Action: Establish clear meaning for key concepts
+Output: Term definitions agreed upon
+
+ID: INST.090
+Type: INSTRUCTION
+Name: Disambiguate requirements
+Action: Resolve multiple interpretations of specification
+Output: Single clear interpretation established
+
+## ADAPTATION_ACTIONS
+ID: INST.091
+Type: INSTRUCTION
+Name: Pivot approach
+Action: Change direction when current path proves unviable
+Output: New approach adopted with rationale
+
+ID: INST.092
+Type: INSTRUCTION
+Name: Incorporate feedback
+Action: Modify work based on received input
+Output: Updated output reflecting feedback
+
+ID: INST.093
+Type: INSTRUCTION
+Name: Scale response
+Action: Adjust effort level to match situation severity
+Output: Response calibrated to actual need
+
+ID: INST.094
+Type: INSTRUCTION
+Name: Update mental model
+Action: Revise understanding based on new information
+Output: Updated belief reflecting evidence
+
+ID: INST.095
+Type: INSTRUCTION
+Name: Flex within constraints
+Action: Adapt approach while respecting fixed boundaries
+Output: Creative solution within limits
+
+## UMG_OPERATIONAL_ACTIONS
+ID: INST.096
+Type: INSTRUCTION
+Name: Load specified sleeve
+Action: Activate NeoSleeve configuration from library
+Output: Sleeve loaded with active blocks reported
+
+ID: INST.097
+Type: INSTRUCTION
+Name: Stack blocks hierarchically
+Action: Arrange MOLT blocks with top constraining bottom
+Output: Hierarchical block structure established
+
+ID: INST.098
+Type: INSTRUCTION
+Name: Trace decision path
+Action: Document reasoning from trigger through conclusion
+Output: Complete decision trace for audit
+
+ID: INST.099
+Type: INSTRUCTION
+Name: Verify Tool Anchor
+Action: Confirm operation maintains tool status and human authority
+Output: Tool Anchor compliance verified
+
+ID: INST.100
+Type: INSTRUCTION
+Name: Coordinate with mesh
+Action: Synchronize with other UMG-governed agents
+Output: Multi-agent coordination achieved
