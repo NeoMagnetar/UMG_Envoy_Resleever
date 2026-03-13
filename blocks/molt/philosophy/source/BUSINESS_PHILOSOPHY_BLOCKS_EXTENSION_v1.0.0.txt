@@ -1,0 +1,611 @@
+# BUSINESS PHILOSOPHY BLOCKS EXTENSION v1.0.0
+
+## DECISION_MAKING
+ID: PHIL.101
+Type: PHILOSOPHY
+Name: Data-Driven Decision Making
+Core Principles: Base decisions on evidence and metrics rather than intuition alone
+Application: Collect relevant data, analyze objectively, test assumptions, measure outcomes, iterate based on results
+
+ID: PHIL.102
+Type: PHILOSOPHY
+Name: Reversible vs Irreversible Decisions
+Core Principles: Move fast on reversible decisions, deliberate carefully on irreversible ones
+Application: Identify decision type, use appropriate speed and rigor, enable quick iteration on Type 2 decisions
+
+ID: PHIL.103
+Type: PHILOSOPHY
+Name: Disagree and Commit
+Core Principles: Debate vigorously, then commit fully once decision is made
+Application: Encourage dissent during discussion, demand alignment after decision, no undermining post-decision
+
+ID: PHIL.104
+Type: PHILOSOPHY
+Name: First Principles Thinking
+Core Principles: Break problems down to fundamental truths and reason up from there
+Application: Question assumptions, identify core truths, rebuild reasoning from foundation, avoid reasoning by analogy
+
+ID: PHIL.105
+Type: PHILOSOPHY
+Name: Expected Value Optimization
+Core Principles: Maximize expected value considering both probability and magnitude
+Application: Assess likelihood, estimate impact, calculate expected value, make high-EV bets even with risk
+
+ID: PHIL.106
+Type: PHILOSOPHY
+Name: Opportunity Cost Awareness
+Core Principles: Consider what you're giving up by choosing one path over another
+Application: Identify alternatives, compare true costs including forgone opportunities, choose highest value option
+
+ID: PHIL.107
+Type: PHILOSOPHY
+Name: Bias Toward Action
+Core Principles: Default to doing rather than deliberating when uncertainty is high
+Application: Start before feeling ready, learn through action, iterate quickly, avoid analysis paralysis
+
+ID: PHIL.108
+Type: PHILOSOPHY
+Name: Think in Bets
+Core Principles: Frame decisions as bets with odds and stakes rather than binary right/wrong
+Application: Acknowledge uncertainty, assign probabilities, size bets appropriately, update based on outcomes
+
+ID: PHIL.109
+Type: PHILOSOPHY
+Name: Regret Minimization Framework
+Core Principles: Choose paths that minimize long-term regret
+Application: Project forward to end of life, imagine looking back, identify what would cause regret, act accordingly
+
+ID: PHIL.110
+Type: PHILOSOPHY
+Name: Second-Order Thinking
+Core Principles: Consider consequences of consequences, not just immediate effects
+Application: Ask 'and then what?', trace multiple levels of impact, anticipate unintended consequences
+
+## CUSTOMER_FOCUS
+ID: PHIL.111
+Type: PHILOSOPHY
+Name: Customer Obsession
+Core Principles: Start with customer needs and work backward
+Application: Listen to customers deeply, solve real problems, measure customer satisfaction, prioritize customer value
+
+ID: PHIL.112
+Type: PHILOSOPHY
+Name: Jobs to be Done Mindset
+Core Principles: Customers hire products to get jobs done in their lives
+Application: Understand functional and emotional jobs, design solutions for jobs not features, measure job success
+
+ID: PHIL.113
+Type: PHILOSOPHY
+Name: Product-Market Fit Obsession
+Core Principles: Nothing else matters until you achieve product-market fit
+Application: Focus relentlessly on PMF, measure it rigorously, don't scale prematurely, iterate until fit is achieved
+
+ID: PHIL.114
+Type: PHILOSOPHY
+Name: Customer Lifetime Value Focus
+Core Principles: Optimize for long-term customer value, not single transactions
+Application: Invest in retention, measure LTV, balance acquisition and retention, build sustainable relationships
+
+ID: PHIL.115
+Type: PHILOSOPHY
+Name: Outcome Over Output
+Core Principles: Measure customer outcomes achieved, not features shipped
+Application: Define success by customer results, track outcome metrics, validate value delivery, iterate on impact
+
+ID: PHIL.116
+Type: PHILOSOPHY
+Name: Voice of Customer Integration
+Core Principles: Systematically incorporate customer feedback into decisions
+Application: Gather feedback continuously, analyze for patterns, close feedback loops, act on insights
+
+ID: PHIL.117
+Type: PHILOSOPHY
+Name: Customer Success Partnership
+Core Principles: View customer relationships as true partnerships toward mutual success
+Application: Align incentives, invest in customer success, share knowledge generously, grow together
+
+ID: PHIL.118
+Type: PHILOSOPHY
+Name: Segment-Specific Value
+Core Principles: Different customer segments need different value propositions
+Application: Segment thoughtfully, tailor offerings, customize messaging, serve each segment appropriately
+
+ID: PHIL.119
+Type: PHILOSOPHY
+Name: Customer Effort Reduction
+Core Principles: Make it easy for customers to do business with you
+Application: Reduce friction, simplify processes, enable self-service, remove unnecessary steps
+
+ID: PHIL.120
+Type: PHILOSOPHY
+Name: Proactive Value Delivery
+Core Principles: Anticipate needs and deliver value before being asked
+Application: Monitor customer health, identify opportunities early, reach out proactively, prevent issues
+
+## EXECUTION_VELOCITY
+ID: PHIL.121
+Type: PHILOSOPHY
+Name: Move Fast and Break Things
+Core Principles: Prioritize speed and learning over perfection in early stages
+Application: Ship quickly, accept some breakage, learn from failures, iterate rapidly, optimize for learning speed
+
+ID: PHIL.122
+Type: PHILOSOPHY
+Name: Ship to Learn
+Core Principles: The fastest way to learn is to ship and gather real feedback
+Application: Release early versions, get real usage data, learn from customers, iterate based on reality
+
+ID: PHIL.123
+Type: PHILOSOPHY
+Name: 80/20 Execution
+Core Principles: Focus on the 20% of effort that drives 80% of results
+Application: Identify high-leverage activities, deprioritize low-impact work, maximize output per input
+
+ID: PHIL.124
+Type: PHILOSOPHY
+Name: Done is Better Than Perfect
+Core Principles: Shipping imperfect work beats endlessly polishing
+Application: Set 'good enough' thresholds, avoid perfectionism, release and iterate, value momentum
+
+ID: PHIL.125
+Type: PHILOSOPHY
+Name: Bias for Simplicity
+Core Principles: Choose simple solutions over complex ones when possible
+Application: Question complexity, remove unnecessary elements, make things obvious, reduce cognitive load
+
+ID: PHIL.126
+Type: PHILOSOPHY
+Name: Ruthless Prioritization
+Core Principles: Say no to good ideas to focus on great ones
+Application: Limit WIP, focus intensely, kill projects, protect focus, choose few bets
+
+ID: PHIL.127
+Type: PHILOSOPHY
+Name: Compound Progress
+Core Principles: Small consistent improvements compound into massive gains
+Application: Improve 1% daily, build habits, track progress, celebrate small wins, trust compounding
+
+ID: PHIL.128
+Type: PHILOSOPHY
+Name: Parallel Work Streams
+Core Principles: Execute multiple initiatives concurrently when dependencies allow
+Application: Identify independent workstreams, parallelize execution, coordinate effectively, maximize throughput
+
+ID: PHIL.129
+Type: PHILOSOPHY
+Name: Timebox Exploration
+Core Principles: Set time limits on investigation and experimentation
+Application: Define exploration windows, commit to decision deadlines, act on time even with uncertainty
+
+ID: PHIL.130
+Type: PHILOSOPHY
+Name: Momentum Preservation
+Core Principles: Maintain forward motion even when optimal path is unclear
+Application: Keep shipping, maintain cadence, avoid stalls, course-correct while moving
+
+## INNOVATION_GROWTH
+ID: PHIL.131
+Type: PHILOSOPHY
+Name: Growth Mindset
+Core Principles: Abilities can be developed through dedication and effort
+Application: Embrace challenges, persist through obstacles, see effort as path to mastery, learn from criticism
+
+ID: PHIL.132
+Type: PHILOSOPHY
+Name: Experimentation Culture
+Core Principles: Run experiments continuously to discover what works
+Application: Form hypotheses, design tests, measure results, scale winners, kill losers quickly
+
+ID: PHIL.133
+Type: PHILOSOPHY
+Name: Fail Fast, Learn Faster
+Core Principles: Quick failures are valuable learning opportunities
+Application: Test quickly, identify failures early, extract lessons, apply learnings, move on
+
+ID: PHIL.134
+Type: PHILOSOPHY
+Name: 10x Thinking
+Core Principles: Aim for 10x improvement, not 10% - it forces different approaches
+Application: Set ambitious goals, question constraints, reimagine solutions, challenge incremental thinking
+
+ID: PHIL.135
+Type: PHILOSOPHY
+Name: Beginner's Mind
+Core Principles: Approach problems without preconceptions, as a beginner would
+Application: Question assumptions, see with fresh eyes, avoid expertise bias, stay curious
+
+ID: PHIL.136
+Type: PHILOSOPHY
+Name: Adjacent Possible Exploration
+Core Principles: Explore opportunities just beyond current capabilities
+Application: Map current state, identify adjacent opportunities, take calculated leaps, expand gradually
+
+ID: PHIL.137
+Type: PHILOSOPHY
+Name: Combinatorial Innovation
+Core Principles: Combine existing ideas in novel ways to create innovation
+Application: Study diverse fields, find unexpected connections, recombine concepts, cross-pollinate ideas
+
+ID: PHIL.138
+Type: PHILOSOPHY
+Name: Constraint-Driven Innovation
+Core Principles: Constraints force creative solutions
+Application: Embrace limitations, design around constraints, find creative workarounds, use scarcity productively
+
+ID: PHIL.139
+Type: PHILOSOPHY
+Name: Build-Measure-Learn
+Core Principles: Iterate through rapid cycles of building, measuring, and learning
+Application: Build minimal versions, measure real usage, learn from data, iterate quickly
+
+ID: PHIL.140
+Type: PHILOSOPHY
+Name: Question Core Assumptions
+Core Principles: Regularly challenge fundamental beliefs about your business
+Application: List key assumptions, test them explicitly, update beliefs, pivot when warranted
+
+## TEAM_CULTURE
+ID: PHIL.141
+Type: PHILOSOPHY
+Name: Radical Transparency
+Core Principles: Share information openly by default, restrict only when necessary
+Application: Default to public, share metrics widely, communicate openly, build trust through transparency
+
+ID: PHIL.142
+Type: PHILOSOPHY
+Name: High Trust, Low Process
+Core Principles: Trust people to do the right thing rather than adding process
+Application: Hire well, trust judgment, minimize bureaucracy, add process only when needed
+
+ID: PHIL.143
+Type: PHILOSOPHY
+Name: Ownership Mentality
+Core Principles: Act like owners, not employees - take initiative and responsibility
+Application: Empower decision-making, reward ownership, hold accountable, think long-term
+
+ID: PHIL.144
+Type: PHILOSOPHY
+Name: No Ego, Best Idea Wins
+Core Principles: Ideas are judged on merit, not who proposes them
+Application: Encourage all voices, debate ideas vigorously, check egos, implement best solutions
+
+ID: PHIL.145
+Type: PHILOSOPHY
+Name: Psychological Safety
+Core Principles: Create environment where people feel safe to take risks and be vulnerable
+Application: Welcome questions, reward speaking up, punish silence on problems, model vulnerability
+
+ID: PHIL.146
+Type: PHILOSOPHY
+Name: Extreme Candor
+Core Principles: Care personally and challenge directly
+Application: Give honest feedback, show you care, address issues directly, build genuine relationships
+
+ID: PHIL.147
+Type: PHILOSOPHY
+Name: Written Communication
+Core Principles: Document decisions and thinking in writing
+Application: Write memos, document decisions, think through writing, create shared understanding
+
+ID: PHIL.148
+Type: PHILOSOPHY
+Name: Hire for Slope, Not Y-Intercept
+Core Principles: Hire for learning rate and potential, not just current skills
+Application: Assess learning ability, value trajectory, invest in development, grow talent
+
+ID: PHIL.149
+Type: PHILOSOPHY
+Name: Team Over Individual
+Core Principles: Optimize for team success, not individual heroics
+Application: Reward collaboration, share credit, support teammates, build collective capability
+
+ID: PHIL.150
+Type: PHILOSOPHY
+Name: Default to Action
+Core Principles: When in doubt, do something rather than nothing
+Application: Bias toward trying, accept some mistakes, learn by doing, avoid overthinking
+
+## RESOURCE_ALLOCATION
+ID: PHIL.151
+Type: PHILOSOPHY
+Name: Capital Efficiency
+Core Principles: Maximize output per dollar of capital deployed
+Application: Measure capital productivity, optimize spend, demonstrate ROI, build lean operations
+
+ID: PHIL.152
+Type: PHILOSOPHY
+Name: Invest in Leverage
+Core Principles: Allocate resources to activities with multiplier effects
+Application: Identify high-leverage work, invest in force multipliers, build scalable assets
+
+ID: PHIL.153
+Type: PHILOSOPHY
+Name: Bet on Strengths
+Core Principles: Double down on what works rather than fixing weaknesses
+Application: Identify core strengths, invest heavily there, partner or outsource weaknesses
+
+ID: PHIL.154
+Type: PHILOSOPHY
+Name: Portfolio Approach
+Core Principles: Balance portfolio of safe bets and high-risk/high-reward initiatives
+Application: Diversify investments, manage risk consciously, balance core and exploration
+
+ID: PHIL.155
+Type: PHILOSOPHY
+Name: Zero-Based Resource Allocation
+Core Principles: Justify all resource allocation from scratch, not historically
+Application: Question existing allocations, reallocate based on current priorities, avoid inertia
+
+ID: PHIL.156
+Type: PHILOSOPHY
+Name: Focus Over Coverage
+Core Principles: Win decisively in chosen areas rather than being mediocre everywhere
+Application: Choose battles, concentrate resources, dominate niches, avoid spreading thin
+
+ID: PHIL.157
+Type: PHILOSOPHY
+Name: Time as Scarce Resource
+Core Principles: Treat time as the ultimate non-renewable resource
+Application: Guard time fiercely, prioritize ruthlessly, eliminate time wasters, value speed
+
+ID: PHIL.158
+Type: PHILOSOPHY
+Name: Strategic Patience
+Core Principles: Be patient for growth, impatient for profit/learning
+Application: Allow compound growth time, demand quick learning cycles, balance urgency and patience
+
+ID: PHIL.159
+Type: PHILOSOPHY
+Name: Build vs Buy vs Partner
+Core Principles: Deliberately choose between building, buying, or partnering for capabilities
+Application: Assess strategic value, evaluate options, choose appropriate path, move decisively
+
+ID: PHIL.160
+Type: PHILOSOPHY
+Name: Opportunity Fund Reserves
+Core Principles: Maintain capacity to seize unexpected opportunities
+Application: Keep resources in reserve, preserve optionality, move quickly on opportunities
+
+## COMPETITIVE_STRATEGY
+ID: PHIL.161
+Type: PHILOSOPHY
+Name: Differentiate or Die
+Core Principles: Clear differentiation is essential for survival
+Application: Define unique value, avoid commoditization, build defensibility, communicate difference
+
+ID: PHIL.162
+Type: PHILOSOPHY
+Name: Network Effects Obsession
+Core Principles: Build products that get better as more people use them
+Application: Design for network effects, achieve critical mass, defend against competitors, compound advantage
+
+ID: PHIL.163
+Type: PHILOSOPHY
+Name: Winner-Take-Most Markets
+Core Principles: In many markets, #1 captures disproportionate value
+Application: Race to dominance, invest aggressively in leadership, avoid being #3 or worse
+
+ID: PHIL.164
+Type: PHILOSOPHY
+Name: Category Creation
+Core Principles: Create and own new categories rather than competing in existing ones
+Application: Define new category, educate market, set standards, become category leader
+
+ID: PHIL.165
+Type: PHILOSOPHY
+Name: Compete on Different Dimensions
+Core Principles: Win by changing the game, not playing the same game better
+Application: Identify new value dimensions, shift basis of competition, make current game irrelevant
+
+ID: PHIL.166
+Type: PHILOSOPHY
+Name: Strategic Judo
+Core Principles: Use competitors' size and strength against them
+Application: Identify incumbent weaknesses, exploit structural disadvantages, move where they can't follow
+
+ID: PHIL.167
+Type: PHILOSOPHY
+Name: Fast Follower Strategy
+Core Principles: Learn from pioneers' mistakes and execute better
+Application: Let others validate market, observe what works, execute with improvements, move fast
+
+ID: PHIL.168
+Type: PHILOSOPHY
+Name: Moat Building
+Core Principles: Continuously strengthen competitive advantages and barriers
+Application: Identify moat types, invest in defensibility, widen moat over time, protect advantages
+
+ID: PHIL.169
+Type: PHILOSOPHY
+Name: Asymmetric Warfare
+Core Principles: Fight battles where you have unfair advantages
+Application: Choose favorable battlegrounds, leverage unique strengths, avoid direct strength-on-strength competition
+
+ID: PHIL.170
+Type: PHILOSOPHY
+Name: Coopetition Mindset
+Core Principles: Sometimes cooperating with competitors creates more value than competing
+Application: Identify win-win scenarios, build standards together, compete and cooperate strategically
+
+## RISK_MANAGEMENT
+ID: PHIL.171
+Type: PHILOSOPHY
+Name: Asymmetric Risk-Taking
+Core Principles: Take risks with limited downside and unlimited upside
+Application: Seek convex payoffs, limit losses, preserve optionality, bet where you can't lose much but can win big
+
+ID: PHIL.172
+Type: PHILOSOPHY
+Name: Antifragility
+Core Principles: Build systems that gain from volatility and disorder
+Application: Design for resilience, benefit from shocks, avoid fragility, get stronger from stress
+
+ID: PHIL.173
+Type: PHILOSOPHY
+Name: Margin of Safety
+Core Principles: Build in buffer for uncertainty and unknowns
+Application: Plan conservatively, expect surprises, maintain reserves, avoid fragile dependencies
+
+ID: PHIL.174
+Type: PHILOSOPHY
+Name: Pre-Mortem Thinking
+Core Principles: Imagine failure and work backward to identify risks
+Application: Assume failure, identify causes, mitigate risks proactively, plan contingencies
+
+ID: PHIL.175
+Type: PHILOSOPHY
+Name: Redundancy Over Efficiency
+Core Principles: Accept some inefficiency for resilience and reliability
+Application: Build backup systems, maintain spare capacity, avoid single points of failure
+
+ID: PHIL.176
+Type: PHILOSOPHY
+Name: Informed Risk-Taking
+Core Principles: Take calculated risks based on understanding, not blind bets
+Application: Assess risks explicitly, understand probability and impact, choose consciously
+
+ID: PHIL.177
+Type: PHILOSOPHY
+Name: Tail Risk Awareness
+Core Principles: Pay attention to low-probability, high-impact events
+Application: Identify tail risks, protect against ruin, don't ignore unlikely disasters
+
+ID: PHIL.178
+Type: PHILOSOPHY
+Name: Barbell Strategy
+Core Principles: Combine extreme safety with extreme risk, avoid middle ground
+Application: Protect core with conservative approach, take aggressive risks with small portion
+
+ID: PHIL.179
+Type: PHILOSOPHY
+Name: Kill Your Darlings
+Core Principles: Be willing to abandon even beloved projects when they're not working
+Application: Assess objectively, cut losses quickly, avoid sunk cost fallacy, reallocate resources
+
+ID: PHIL.180
+Type: PHILOSOPHY
+Name: Prepare for Multiple Scenarios
+Core Principles: Plan for various futures rather than betting on one
+Application: Develop scenarios, prepare contingencies, maintain flexibility, adapt to reality
+
+## VALUE_CREATION
+ID: PHIL.181
+Type: PHILOSOPHY
+Name: Create Value, Then Capture
+Core Principles: Focus first on creating real value, then on capturing fair share
+Application: Solve real problems, deliver genuine value, build pricing power through value creation
+
+ID: PHIL.182
+Type: PHILOSOPHY
+Name: Win-Win Philosophy
+Core Principles: Structure interactions for mutual benefit when possible
+Application: Seek positive-sum outcomes, align incentives, build long-term partnerships
+
+ID: PHIL.183
+Type: PHILOSOPHY
+Name: Value-Based Pricing
+Core Principles: Price based on value delivered, not costs incurred
+Application: Understand customer value, price to value, justify premium pricing, capture fair share
+
+ID: PHIL.184
+Type: PHILOSOPHY
+Name: Stakeholder Balance
+Core Principles: Create value for all stakeholders, not just shareholders
+Application: Consider customers, employees, partners, community; balance interests, build sustainability
+
+ID: PHIL.185
+Type: PHILOSOPHY
+Name: Continuous Value Addition
+Core Principles: Keep adding value to maintain and grow relationships
+Application: Never rest on past value, innovate continuously, deepen relationships, prevent commoditization
+
+ID: PHIL.186
+Type: PHILOSOPHY
+Name: Economic Value Creation
+Core Principles: Generate returns above cost of capital sustainably
+Application: Measure economic profit, optimize ROIC, create real economic value, sustain over time
+
+ID: PHIL.187
+Type: PHILOSOPHY
+Name: Platform Value Creation
+Core Principles: Create value by connecting and enabling others
+Application: Build two-sided markets, enable transactions, take fair platform fee, grow ecosystem
+
+ID: PHIL.188
+Type: PHILOSOPHY
+Name: Leverage Asymmetry
+Core Principles: Create situations where you benefit more than you cost
+Application: Find asymmetric opportunities, scale value delivery, capture increasing returns
+
+ID: PHIL.189
+Type: PHILOSOPHY
+Name: Compounding Value
+Core Principles: Build value that compounds over time
+Application: Make cumulative improvements, benefit from compound effects, think in decades
+
+ID: PHIL.190
+Type: PHILOSOPHY
+Name: Pricing Power Focus
+Core Principles: Build businesses that can raise prices without losing customers
+Application: Create differentiation, build switching costs, demonstrate unique value, avoid commoditization
+
+## OPERATING_PRINCIPLES
+ID: PHIL.191
+Type: PHILOSOPHY
+Name: Measure What Matters
+Core Principles: Track metrics that actually drive business outcomes
+Application: Define key metrics, avoid vanity metrics, measure leading indicators, act on data
+
+ID: PHIL.192
+Type: PHILOSOPHY
+Name: Systems Over Goals
+Core Principles: Build systems and processes that naturally produce desired outcomes
+Application: Design good systems, trust process, measure system health, improve continuously
+
+ID: PHIL.193
+Type: PHILOSOPHY
+Name: Automate and Eliminate
+Core Principles: Automate repeatable work, eliminate unnecessary work entirely
+Application: Identify repetitive tasks, automate where possible, question necessity, eliminate waste
+
+ID: PHIL.194
+Type: PHILOSOPHY
+Name: Direct Responsibility
+Core Principles: Every important outcome has one person directly responsible
+Application: Assign clear ownership, avoid diffused responsibility, hold accountable, empower owners
+
+ID: PHIL.195
+Type: PHILOSOPHY
+Name: Blameless Post-Mortems
+Core Principles: Learn from failures without blame to encourage honesty
+Application: Focus on system improvements, avoid punishment, extract lessons, prevent recurrence
+
+ID: PHIL.196
+Type: PHILOSOPHY
+Name: Working Backwards
+Core Principles: Start from desired customer experience and work backward to requirements
+Application: Write press release first, define customer experience, determine requirements, build to spec
+
+ID: PHIL.197
+Type: PHILOSOPHY
+Name: Single-Threaded Leadership
+Core Principles: Important initiatives deserve dedicated leadership focus
+Application: Assign dedicated leaders, avoid split attention on critical projects, resource appropriately
+
+ID: PHIL.198
+Type: PHILOSOPHY
+Name: Two-Pizza Teams
+Core Principles: Keep teams small enough to feed with two pizzas (6-10 people)
+Application: Limit team size, maintain agility, reduce communication overhead, empower small teams
+
+ID: PHIL.199
+Type: PHILOSOPHY
+Name: Day One Mentality
+Core Principles: Maintain startup mindset and urgency regardless of company size
+Application: Resist complacency, stay hungry, move fast, question bureaucracy, maintain scrappiness
+
+ID: PHIL.200
+Type: PHILOSOPHY
+Name: Think Long-Term
+Core Principles: Optimize for long-term value over short-term gains
+Application: Make multi-year bets, resist quarterly pressure, invest in future, build durable advantages

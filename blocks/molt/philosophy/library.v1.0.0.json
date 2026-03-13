@@ -8,10 +8,10 @@
         "description": "Normalized philosophy catalog produced during Stage 4",
         "source": {
             "provided_by": "User supplied Stage 4 drop",
-            "ingested_at": "2026-03-13T07:50:15-06:00",
+            "ingested_at": "2026-03-13T08:40:14-06:00",
             "ingested_by": "Stage4-Agent"
         },
-        "entry_count": 100
+        "entry_count": 200
     },
     "entries": [
         {
@@ -196,7 +196,7 @@
                 "ingested_by": "Stage4-Agent",
                 "supervised_by": "NeoMAG"
             },
-            "core_principles": "Suspension of judgment on non-evident matters; questioning dogmatic claims; recognition of limits of knowledge; epoch\u00e9 (withholding assent)",
+            "core_principles": "Suspension of judgment on non-evident matters; questioning dogmatic claims; recognition of limits of knowledge; epoché (withholding assent)",
             "application": "Question assumptions; acknowledge uncertainty; avoid dogmatic claims; suspend judgment when evidence insufficient; maintain intellectual humility",
             "key_values": [
                 "Doubt",
@@ -1252,7 +1252,7 @@
                 "ingested_by": "Stage4-Agent",
                 "supervised_by": "NeoMAG"
             },
-            "core_principles": "Middle way between extremes; emptiness (\u015b\u016bnyat\u0101) of inherent existence; dependent origination; two truths (conventional and ultimate)",
+            "core_principles": "Middle way between extremes; emptiness (śūnyatā) of inherent existence; dependent origination; two truths (conventional and ultimate)",
             "application": "Avoid extreme positions; recognize emptiness of inherent existence; see dependent arising; distinguish conventional from ultimate truth",
             "key_values": [
                 "Middle way",
@@ -1924,7 +1924,7 @@
                 "ingested_by": "Stage4-Agent",
                 "supervised_by": "NeoMAG"
             },
-            "core_principles": "Study of consciousness and experience; bracketing (epoch\u00e9); intentionality; lived experience; essences through variation",
+            "core_principles": "Study of consciousness and experience; bracketing (epoché); intentionality; lived experience; essences through variation",
             "application": "Describe experience directly; suspend theoretical assumptions; recognize intentional structure; focus on phenomena as given; essential structures",
             "key_values": [
                 "Direct description",
@@ -2372,7 +2372,7 @@
                 "ingested_by": "Stage4-Agent",
                 "supervised_by": "NeoMAG"
             },
-            "core_principles": "Deconstruction; diff\u00e9rance; critique of presence; multiplicity of meaning; textual play; anti-foundationalism",
+            "core_principles": "Deconstruction; différance; critique of presence; multiplicity of meaning; textual play; anti-foundationalism",
             "application": "Deconstruct binary oppositions; recognize multiple meanings; critique foundations; textual analysis; defer final meaning",
             "key_values": [
                 "Deconstruction",
@@ -3212,6 +3212,2706 @@
                 "Transnational justice",
                 "World community"
             ],
+            "notes": null
+        },
+        {
+            "id": "PHIL.101",
+            "type": "PHILOSOPHY",
+            "name": "Data-Driven Decision Making",
+            "category": "decision_making",
+            "subcategory": "data_driven_decision_making",
+            "domain": "DECISION_MAKING",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "decision-making",
+                "data-driven-decision-making"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Base decisions on evidence and metrics rather than intuition alone",
+            "application": "Collect relevant data, analyze objectively, test assumptions, measure outcomes, iterate based on results",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.102",
+            "type": "PHILOSOPHY",
+            "name": "Reversible vs Irreversible Decisions",
+            "category": "decision_making",
+            "subcategory": "reversible_vs_irreversible_decisions",
+            "domain": "DECISION_MAKING",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "decision-making",
+                "reversible-vs-irreversible-decisions"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Move fast on reversible decisions, deliberate carefully on irreversible ones",
+            "application": "Identify decision type, use appropriate speed and rigor, enable quick iteration on Type 2 decisions",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.103",
+            "type": "PHILOSOPHY",
+            "name": "Disagree and Commit",
+            "category": "decision_making",
+            "subcategory": "disagree_and_commit",
+            "domain": "DECISION_MAKING",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "decision-making",
+                "disagree-and-commit"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Debate vigorously, then commit fully once decision is made",
+            "application": "Encourage dissent during discussion, demand alignment after decision, no undermining post-decision",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.104",
+            "type": "PHILOSOPHY",
+            "name": "First Principles Thinking",
+            "category": "decision_making",
+            "subcategory": "first_principles_thinking",
+            "domain": "DECISION_MAKING",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "decision-making",
+                "first-principles-thinking"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Break problems down to fundamental truths and reason up from there",
+            "application": "Question assumptions, identify core truths, rebuild reasoning from foundation, avoid reasoning by analogy",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.105",
+            "type": "PHILOSOPHY",
+            "name": "Expected Value Optimization",
+            "category": "decision_making",
+            "subcategory": "expected_value_optimization",
+            "domain": "DECISION_MAKING",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "decision-making",
+                "expected-value-optimization"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Maximize expected value considering both probability and magnitude",
+            "application": "Assess likelihood, estimate impact, calculate expected value, make high-EV bets even with risk",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.106",
+            "type": "PHILOSOPHY",
+            "name": "Opportunity Cost Awareness",
+            "category": "decision_making",
+            "subcategory": "opportunity_cost_awareness",
+            "domain": "DECISION_MAKING",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "decision-making",
+                "opportunity-cost-awareness"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Consider what you're giving up by choosing one path over another",
+            "application": "Identify alternatives, compare true costs including forgone opportunities, choose highest value option",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.107",
+            "type": "PHILOSOPHY",
+            "name": "Bias Toward Action",
+            "category": "decision_making",
+            "subcategory": "bias_toward_action",
+            "domain": "DECISION_MAKING",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "decision-making",
+                "bias-toward-action"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Default to doing rather than deliberating when uncertainty is high",
+            "application": "Start before feeling ready, learn through action, iterate quickly, avoid analysis paralysis",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.108",
+            "type": "PHILOSOPHY",
+            "name": "Think in Bets",
+            "category": "decision_making",
+            "subcategory": "think_in_bets",
+            "domain": "DECISION_MAKING",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "decision-making",
+                "think-in-bets"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Frame decisions as bets with odds and stakes rather than binary right/wrong",
+            "application": "Acknowledge uncertainty, assign probabilities, size bets appropriately, update based on outcomes",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.109",
+            "type": "PHILOSOPHY",
+            "name": "Regret Minimization Framework",
+            "category": "decision_making",
+            "subcategory": "regret_minimization_framework",
+            "domain": "DECISION_MAKING",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "decision-making",
+                "regret-minimization-framework"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Choose paths that minimize long-term regret",
+            "application": "Project forward to end of life, imagine looking back, identify what would cause regret, act accordingly",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.110",
+            "type": "PHILOSOPHY",
+            "name": "Second-Order Thinking",
+            "category": "decision_making",
+            "subcategory": "second_order_thinking",
+            "domain": "DECISION_MAKING",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "decision-making",
+                "second-order-thinking"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Consider consequences of consequences, not just immediate effects",
+            "application": "Ask 'and then what?', trace multiple levels of impact, anticipate unintended consequences",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.111",
+            "type": "PHILOSOPHY",
+            "name": "Customer Obsession",
+            "category": "customer_focus",
+            "subcategory": "customer_obsession",
+            "domain": "CUSTOMER_FOCUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "customer-focus",
+                "customer-obsession"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Start with customer needs and work backward",
+            "application": "Listen to customers deeply, solve real problems, measure customer satisfaction, prioritize customer value",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.112",
+            "type": "PHILOSOPHY",
+            "name": "Jobs to be Done Mindset",
+            "category": "customer_focus",
+            "subcategory": "jobs_to_be_done_mindset",
+            "domain": "CUSTOMER_FOCUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "customer-focus",
+                "jobs-to-be-done-mindset"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Customers hire products to get jobs done in their lives",
+            "application": "Understand functional and emotional jobs, design solutions for jobs not features, measure job success",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.113",
+            "type": "PHILOSOPHY",
+            "name": "Product-Market Fit Obsession",
+            "category": "customer_focus",
+            "subcategory": "product_market_fit_obsession",
+            "domain": "CUSTOMER_FOCUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "customer-focus",
+                "product-market-fit-obsession"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Nothing else matters until you achieve product-market fit",
+            "application": "Focus relentlessly on PMF, measure it rigorously, don't scale prematurely, iterate until fit is achieved",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.114",
+            "type": "PHILOSOPHY",
+            "name": "Customer Lifetime Value Focus",
+            "category": "customer_focus",
+            "subcategory": "customer_lifetime_value_focus",
+            "domain": "CUSTOMER_FOCUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "customer-focus",
+                "customer-lifetime-value-focus"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Optimize for long-term customer value, not single transactions",
+            "application": "Invest in retention, measure LTV, balance acquisition and retention, build sustainable relationships",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.115",
+            "type": "PHILOSOPHY",
+            "name": "Outcome Over Output",
+            "category": "customer_focus",
+            "subcategory": "outcome_over_output",
+            "domain": "CUSTOMER_FOCUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "customer-focus",
+                "outcome-over-output"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Measure customer outcomes achieved, not features shipped",
+            "application": "Define success by customer results, track outcome metrics, validate value delivery, iterate on impact",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.116",
+            "type": "PHILOSOPHY",
+            "name": "Voice of Customer Integration",
+            "category": "customer_focus",
+            "subcategory": "voice_of_customer_integration",
+            "domain": "CUSTOMER_FOCUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "customer-focus",
+                "voice-of-customer-integration"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Systematically incorporate customer feedback into decisions",
+            "application": "Gather feedback continuously, analyze for patterns, close feedback loops, act on insights",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.117",
+            "type": "PHILOSOPHY",
+            "name": "Customer Success Partnership",
+            "category": "customer_focus",
+            "subcategory": "customer_success_partnership",
+            "domain": "CUSTOMER_FOCUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "customer-focus",
+                "customer-success-partnership"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "View customer relationships as true partnerships toward mutual success",
+            "application": "Align incentives, invest in customer success, share knowledge generously, grow together",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.118",
+            "type": "PHILOSOPHY",
+            "name": "Segment-Specific Value",
+            "category": "customer_focus",
+            "subcategory": "segment_specific_value",
+            "domain": "CUSTOMER_FOCUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "customer-focus",
+                "segment-specific-value"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Different customer segments need different value propositions",
+            "application": "Segment thoughtfully, tailor offerings, customize messaging, serve each segment appropriately",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.119",
+            "type": "PHILOSOPHY",
+            "name": "Customer Effort Reduction",
+            "category": "customer_focus",
+            "subcategory": "customer_effort_reduction",
+            "domain": "CUSTOMER_FOCUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "customer-focus",
+                "customer-effort-reduction"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Make it easy for customers to do business with you",
+            "application": "Reduce friction, simplify processes, enable self-service, remove unnecessary steps",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.120",
+            "type": "PHILOSOPHY",
+            "name": "Proactive Value Delivery",
+            "category": "customer_focus",
+            "subcategory": "proactive_value_delivery",
+            "domain": "CUSTOMER_FOCUS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "customer-focus",
+                "proactive-value-delivery"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Anticipate needs and deliver value before being asked",
+            "application": "Monitor customer health, identify opportunities early, reach out proactively, prevent issues",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.121",
+            "type": "PHILOSOPHY",
+            "name": "Move Fast and Break Things",
+            "category": "execution_velocity",
+            "subcategory": "move_fast_and_break_things",
+            "domain": "EXECUTION_VELOCITY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "execution-velocity",
+                "move-fast-and-break-things"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Prioritize speed and learning over perfection in early stages",
+            "application": "Ship quickly, accept some breakage, learn from failures, iterate rapidly, optimize for learning speed",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.122",
+            "type": "PHILOSOPHY",
+            "name": "Ship to Learn",
+            "category": "execution_velocity",
+            "subcategory": "ship_to_learn",
+            "domain": "EXECUTION_VELOCITY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "execution-velocity",
+                "ship-to-learn"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "The fastest way to learn is to ship and gather real feedback",
+            "application": "Release early versions, get real usage data, learn from customers, iterate based on reality",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.123",
+            "type": "PHILOSOPHY",
+            "name": "80/20 Execution",
+            "category": "execution_velocity",
+            "subcategory": "80_20_execution",
+            "domain": "EXECUTION_VELOCITY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "execution-velocity",
+                "80-20-execution"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Focus on the 20% of effort that drives 80% of results",
+            "application": "Identify high-leverage activities, deprioritize low-impact work, maximize output per input",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.124",
+            "type": "PHILOSOPHY",
+            "name": "Done is Better Than Perfect",
+            "category": "execution_velocity",
+            "subcategory": "done_is_better_than_perfect",
+            "domain": "EXECUTION_VELOCITY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "execution-velocity",
+                "done-is-better-than-perfect"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Shipping imperfect work beats endlessly polishing",
+            "application": "Set 'good enough' thresholds, avoid perfectionism, release and iterate, value momentum",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.125",
+            "type": "PHILOSOPHY",
+            "name": "Bias for Simplicity",
+            "category": "execution_velocity",
+            "subcategory": "bias_for_simplicity",
+            "domain": "EXECUTION_VELOCITY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "execution-velocity",
+                "bias-for-simplicity"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Choose simple solutions over complex ones when possible",
+            "application": "Question complexity, remove unnecessary elements, make things obvious, reduce cognitive load",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.126",
+            "type": "PHILOSOPHY",
+            "name": "Ruthless Prioritization",
+            "category": "execution_velocity",
+            "subcategory": "ruthless_prioritization",
+            "domain": "EXECUTION_VELOCITY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "execution-velocity",
+                "ruthless-prioritization"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Say no to good ideas to focus on great ones",
+            "application": "Limit WIP, focus intensely, kill projects, protect focus, choose few bets",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.127",
+            "type": "PHILOSOPHY",
+            "name": "Compound Progress",
+            "category": "execution_velocity",
+            "subcategory": "compound_progress",
+            "domain": "EXECUTION_VELOCITY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "execution-velocity",
+                "compound-progress"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Small consistent improvements compound into massive gains",
+            "application": "Improve 1% daily, build habits, track progress, celebrate small wins, trust compounding",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.128",
+            "type": "PHILOSOPHY",
+            "name": "Parallel Work Streams",
+            "category": "execution_velocity",
+            "subcategory": "parallel_work_streams",
+            "domain": "EXECUTION_VELOCITY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "execution-velocity",
+                "parallel-work-streams"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Execute multiple initiatives concurrently when dependencies allow",
+            "application": "Identify independent workstreams, parallelize execution, coordinate effectively, maximize throughput",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.129",
+            "type": "PHILOSOPHY",
+            "name": "Timebox Exploration",
+            "category": "execution_velocity",
+            "subcategory": "timebox_exploration",
+            "domain": "EXECUTION_VELOCITY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "execution-velocity",
+                "timebox-exploration"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Set time limits on investigation and experimentation",
+            "application": "Define exploration windows, commit to decision deadlines, act on time even with uncertainty",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.130",
+            "type": "PHILOSOPHY",
+            "name": "Momentum Preservation",
+            "category": "execution_velocity",
+            "subcategory": "momentum_preservation",
+            "domain": "EXECUTION_VELOCITY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "execution-velocity",
+                "momentum-preservation"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Maintain forward motion even when optimal path is unclear",
+            "application": "Keep shipping, maintain cadence, avoid stalls, course-correct while moving",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.131",
+            "type": "PHILOSOPHY",
+            "name": "Growth Mindset",
+            "category": "innovation_growth",
+            "subcategory": "growth_mindset",
+            "domain": "INNOVATION_GROWTH",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "innovation-growth",
+                "growth-mindset"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Abilities can be developed through dedication and effort",
+            "application": "Embrace challenges, persist through obstacles, see effort as path to mastery, learn from criticism",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.132",
+            "type": "PHILOSOPHY",
+            "name": "Experimentation Culture",
+            "category": "innovation_growth",
+            "subcategory": "experimentation_culture",
+            "domain": "INNOVATION_GROWTH",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "innovation-growth",
+                "experimentation-culture"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Run experiments continuously to discover what works",
+            "application": "Form hypotheses, design tests, measure results, scale winners, kill losers quickly",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.133",
+            "type": "PHILOSOPHY",
+            "name": "Fail Fast, Learn Faster",
+            "category": "innovation_growth",
+            "subcategory": "fail_fast_learn_faster",
+            "domain": "INNOVATION_GROWTH",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "innovation-growth",
+                "fail-fast-learn-faster"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Quick failures are valuable learning opportunities",
+            "application": "Test quickly, identify failures early, extract lessons, apply learnings, move on",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.134",
+            "type": "PHILOSOPHY",
+            "name": "10x Thinking",
+            "category": "innovation_growth",
+            "subcategory": "10x_thinking",
+            "domain": "INNOVATION_GROWTH",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "innovation-growth",
+                "10x-thinking"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Aim for 10x improvement, not 10% - it forces different approaches",
+            "application": "Set ambitious goals, question constraints, reimagine solutions, challenge incremental thinking",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.135",
+            "type": "PHILOSOPHY",
+            "name": "Beginner's Mind",
+            "category": "innovation_growth",
+            "subcategory": "beginner_s_mind",
+            "domain": "INNOVATION_GROWTH",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "innovation-growth",
+                "beginner-s-mind"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Approach problems without preconceptions, as a beginner would",
+            "application": "Question assumptions, see with fresh eyes, avoid expertise bias, stay curious",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.136",
+            "type": "PHILOSOPHY",
+            "name": "Adjacent Possible Exploration",
+            "category": "innovation_growth",
+            "subcategory": "adjacent_possible_exploration",
+            "domain": "INNOVATION_GROWTH",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "innovation-growth",
+                "adjacent-possible-exploration"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Explore opportunities just beyond current capabilities",
+            "application": "Map current state, identify adjacent opportunities, take calculated leaps, expand gradually",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.137",
+            "type": "PHILOSOPHY",
+            "name": "Combinatorial Innovation",
+            "category": "innovation_growth",
+            "subcategory": "combinatorial_innovation",
+            "domain": "INNOVATION_GROWTH",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "innovation-growth",
+                "combinatorial-innovation"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Combine existing ideas in novel ways to create innovation",
+            "application": "Study diverse fields, find unexpected connections, recombine concepts, cross-pollinate ideas",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.138",
+            "type": "PHILOSOPHY",
+            "name": "Constraint-Driven Innovation",
+            "category": "innovation_growth",
+            "subcategory": "constraint_driven_innovation",
+            "domain": "INNOVATION_GROWTH",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "innovation-growth",
+                "constraint-driven-innovation"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Constraints force creative solutions",
+            "application": "Embrace limitations, design around constraints, find creative workarounds, use scarcity productively",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.139",
+            "type": "PHILOSOPHY",
+            "name": "Build-Measure-Learn",
+            "category": "innovation_growth",
+            "subcategory": "build_measure_learn",
+            "domain": "INNOVATION_GROWTH",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "innovation-growth",
+                "build-measure-learn"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Iterate through rapid cycles of building, measuring, and learning",
+            "application": "Build minimal versions, measure real usage, learn from data, iterate quickly",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.140",
+            "type": "PHILOSOPHY",
+            "name": "Question Core Assumptions",
+            "category": "innovation_growth",
+            "subcategory": "question_core_assumptions",
+            "domain": "INNOVATION_GROWTH",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "innovation-growth",
+                "question-core-assumptions"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Regularly challenge fundamental beliefs about your business",
+            "application": "List key assumptions, test them explicitly, update beliefs, pivot when warranted",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.141",
+            "type": "PHILOSOPHY",
+            "name": "Radical Transparency",
+            "category": "team_culture",
+            "subcategory": "radical_transparency",
+            "domain": "TEAM_CULTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "team-culture",
+                "radical-transparency"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Share information openly by default, restrict only when necessary",
+            "application": "Default to public, share metrics widely, communicate openly, build trust through transparency",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.142",
+            "type": "PHILOSOPHY",
+            "name": "High Trust, Low Process",
+            "category": "team_culture",
+            "subcategory": "high_trust_low_process",
+            "domain": "TEAM_CULTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "team-culture",
+                "high-trust-low-process"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Trust people to do the right thing rather than adding process",
+            "application": "Hire well, trust judgment, minimize bureaucracy, add process only when needed",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.143",
+            "type": "PHILOSOPHY",
+            "name": "Ownership Mentality",
+            "category": "team_culture",
+            "subcategory": "ownership_mentality",
+            "domain": "TEAM_CULTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "team-culture",
+                "ownership-mentality"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Act like owners, not employees - take initiative and responsibility",
+            "application": "Empower decision-making, reward ownership, hold accountable, think long-term",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.144",
+            "type": "PHILOSOPHY",
+            "name": "No Ego, Best Idea Wins",
+            "category": "team_culture",
+            "subcategory": "no_ego_best_idea_wins",
+            "domain": "TEAM_CULTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "team-culture",
+                "no-ego-best-idea-wins"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Ideas are judged on merit, not who proposes them",
+            "application": "Encourage all voices, debate ideas vigorously, check egos, implement best solutions",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.145",
+            "type": "PHILOSOPHY",
+            "name": "Psychological Safety",
+            "category": "team_culture",
+            "subcategory": "psychological_safety",
+            "domain": "TEAM_CULTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "team-culture",
+                "psychological-safety"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Create environment where people feel safe to take risks and be vulnerable",
+            "application": "Welcome questions, reward speaking up, punish silence on problems, model vulnerability",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.146",
+            "type": "PHILOSOPHY",
+            "name": "Extreme Candor",
+            "category": "team_culture",
+            "subcategory": "extreme_candor",
+            "domain": "TEAM_CULTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "team-culture",
+                "extreme-candor"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Care personally and challenge directly",
+            "application": "Give honest feedback, show you care, address issues directly, build genuine relationships",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.147",
+            "type": "PHILOSOPHY",
+            "name": "Written Communication",
+            "category": "team_culture",
+            "subcategory": "written_communication",
+            "domain": "TEAM_CULTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "team-culture",
+                "written-communication"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Document decisions and thinking in writing",
+            "application": "Write memos, document decisions, think through writing, create shared understanding",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.148",
+            "type": "PHILOSOPHY",
+            "name": "Hire for Slope, Not Y-Intercept",
+            "category": "team_culture",
+            "subcategory": "hire_for_slope_not_y_intercept",
+            "domain": "TEAM_CULTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "team-culture",
+                "hire-for-slope-not-y-intercept"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Hire for learning rate and potential, not just current skills",
+            "application": "Assess learning ability, value trajectory, invest in development, grow talent",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.149",
+            "type": "PHILOSOPHY",
+            "name": "Team Over Individual",
+            "category": "team_culture",
+            "subcategory": "team_over_individual",
+            "domain": "TEAM_CULTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "team-culture",
+                "team-over-individual"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Optimize for team success, not individual heroics",
+            "application": "Reward collaboration, share credit, support teammates, build collective capability",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.150",
+            "type": "PHILOSOPHY",
+            "name": "Default to Action",
+            "category": "team_culture",
+            "subcategory": "default_to_action",
+            "domain": "TEAM_CULTURE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "team-culture",
+                "default-to-action"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "When in doubt, do something rather than nothing",
+            "application": "Bias toward trying, accept some mistakes, learn by doing, avoid overthinking",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.151",
+            "type": "PHILOSOPHY",
+            "name": "Capital Efficiency",
+            "category": "resource_allocation",
+            "subcategory": "capital_efficiency",
+            "domain": "RESOURCE_ALLOCATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "resource-allocation",
+                "capital-efficiency"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Maximize output per dollar of capital deployed",
+            "application": "Measure capital productivity, optimize spend, demonstrate ROI, build lean operations",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.152",
+            "type": "PHILOSOPHY",
+            "name": "Invest in Leverage",
+            "category": "resource_allocation",
+            "subcategory": "invest_in_leverage",
+            "domain": "RESOURCE_ALLOCATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "resource-allocation",
+                "invest-in-leverage"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Allocate resources to activities with multiplier effects",
+            "application": "Identify high-leverage work, invest in force multipliers, build scalable assets",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.153",
+            "type": "PHILOSOPHY",
+            "name": "Bet on Strengths",
+            "category": "resource_allocation",
+            "subcategory": "bet_on_strengths",
+            "domain": "RESOURCE_ALLOCATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "resource-allocation",
+                "bet-on-strengths"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Double down on what works rather than fixing weaknesses",
+            "application": "Identify core strengths, invest heavily there, partner or outsource weaknesses",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.154",
+            "type": "PHILOSOPHY",
+            "name": "Portfolio Approach",
+            "category": "resource_allocation",
+            "subcategory": "portfolio_approach",
+            "domain": "RESOURCE_ALLOCATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "resource-allocation",
+                "portfolio-approach"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Balance portfolio of safe bets and high-risk/high-reward initiatives",
+            "application": "Diversify investments, manage risk consciously, balance core and exploration",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.155",
+            "type": "PHILOSOPHY",
+            "name": "Zero-Based Resource Allocation",
+            "category": "resource_allocation",
+            "subcategory": "zero_based_resource_allocation",
+            "domain": "RESOURCE_ALLOCATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "resource-allocation",
+                "zero-based-resource-allocation"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Justify all resource allocation from scratch, not historically",
+            "application": "Question existing allocations, reallocate based on current priorities, avoid inertia",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.156",
+            "type": "PHILOSOPHY",
+            "name": "Focus Over Coverage",
+            "category": "resource_allocation",
+            "subcategory": "focus_over_coverage",
+            "domain": "RESOURCE_ALLOCATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "resource-allocation",
+                "focus-over-coverage"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Win decisively in chosen areas rather than being mediocre everywhere",
+            "application": "Choose battles, concentrate resources, dominate niches, avoid spreading thin",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.157",
+            "type": "PHILOSOPHY",
+            "name": "Time as Scarce Resource",
+            "category": "resource_allocation",
+            "subcategory": "time_as_scarce_resource",
+            "domain": "RESOURCE_ALLOCATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "resource-allocation",
+                "time-as-scarce-resource"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Treat time as the ultimate non-renewable resource",
+            "application": "Guard time fiercely, prioritize ruthlessly, eliminate time wasters, value speed",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.158",
+            "type": "PHILOSOPHY",
+            "name": "Strategic Patience",
+            "category": "resource_allocation",
+            "subcategory": "strategic_patience",
+            "domain": "RESOURCE_ALLOCATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "resource-allocation",
+                "strategic-patience"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Be patient for growth, impatient for profit/learning",
+            "application": "Allow compound growth time, demand quick learning cycles, balance urgency and patience",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.159",
+            "type": "PHILOSOPHY",
+            "name": "Build vs Buy vs Partner",
+            "category": "resource_allocation",
+            "subcategory": "build_vs_buy_vs_partner",
+            "domain": "RESOURCE_ALLOCATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "resource-allocation",
+                "build-vs-buy-vs-partner"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Deliberately choose between building, buying, or partnering for capabilities",
+            "application": "Assess strategic value, evaluate options, choose appropriate path, move decisively",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.160",
+            "type": "PHILOSOPHY",
+            "name": "Opportunity Fund Reserves",
+            "category": "resource_allocation",
+            "subcategory": "opportunity_fund_reserves",
+            "domain": "RESOURCE_ALLOCATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "resource-allocation",
+                "opportunity-fund-reserves"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Maintain capacity to seize unexpected opportunities",
+            "application": "Keep resources in reserve, preserve optionality, move quickly on opportunities",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.161",
+            "type": "PHILOSOPHY",
+            "name": "Differentiate or Die",
+            "category": "competitive_strategy",
+            "subcategory": "differentiate_or_die",
+            "domain": "COMPETITIVE_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "competitive-strategy",
+                "differentiate-or-die"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Clear differentiation is essential for survival",
+            "application": "Define unique value, avoid commoditization, build defensibility, communicate difference",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.162",
+            "type": "PHILOSOPHY",
+            "name": "Network Effects Obsession",
+            "category": "competitive_strategy",
+            "subcategory": "network_effects_obsession",
+            "domain": "COMPETITIVE_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "competitive-strategy",
+                "network-effects-obsession"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Build products that get better as more people use them",
+            "application": "Design for network effects, achieve critical mass, defend against competitors, compound advantage",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.163",
+            "type": "PHILOSOPHY",
+            "name": "Winner-Take-Most Markets",
+            "category": "competitive_strategy",
+            "subcategory": "winner_take_most_markets",
+            "domain": "COMPETITIVE_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "competitive-strategy",
+                "winner-take-most-markets"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "In many markets, #1 captures disproportionate value",
+            "application": "Race to dominance, invest aggressively in leadership, avoid being #3 or worse",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.164",
+            "type": "PHILOSOPHY",
+            "name": "Category Creation",
+            "category": "competitive_strategy",
+            "subcategory": "category_creation",
+            "domain": "COMPETITIVE_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "competitive-strategy",
+                "category-creation"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Create and own new categories rather than competing in existing ones",
+            "application": "Define new category, educate market, set standards, become category leader",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.165",
+            "type": "PHILOSOPHY",
+            "name": "Compete on Different Dimensions",
+            "category": "competitive_strategy",
+            "subcategory": "compete_on_different_dimensions",
+            "domain": "COMPETITIVE_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "competitive-strategy",
+                "compete-on-different-dimensions"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Win by changing the game, not playing the same game better",
+            "application": "Identify new value dimensions, shift basis of competition, make current game irrelevant",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.166",
+            "type": "PHILOSOPHY",
+            "name": "Strategic Judo",
+            "category": "competitive_strategy",
+            "subcategory": "strategic_judo",
+            "domain": "COMPETITIVE_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "competitive-strategy",
+                "strategic-judo"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Use competitors' size and strength against them",
+            "application": "Identify incumbent weaknesses, exploit structural disadvantages, move where they can't follow",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.167",
+            "type": "PHILOSOPHY",
+            "name": "Fast Follower Strategy",
+            "category": "competitive_strategy",
+            "subcategory": "fast_follower_strategy",
+            "domain": "COMPETITIVE_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "competitive-strategy",
+                "fast-follower-strategy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Learn from pioneers' mistakes and execute better",
+            "application": "Let others validate market, observe what works, execute with improvements, move fast",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.168",
+            "type": "PHILOSOPHY",
+            "name": "Moat Building",
+            "category": "competitive_strategy",
+            "subcategory": "moat_building",
+            "domain": "COMPETITIVE_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "competitive-strategy",
+                "moat-building"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Continuously strengthen competitive advantages and barriers",
+            "application": "Identify moat types, invest in defensibility, widen moat over time, protect advantages",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.169",
+            "type": "PHILOSOPHY",
+            "name": "Asymmetric Warfare",
+            "category": "competitive_strategy",
+            "subcategory": "asymmetric_warfare",
+            "domain": "COMPETITIVE_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "competitive-strategy",
+                "asymmetric-warfare"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Fight battles where you have unfair advantages",
+            "application": "Choose favorable battlegrounds, leverage unique strengths, avoid direct strength-on-strength competition",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.170",
+            "type": "PHILOSOPHY",
+            "name": "Coopetition Mindset",
+            "category": "competitive_strategy",
+            "subcategory": "coopetition_mindset",
+            "domain": "COMPETITIVE_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "competitive-strategy",
+                "coopetition-mindset"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Sometimes cooperating with competitors creates more value than competing",
+            "application": "Identify win-win scenarios, build standards together, compete and cooperate strategically",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.171",
+            "type": "PHILOSOPHY",
+            "name": "Asymmetric Risk-Taking",
+            "category": "risk_management",
+            "subcategory": "asymmetric_risk_taking",
+            "domain": "RISK_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "risk-management",
+                "asymmetric-risk-taking"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Take risks with limited downside and unlimited upside",
+            "application": "Seek convex payoffs, limit losses, preserve optionality, bet where you can't lose much but can win big",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.172",
+            "type": "PHILOSOPHY",
+            "name": "Antifragility",
+            "category": "risk_management",
+            "subcategory": "antifragility",
+            "domain": "RISK_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "risk-management",
+                "antifragility"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Build systems that gain from volatility and disorder",
+            "application": "Design for resilience, benefit from shocks, avoid fragility, get stronger from stress",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.173",
+            "type": "PHILOSOPHY",
+            "name": "Margin of Safety",
+            "category": "risk_management",
+            "subcategory": "margin_of_safety",
+            "domain": "RISK_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "risk-management",
+                "margin-of-safety"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Build in buffer for uncertainty and unknowns",
+            "application": "Plan conservatively, expect surprises, maintain reserves, avoid fragile dependencies",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.174",
+            "type": "PHILOSOPHY",
+            "name": "Pre-Mortem Thinking",
+            "category": "risk_management",
+            "subcategory": "pre_mortem_thinking",
+            "domain": "RISK_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "risk-management",
+                "pre-mortem-thinking"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Imagine failure and work backward to identify risks",
+            "application": "Assume failure, identify causes, mitigate risks proactively, plan contingencies",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.175",
+            "type": "PHILOSOPHY",
+            "name": "Redundancy Over Efficiency",
+            "category": "risk_management",
+            "subcategory": "redundancy_over_efficiency",
+            "domain": "RISK_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "risk-management",
+                "redundancy-over-efficiency"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Accept some inefficiency for resilience and reliability",
+            "application": "Build backup systems, maintain spare capacity, avoid single points of failure",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.176",
+            "type": "PHILOSOPHY",
+            "name": "Informed Risk-Taking",
+            "category": "risk_management",
+            "subcategory": "informed_risk_taking",
+            "domain": "RISK_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "risk-management",
+                "informed-risk-taking"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Take calculated risks based on understanding, not blind bets",
+            "application": "Assess risks explicitly, understand probability and impact, choose consciously",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.177",
+            "type": "PHILOSOPHY",
+            "name": "Tail Risk Awareness",
+            "category": "risk_management",
+            "subcategory": "tail_risk_awareness",
+            "domain": "RISK_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "risk-management",
+                "tail-risk-awareness"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Pay attention to low-probability, high-impact events",
+            "application": "Identify tail risks, protect against ruin, don't ignore unlikely disasters",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.178",
+            "type": "PHILOSOPHY",
+            "name": "Barbell Strategy",
+            "category": "risk_management",
+            "subcategory": "barbell_strategy",
+            "domain": "RISK_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "risk-management",
+                "barbell-strategy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Combine extreme safety with extreme risk, avoid middle ground",
+            "application": "Protect core with conservative approach, take aggressive risks with small portion",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.179",
+            "type": "PHILOSOPHY",
+            "name": "Kill Your Darlings",
+            "category": "risk_management",
+            "subcategory": "kill_your_darlings",
+            "domain": "RISK_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "risk-management",
+                "kill-your-darlings"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Be willing to abandon even beloved projects when they're not working",
+            "application": "Assess objectively, cut losses quickly, avoid sunk cost fallacy, reallocate resources",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.180",
+            "type": "PHILOSOPHY",
+            "name": "Prepare for Multiple Scenarios",
+            "category": "risk_management",
+            "subcategory": "prepare_for_multiple_scenarios",
+            "domain": "RISK_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "risk-management",
+                "prepare-for-multiple-scenarios"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Plan for various futures rather than betting on one",
+            "application": "Develop scenarios, prepare contingencies, maintain flexibility, adapt to reality",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.181",
+            "type": "PHILOSOPHY",
+            "name": "Create Value, Then Capture",
+            "category": "value_creation",
+            "subcategory": "create_value_then_capture",
+            "domain": "VALUE_CREATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "value-creation",
+                "create-value-then-capture"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Focus first on creating real value, then on capturing fair share",
+            "application": "Solve real problems, deliver genuine value, build pricing power through value creation",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.182",
+            "type": "PHILOSOPHY",
+            "name": "Win-Win Philosophy",
+            "category": "value_creation",
+            "subcategory": "win_win_philosophy",
+            "domain": "VALUE_CREATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "value-creation",
+                "win-win-philosophy"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Structure interactions for mutual benefit when possible",
+            "application": "Seek positive-sum outcomes, align incentives, build long-term partnerships",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.183",
+            "type": "PHILOSOPHY",
+            "name": "Value-Based Pricing",
+            "category": "value_creation",
+            "subcategory": "value_based_pricing",
+            "domain": "VALUE_CREATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "value-creation",
+                "value-based-pricing"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Price based on value delivered, not costs incurred",
+            "application": "Understand customer value, price to value, justify premium pricing, capture fair share",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.184",
+            "type": "PHILOSOPHY",
+            "name": "Stakeholder Balance",
+            "category": "value_creation",
+            "subcategory": "stakeholder_balance",
+            "domain": "VALUE_CREATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "value-creation",
+                "stakeholder-balance"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Create value for all stakeholders, not just shareholders",
+            "application": "Consider customers, employees, partners, community; balance interests, build sustainability",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.185",
+            "type": "PHILOSOPHY",
+            "name": "Continuous Value Addition",
+            "category": "value_creation",
+            "subcategory": "continuous_value_addition",
+            "domain": "VALUE_CREATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "value-creation",
+                "continuous-value-addition"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Keep adding value to maintain and grow relationships",
+            "application": "Never rest on past value, innovate continuously, deepen relationships, prevent commoditization",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.186",
+            "type": "PHILOSOPHY",
+            "name": "Economic Value Creation",
+            "category": "value_creation",
+            "subcategory": "economic_value_creation",
+            "domain": "VALUE_CREATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "value-creation",
+                "economic-value-creation"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Generate returns above cost of capital sustainably",
+            "application": "Measure economic profit, optimize ROIC, create real economic value, sustain over time",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.187",
+            "type": "PHILOSOPHY",
+            "name": "Platform Value Creation",
+            "category": "value_creation",
+            "subcategory": "platform_value_creation",
+            "domain": "VALUE_CREATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "value-creation",
+                "platform-value-creation"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Create value by connecting and enabling others",
+            "application": "Build two-sided markets, enable transactions, take fair platform fee, grow ecosystem",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.188",
+            "type": "PHILOSOPHY",
+            "name": "Leverage Asymmetry",
+            "category": "value_creation",
+            "subcategory": "leverage_asymmetry",
+            "domain": "VALUE_CREATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "value-creation",
+                "leverage-asymmetry"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Create situations where you benefit more than you cost",
+            "application": "Find asymmetric opportunities, scale value delivery, capture increasing returns",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.189",
+            "type": "PHILOSOPHY",
+            "name": "Compounding Value",
+            "category": "value_creation",
+            "subcategory": "compounding_value",
+            "domain": "VALUE_CREATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "value-creation",
+                "compounding-value"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Build value that compounds over time",
+            "application": "Make cumulative improvements, benefit from compound effects, think in decades",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.190",
+            "type": "PHILOSOPHY",
+            "name": "Pricing Power Focus",
+            "category": "value_creation",
+            "subcategory": "pricing_power_focus",
+            "domain": "VALUE_CREATION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "value-creation",
+                "pricing-power-focus"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Build businesses that can raise prices without losing customers",
+            "application": "Create differentiation, build switching costs, demonstrate unique value, avoid commoditization",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.191",
+            "type": "PHILOSOPHY",
+            "name": "Measure What Matters",
+            "category": "operating_principles",
+            "subcategory": "measure_what_matters",
+            "domain": "OPERATING_PRINCIPLES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "operating-principles",
+                "measure-what-matters"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Track metrics that actually drive business outcomes",
+            "application": "Define key metrics, avoid vanity metrics, measure leading indicators, act on data",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.192",
+            "type": "PHILOSOPHY",
+            "name": "Systems Over Goals",
+            "category": "operating_principles",
+            "subcategory": "systems_over_goals",
+            "domain": "OPERATING_PRINCIPLES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "operating-principles",
+                "systems-over-goals"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Build systems and processes that naturally produce desired outcomes",
+            "application": "Design good systems, trust process, measure system health, improve continuously",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.193",
+            "type": "PHILOSOPHY",
+            "name": "Automate and Eliminate",
+            "category": "operating_principles",
+            "subcategory": "automate_and_eliminate",
+            "domain": "OPERATING_PRINCIPLES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "operating-principles",
+                "automate-and-eliminate"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Automate repeatable work, eliminate unnecessary work entirely",
+            "application": "Identify repetitive tasks, automate where possible, question necessity, eliminate waste",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.194",
+            "type": "PHILOSOPHY",
+            "name": "Direct Responsibility",
+            "category": "operating_principles",
+            "subcategory": "direct_responsibility",
+            "domain": "OPERATING_PRINCIPLES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "operating-principles",
+                "direct-responsibility"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Every important outcome has one person directly responsible",
+            "application": "Assign clear ownership, avoid diffused responsibility, hold accountable, empower owners",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.195",
+            "type": "PHILOSOPHY",
+            "name": "Blameless Post-Mortems",
+            "category": "operating_principles",
+            "subcategory": "blameless_post_mortems",
+            "domain": "OPERATING_PRINCIPLES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "operating-principles",
+                "blameless-post-mortems"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Learn from failures without blame to encourage honesty",
+            "application": "Focus on system improvements, avoid punishment, extract lessons, prevent recurrence",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.196",
+            "type": "PHILOSOPHY",
+            "name": "Working Backwards",
+            "category": "operating_principles",
+            "subcategory": "working_backwards",
+            "domain": "OPERATING_PRINCIPLES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "operating-principles",
+                "working-backwards"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Start from desired customer experience and work backward to requirements",
+            "application": "Write press release first, define customer experience, determine requirements, build to spec",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.197",
+            "type": "PHILOSOPHY",
+            "name": "Single-Threaded Leadership",
+            "category": "operating_principles",
+            "subcategory": "single_threaded_leadership",
+            "domain": "OPERATING_PRINCIPLES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "operating-principles",
+                "single-threaded-leadership"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Important initiatives deserve dedicated leadership focus",
+            "application": "Assign dedicated leaders, avoid split attention on critical projects, resource appropriately",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.198",
+            "type": "PHILOSOPHY",
+            "name": "Two-Pizza Teams",
+            "category": "operating_principles",
+            "subcategory": "two_pizza_teams",
+            "domain": "OPERATING_PRINCIPLES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "operating-principles",
+                "two-pizza-teams"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Keep teams small enough to feed with two pizzas (6-10 people)",
+            "application": "Limit team size, maintain agility, reduce communication overhead, empower small teams",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.199",
+            "type": "PHILOSOPHY",
+            "name": "Day One Mentality",
+            "category": "operating_principles",
+            "subcategory": "day_one_mentality",
+            "domain": "OPERATING_PRINCIPLES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "operating-principles",
+                "day-one-mentality"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Maintain startup mindset and urgency regardless of company size",
+            "application": "Resist complacency, stay hungry, move fast, question bureaucracy, maintain scrappiness",
+            "key_values": [],
+            "notes": null
+        },
+        {
+            "id": "PHIL.200",
+            "type": "PHILOSOPHY",
+            "name": "Think Long-Term",
+            "category": "operating_principles",
+            "subcategory": "think_long_term",
+            "domain": "OPERATING_PRINCIPLES",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "philosophy",
+                "operating-principles",
+                "think-long-term"
+            ],
+            "source": {
+                "library_name": "MOLT PHILOSOPHY Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:40:14-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "core_principles": "Optimize for long-term value over short-term gains",
+            "application": "Make multi-year bets, resist quarterly pressure, invest in future, build durable advantages",
+            "key_values": [],
             "notes": null
         }
     ]
