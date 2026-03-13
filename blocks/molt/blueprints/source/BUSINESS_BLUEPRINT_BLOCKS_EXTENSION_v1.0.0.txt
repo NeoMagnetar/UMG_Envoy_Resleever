@@ -1,0 +1,611 @@
+# BUSINESS BLUEPRINT BLOCKS EXTENSION v1.0.0
+
+## SALES_EXECUTION
+ID: BP.101
+Type: BLUEPRINT
+Name: MEDDIC Sales Qualification Framework
+Pattern: Qualify opportunities using Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, Champion
+Implementation: For each opportunity quantify customer metrics, identify economic buyer, understand decision criteria, map decision process, validate pain points, develop champion relationship
+
+ID: BP.102
+Type: BLUEPRINT
+Name: Value Selling Methodology
+Pattern: Current State Cost -> Future State Value -> Implementation Investment -> Net Benefit -> Payback Period
+Implementation: Document current costs, calculate future value, estimate implementation costs, compute ROI, show payback timeline, create compelling business case
+
+ID: BP.103
+Type: BLUEPRINT
+Name: Sales Pipeline Stages Framework
+Pattern: Lead -> Qualified -> Discovery -> Proposal -> Negotiation -> Closed-Won or Closed-Lost with entry and exit criteria for each
+Implementation: Document stage definitions, set entry and exit criteria, define activities per stage, assign probability percentages, track stage velocity
+
+ID: BP.104
+Type: BLUEPRINT
+Name: Account-Based Selling Blueprint
+Pattern: Research -> Stakeholder Map -> Value Hypothesis -> Multi-Thread Engagement -> Business Case -> Executive Alignment
+Implementation: Deep account research, map org chart and stakeholders, develop tailored value proposition, engage multiple contacts, build executive relationships
+
+ID: BP.105
+Type: BLUEPRINT
+Name: Demo Framework - Before/After/Bridge
+Pattern: Current Pain -> Desired Outcome -> Solution Capabilities
+Implementation: Open with customer pain, show ideal end state, demonstrate how product bridges gap, use customer-specific examples
+
+ID: BP.106
+Type: BLUEPRINT
+Name: Objection Handling Framework
+Pattern: Listen -> Validate -> Clarify -> Address -> Confirm
+Implementation: Do not interrupt, show empathy, ask clarifying questions, respond directly, verify satisfaction with answer
+
+ID: BP.107
+Type: BLUEPRINT
+Name: Sales Forecasting Model
+Pattern: Weighted pipeline using stage probabilities to calculate forecast
+Implementation: Assign probabilities by stage, weight all opportunities, sum weighted values, adjust for rep accuracy, track versus actual
+
+ID: BP.108
+Type: BLUEPRINT
+Name: Territory Planning Matrix
+Pattern: Potential Value x Strategic Fit using a 9-box grid for prioritization
+Implementation: Score accounts on potential and fit, plot on matrix, allocate time proportionally, define coverage strategy per quadrant
+
+ID: BP.109
+Type: BLUEPRINT
+Name: Sales Onboarding 30-60-90 Plan
+Pattern: Month 1 product and company knowledge, Month 2 shadowing and practice, Month 3 quota ramp-up with support
+Implementation: Build week-by-week plan, assign training modules, define shadowing assignments, create practice opportunities, design progressive quota ramp
+
+ID: BP.110
+Type: BLUEPRINT
+Name: Win-Loss Analysis Framework
+Pattern: Collect decision factors, competitor comparison, buying process, pricing perception, relationship quality -> Identify patterns -> Adjust strategy
+Implementation: Interview decision-makers, document feedback, categorize win and loss reasons, identify trends, update sales approach
+
+## MARKETING_STRATEGY
+ID: BP.111
+Type: BLUEPRINT
+Name: Buyer Persona Template
+Pattern: Demographics -> Job and Responsibilities -> Goals and Challenges -> Information Sources -> Buying Process -> Decision Criteria
+Implementation: Research target customers, document demographics, map responsibilities, identify pain points, understand research habits, note buying triggers
+
+ID: BP.112
+Type: BLUEPRINT
+Name: Content Marketing Funnel
+Pattern: TOFU awareness -> MOFU consideration -> BOFU decision
+Implementation: Create content for each stage, map to buyer journey, optimize for conversion, measure stage progression
+
+ID: BP.113
+Type: BLUEPRINT
+Name: Campaign Brief Template
+Pattern: Objective -> Target Audience -> Key Message -> Channels -> Timeline -> Budget -> Success Metrics -> Creative Requirements
+Implementation: Define clear goals, specify audience segments, craft core message, select channels, set dates, allocate budget, establish KPIs
+
+ID: BP.114
+Type: BLUEPRINT
+Name: Brand Positioning Statement
+Pattern: For target customer who has need, product is a category that provides unique benefit. Unlike competitors, we offer differentiation
+Implementation: Define target precisely, articulate need, position in category, state unique benefit, call out competitors, highlight difference
+
+ID: BP.115
+Type: BLUEPRINT
+Name: Growth Experiment Template
+Pattern: Hypothesis -> Experiment Design -> Metrics -> Run -> Analyze -> Decision
+Implementation: Form testable hypothesis, design minimal experiment, define success metrics, run test, analyze results, scale or kill
+
+ID: BP.116
+Type: BLUEPRINT
+Name: Marketing Funnel Metrics Framework
+Pattern: Awareness -> Interest -> Consideration -> Intent -> Purchase
+Implementation: Define metrics per stage, set conversion goals, track drop-off points, optimize weak areas, measure end-to-end
+
+ID: BP.117
+Type: BLUEPRINT
+Name: Customer Journey Map Template
+Pattern: Stages -> Touchpoints -> Customer Actions -> Emotions -> Pain Points -> Opportunities
+Implementation: Define journey stages, list all touchpoints, document customer actions, note emotional states, identify friction, find improvement opportunities
+
+ID: BP.118
+Type: BLUEPRINT
+Name: Marketing Channel ROI Model
+Pattern: Investment -> Leads Generated -> Conversion Rate -> Revenue -> Cost per Acquisition -> ROI -> LTV:CAC
+Implementation: Track spend by channel, measure leads, calculate conversion, attribute revenue, compute CAC, calculate ROI, compare to LTV
+
+ID: BP.119
+Type: BLUEPRINT
+Name: Launch Plan Framework
+Pattern: Pre-Launch -> Launch Week -> Post-Launch
+Implementation: Build anticipation, coordinate channels, execute launch day, maintain momentum, measure results, iterate
+
+ID: BP.120
+Type: BLUEPRINT
+Name: ABM Program Blueprint
+Pattern: Select Accounts -> Research Insights -> Personalized Content -> Multi-Channel Engagement -> Sales Handoff -> Measure Account Engagement
+Implementation: Identify target accounts, gather intelligence, create custom content, execute coordinated outreach, warm transfer to sales, track engagement
+
+## PRODUCT_MANAGEMENT
+ID: BP.121
+Type: BLUEPRINT
+Name: Product Requirements Document Template
+Pattern: Problem Statement -> User Stories -> Requirements -> Success Metrics -> Technical Considerations -> Dependencies -> Timeline
+Implementation: Define problem clearly, write user stories, prioritize requirements, set measurable goals, note technical needs, list dependencies, estimate timeline
+
+ID: BP.122
+Type: BLUEPRINT
+Name: RICE Prioritization Framework
+Pattern: Score = Reach x Impact x Confidence divided by Effort
+Implementation: Estimate users reached, rate impact, assign confidence, estimate effort, calculate scores, prioritize
+
+ID: BP.123
+Type: BLUEPRINT
+Name: Product Roadmap Template
+Pattern: Now -> Next -> Later -> Future
+Implementation: Place initiatives in timeframes, show themes not dates, include goals per period, update quarterly, communicate broadly
+
+ID: BP.124
+Type: BLUEPRINT
+Name: User Story Format
+Pattern: As a user type, I want action so that benefit. Acceptance Criteria: Given context, when action, then outcome
+Implementation: Identify user persona, define desired action, state value or benefit, write clear acceptance criteria, estimate story points
+
+ID: BP.125
+Type: BLUEPRINT
+Name: Product-Market Fit Survey
+Pattern: Ask how users would feel if they could no longer use the product and target more than 40 percent very disappointed
+Implementation: Survey active users, track very disappointed percentage, segment by user type, identify power users, improve weak segments
+
+ID: BP.126
+Type: BLUEPRINT
+Name: Feature Sunset Process
+Pattern: Analyze Usage -> Announce Deprecation -> Migration Path -> Support Period -> Remove Feature -> Validate
+Implementation: Review usage data, communicate timeline, provide alternatives, support transition, execute removal, confirm no impact
+
+ID: BP.127
+Type: BLUEPRINT
+Name: Beta Testing Program
+Pattern: Recruit -> Onboard -> Collect Feedback -> Iterate -> Graduate -> Measure
+Implementation: Select diverse beta users, provide clear instructions, gather structured feedback, fix issues, release generally, track success
+
+ID: BP.128
+Type: BLUEPRINT
+Name: Product Metrics Dashboard
+Pattern: Acquisition -> Activation -> Engagement -> Retention -> Revenue -> Referral
+Implementation: Define metric for each stage, instrument tracking, build dashboard, set targets, review weekly, drive improvements
+
+ID: BP.129
+Type: BLUEPRINT
+Name: Competitive Analysis Framework
+Pattern: Feature Matrix -> Pricing Comparison -> Positioning Analysis -> Strengths and Weaknesses -> Opportunities and Threats
+Implementation: Map competitor features, compare pricing, analyze messaging, assess advantages, identify gaps to exploit
+
+ID: BP.130
+Type: BLUEPRINT
+Name: Design Sprint Process
+Pattern: Monday Map -> Tuesday Sketch -> Wednesday Decide -> Thursday Prototype -> Friday Test
+Implementation: Define challenge, generate solutions, choose direction, build prototype, test with users, decide next steps
+
+## OPERATIONS_FRAMEWORKS
+ID: BP.131
+Type: BLUEPRINT
+Name: Standard Operating Procedure Template
+Pattern: Purpose -> Scope -> Roles -> Procedure -> References -> Version Control
+Implementation: State objective, define boundaries, assign responsibilities, document steps with screenshots, link resources, track versions
+
+ID: BP.132
+Type: BLUEPRINT
+Name: Process Mapping SIPOC
+Pattern: Suppliers -> Inputs -> Process Steps -> Outputs -> Customers
+Implementation: Identify suppliers, list inputs, map process flow, define outputs, identify customers, document handoffs
+
+ID: BP.133
+Type: BLUEPRINT
+Name: Kaizen Event Framework
+Pattern: Current State -> Root Cause -> Solutions -> Implement -> Validate
+Implementation: Map current process, identify waste, find root causes, brainstorm improvements, implement changes, measure impact
+
+ID: BP.134
+Type: BLUEPRINT
+Name: Capacity Planning Model
+Pattern: Demand Forecast -> Available Capacity -> Gap Analysis -> Options -> Implementation Plan
+Implementation: Project demand, calculate capacity, identify shortfall, evaluate solutions, choose approach, execute plan
+
+ID: BP.135
+Type: BLUEPRINT
+Name: Vendor Evaluation Matrix
+Pattern: Criteria -> Weight -> Score Vendors -> Calculate Weighted Score -> Decide
+Implementation: Define evaluation criteria, assign importance weights, score each vendor, calculate totals, select winner
+
+ID: BP.136
+Type: BLUEPRINT
+Name: Quality Assurance Checklist Template
+Pattern: Pre-work Verification -> In-process Checks -> Final Review -> Sign-off -> Documentation
+Implementation: List requirements, define checkpoints, specify criteria, assign reviewers, maintain records
+
+ID: BP.137
+Type: BLUEPRINT
+Name: Incident Response Playbook
+Pattern: Detect -> Assess -> Contain -> Resolve -> Document -> Learn
+Implementation: Identify issue, evaluate severity, limit impact, fix problem, record details, conduct post-mortem
+
+ID: BP.138
+Type: BLUEPRINT
+Name: Business Continuity Plan Structure
+Pattern: Risk Assessment -> Critical Functions -> Recovery Strategies -> Emergency Contacts -> Testing Schedule
+Implementation: Identify threats, prioritize functions, define recovery procedures, maintain contact lists, test regularly
+
+ID: BP.139
+Type: BLUEPRINT
+Name: SLA Definition Template
+Pattern: Service Description -> Performance Metrics -> Target Levels -> Measurement Methods -> Penalties or Credits -> Review Cadence
+Implementation: Define service scope, specify metrics, set targets, document measurement, establish consequences, schedule reviews
+
+ID: BP.140
+Type: BLUEPRINT
+Name: Root Cause Analysis - 5 Whys
+Pattern: Problem Statement -> Why -> Why -> Why -> Why -> Why -> Root Cause -> Corrective Action
+Implementation: State problem clearly, ask why five times, identify root cause, define corrective action, implement, verify
+
+## FINANCIAL_MODELS
+ID: BP.141
+Type: BLUEPRINT
+Name: 3-Statement Financial Model
+Pattern: Revenue Assumptions -> Income Statement -> Balance Sheet -> Cash Flow Statement -> Integrated Links
+Implementation: Build revenue drivers, create P&L, model balance sheet, link cash flow, ensure balance, add scenarios
+
+ID: BP.142
+Type: BLUEPRINT
+Name: Unit Economics Model
+Pattern: Revenue per Unit -> Variable Costs -> Contribution Margin -> CAC -> LTV -> LTV:CAC Ratio -> Payback Period
+Implementation: Calculate revenue per unit, sum variable costs, compute margin, measure CAC, estimate LTV, assess ratios
+
+ID: BP.143
+Type: BLUEPRINT
+Name: Budget Template Structure
+Pattern: Revenue Plan -> COGS -> Operating Expenses -> CapEx -> Cash Flow -> Variance Analysis
+Implementation: Forecast revenue, plan costs, budget by function, allocate capital, project cash, track actual versus budget
+
+ID: BP.144
+Type: BLUEPRINT
+Name: Cash Flow Forecast - 13 Week
+Pattern: Beginning Cash -> Collections -> Disbursements -> Net Cash Flow -> Ending Cash
+Implementation: Start with current cash, project receipts, estimate payments, calculate net flow, identify shortfalls, plan financing
+
+ID: BP.145
+Type: BLUEPRINT
+Name: Investment ROI Analysis
+Pattern: Initial Investment -> Annual Cash Flows -> Discount Rate -> NPV -> IRR -> Payback Period -> Decision Criteria
+Implementation: Document investment, project cash flows, determine discount rate, calculate NPV and IRR, assess payback, make decision
+
+ID: BP.146
+Type: BLUEPRINT
+Name: Scenario Planning Model
+Pattern: Base Case -> Optimistic Case -> Pessimistic Case -> Key Assumptions -> Sensitivity Analysis -> Contingency Plans
+Implementation: Model realistic scenario, create upside case, model downside, document assumptions, test sensitivities, prepare responses
+
+ID: BP.147
+Type: BLUEPRINT
+Name: Break-Even Analysis Framework
+Pattern: Fixed Costs -> Variable Cost per Unit -> Price per Unit -> Break-even Units
+Implementation: Sum fixed costs, calculate variable cost, set price, compute break-even volume, assess feasibility
+
+ID: BP.148
+Type: BLUEPRINT
+Name: Variance Analysis Report
+Pattern: Budget -> Actual -> Variance -> Explanation -> Action Plan
+Implementation: Compare budget to actual, calculate differences, explain significant variances, define corrective actions
+
+ID: BP.149
+Type: BLUEPRINT
+Name: Working Capital Optimization
+Pattern: Days Sales Outstanding -> Days Inventory Outstanding -> Days Payable Outstanding -> Cash Conversion Cycle
+Implementation: Measure DSO, calculate DIO, track DPO, compute CCC, identify improvement areas, implement changes
+
+ID: BP.150
+Type: BLUEPRINT
+Name: Investor Pitch Deck Structure
+Pattern: Problem -> Solution -> Market -> Business Model -> Traction -> Competition -> Team -> Financials -> Ask
+Implementation: Cover pain point, product, market size, revenue model, metrics, competition, team, projections, funding needs
+
+## HR_PEOPLE_SYSTEMS
+ID: BP.151
+Type: BLUEPRINT
+Name: Competency-Based Interview Guide
+Pattern: Role Competencies -> Behavioral Questions -> Scoring Rubric -> Evaluation Form -> Calibration Process
+Implementation: Define competencies, write STAR questions, create scoring guide, document feedback, calibrate across interviewers
+
+ID: BP.152
+Type: BLUEPRINT
+Name: Performance Review Template
+Pattern: Self-Assessment -> Manager Assessment -> Goal Achievement -> Competency Ratings -> Development Plan -> Compensation Discussion
+Implementation: Employee reflection, manager evaluation, measure goal progress, rate competencies, identify growth areas, determine compensation
+
+ID: BP.153
+Type: BLUEPRINT
+Name: Compensation Band Structure
+Pattern: Job Leveling -> Market Benchmarking -> Band Creation -> Positioning Guidelines -> Review Cycle
+Implementation: Level roles, gather market data, create salary ranges, define positioning philosophy, review annually
+
+ID: BP.154
+Type: BLUEPRINT
+Name: 90-Day Onboarding Plan
+Pattern: Week 1 Orientation -> Month 1 Role Fundamentals -> Month 2 Expanding Scope -> Month 3 Full Contribution
+Implementation: Welcome and setup, core training, shadowing, increasing responsibility, regular check-ins, formal 90-day review
+
+ID: BP.155
+Type: BLUEPRINT
+Name: 9-Box Talent Grid
+Pattern: Performance x Potential for talent assessment and development
+Implementation: Rate performance, assess potential, plot employees, identify high potentials, plan development, address underperformance
+
+ID: BP.156
+Type: BLUEPRINT
+Name: Career Ladder Framework
+Pattern: Levels -> Scope -> Impact -> Skills -> Behaviors -> Typical Tenure
+Implementation: Define career levels, specify scope per level, describe expected impact, list required skills, note behaviors, indicate progression time
+
+ID: BP.157
+Type: BLUEPRINT
+Name: Employee Engagement Survey Design
+Pattern: Engagement Drivers -> Question Bank -> Survey Design -> Administration -> Analysis -> Action Planning
+Implementation: Identify drivers, write questions, design survey, distribute, analyze results, create action plans, communicate changes
+
+ID: BP.158
+Type: BLUEPRINT
+Name: Succession Planning Matrix
+Pattern: Critical Roles -> Current Incumbents -> Ready Now Successors -> Ready in 1-2 Years -> Development Plans
+Implementation: Identify key positions, name current holders, identify immediate backups, note future candidates, create development plans
+
+ID: BP.159
+Type: BLUEPRINT
+Name: Diversity and Inclusion Roadmap
+Pattern: Baseline Metrics -> Goals -> Initiatives -> Measurement -> Accountability
+Implementation: Measure current state, set targets, launch programs, track progress, hold leaders accountable
+
+ID: BP.160
+Type: BLUEPRINT
+Name: Exit Interview Framework
+Pattern: Reason for Leaving -> Role Satisfaction -> Manager Relationship -> Culture Feedback -> Suggestions -> Themes Analysis
+Implementation: Ask open questions, document responses, identify patterns, share insights with leadership, implement improvements
+
+## STRATEGIC_FRAMEWORKS
+ID: BP.161
+Type: BLUEPRINT
+Name: Strategic Planning Process
+Pattern: Analysis -> Choices -> Plan -> Execution -> Review
+Implementation: Conduct situation analysis, make strategic choices, document plan, assign ownership, track progress, review quarterly
+
+ID: BP.162
+Type: BLUEPRINT
+Name: SWOT Analysis Framework
+Pattern: Strengths + Weaknesses + Opportunities + Threats -> Strategic Implications -> Action Items
+Implementation: List internal and external factors, derive insights, define strategic actions
+
+ID: BP.163
+Type: BLUEPRINT
+Name: Porter's Five Forces Analysis
+Pattern: Competitive Rivalry -> Supplier Power -> Buyer Power -> Threat of Substitutes -> Threat of New Entrants -> Industry Attractiveness
+Implementation: Assess each force, rate intensity, evaluate overall industry attractiveness, identify strategic implications
+
+ID: BP.164
+Type: BLUEPRINT
+Name: Business Model Canvas
+Pattern: Customer Segments -> Value Propositions -> Channels -> Customer Relationships -> Revenue Streams -> Key Resources -> Key Activities -> Key Partners -> Cost Structure
+Implementation: Map all nine blocks, identify interdependencies, test assumptions, iterate model
+
+ID: BP.165
+Type: BLUEPRINT
+Name: OKR Framework
+Pattern: Objective -> Key Results
+Implementation: Set ambitious objectives, define measurable key results, align across organization, track progress, review quarterly
+
+ID: BP.166
+Type: BLUEPRINT
+Name: Market Entry Strategy
+Pattern: Market Assessment -> Entry Mode -> Go-to-Market Plan -> Resource Requirements -> Risk Mitigation
+Implementation: Analyze target market, choose entry approach, plan launch, allocate resources, identify and mitigate risks
+
+ID: BP.167
+Type: BLUEPRINT
+Name: M&A Evaluation Framework
+Pattern: Strategic Fit -> Financial Model -> Cultural Alignment -> Integration Complexity -> Risk Assessment -> Valuation -> Decision
+Implementation: Assess strategic value, build financial model, evaluate culture fit, plan integration, identify risks, determine valuation
+
+ID: BP.168
+Type: BLUEPRINT
+Name: Scenario Planning Template
+Pattern: Identify Key Uncertainties -> Create Scenarios -> Analyze Implications -> Develop Strategies -> Monitor Indicators
+Implementation: List uncertainties, develop plausible scenarios, assess impact, create response strategies, track signals
+
+ID: BP.169
+Type: BLUEPRINT
+Name: Competitive Positioning Map
+Pattern: Identify 2 Key Dimensions -> Plot Competitors -> Identify White Space -> Choose Position -> Execute Strategy
+Implementation: Select relevant axes, map competitors, find gaps, position offering
+
+ID: BP.170
+Type: BLUEPRINT
+Name: Innovation Portfolio Management
+Pattern: Core 70 percent -> Adjacent 20 percent -> Transformational 10 percent
+Implementation: Categorize initiatives, allocate resources, manage portfolio mix, balance risk and return, review regularly
+
+## CUSTOMER_SUCCESS
+ID: BP.171
+Type: BLUEPRINT
+Name: Customer Health Score Model
+Pattern: Product Usage + Support Engagement + Relationship Strength + Business Outcomes = Health Score
+Implementation: Define metrics, weight dimensions, calculate scores, set thresholds, trigger interventions
+
+ID: BP.172
+Type: BLUEPRINT
+Name: Customer Onboarding Journey
+Pattern: Welcome -> Setup -> First Value -> Expansion -> Advocacy
+Implementation: Map stages, define success criteria, create content and touchpoints, measure time-to-value, optimize bottlenecks
+
+ID: BP.173
+Type: BLUEPRINT
+Name: Quarterly Business Review Template
+Pattern: Progress Review -> Value Delivered -> Usage Analytics -> Roadmap Preview -> Expansion Opportunities -> Next Steps
+Implementation: Prepare customer-specific data, show ROI, present usage insights, preview future features, identify expansion, agree actions
+
+ID: BP.174
+Type: BLUEPRINT
+Name: Churn Prevention Playbook
+Pattern: Early Warning Signals -> Risk Assessment -> Intervention Strategy -> Execution -> Follow-up -> Resolution
+Implementation: Monitor health indicators, identify at-risk accounts, choose intervention, execute, track outcome
+
+ID: BP.175
+Type: BLUEPRINT
+Name: Expansion Revenue Framework
+Pattern: Identify Whitespace -> Build Business Case -> Present Recommendation -> Trial or Proof -> Close Expansion -> Ensure Adoption
+Implementation: Analyze account opportunities, quantify value, recommend solutions, enable trial, negotiate terms, onboard expansion
+
+ID: BP.176
+Type: BLUEPRINT
+Name: NPS Program Design
+Pattern: Survey Design -> Distribution -> Categorize -> Follow-up -> Close Loop -> Act on Insights
+Implementation: Create survey, send to customers, calculate NPS, reach out, address feedback, drive improvements
+
+ID: BP.177
+Type: BLUEPRINT
+Name: Customer Advocacy Program
+Pattern: Identify Advocates -> Engage -> Enable -> Recognize -> Nurture
+Implementation: Find promoters, build relationships, provide opportunities, show appreciation, maintain engagement
+
+ID: BP.178
+Type: BLUEPRINT
+Name: Renewal Process Workflow
+Pattern: 120 days Review -> 90 days Engage -> 60 days Propose -> 30 days Negotiate -> Close -> Celebrate
+Implementation: Assess account health, initiate conversation, present renewal terms, handle objections, secure commitment, thank customer
+
+ID: BP.179
+Type: BLUEPRINT
+Name: Customer Segmentation Model
+Pattern: High Value High Touch -> High Value Tech Touch -> Growing Scaled -> SMB Self-Service
+Implementation: Segment customers by value and need, define service model per segment, allocate resources, deliver appropriate level
+
+ID: BP.180
+Type: BLUEPRINT
+Name: Voice of Customer Program
+Pattern: Collect -> Analyze -> Prioritize -> Act -> Communicate -> Measure Impact
+Implementation: Gather feedback systematically, synthesize insights, prioritize improvements, implement changes, close loop, track results
+
+## LEGAL_COMPLIANCE
+ID: BP.181
+Type: BLUEPRINT
+Name: Contract Review Checklist
+Pattern: Parties -> Scope -> Terms -> Payment -> IP Rights -> Liability -> Termination -> Dispute Resolution -> Signatures
+Implementation: Verify parties, confirm scope, check terms, validate pricing, protect IP, limit liability, review exit clauses, confirm process
+
+ID: BP.182
+Type: BLUEPRINT
+Name: Compliance Program Framework
+Pattern: Risk Assessment -> Policies -> Controls -> Training -> Monitoring -> Auditing -> Remediation
+Implementation: Identify requirements, create policies, implement controls, train employees, monitor compliance, audit, fix gaps
+
+ID: BP.183
+Type: BLUEPRINT
+Name: Data Privacy Impact Assessment
+Pattern: Data Mapping -> Risk Identification -> Impact Analysis -> Mitigation Measures -> Documentation -> Approval
+Implementation: Map data flows, identify privacy risks, assess impact, design safeguards, document assessment, obtain sign-off
+
+ID: BP.184
+Type: BLUEPRINT
+Name: IP Portfolio Management
+Pattern: Invention Disclosure -> Evaluation -> Filing Decision -> Prosecution -> Maintenance -> Enforcement
+Implementation: Capture innovations, assess value, decide protection strategy, file applications, pay maintenance fees, defend rights
+
+ID: BP.185
+Type: BLUEPRINT
+Name: Risk Register Template
+Pattern: Risk Description -> Category -> Likelihood -> Impact -> Score -> Owner -> Mitigation -> Status
+Implementation: Identify risks, categorize, rate probability and severity, assign owners, define mitigations, track status
+
+ID: BP.186
+Type: BLUEPRINT
+Name: Regulatory Change Management
+Pattern: Monitor -> Assess Impact -> Plan Response -> Implement -> Validate -> Document
+Implementation: Track regulatory changes, evaluate impact, develop plan, execute changes, verify compliance, maintain records
+
+ID: BP.187
+Type: BLUEPRINT
+Name: Audit Preparation Checklist
+Pattern: Scope Definition -> Document Gathering -> Internal Review -> Gap Remediation -> Audit Execution -> Follow-up
+Implementation: Understand scope, collect evidence, conduct dry run, fix issues, support auditors, address findings
+
+ID: BP.188
+Type: BLUEPRINT
+Name: Board Meeting Package
+Pattern: Agenda -> CEO Report -> Financial Update -> Strategic Initiatives -> Risk Review -> Decisions Needed -> Executive Session
+Implementation: Set agenda, prepare materials, distribute in advance, present key items, facilitate discussion, document decisions
+
+ID: BP.189
+Type: BLUEPRINT
+Name: Dispute Resolution Process
+Pattern: Assess Claim -> Gather Facts -> Evaluate Options -> Choose Strategy -> Execute -> Document
+Implementation: Understand dispute, collect evidence, weigh alternatives, select approach, implement strategy, record outcome
+
+ID: BP.190
+Type: BLUEPRINT
+Name: Ethics Violation Response
+Pattern: Report -> Investigate -> Document -> Decide -> Act -> Communicate -> Prevent Recurrence
+Implementation: Receive complaint, investigate fairly, record findings, determine consequences, take action, improve controls
+
+## DIGITAL_TECHNOLOGY
+ID: BP.191
+Type: BLUEPRINT
+Name: Digital Transformation Roadmap
+Pattern: Current State -> Vision -> Capability Gaps -> Initiatives -> Sequencing -> Metrics -> Governance
+Implementation: Assess maturity, define target state, identify gaps, design initiatives, prioritize sequence, set KPIs, establish governance
+
+ID: BP.192
+Type: BLUEPRINT
+Name: Technology Selection Framework
+Pattern: Requirements -> Vendor Research -> Demo or POC -> Evaluation Matrix -> TCO Analysis -> Decision -> Implementation
+Implementation: Define needs, identify vendors, conduct trials, score against criteria, calculate total cost, select solution, plan rollout
+
+ID: BP.193
+Type: BLUEPRINT
+Name: Data Governance Framework
+Pattern: Data Catalog -> Quality Standards -> Stewardship Model -> Access Controls -> Lifecycle Management -> Compliance
+Implementation: Inventory data assets, define quality rules, assign stewards, control access, manage retention, ensure compliance
+
+ID: BP.194
+Type: BLUEPRINT
+Name: ML Model Development Lifecycle
+Pattern: Problem Definition -> Data Collection -> Feature Engineering -> Model Training -> Validation -> Deployment -> Monitoring
+Implementation: Define use case, gather data, create features, train models, validate performance, deploy, monitor drift
+
+ID: BP.195
+Type: BLUEPRINT
+Name: Cloud Migration Strategy
+Pattern: Assessment -> Prioritization -> Migration Approach -> Execution -> Optimization
+Implementation: Inventory applications, prioritize migration order, choose strategy per app, execute migration, optimize cost and performance
+
+ID: BP.196
+Type: BLUEPRINT
+Name: Cybersecurity Framework
+Pattern: Identify -> Protect -> Detect -> Respond -> Recover
+Implementation: Inventory assets, implement access controls, monitor threats, build incident response, ensure continuity
+
+ID: BP.197
+Type: BLUEPRINT
+Name: API Design Standards
+Pattern: RESTful Conventions -> Versioning -> Authentication -> Error Handling -> Documentation -> Rate Limiting
+Implementation: Follow REST principles, version APIs, secure endpoints, return meaningful errors, document thoroughly, implement limits
+
+ID: BP.198
+Type: BLUEPRINT
+Name: CRM Implementation Plan
+Pattern: Requirements -> Platform Selection -> Data Migration -> Customization -> Integration -> Training -> Adoption
+Implementation: Define needs, choose CRM, migrate data, configure system, connect tools, train users, drive adoption
+
+ID: BP.199
+Type: BLUEPRINT
+Name: Analytics Dashboard Design
+Pattern: User Needs -> Metrics Selection -> Data Sources -> Visualization -> Interactivity -> Performance -> Iteration
+Implementation: Understand audience, choose KPIs, connect data, design visualizations, enable filtering, optimize speed, improve from feedback
+
+ID: BP.200
+Type: BLUEPRINT
+Name: Agile Development Framework
+Pattern: Sprint Planning -> Daily Standups -> Development -> Review -> Retrospective -> Iterate
+Implementation: Plan sprint backlog, sync daily, build and test, demo to stakeholders, reflect and improve, repeat two-week cycles

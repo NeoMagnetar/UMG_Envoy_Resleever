@@ -8,10 +8,10 @@
         "description": "Normalized blueprint catalog produced during Stage 4",
         "source": {
             "provided_by": "User supplied Stage 4 drop",
-            "ingested_at": "2026-03-13T07:52:04-06:00",
+            "ingested_at": "2026-03-13T08:53:39-06:00",
             "ingested_by": "Stage4-Agent"
         },
-        "entry_count": 100
+        "entry_count": 200
     },
     "entries": [
         {
@@ -2712,6 +2712,2706 @@
             "structure": "Character names; spoken lines; minimal stage directions; conversational flow; natural speech patterns",
             "conventions": "Character name followed by colon or on separate line; natural speech; subtext; realistic interruptions",
             "output_characteristics": "Conversational, realistic; character-driven; natural speech; minimal description",
+            "notes": null
+        },
+        {
+            "id": "BP.101",
+            "type": "BLUEPRINT",
+            "name": "MEDDIC Sales Qualification Framework",
+            "category": "sales_execution",
+            "subcategory": "meddic_sales_qualification_framework",
+            "domain": "SALES_EXECUTION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "sales-execution",
+                "meddic-sales-qualification-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Qualify opportunities using Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, Champion",
+            "conventions": "For each opportunity quantify customer metrics, identify economic buyer, understand decision criteria, map decision process, validate pain points, develop champion relationship",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.102",
+            "type": "BLUEPRINT",
+            "name": "Value Selling Methodology",
+            "category": "sales_execution",
+            "subcategory": "value_selling_methodology",
+            "domain": "SALES_EXECUTION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "sales-execution",
+                "value-selling-methodology"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Current State Cost -> Future State Value -> Implementation Investment -> Net Benefit -> Payback Period",
+            "conventions": "Document current costs, calculate future value, estimate implementation costs, compute ROI, show payback timeline, create compelling business case",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.103",
+            "type": "BLUEPRINT",
+            "name": "Sales Pipeline Stages Framework",
+            "category": "sales_execution",
+            "subcategory": "sales_pipeline_stages_framework",
+            "domain": "SALES_EXECUTION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "sales-execution",
+                "sales-pipeline-stages-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Lead -> Qualified -> Discovery -> Proposal -> Negotiation -> Closed-Won or Closed-Lost with entry and exit criteria for each",
+            "conventions": "Document stage definitions, set entry and exit criteria, define activities per stage, assign probability percentages, track stage velocity",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.104",
+            "type": "BLUEPRINT",
+            "name": "Account-Based Selling Blueprint",
+            "category": "sales_execution",
+            "subcategory": "account_based_selling_blueprint",
+            "domain": "SALES_EXECUTION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "sales-execution",
+                "account-based-selling-blueprint"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Research -> Stakeholder Map -> Value Hypothesis -> Multi-Thread Engagement -> Business Case -> Executive Alignment",
+            "conventions": "Deep account research, map org chart and stakeholders, develop tailored value proposition, engage multiple contacts, build executive relationships",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.105",
+            "type": "BLUEPRINT",
+            "name": "Demo Framework - Before/After/Bridge",
+            "category": "sales_execution",
+            "subcategory": "demo_framework_before_after_bridge",
+            "domain": "SALES_EXECUTION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "sales-execution",
+                "demo-framework-before-after-bridge"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Current Pain -> Desired Outcome -> Solution Capabilities",
+            "conventions": "Open with customer pain, show ideal end state, demonstrate how product bridges gap, use customer-specific examples",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.106",
+            "type": "BLUEPRINT",
+            "name": "Objection Handling Framework",
+            "category": "sales_execution",
+            "subcategory": "objection_handling_framework",
+            "domain": "SALES_EXECUTION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "sales-execution",
+                "objection-handling-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Listen -> Validate -> Clarify -> Address -> Confirm",
+            "conventions": "Do not interrupt, show empathy, ask clarifying questions, respond directly, verify satisfaction with answer",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.107",
+            "type": "BLUEPRINT",
+            "name": "Sales Forecasting Model",
+            "category": "sales_execution",
+            "subcategory": "sales_forecasting_model",
+            "domain": "SALES_EXECUTION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "sales-execution",
+                "sales-forecasting-model"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Weighted pipeline using stage probabilities to calculate forecast",
+            "conventions": "Assign probabilities by stage, weight all opportunities, sum weighted values, adjust for rep accuracy, track versus actual",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.108",
+            "type": "BLUEPRINT",
+            "name": "Territory Planning Matrix",
+            "category": "sales_execution",
+            "subcategory": "territory_planning_matrix",
+            "domain": "SALES_EXECUTION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "sales-execution",
+                "territory-planning-matrix"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Potential Value x Strategic Fit using a 9-box grid for prioritization",
+            "conventions": "Score accounts on potential and fit, plot on matrix, allocate time proportionally, define coverage strategy per quadrant",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.109",
+            "type": "BLUEPRINT",
+            "name": "Sales Onboarding 30-60-90 Plan",
+            "category": "sales_execution",
+            "subcategory": "sales_onboarding_30_60_90_plan",
+            "domain": "SALES_EXECUTION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "sales-execution",
+                "sales-onboarding-30-60-90-plan"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Month 1 product and company knowledge, Month 2 shadowing and practice, Month 3 quota ramp-up with support",
+            "conventions": "Build week-by-week plan, assign training modules, define shadowing assignments, create practice opportunities, design progressive quota ramp",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.110",
+            "type": "BLUEPRINT",
+            "name": "Win-Loss Analysis Framework",
+            "category": "sales_execution",
+            "subcategory": "win_loss_analysis_framework",
+            "domain": "SALES_EXECUTION",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "sales-execution",
+                "win-loss-analysis-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Collect decision factors, competitor comparison, buying process, pricing perception, relationship quality -> Identify patterns -> Adjust strategy",
+            "conventions": "Interview decision-makers, document feedback, categorize win and loss reasons, identify trends, update sales approach",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.111",
+            "type": "BLUEPRINT",
+            "name": "Buyer Persona Template",
+            "category": "marketing_strategy",
+            "subcategory": "buyer_persona_template",
+            "domain": "MARKETING_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "marketing-strategy",
+                "buyer-persona-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Demographics -> Job and Responsibilities -> Goals and Challenges -> Information Sources -> Buying Process -> Decision Criteria",
+            "conventions": "Research target customers, document demographics, map responsibilities, identify pain points, understand research habits, note buying triggers",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.112",
+            "type": "BLUEPRINT",
+            "name": "Content Marketing Funnel",
+            "category": "marketing_strategy",
+            "subcategory": "content_marketing_funnel",
+            "domain": "MARKETING_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "marketing-strategy",
+                "content-marketing-funnel"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "TOFU awareness -> MOFU consideration -> BOFU decision",
+            "conventions": "Create content for each stage, map to buyer journey, optimize for conversion, measure stage progression",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.113",
+            "type": "BLUEPRINT",
+            "name": "Campaign Brief Template",
+            "category": "marketing_strategy",
+            "subcategory": "campaign_brief_template",
+            "domain": "MARKETING_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "marketing-strategy",
+                "campaign-brief-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Objective -> Target Audience -> Key Message -> Channels -> Timeline -> Budget -> Success Metrics -> Creative Requirements",
+            "conventions": "Define clear goals, specify audience segments, craft core message, select channels, set dates, allocate budget, establish KPIs",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.114",
+            "type": "BLUEPRINT",
+            "name": "Brand Positioning Statement",
+            "category": "marketing_strategy",
+            "subcategory": "brand_positioning_statement",
+            "domain": "MARKETING_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "marketing-strategy",
+                "brand-positioning-statement"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "For target customer who has need, product is a category that provides unique benefit. Unlike competitors, we offer differentiation",
+            "conventions": "Define target precisely, articulate need, position in category, state unique benefit, call out competitors, highlight difference",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.115",
+            "type": "BLUEPRINT",
+            "name": "Growth Experiment Template",
+            "category": "marketing_strategy",
+            "subcategory": "growth_experiment_template",
+            "domain": "MARKETING_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "marketing-strategy",
+                "growth-experiment-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Hypothesis -> Experiment Design -> Metrics -> Run -> Analyze -> Decision",
+            "conventions": "Form testable hypothesis, design minimal experiment, define success metrics, run test, analyze results, scale or kill",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.116",
+            "type": "BLUEPRINT",
+            "name": "Marketing Funnel Metrics Framework",
+            "category": "marketing_strategy",
+            "subcategory": "marketing_funnel_metrics_framework",
+            "domain": "MARKETING_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "marketing-strategy",
+                "marketing-funnel-metrics-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Awareness -> Interest -> Consideration -> Intent -> Purchase",
+            "conventions": "Define metrics per stage, set conversion goals, track drop-off points, optimize weak areas, measure end-to-end",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.117",
+            "type": "BLUEPRINT",
+            "name": "Customer Journey Map Template",
+            "category": "marketing_strategy",
+            "subcategory": "customer_journey_map_template",
+            "domain": "MARKETING_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "marketing-strategy",
+                "customer-journey-map-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Stages -> Touchpoints -> Customer Actions -> Emotions -> Pain Points -> Opportunities",
+            "conventions": "Define journey stages, list all touchpoints, document customer actions, note emotional states, identify friction, find improvement opportunities",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.118",
+            "type": "BLUEPRINT",
+            "name": "Marketing Channel ROI Model",
+            "category": "marketing_strategy",
+            "subcategory": "marketing_channel_roi_model",
+            "domain": "MARKETING_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "marketing-strategy",
+                "marketing-channel-roi-model"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Investment -> Leads Generated -> Conversion Rate -> Revenue -> Cost per Acquisition -> ROI -> LTV:CAC",
+            "conventions": "Track spend by channel, measure leads, calculate conversion, attribute revenue, compute CAC, calculate ROI, compare to LTV",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.119",
+            "type": "BLUEPRINT",
+            "name": "Launch Plan Framework",
+            "category": "marketing_strategy",
+            "subcategory": "launch_plan_framework",
+            "domain": "MARKETING_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "marketing-strategy",
+                "launch-plan-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Pre-Launch -> Launch Week -> Post-Launch",
+            "conventions": "Build anticipation, coordinate channels, execute launch day, maintain momentum, measure results, iterate",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.120",
+            "type": "BLUEPRINT",
+            "name": "ABM Program Blueprint",
+            "category": "marketing_strategy",
+            "subcategory": "abm_program_blueprint",
+            "domain": "MARKETING_STRATEGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "marketing-strategy",
+                "abm-program-blueprint"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Select Accounts -> Research Insights -> Personalized Content -> Multi-Channel Engagement -> Sales Handoff -> Measure Account Engagement",
+            "conventions": "Identify target accounts, gather intelligence, create custom content, execute coordinated outreach, warm transfer to sales, track engagement",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.121",
+            "type": "BLUEPRINT",
+            "name": "Product Requirements Document Template",
+            "category": "product_management",
+            "subcategory": "product_requirements_document_template",
+            "domain": "PRODUCT_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "product-management",
+                "product-requirements-document-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Problem Statement -> User Stories -> Requirements -> Success Metrics -> Technical Considerations -> Dependencies -> Timeline",
+            "conventions": "Define problem clearly, write user stories, prioritize requirements, set measurable goals, note technical needs, list dependencies, estimate timeline",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.122",
+            "type": "BLUEPRINT",
+            "name": "RICE Prioritization Framework",
+            "category": "product_management",
+            "subcategory": "rice_prioritization_framework",
+            "domain": "PRODUCT_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "product-management",
+                "rice-prioritization-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Score = Reach x Impact x Confidence divided by Effort",
+            "conventions": "Estimate users reached, rate impact, assign confidence, estimate effort, calculate scores, prioritize",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.123",
+            "type": "BLUEPRINT",
+            "name": "Product Roadmap Template",
+            "category": "product_management",
+            "subcategory": "product_roadmap_template",
+            "domain": "PRODUCT_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "product-management",
+                "product-roadmap-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Now -> Next -> Later -> Future",
+            "conventions": "Place initiatives in timeframes, show themes not dates, include goals per period, update quarterly, communicate broadly",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.124",
+            "type": "BLUEPRINT",
+            "name": "User Story Format",
+            "category": "product_management",
+            "subcategory": "user_story_format",
+            "domain": "PRODUCT_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "product-management",
+                "user-story-format"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "As a user type, I want action so that benefit. Acceptance Criteria: Given context, when action, then outcome",
+            "conventions": "Identify user persona, define desired action, state value or benefit, write clear acceptance criteria, estimate story points",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.125",
+            "type": "BLUEPRINT",
+            "name": "Product-Market Fit Survey",
+            "category": "product_management",
+            "subcategory": "product_market_fit_survey",
+            "domain": "PRODUCT_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "product-management",
+                "product-market-fit-survey"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Ask how users would feel if they could no longer use the product and target more than 40 percent very disappointed",
+            "conventions": "Survey active users, track very disappointed percentage, segment by user type, identify power users, improve weak segments",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.126",
+            "type": "BLUEPRINT",
+            "name": "Feature Sunset Process",
+            "category": "product_management",
+            "subcategory": "feature_sunset_process",
+            "domain": "PRODUCT_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "product-management",
+                "feature-sunset-process"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Analyze Usage -> Announce Deprecation -> Migration Path -> Support Period -> Remove Feature -> Validate",
+            "conventions": "Review usage data, communicate timeline, provide alternatives, support transition, execute removal, confirm no impact",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.127",
+            "type": "BLUEPRINT",
+            "name": "Beta Testing Program",
+            "category": "product_management",
+            "subcategory": "beta_testing_program",
+            "domain": "PRODUCT_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "product-management",
+                "beta-testing-program"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Recruit -> Onboard -> Collect Feedback -> Iterate -> Graduate -> Measure",
+            "conventions": "Select diverse beta users, provide clear instructions, gather structured feedback, fix issues, release generally, track success",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.128",
+            "type": "BLUEPRINT",
+            "name": "Product Metrics Dashboard",
+            "category": "product_management",
+            "subcategory": "product_metrics_dashboard",
+            "domain": "PRODUCT_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "product-management",
+                "product-metrics-dashboard"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Acquisition -> Activation -> Engagement -> Retention -> Revenue -> Referral",
+            "conventions": "Define metric for each stage, instrument tracking, build dashboard, set targets, review weekly, drive improvements",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.129",
+            "type": "BLUEPRINT",
+            "name": "Competitive Analysis Framework",
+            "category": "product_management",
+            "subcategory": "competitive_analysis_framework",
+            "domain": "PRODUCT_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "product-management",
+                "competitive-analysis-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Feature Matrix -> Pricing Comparison -> Positioning Analysis -> Strengths and Weaknesses -> Opportunities and Threats",
+            "conventions": "Map competitor features, compare pricing, analyze messaging, assess advantages, identify gaps to exploit",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.130",
+            "type": "BLUEPRINT",
+            "name": "Design Sprint Process",
+            "category": "product_management",
+            "subcategory": "design_sprint_process",
+            "domain": "PRODUCT_MANAGEMENT",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "product-management",
+                "design-sprint-process"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Monday Map -> Tuesday Sketch -> Wednesday Decide -> Thursday Prototype -> Friday Test",
+            "conventions": "Define challenge, generate solutions, choose direction, build prototype, test with users, decide next steps",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.131",
+            "type": "BLUEPRINT",
+            "name": "Standard Operating Procedure Template",
+            "category": "operations_frameworks",
+            "subcategory": "standard_operating_procedure_template",
+            "domain": "OPERATIONS_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "operations-frameworks",
+                "standard-operating-procedure-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Purpose -> Scope -> Roles -> Procedure -> References -> Version Control",
+            "conventions": "State objective, define boundaries, assign responsibilities, document steps with screenshots, link resources, track versions",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.132",
+            "type": "BLUEPRINT",
+            "name": "Process Mapping SIPOC",
+            "category": "operations_frameworks",
+            "subcategory": "process_mapping_sipoc",
+            "domain": "OPERATIONS_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "operations-frameworks",
+                "process-mapping-sipoc"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Suppliers -> Inputs -> Process Steps -> Outputs -> Customers",
+            "conventions": "Identify suppliers, list inputs, map process flow, define outputs, identify customers, document handoffs",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.133",
+            "type": "BLUEPRINT",
+            "name": "Kaizen Event Framework",
+            "category": "operations_frameworks",
+            "subcategory": "kaizen_event_framework",
+            "domain": "OPERATIONS_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "operations-frameworks",
+                "kaizen-event-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Current State -> Root Cause -> Solutions -> Implement -> Validate",
+            "conventions": "Map current process, identify waste, find root causes, brainstorm improvements, implement changes, measure impact",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.134",
+            "type": "BLUEPRINT",
+            "name": "Capacity Planning Model",
+            "category": "operations_frameworks",
+            "subcategory": "capacity_planning_model",
+            "domain": "OPERATIONS_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "operations-frameworks",
+                "capacity-planning-model"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Demand Forecast -> Available Capacity -> Gap Analysis -> Options -> Implementation Plan",
+            "conventions": "Project demand, calculate capacity, identify shortfall, evaluate solutions, choose approach, execute plan",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.135",
+            "type": "BLUEPRINT",
+            "name": "Vendor Evaluation Matrix",
+            "category": "operations_frameworks",
+            "subcategory": "vendor_evaluation_matrix",
+            "domain": "OPERATIONS_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "operations-frameworks",
+                "vendor-evaluation-matrix"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Criteria -> Weight -> Score Vendors -> Calculate Weighted Score -> Decide",
+            "conventions": "Define evaluation criteria, assign importance weights, score each vendor, calculate totals, select winner",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.136",
+            "type": "BLUEPRINT",
+            "name": "Quality Assurance Checklist Template",
+            "category": "operations_frameworks",
+            "subcategory": "quality_assurance_checklist_template",
+            "domain": "OPERATIONS_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "operations-frameworks",
+                "quality-assurance-checklist-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Pre-work Verification -> In-process Checks -> Final Review -> Sign-off -> Documentation",
+            "conventions": "List requirements, define checkpoints, specify criteria, assign reviewers, maintain records",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.137",
+            "type": "BLUEPRINT",
+            "name": "Incident Response Playbook",
+            "category": "operations_frameworks",
+            "subcategory": "incident_response_playbook",
+            "domain": "OPERATIONS_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "operations-frameworks",
+                "incident-response-playbook"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Detect -> Assess -> Contain -> Resolve -> Document -> Learn",
+            "conventions": "Identify issue, evaluate severity, limit impact, fix problem, record details, conduct post-mortem",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.138",
+            "type": "BLUEPRINT",
+            "name": "Business Continuity Plan Structure",
+            "category": "operations_frameworks",
+            "subcategory": "business_continuity_plan_structure",
+            "domain": "OPERATIONS_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "operations-frameworks",
+                "business-continuity-plan-structure"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Risk Assessment -> Critical Functions -> Recovery Strategies -> Emergency Contacts -> Testing Schedule",
+            "conventions": "Identify threats, prioritize functions, define recovery procedures, maintain contact lists, test regularly",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.139",
+            "type": "BLUEPRINT",
+            "name": "SLA Definition Template",
+            "category": "operations_frameworks",
+            "subcategory": "sla_definition_template",
+            "domain": "OPERATIONS_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "operations-frameworks",
+                "sla-definition-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Service Description -> Performance Metrics -> Target Levels -> Measurement Methods -> Penalties or Credits -> Review Cadence",
+            "conventions": "Define service scope, specify metrics, set targets, document measurement, establish consequences, schedule reviews",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.140",
+            "type": "BLUEPRINT",
+            "name": "Root Cause Analysis - 5 Whys",
+            "category": "operations_frameworks",
+            "subcategory": "root_cause_analysis_5_whys",
+            "domain": "OPERATIONS_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "operations-frameworks",
+                "root-cause-analysis-5-whys"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Problem Statement -> Why -> Why -> Why -> Why -> Why -> Root Cause -> Corrective Action",
+            "conventions": "State problem clearly, ask why five times, identify root cause, define corrective action, implement, verify",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.141",
+            "type": "BLUEPRINT",
+            "name": "3-Statement Financial Model",
+            "category": "financial_models",
+            "subcategory": "3_statement_financial_model",
+            "domain": "FINANCIAL_MODELS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "financial-models",
+                "3-statement-financial-model"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Revenue Assumptions -> Income Statement -> Balance Sheet -> Cash Flow Statement -> Integrated Links",
+            "conventions": "Build revenue drivers, create P&L, model balance sheet, link cash flow, ensure balance, add scenarios",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.142",
+            "type": "BLUEPRINT",
+            "name": "Unit Economics Model",
+            "category": "financial_models",
+            "subcategory": "unit_economics_model",
+            "domain": "FINANCIAL_MODELS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "financial-models",
+                "unit-economics-model"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Revenue per Unit -> Variable Costs -> Contribution Margin -> CAC -> LTV -> LTV:CAC Ratio -> Payback Period",
+            "conventions": "Calculate revenue per unit, sum variable costs, compute margin, measure CAC, estimate LTV, assess ratios",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.143",
+            "type": "BLUEPRINT",
+            "name": "Budget Template Structure",
+            "category": "financial_models",
+            "subcategory": "budget_template_structure",
+            "domain": "FINANCIAL_MODELS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "financial-models",
+                "budget-template-structure"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Revenue Plan -> COGS -> Operating Expenses -> CapEx -> Cash Flow -> Variance Analysis",
+            "conventions": "Forecast revenue, plan costs, budget by function, allocate capital, project cash, track actual versus budget",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.144",
+            "type": "BLUEPRINT",
+            "name": "Cash Flow Forecast - 13 Week",
+            "category": "financial_models",
+            "subcategory": "cash_flow_forecast_13_week",
+            "domain": "FINANCIAL_MODELS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "financial-models",
+                "cash-flow-forecast-13-week"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Beginning Cash -> Collections -> Disbursements -> Net Cash Flow -> Ending Cash",
+            "conventions": "Start with current cash, project receipts, estimate payments, calculate net flow, identify shortfalls, plan financing",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.145",
+            "type": "BLUEPRINT",
+            "name": "Investment ROI Analysis",
+            "category": "financial_models",
+            "subcategory": "investment_roi_analysis",
+            "domain": "FINANCIAL_MODELS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "financial-models",
+                "investment-roi-analysis"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Initial Investment -> Annual Cash Flows -> Discount Rate -> NPV -> IRR -> Payback Period -> Decision Criteria",
+            "conventions": "Document investment, project cash flows, determine discount rate, calculate NPV and IRR, assess payback, make decision",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.146",
+            "type": "BLUEPRINT",
+            "name": "Scenario Planning Model",
+            "category": "financial_models",
+            "subcategory": "scenario_planning_model",
+            "domain": "FINANCIAL_MODELS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "financial-models",
+                "scenario-planning-model"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Base Case -> Optimistic Case -> Pessimistic Case -> Key Assumptions -> Sensitivity Analysis -> Contingency Plans",
+            "conventions": "Model realistic scenario, create upside case, model downside, document assumptions, test sensitivities, prepare responses",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.147",
+            "type": "BLUEPRINT",
+            "name": "Break-Even Analysis Framework",
+            "category": "financial_models",
+            "subcategory": "break_even_analysis_framework",
+            "domain": "FINANCIAL_MODELS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "financial-models",
+                "break-even-analysis-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Fixed Costs -> Variable Cost per Unit -> Price per Unit -> Break-even Units",
+            "conventions": "Sum fixed costs, calculate variable cost, set price, compute break-even volume, assess feasibility",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.148",
+            "type": "BLUEPRINT",
+            "name": "Variance Analysis Report",
+            "category": "financial_models",
+            "subcategory": "variance_analysis_report",
+            "domain": "FINANCIAL_MODELS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "financial-models",
+                "variance-analysis-report"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Budget -> Actual -> Variance -> Explanation -> Action Plan",
+            "conventions": "Compare budget to actual, calculate differences, explain significant variances, define corrective actions",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.149",
+            "type": "BLUEPRINT",
+            "name": "Working Capital Optimization",
+            "category": "financial_models",
+            "subcategory": "working_capital_optimization",
+            "domain": "FINANCIAL_MODELS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "financial-models",
+                "working-capital-optimization"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Days Sales Outstanding -> Days Inventory Outstanding -> Days Payable Outstanding -> Cash Conversion Cycle",
+            "conventions": "Measure DSO, calculate DIO, track DPO, compute CCC, identify improvement areas, implement changes",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.150",
+            "type": "BLUEPRINT",
+            "name": "Investor Pitch Deck Structure",
+            "category": "financial_models",
+            "subcategory": "investor_pitch_deck_structure",
+            "domain": "FINANCIAL_MODELS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "financial-models",
+                "investor-pitch-deck-structure"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Problem -> Solution -> Market -> Business Model -> Traction -> Competition -> Team -> Financials -> Ask",
+            "conventions": "Cover pain point, product, market size, revenue model, metrics, competition, team, projections, funding needs",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.151",
+            "type": "BLUEPRINT",
+            "name": "Competency-Based Interview Guide",
+            "category": "hr_people_systems",
+            "subcategory": "competency_based_interview_guide",
+            "domain": "HR_PEOPLE_SYSTEMS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "hr-people-systems",
+                "competency-based-interview-guide"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Role Competencies -> Behavioral Questions -> Scoring Rubric -> Evaluation Form -> Calibration Process",
+            "conventions": "Define competencies, write STAR questions, create scoring guide, document feedback, calibrate across interviewers",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.152",
+            "type": "BLUEPRINT",
+            "name": "Performance Review Template",
+            "category": "hr_people_systems",
+            "subcategory": "performance_review_template",
+            "domain": "HR_PEOPLE_SYSTEMS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "hr-people-systems",
+                "performance-review-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Self-Assessment -> Manager Assessment -> Goal Achievement -> Competency Ratings -> Development Plan -> Compensation Discussion",
+            "conventions": "Employee reflection, manager evaluation, measure goal progress, rate competencies, identify growth areas, determine compensation",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.153",
+            "type": "BLUEPRINT",
+            "name": "Compensation Band Structure",
+            "category": "hr_people_systems",
+            "subcategory": "compensation_band_structure",
+            "domain": "HR_PEOPLE_SYSTEMS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "hr-people-systems",
+                "compensation-band-structure"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Job Leveling -> Market Benchmarking -> Band Creation -> Positioning Guidelines -> Review Cycle",
+            "conventions": "Level roles, gather market data, create salary ranges, define positioning philosophy, review annually",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.154",
+            "type": "BLUEPRINT",
+            "name": "90-Day Onboarding Plan",
+            "category": "hr_people_systems",
+            "subcategory": "90_day_onboarding_plan",
+            "domain": "HR_PEOPLE_SYSTEMS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "hr-people-systems",
+                "90-day-onboarding-plan"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Week 1 Orientation -> Month 1 Role Fundamentals -> Month 2 Expanding Scope -> Month 3 Full Contribution",
+            "conventions": "Welcome and setup, core training, shadowing, increasing responsibility, regular check-ins, formal 90-day review",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.155",
+            "type": "BLUEPRINT",
+            "name": "9-Box Talent Grid",
+            "category": "hr_people_systems",
+            "subcategory": "9_box_talent_grid",
+            "domain": "HR_PEOPLE_SYSTEMS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "hr-people-systems",
+                "9-box-talent-grid"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Performance x Potential for talent assessment and development",
+            "conventions": "Rate performance, assess potential, plot employees, identify high potentials, plan development, address underperformance",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.156",
+            "type": "BLUEPRINT",
+            "name": "Career Ladder Framework",
+            "category": "hr_people_systems",
+            "subcategory": "career_ladder_framework",
+            "domain": "HR_PEOPLE_SYSTEMS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "hr-people-systems",
+                "career-ladder-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Levels -> Scope -> Impact -> Skills -> Behaviors -> Typical Tenure",
+            "conventions": "Define career levels, specify scope per level, describe expected impact, list required skills, note behaviors, indicate progression time",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.157",
+            "type": "BLUEPRINT",
+            "name": "Employee Engagement Survey Design",
+            "category": "hr_people_systems",
+            "subcategory": "employee_engagement_survey_design",
+            "domain": "HR_PEOPLE_SYSTEMS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "hr-people-systems",
+                "employee-engagement-survey-design"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Engagement Drivers -> Question Bank -> Survey Design -> Administration -> Analysis -> Action Planning",
+            "conventions": "Identify drivers, write questions, design survey, distribute, analyze results, create action plans, communicate changes",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.158",
+            "type": "BLUEPRINT",
+            "name": "Succession Planning Matrix",
+            "category": "hr_people_systems",
+            "subcategory": "succession_planning_matrix",
+            "domain": "HR_PEOPLE_SYSTEMS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "hr-people-systems",
+                "succession-planning-matrix"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Critical Roles -> Current Incumbents -> Ready Now Successors -> Ready in 1-2 Years -> Development Plans",
+            "conventions": "Identify key positions, name current holders, identify immediate backups, note future candidates, create development plans",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.159",
+            "type": "BLUEPRINT",
+            "name": "Diversity and Inclusion Roadmap",
+            "category": "hr_people_systems",
+            "subcategory": "diversity_and_inclusion_roadmap",
+            "domain": "HR_PEOPLE_SYSTEMS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "hr-people-systems",
+                "diversity-and-inclusion-roadmap"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Baseline Metrics -> Goals -> Initiatives -> Measurement -> Accountability",
+            "conventions": "Measure current state, set targets, launch programs, track progress, hold leaders accountable",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.160",
+            "type": "BLUEPRINT",
+            "name": "Exit Interview Framework",
+            "category": "hr_people_systems",
+            "subcategory": "exit_interview_framework",
+            "domain": "HR_PEOPLE_SYSTEMS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "hr-people-systems",
+                "exit-interview-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Reason for Leaving -> Role Satisfaction -> Manager Relationship -> Culture Feedback -> Suggestions -> Themes Analysis",
+            "conventions": "Ask open questions, document responses, identify patterns, share insights with leadership, implement improvements",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.161",
+            "type": "BLUEPRINT",
+            "name": "Strategic Planning Process",
+            "category": "strategic_frameworks",
+            "subcategory": "strategic_planning_process",
+            "domain": "STRATEGIC_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "strategic-frameworks",
+                "strategic-planning-process"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Analysis -> Choices -> Plan -> Execution -> Review",
+            "conventions": "Conduct situation analysis, make strategic choices, document plan, assign ownership, track progress, review quarterly",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.162",
+            "type": "BLUEPRINT",
+            "name": "SWOT Analysis Framework",
+            "category": "strategic_frameworks",
+            "subcategory": "swot_analysis_framework",
+            "domain": "STRATEGIC_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "strategic-frameworks",
+                "swot-analysis-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Strengths + Weaknesses + Opportunities + Threats -> Strategic Implications -> Action Items",
+            "conventions": "List internal and external factors, derive insights, define strategic actions",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.163",
+            "type": "BLUEPRINT",
+            "name": "Porter's Five Forces Analysis",
+            "category": "strategic_frameworks",
+            "subcategory": "porter_s_five_forces_analysis",
+            "domain": "STRATEGIC_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "strategic-frameworks",
+                "porter-s-five-forces-analysis"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Competitive Rivalry -> Supplier Power -> Buyer Power -> Threat of Substitutes -> Threat of New Entrants -> Industry Attractiveness",
+            "conventions": "Assess each force, rate intensity, evaluate overall industry attractiveness, identify strategic implications",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.164",
+            "type": "BLUEPRINT",
+            "name": "Business Model Canvas",
+            "category": "strategic_frameworks",
+            "subcategory": "business_model_canvas",
+            "domain": "STRATEGIC_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "strategic-frameworks",
+                "business-model-canvas"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Customer Segments -> Value Propositions -> Channels -> Customer Relationships -> Revenue Streams -> Key Resources -> Key Activities -> Key Partners -> Cost Structure",
+            "conventions": "Map all nine blocks, identify interdependencies, test assumptions, iterate model",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.165",
+            "type": "BLUEPRINT",
+            "name": "OKR Framework",
+            "category": "strategic_frameworks",
+            "subcategory": "okr_framework",
+            "domain": "STRATEGIC_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "strategic-frameworks",
+                "okr-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Objective -> Key Results",
+            "conventions": "Set ambitious objectives, define measurable key results, align across organization, track progress, review quarterly",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.166",
+            "type": "BLUEPRINT",
+            "name": "Market Entry Strategy",
+            "category": "strategic_frameworks",
+            "subcategory": "market_entry_strategy",
+            "domain": "STRATEGIC_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "strategic-frameworks",
+                "market-entry-strategy"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Market Assessment -> Entry Mode -> Go-to-Market Plan -> Resource Requirements -> Risk Mitigation",
+            "conventions": "Analyze target market, choose entry approach, plan launch, allocate resources, identify and mitigate risks",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.167",
+            "type": "BLUEPRINT",
+            "name": "M&A Evaluation Framework",
+            "category": "strategic_frameworks",
+            "subcategory": "m_a_evaluation_framework",
+            "domain": "STRATEGIC_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "strategic-frameworks",
+                "m-a-evaluation-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Strategic Fit -> Financial Model -> Cultural Alignment -> Integration Complexity -> Risk Assessment -> Valuation -> Decision",
+            "conventions": "Assess strategic value, build financial model, evaluate culture fit, plan integration, identify risks, determine valuation",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.168",
+            "type": "BLUEPRINT",
+            "name": "Scenario Planning Template",
+            "category": "strategic_frameworks",
+            "subcategory": "scenario_planning_template",
+            "domain": "STRATEGIC_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "strategic-frameworks",
+                "scenario-planning-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Identify Key Uncertainties -> Create Scenarios -> Analyze Implications -> Develop Strategies -> Monitor Indicators",
+            "conventions": "List uncertainties, develop plausible scenarios, assess impact, create response strategies, track signals",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.169",
+            "type": "BLUEPRINT",
+            "name": "Competitive Positioning Map",
+            "category": "strategic_frameworks",
+            "subcategory": "competitive_positioning_map",
+            "domain": "STRATEGIC_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "strategic-frameworks",
+                "competitive-positioning-map"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Identify 2 Key Dimensions -> Plot Competitors -> Identify White Space -> Choose Position -> Execute Strategy",
+            "conventions": "Select relevant axes, map competitors, find gaps, position offering",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.170",
+            "type": "BLUEPRINT",
+            "name": "Innovation Portfolio Management",
+            "category": "strategic_frameworks",
+            "subcategory": "innovation_portfolio_management",
+            "domain": "STRATEGIC_FRAMEWORKS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "strategic-frameworks",
+                "innovation-portfolio-management"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Core 70 percent -> Adjacent 20 percent -> Transformational 10 percent",
+            "conventions": "Categorize initiatives, allocate resources, manage portfolio mix, balance risk and return, review regularly",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.171",
+            "type": "BLUEPRINT",
+            "name": "Customer Health Score Model",
+            "category": "customer_success",
+            "subcategory": "customer_health_score_model",
+            "domain": "CUSTOMER_SUCCESS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "customer-success",
+                "customer-health-score-model"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Product Usage + Support Engagement + Relationship Strength + Business Outcomes = Health Score",
+            "conventions": "Define metrics, weight dimensions, calculate scores, set thresholds, trigger interventions",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.172",
+            "type": "BLUEPRINT",
+            "name": "Customer Onboarding Journey",
+            "category": "customer_success",
+            "subcategory": "customer_onboarding_journey",
+            "domain": "CUSTOMER_SUCCESS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "customer-success",
+                "customer-onboarding-journey"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Welcome -> Setup -> First Value -> Expansion -> Advocacy",
+            "conventions": "Map stages, define success criteria, create content and touchpoints, measure time-to-value, optimize bottlenecks",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.173",
+            "type": "BLUEPRINT",
+            "name": "Quarterly Business Review Template",
+            "category": "customer_success",
+            "subcategory": "quarterly_business_review_template",
+            "domain": "CUSTOMER_SUCCESS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "customer-success",
+                "quarterly-business-review-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Progress Review -> Value Delivered -> Usage Analytics -> Roadmap Preview -> Expansion Opportunities -> Next Steps",
+            "conventions": "Prepare customer-specific data, show ROI, present usage insights, preview future features, identify expansion, agree actions",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.174",
+            "type": "BLUEPRINT",
+            "name": "Churn Prevention Playbook",
+            "category": "customer_success",
+            "subcategory": "churn_prevention_playbook",
+            "domain": "CUSTOMER_SUCCESS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "customer-success",
+                "churn-prevention-playbook"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Early Warning Signals -> Risk Assessment -> Intervention Strategy -> Execution -> Follow-up -> Resolution",
+            "conventions": "Monitor health indicators, identify at-risk accounts, choose intervention, execute, track outcome",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.175",
+            "type": "BLUEPRINT",
+            "name": "Expansion Revenue Framework",
+            "category": "customer_success",
+            "subcategory": "expansion_revenue_framework",
+            "domain": "CUSTOMER_SUCCESS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "customer-success",
+                "expansion-revenue-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Identify Whitespace -> Build Business Case -> Present Recommendation -> Trial or Proof -> Close Expansion -> Ensure Adoption",
+            "conventions": "Analyze account opportunities, quantify value, recommend solutions, enable trial, negotiate terms, onboard expansion",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.176",
+            "type": "BLUEPRINT",
+            "name": "NPS Program Design",
+            "category": "customer_success",
+            "subcategory": "nps_program_design",
+            "domain": "CUSTOMER_SUCCESS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "customer-success",
+                "nps-program-design"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Survey Design -> Distribution -> Categorize -> Follow-up -> Close Loop -> Act on Insights",
+            "conventions": "Create survey, send to customers, calculate NPS, reach out, address feedback, drive improvements",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.177",
+            "type": "BLUEPRINT",
+            "name": "Customer Advocacy Program",
+            "category": "customer_success",
+            "subcategory": "customer_advocacy_program",
+            "domain": "CUSTOMER_SUCCESS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "customer-success",
+                "customer-advocacy-program"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Identify Advocates -> Engage -> Enable -> Recognize -> Nurture",
+            "conventions": "Find promoters, build relationships, provide opportunities, show appreciation, maintain engagement",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.178",
+            "type": "BLUEPRINT",
+            "name": "Renewal Process Workflow",
+            "category": "customer_success",
+            "subcategory": "renewal_process_workflow",
+            "domain": "CUSTOMER_SUCCESS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "customer-success",
+                "renewal-process-workflow"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "120 days Review -> 90 days Engage -> 60 days Propose -> 30 days Negotiate -> Close -> Celebrate",
+            "conventions": "Assess account health, initiate conversation, present renewal terms, handle objections, secure commitment, thank customer",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.179",
+            "type": "BLUEPRINT",
+            "name": "Customer Segmentation Model",
+            "category": "customer_success",
+            "subcategory": "customer_segmentation_model",
+            "domain": "CUSTOMER_SUCCESS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "customer-success",
+                "customer-segmentation-model"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "High Value High Touch -> High Value Tech Touch -> Growing Scaled -> SMB Self-Service",
+            "conventions": "Segment customers by value and need, define service model per segment, allocate resources, deliver appropriate level",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.180",
+            "type": "BLUEPRINT",
+            "name": "Voice of Customer Program",
+            "category": "customer_success",
+            "subcategory": "voice_of_customer_program",
+            "domain": "CUSTOMER_SUCCESS",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "customer-success",
+                "voice-of-customer-program"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Collect -> Analyze -> Prioritize -> Act -> Communicate -> Measure Impact",
+            "conventions": "Gather feedback systematically, synthesize insights, prioritize improvements, implement changes, close loop, track results",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.181",
+            "type": "BLUEPRINT",
+            "name": "Contract Review Checklist",
+            "category": "legal_compliance",
+            "subcategory": "contract_review_checklist",
+            "domain": "LEGAL_COMPLIANCE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "legal-compliance",
+                "contract-review-checklist"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Parties -> Scope -> Terms -> Payment -> IP Rights -> Liability -> Termination -> Dispute Resolution -> Signatures",
+            "conventions": "Verify parties, confirm scope, check terms, validate pricing, protect IP, limit liability, review exit clauses, confirm process",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.182",
+            "type": "BLUEPRINT",
+            "name": "Compliance Program Framework",
+            "category": "legal_compliance",
+            "subcategory": "compliance_program_framework",
+            "domain": "LEGAL_COMPLIANCE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "legal-compliance",
+                "compliance-program-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Risk Assessment -> Policies -> Controls -> Training -> Monitoring -> Auditing -> Remediation",
+            "conventions": "Identify requirements, create policies, implement controls, train employees, monitor compliance, audit, fix gaps",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.183",
+            "type": "BLUEPRINT",
+            "name": "Data Privacy Impact Assessment",
+            "category": "legal_compliance",
+            "subcategory": "data_privacy_impact_assessment",
+            "domain": "LEGAL_COMPLIANCE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "legal-compliance",
+                "data-privacy-impact-assessment"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Data Mapping -> Risk Identification -> Impact Analysis -> Mitigation Measures -> Documentation -> Approval",
+            "conventions": "Map data flows, identify privacy risks, assess impact, design safeguards, document assessment, obtain sign-off",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.184",
+            "type": "BLUEPRINT",
+            "name": "IP Portfolio Management",
+            "category": "legal_compliance",
+            "subcategory": "ip_portfolio_management",
+            "domain": "LEGAL_COMPLIANCE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "legal-compliance",
+                "ip-portfolio-management"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Invention Disclosure -> Evaluation -> Filing Decision -> Prosecution -> Maintenance -> Enforcement",
+            "conventions": "Capture innovations, assess value, decide protection strategy, file applications, pay maintenance fees, defend rights",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.185",
+            "type": "BLUEPRINT",
+            "name": "Risk Register Template",
+            "category": "legal_compliance",
+            "subcategory": "risk_register_template",
+            "domain": "LEGAL_COMPLIANCE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "legal-compliance",
+                "risk-register-template"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Risk Description -> Category -> Likelihood -> Impact -> Score -> Owner -> Mitigation -> Status",
+            "conventions": "Identify risks, categorize, rate probability and severity, assign owners, define mitigations, track status",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.186",
+            "type": "BLUEPRINT",
+            "name": "Regulatory Change Management",
+            "category": "legal_compliance",
+            "subcategory": "regulatory_change_management",
+            "domain": "LEGAL_COMPLIANCE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "legal-compliance",
+                "regulatory-change-management"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Monitor -> Assess Impact -> Plan Response -> Implement -> Validate -> Document",
+            "conventions": "Track regulatory changes, evaluate impact, develop plan, execute changes, verify compliance, maintain records",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.187",
+            "type": "BLUEPRINT",
+            "name": "Audit Preparation Checklist",
+            "category": "legal_compliance",
+            "subcategory": "audit_preparation_checklist",
+            "domain": "LEGAL_COMPLIANCE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "legal-compliance",
+                "audit-preparation-checklist"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Scope Definition -> Document Gathering -> Internal Review -> Gap Remediation -> Audit Execution -> Follow-up",
+            "conventions": "Understand scope, collect evidence, conduct dry run, fix issues, support auditors, address findings",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.188",
+            "type": "BLUEPRINT",
+            "name": "Board Meeting Package",
+            "category": "legal_compliance",
+            "subcategory": "board_meeting_package",
+            "domain": "LEGAL_COMPLIANCE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "legal-compliance",
+                "board-meeting-package"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Agenda -> CEO Report -> Financial Update -> Strategic Initiatives -> Risk Review -> Decisions Needed -> Executive Session",
+            "conventions": "Set agenda, prepare materials, distribute in advance, present key items, facilitate discussion, document decisions",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.189",
+            "type": "BLUEPRINT",
+            "name": "Dispute Resolution Process",
+            "category": "legal_compliance",
+            "subcategory": "dispute_resolution_process",
+            "domain": "LEGAL_COMPLIANCE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "legal-compliance",
+                "dispute-resolution-process"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Assess Claim -> Gather Facts -> Evaluate Options -> Choose Strategy -> Execute -> Document",
+            "conventions": "Understand dispute, collect evidence, weigh alternatives, select approach, implement strategy, record outcome",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.190",
+            "type": "BLUEPRINT",
+            "name": "Ethics Violation Response",
+            "category": "legal_compliance",
+            "subcategory": "ethics_violation_response",
+            "domain": "LEGAL_COMPLIANCE",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "legal-compliance",
+                "ethics-violation-response"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Report -> Investigate -> Document -> Decide -> Act -> Communicate -> Prevent Recurrence",
+            "conventions": "Receive complaint, investigate fairly, record findings, determine consequences, take action, improve controls",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.191",
+            "type": "BLUEPRINT",
+            "name": "Digital Transformation Roadmap",
+            "category": "digital_technology",
+            "subcategory": "digital_transformation_roadmap",
+            "domain": "DIGITAL_TECHNOLOGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "digital-technology",
+                "digital-transformation-roadmap"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Current State -> Vision -> Capability Gaps -> Initiatives -> Sequencing -> Metrics -> Governance",
+            "conventions": "Assess maturity, define target state, identify gaps, design initiatives, prioritize sequence, set KPIs, establish governance",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.192",
+            "type": "BLUEPRINT",
+            "name": "Technology Selection Framework",
+            "category": "digital_technology",
+            "subcategory": "technology_selection_framework",
+            "domain": "DIGITAL_TECHNOLOGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "digital-technology",
+                "technology-selection-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Requirements -> Vendor Research -> Demo or POC -> Evaluation Matrix -> TCO Analysis -> Decision -> Implementation",
+            "conventions": "Define needs, identify vendors, conduct trials, score against criteria, calculate total cost, select solution, plan rollout",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.193",
+            "type": "BLUEPRINT",
+            "name": "Data Governance Framework",
+            "category": "digital_technology",
+            "subcategory": "data_governance_framework",
+            "domain": "DIGITAL_TECHNOLOGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "digital-technology",
+                "data-governance-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Data Catalog -> Quality Standards -> Stewardship Model -> Access Controls -> Lifecycle Management -> Compliance",
+            "conventions": "Inventory data assets, define quality rules, assign stewards, control access, manage retention, ensure compliance",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.194",
+            "type": "BLUEPRINT",
+            "name": "ML Model Development Lifecycle",
+            "category": "digital_technology",
+            "subcategory": "ml_model_development_lifecycle",
+            "domain": "DIGITAL_TECHNOLOGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "digital-technology",
+                "ml-model-development-lifecycle"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Problem Definition -> Data Collection -> Feature Engineering -> Model Training -> Validation -> Deployment -> Monitoring",
+            "conventions": "Define use case, gather data, create features, train models, validate performance, deploy, monitor drift",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.195",
+            "type": "BLUEPRINT",
+            "name": "Cloud Migration Strategy",
+            "category": "digital_technology",
+            "subcategory": "cloud_migration_strategy",
+            "domain": "DIGITAL_TECHNOLOGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "digital-technology",
+                "cloud-migration-strategy"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Assessment -> Prioritization -> Migration Approach -> Execution -> Optimization",
+            "conventions": "Inventory applications, prioritize migration order, choose strategy per app, execute migration, optimize cost and performance",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.196",
+            "type": "BLUEPRINT",
+            "name": "Cybersecurity Framework",
+            "category": "digital_technology",
+            "subcategory": "cybersecurity_framework",
+            "domain": "DIGITAL_TECHNOLOGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "digital-technology",
+                "cybersecurity-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Identify -> Protect -> Detect -> Respond -> Recover",
+            "conventions": "Inventory assets, implement access controls, monitor threats, build incident response, ensure continuity",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.197",
+            "type": "BLUEPRINT",
+            "name": "API Design Standards",
+            "category": "digital_technology",
+            "subcategory": "api_design_standards",
+            "domain": "DIGITAL_TECHNOLOGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "digital-technology",
+                "api-design-standards"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "RESTful Conventions -> Versioning -> Authentication -> Error Handling -> Documentation -> Rate Limiting",
+            "conventions": "Follow REST principles, version APIs, secure endpoints, return meaningful errors, document thoroughly, implement limits",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.198",
+            "type": "BLUEPRINT",
+            "name": "CRM Implementation Plan",
+            "category": "digital_technology",
+            "subcategory": "crm_implementation_plan",
+            "domain": "DIGITAL_TECHNOLOGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "digital-technology",
+                "crm-implementation-plan"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Requirements -> Platform Selection -> Data Migration -> Customization -> Integration -> Training -> Adoption",
+            "conventions": "Define needs, choose CRM, migrate data, configure system, connect tools, train users, drive adoption",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.199",
+            "type": "BLUEPRINT",
+            "name": "Analytics Dashboard Design",
+            "category": "digital_technology",
+            "subcategory": "analytics_dashboard_design",
+            "domain": "DIGITAL_TECHNOLOGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "digital-technology",
+                "analytics-dashboard-design"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "User Needs -> Metrics Selection -> Data Sources -> Visualization -> Interactivity -> Performance -> Iteration",
+            "conventions": "Understand audience, choose KPIs, connect data, design visualizations, enable filtering, optimize speed, improve from feedback",
+            "output_characteristics": null,
+            "notes": null
+        },
+        {
+            "id": "BP.200",
+            "type": "BLUEPRINT",
+            "name": "Agile Development Framework",
+            "category": "digital_technology",
+            "subcategory": "agile_development_framework",
+            "domain": "DIGITAL_TECHNOLOGY",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "blueprint",
+                "digital-technology",
+                "agile-development-framework"
+            ],
+            "source": {
+                "library_name": "MOLT BLUEPRINT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:53:39-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "structure": "Sprint Planning -> Daily Standups -> Development -> Review -> Retrospective -> Iterate",
+            "conventions": "Plan sprint backlog, sync daily, build and test, demo to stakeholders, reflect and improve, repeat two-week cycles",
+            "output_characteristics": null,
             "notes": null
         }
     ]
