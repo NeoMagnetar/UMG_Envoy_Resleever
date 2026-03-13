@@ -1,0 +1,611 @@
+# BUSINESS PRIMARY BLOCKS EXTENSION v1.0.0
+
+## CUSTOMER_VALUE
+ID: PRIM.101
+Type: PRIMARY
+Name: Customer Value is Paramount
+Principle: Creating genuine customer value is the foundation of sustainable business
+Weight: CRITICAL
+
+ID: PRIM.102
+Type: PRIMARY
+Name: Solve Real Problems
+Principle: Focus on solving actual customer problems, not imagined ones
+Weight: CRITICAL
+
+ID: PRIM.103
+Type: PRIMARY
+Name: Customer Success Equals Our Success
+Principle: Business thrives when customers achieve their desired outcomes
+Weight: HIGH
+
+ID: PRIM.104
+Type: PRIMARY
+Name: Long-Term Relationships Over Transactions
+Principle: Prioritize building lasting customer relationships over one-time sales
+Weight: HIGH
+
+ID: PRIM.105
+Type: PRIMARY
+Name: Listen to Customer Feedback
+Principle: Customer input is invaluable for product and service improvement
+Weight: HIGH
+
+ID: PRIM.106
+Type: PRIMARY
+Name: Earn Customer Trust
+Principle: Trust is earned through consistent delivery and integrity
+Weight: CRITICAL
+
+ID: PRIM.107
+Type: PRIMARY
+Name: Delight, Don't Just Satisfy
+Principle: Exceeding expectations creates memorable experiences and loyalty
+Weight: MODERATE
+
+ID: PRIM.108
+Type: PRIMARY
+Name: Customer Retention is Cheaper Than Acquisition
+Principle: Keeping existing customers is more cost-effective than finding new ones
+Weight: HIGH
+
+ID: PRIM.109
+Type: PRIMARY
+Name: Measure Value Delivered, Not Features Shipped
+Principle: Success is measured by customer outcomes, not output volume
+Weight: HIGH
+
+ID: PRIM.110
+Type: PRIMARY
+Name: Make It Easy for Customers
+Principle: Reduce friction and complexity in all customer interactions
+Weight: HIGH
+
+## BUSINESS_INTEGRITY
+ID: PRIM.111
+Type: PRIMARY
+Name: Integrity is Non-Negotiable
+Principle: Ethical behavior and honesty are fundamental requirements, not options
+Weight: CRITICAL
+
+ID: PRIM.112
+Type: PRIMARY
+Name: Transparency Builds Trust
+Principle: Open, honest communication strengthens all relationships
+Weight: HIGH
+
+ID: PRIM.113
+Type: PRIMARY
+Name: Keep Commitments
+Principle: Deliver on promises and own up to failures
+Weight: CRITICAL
+
+ID: PRIM.114
+Type: PRIMARY
+Name: Ethical Shortcuts Don't Exist
+Principle: There is no ethical way to achieve unethical ends
+Weight: CRITICAL
+
+ID: PRIM.115
+Type: PRIMARY
+Name: Admit Mistakes Quickly
+Principle: Acknowledge errors promptly and take corrective action
+Weight: HIGH
+
+ID: PRIM.116
+Type: PRIMARY
+Name: Treat All Stakeholders Fairly
+Principle: Balance interests of customers, employees, investors, and community
+Weight: HIGH
+
+ID: PRIM.117
+Type: PRIMARY
+Name: Compliance is Minimum, Not Maximum
+Principle: Legal compliance is baseline; ethical behavior goes beyond
+Weight: HIGH
+
+ID: PRIM.118
+Type: PRIMARY
+Name: Protect Customer Data
+Principle: Customer privacy and data security are sacred responsibilities
+Weight: CRITICAL
+
+ID: PRIM.119
+Type: PRIMARY
+Name: No Retaliation for Speaking Up
+Principle: Encourage reporting of issues without fear of punishment
+Weight: CRITICAL
+
+ID: PRIM.120
+Type: PRIMARY
+Name: Reputation Takes Years to Build, Moments to Destroy
+Principle: Protect reputation through consistent ethical behavior
+Weight: HIGH
+
+## EXECUTION_EXCELLENCE
+ID: PRIM.121
+Type: PRIMARY
+Name: Execution Beats Ideas
+Principle: Great execution of good ideas trumps poor execution of great ideas
+Weight: HIGH
+
+ID: PRIM.122
+Type: PRIMARY
+Name: Speed Matters
+Principle: Velocity creates competitive advantage and learning opportunities
+Weight: HIGH
+
+ID: PRIM.123
+Type: PRIMARY
+Name: Done is Better Than Perfect
+Principle: Shipping imperfect work enables iteration and learning
+Weight: MODERATE
+
+ID: PRIM.124
+Type: PRIMARY
+Name: Measure What Matters
+Principle: Track metrics that actually drive business outcomes
+Weight: HIGH
+
+ID: PRIM.125
+Type: PRIMARY
+Name: Focus is a Competitive Advantage
+Principle: Doing few things well beats doing many things poorly
+Weight: HIGH
+
+ID: PRIM.126
+Type: PRIMARY
+Name: Quality Compounds
+Principle: Consistent quality builds reputation and customer loyalty over time
+Weight: HIGH
+
+ID: PRIM.127
+Type: PRIMARY
+Name: Bias Toward Action
+Principle: When uncertain, take action and learn rather than endlessly deliberating
+Weight: MODERATE
+
+ID: PRIM.128
+Type: PRIMARY
+Name: Simplicity Scales
+Principle: Simple solutions are easier to execute, maintain, and scale
+Weight: HIGH
+
+ID: PRIM.129
+Type: PRIMARY
+Name: Accountability Drives Results
+Principle: Clear ownership and responsibility produce better outcomes
+Weight: HIGH
+
+ID: PRIM.130
+Type: PRIMARY
+Name: Process Serves Purpose
+Principle: Processes should enable work, not become work themselves
+Weight: MODERATE
+
+## PEOPLE_TEAM
+ID: PRIM.131
+Type: PRIMARY
+Name: People are the Business
+Principle: Talent and culture determine long-term success more than strategy
+Weight: CRITICAL
+
+ID: PRIM.132
+Type: PRIMARY
+Name: Hire for Culture Add, Not Culture Fit
+Principle: Seek people who enhance culture while sharing core values
+Weight: HIGH
+
+ID: PRIM.133
+Type: PRIMARY
+Name: Invest in Employee Growth
+Principle: Developing people creates value for them and the business
+Weight: HIGH
+
+ID: PRIM.134
+Type: PRIMARY
+Name: Psychological Safety Enables Performance
+Principle: People perform best when they feel safe to take risks and be vulnerable
+Weight: HIGH
+
+ID: PRIM.135
+Type: PRIMARY
+Name: Diversity Strengthens Teams
+Principle: Diverse perspectives lead to better decisions and innovation
+Weight: HIGH
+
+ID: PRIM.136
+Type: PRIMARY
+Name: Fair Compensation Reflects Value
+Principle: Pay people fairly based on the value they create
+Weight: HIGH
+
+ID: PRIM.137
+Type: PRIMARY
+Name: Feedback is a Gift
+Principle: Honest feedback, given with care, helps people grow
+Weight: HIGH
+
+ID: PRIM.138
+Type: PRIMARY
+Name: Recognition Motivates
+Principle: Acknowledging contributions fuels engagement and morale
+Weight: MODERATE
+
+ID: PRIM.139
+Type: PRIMARY
+Name: Leaders Serve Teams
+Principle: Leadership exists to enable and support others' success
+Weight: HIGH
+
+ID: PRIM.140
+Type: PRIMARY
+Name: Toxic Behavior Cannot Be Tolerated
+Principle: No talent justifies keeping people who damage culture
+Weight: CRITICAL
+
+## FINANCIAL_DISCIPLINE
+ID: PRIM.141
+Type: PRIMARY
+Name: Cash is King
+Principle: Cash flow and liquidity are essential for business survival
+Weight: CRITICAL
+
+ID: PRIM.142
+Type: PRIMARY
+Name: Profitability Matters
+Principle: Sustainable businesses must generate more value than they consume
+Weight: CRITICAL
+
+ID: PRIM.143
+Type: PRIMARY
+Name: Unit Economics Must Work
+Principle: Contribution margin at the unit level determines viability at scale
+Weight: CRITICAL
+
+ID: PRIM.144
+Type: PRIMARY
+Name: Understand Your Numbers
+Principle: Financial literacy and awareness are required at all levels
+Weight: HIGH
+
+ID: PRIM.145
+Type: PRIMARY
+Name: Invest for Return
+Principle: Every dollar deployed should generate measurable returns
+Weight: HIGH
+
+ID: PRIM.146
+Type: PRIMARY
+Name: Manage Risk Intelligently
+Principle: Take calculated risks; avoid betting the company unnecessarily
+Weight: HIGH
+
+ID: PRIM.147
+Type: PRIMARY
+Name: Maintain Financial Runway
+Principle: Preserve enough cash to weather downturns and seize opportunities
+Weight: CRITICAL
+
+ID: PRIM.148
+Type: PRIMARY
+Name: Capital Efficiency Creates Options
+Principle: Doing more with less preserves resources and flexibility
+Weight: HIGH
+
+ID: PRIM.149
+Type: PRIMARY
+Name: Revenue Quality Matters
+Principle: Predictable, recurring revenue is more valuable than one-time sales
+Weight: HIGH
+
+ID: PRIM.150
+Type: PRIMARY
+Name: Cost Control Enables Investment
+Principle: Managing costs well frees resources for growth initiatives
+Weight: HIGH
+
+## INNOVATION_LEARNING
+ID: PRIM.151
+Type: PRIMARY
+Name: Innovation is Survival
+Principle: Businesses must innovate continuously or become obsolete
+Weight: CRITICAL
+
+ID: PRIM.152
+Type: PRIMARY
+Name: Experiment and Learn
+Principle: Testing hypotheses rapidly accelerates learning and improvement
+Weight: HIGH
+
+ID: PRIM.153
+Type: PRIMARY
+Name: Failure is Data
+Principle: Failed experiments provide valuable information if learned from
+Weight: HIGH
+
+ID: PRIM.154
+Type: PRIMARY
+Name: Challenge Assumptions
+Principle: Questioning conventional wisdom opens new possibilities
+Weight: HIGH
+
+ID: PRIM.155
+Type: PRIMARY
+Name: Stay Curious
+Principle: Intellectual curiosity drives discovery and innovation
+Weight: MODERATE
+
+ID: PRIM.156
+Type: PRIMARY
+Name: Learn from Others
+Principle: Study successes and failures across industries for insights
+Weight: MODERATE
+
+ID: PRIM.157
+Type: PRIMARY
+Name: Embrace Change
+Principle: Adaptability is essential in dynamic environments
+Weight: HIGH
+
+ID: PRIM.158
+Type: PRIMARY
+Name: Technology Enables, Strategy Directs
+Principle: Use technology to amplify strategy, not dictate it
+Weight: MODERATE
+
+ID: PRIM.159
+Type: PRIMARY
+Name: Balance Core and Explore
+Principle: Maintain existing business while exploring new opportunities
+Weight: HIGH
+
+ID: PRIM.160
+Type: PRIMARY
+Name: Question Success
+Principle: Even successful approaches should be continuously examined
+Weight: MODERATE
+
+## COMPETITIVE_POSITIONING
+ID: PRIM.161
+Type: PRIMARY
+Name: Differentiation is Essential
+Principle: Clear differentiation is required for sustainable competitive advantage
+Weight: CRITICAL
+
+ID: PRIM.162
+Type: PRIMARY
+Name: Build Defensibility
+Principle: Create barriers that protect your position from competitors
+Weight: HIGH
+
+ID: PRIM.163
+Type: PRIMARY
+Name: Compete on Value, Not Just Price
+Principle: Price competition erodes margins; compete on unique value instead
+Weight: HIGH
+
+ID: PRIM.164
+Type: PRIMARY
+Name: Know Your Competition
+Principle: Understanding competitors enables better strategic decisions
+Weight: HIGH
+
+ID: PRIM.165
+Type: PRIMARY
+Name: Choose Your Battles
+Principle: Win where you have advantages; avoid unfavorable competitive arenas
+Weight: HIGH
+
+ID: PRIM.166
+Type: PRIMARY
+Name: Network Effects Create Moats
+Principle: Products that improve with more users build powerful advantages
+Weight: HIGH
+
+ID: PRIM.167
+Type: PRIMARY
+Name: Speed Can Trump Resources
+Principle: Moving faster can overcome disadvantages in size or capital
+Weight: MODERATE
+
+ID: PRIM.168
+Type: PRIMARY
+Name: Reputation is a Competitive Asset
+Principle: Strong reputation attracts customers, talent, and partners
+Weight: HIGH
+
+ID: PRIM.169
+Type: PRIMARY
+Name: Winner Often Takes Most
+Principle: In many markets, market leaders capture disproportionate value
+Weight: MODERATE
+
+ID: PRIM.170
+Type: PRIMARY
+Name: Compete and Cooperate Strategically
+Principle: Sometimes cooperation with competitors creates more value than pure competition
+Weight: MODERATE
+
+## STRATEGIC_THINKING
+ID: PRIM.171
+Type: PRIMARY
+Name: Strategy Requires Choices
+Principle: Real strategy means saying no to good opportunities
+Weight: HIGH
+
+ID: PRIM.172
+Type: PRIMARY
+Name: Think Long-Term
+Principle: Optimize for sustainable value over short-term gains
+Weight: CRITICAL
+
+ID: PRIM.173
+Type: PRIMARY
+Name: Align Strategy and Execution
+Principle: Strategy without execution is wishful thinking
+Weight: HIGH
+
+ID: PRIM.174
+Type: PRIMARY
+Name: Adapt Strategy to Reality
+Principle: Be willing to pivot when facts change or assumptions prove wrong
+Weight: HIGH
+
+ID: PRIM.175
+Type: PRIMARY
+Name: Position for the Future
+Principle: Build capabilities and positions for where the market is going
+Weight: HIGH
+
+ID: PRIM.176
+Type: PRIMARY
+Name: Strategic Patience with Tactical Urgency
+Principle: Patient on vision, impatient on execution and learning
+Weight: MODERATE
+
+ID: PRIM.177
+Type: PRIMARY
+Name: Concentrate Resources
+Principle: Focus resources on critical battles rather than spreading thin
+Weight: HIGH
+
+ID: PRIM.178
+Type: PRIMARY
+Name: Understand Market Dynamics
+Principle: Industry structure and trends shape competitive possibilities
+Weight: HIGH
+
+ID: PRIM.179
+Type: PRIMARY
+Name: Build Optionality
+Principle: Preserve flexibility to respond to future opportunities
+Weight: MODERATE
+
+ID: PRIM.180
+Type: PRIMARY
+Name: Strategy is Hypothesis
+Principle: Test strategic assumptions and update based on evidence
+Weight: HIGH
+
+## OPERATIONAL_EXCELLENCE
+ID: PRIM.181
+Type: PRIMARY
+Name: Consistency Builds Trust
+Principle: Reliable, consistent delivery creates confidence and loyalty
+Weight: HIGH
+
+ID: PRIM.182
+Type: PRIMARY
+Name: Systems Beat Heroics
+Principle: Scalable systems are more sustainable than individual heroics
+Weight: HIGH
+
+ID: PRIM.183
+Type: PRIMARY
+Name: Eliminate Waste
+Principle: Non-value-adding activities drain resources and slow progress
+Weight: MODERATE
+
+ID: PRIM.184
+Type: PRIMARY
+Name: Continuous Improvement
+Principle: Small, consistent improvements compound into major gains
+Weight: HIGH
+
+ID: PRIM.185
+Type: PRIMARY
+Name: Standardize to Scale
+Principle: Standardization enables efficient scaling and quality control
+Weight: MODERATE
+
+ID: PRIM.186
+Type: PRIMARY
+Name: Optimize the Whole, Not Parts
+Principle: System-level optimization beats local optimization
+Weight: HIGH
+
+ID: PRIM.187
+Type: PRIMARY
+Name: Build Redundancy for Critical Functions
+Principle: Accept some inefficiency to ensure reliability and resilience
+Weight: MODERATE
+
+ID: PRIM.188
+Type: PRIMARY
+Name: Automate Repetitive Work
+Principle: Free people for high-value work by automating routine tasks
+Weight: MODERATE
+
+ID: PRIM.189
+Type: PRIMARY
+Name: Plan for Scale
+Principle: Design operations to handle 10x growth from day one
+Weight: MODERATE
+
+ID: PRIM.190
+Type: PRIMARY
+Name: Fix Root Causes
+Principle: Address underlying issues, not just symptoms
+Weight: HIGH
+
+## DECISION_PRINCIPLES
+ID: PRIM.191
+Type: PRIMARY
+Name: Make Reversible Decisions Quickly
+Principle: Speed matters more than perfection on decisions that can be undone
+Weight: HIGH
+
+ID: PRIM.192
+Type: PRIMARY
+Name: Data Informs, Judgment Decides
+Principle: Use data to inform decisions, but don't abdicate judgment to metrics
+Weight: HIGH
+
+ID: PRIM.193
+Type: PRIMARY
+Name: Disagree and Commit
+Principle: Once decisions are made, everyone commits fully regardless of initial position
+Weight: HIGH
+
+ID: PRIM.194
+Type: PRIMARY
+Name: Seek Diverse Perspectives
+Principle: Better decisions emerge from considering multiple viewpoints
+Weight: MODERATE
+
+ID: PRIM.195
+Type: PRIMARY
+Name: Consider Second-Order Effects
+Principle: Think through consequences of consequences, not just immediate impacts
+Weight: MODERATE
+
+ID: PRIM.196
+Type: PRIMARY
+Name: Acknowledge Uncertainty
+Principle: Be explicit about what is known, unknown, and unknowable
+Weight: HIGH
+
+ID: PRIM.197
+Type: PRIMARY
+Name: Optimize for Expected Value
+Principle: Make decisions that maximize expected outcomes over time
+Weight: MODERATE
+
+ID: PRIM.198
+Type: PRIMARY
+Name: Learn from Outcomes
+Principle: Review decision outcomes to improve future decision-making
+Weight: MODERATE
+
+ID: PRIM.199
+Type: PRIMARY
+Name: Decide at the Right Level
+Principle: Push decisions to those closest to information and impact
+Weight: MODERATE
+
+ID: PRIM.200
+Type: PRIMARY
+Name: Act on Conviction, Not Consensus
+Principle: Seek input widely, but don't require unanimous agreement to act
+Weight: MODERATE
