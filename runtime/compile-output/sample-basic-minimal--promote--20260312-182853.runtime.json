@@ -1,0 +1,373 @@
+{
+  "runtime": {
+    "sleeveId": "sleeve_basic",
+    "sleeveName": "Basic Minimal",
+    "stacks": [
+      {
+        "stackId": "stack_support",
+        "domainKey": "support",
+        "orderedBlockIds": [
+          "blk_instr_safe",
+          "blk_primary_support"
+        ]
+      }
+    ],
+    "blocksByMoltType": {
+      "trigger": [],
+      "directive": [],
+      "instruction": [
+        "blk_instr_safe"
+      ],
+      "subject": [],
+      "primary": [
+        "blk_primary_support"
+      ],
+      "philosophy": [],
+      "blueprint": []
+    },
+    "bundles": [
+      {
+        "segmentId": "implicit_bundle_stack_support_blk_primary_support",
+        "stackId": "stack_support",
+        "blockIds": [
+          "blk_primary_support"
+        ]
+      },
+      {
+        "segmentId": "implicit_bundle_stack_support_blk_instr_safe",
+        "stackId": "stack_support",
+        "blockIds": [
+          "blk_instr_safe"
+        ]
+      }
+    ],
+    "neoBlocks": [
+      {
+        "id": "nb_stack_support",
+        "stackId": "stack_support",
+        "orderedBlockIds": [
+          "blk_instr_safe",
+          "blk_primary_support"
+        ],
+        "byMoltType": {
+          "trigger": [],
+          "directive": [],
+          "instruction": [
+            "blk_instr_safe"
+          ],
+          "subject": [],
+          "primary": [
+            "blk_primary_support"
+          ],
+          "philosophy": [],
+          "blueprint": []
+        },
+        "bundleIds": [
+          "implicit_bundle_stack_support_blk_instr_safe",
+          "implicit_bundle_stack_support_blk_primary_support"
+        ],
+        "mergeIds": [],
+        "selectedPrimaryId": "blk_primary_support",
+        "active": {
+          "triggerIds": [],
+          "directiveIds": [],
+          "instructionIds": [
+            "blk_instr_safe"
+          ],
+          "subjectIds": [],
+          "primaryId": "blk_primary_support",
+          "philosophyIds": [],
+          "blueprintIds": []
+        }
+      }
+    ],
+    "neoStacks": [
+      {
+        "id": "ns_support",
+        "domainKey": "support",
+        "neoBlockIds": [
+          "nb_stack_support"
+        ]
+      }
+    ],
+    "neoBlockIdByStackId": {
+      "stack_support": "nb_stack_support"
+    },
+    "primaryByStackId": {
+      "stack_support": "blk_primary_support"
+    },
+    "promptSpec": {
+      "sleeveId": "sleeve_basic",
+      "neoBlockPrompts": [
+        {
+          "neoBlockId": "nb_stack_support",
+          "stackId": "stack_support",
+          "sections": [
+            {
+              "type": "trigger",
+              "blockIds": [],
+              "text": ""
+            },
+            {
+              "type": "directive",
+              "blockIds": [],
+              "text": ""
+            },
+            {
+              "type": "instruction",
+              "blockIds": [
+                "blk_instr_safe"
+              ],
+              "text": "Be safe and honest."
+            },
+            {
+              "type": "subject",
+              "blockIds": [],
+              "text": ""
+            },
+            {
+              "type": "primary",
+              "blockIds": [
+                "blk_primary_support"
+              ],
+              "text": "Handle support requests."
+            },
+            {
+              "type": "philosophy",
+              "blockIds": [],
+              "text": ""
+            },
+            {
+              "type": "blueprint",
+              "blockIds": [],
+              "text": ""
+            }
+          ],
+          "fullText": "Be safe and honest.\n\n---\n\nHandle support requests."
+        }
+      ]
+    },
+    "indexes": {
+      "blockTitleById": {
+        "blk_primary_support": "blk_primary_support",
+        "blk_instr_safe": "blk_instr_safe"
+      },
+      "stackNameById": {
+        "stack_support": "stack_support"
+      },
+      "tags": {
+        "tagsByBlockId": {},
+        "blockIdsByTag": {},
+        "blockIdsByTagByStackId": {
+          "stack_support": {}
+        },
+        "activeBlockIdsByTagByStackId": {
+          "stack_support": {}
+        },
+        "blockIdsByTagByMoltType": {
+          "trigger": {},
+          "directive": {},
+          "instruction": {},
+          "subject": {},
+          "primary": {},
+          "philosophy": {},
+          "blueprint": {}
+        },
+        "allTagsSorted": []
+      }
+    },
+    "meta": {
+      "compiledAt": "2026-03-13T00:31:36.108Z",
+      "compilerVersion": "v0"
+    }
+  },
+  "trace": {
+    "sleeveId": "sleeve_basic",
+    "events": [
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_START",
+        "message": "compileSleeve(v0) started.",
+        "id": "evt_00001",
+        "timestamp": "2026-03-13T00:31:36.091Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_VALIDATE_DONE",
+        "message": "Validation passed.",
+        "id": "evt_00002",
+        "timestamp": "2026-03-13T00:31:36.092Z"
+      },
+      {
+        "kind": "note",
+        "severity": "info",
+        "code": "INFO_IMPLICIT_BUNDLE",
+        "message": "Created implicit singleton bundle for block blk_primary_support in stack stack_support.",
+        "relatedStackIds": [
+          "stack_support"
+        ],
+        "relatedBlockIds": [
+          "blk_primary_support"
+        ],
+        "id": "evt_00003",
+        "timestamp": "2026-03-13T00:31:36.092Z"
+      },
+      {
+        "kind": "note",
+        "severity": "info",
+        "code": "INFO_IMPLICIT_BUNDLE",
+        "message": "Created implicit singleton bundle for block blk_instr_safe in stack stack_support.",
+        "relatedStackIds": [
+          "stack_support"
+        ],
+        "relatedBlockIds": [
+          "blk_instr_safe"
+        ],
+        "id": "evt_00004",
+        "timestamp": "2026-03-13T00:31:36.092Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_NORMALIZE_DONE",
+        "message": "Segments normalized.",
+        "id": "evt_00005",
+        "timestamp": "2026-03-13T00:31:36.092Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_MERGE_DONE",
+        "message": "Merges applied. 0 merge operation(s).",
+        "id": "evt_00006",
+        "timestamp": "2026-03-13T00:31:36.093Z"
+      },
+      {
+        "kind": "note",
+        "severity": "info",
+        "code": "INFO_BUNDLE_APPLIED",
+        "message": "Bundle implicit_bundle_stack_support_blk_primary_support recorded with 1 block(s) in stack stack_support.",
+        "relatedStackIds": [
+          "stack_support"
+        ],
+        "relatedBlockIds": [
+          "blk_primary_support"
+        ],
+        "id": "evt_00007",
+        "timestamp": "2026-03-13T00:31:36.093Z"
+      },
+      {
+        "kind": "note",
+        "severity": "info",
+        "code": "INFO_BUNDLE_APPLIED",
+        "message": "Bundle implicit_bundle_stack_support_blk_instr_safe recorded with 1 block(s) in stack stack_support.",
+        "relatedStackIds": [
+          "stack_support"
+        ],
+        "relatedBlockIds": [
+          "blk_instr_safe"
+        ],
+        "id": "evt_00008",
+        "timestamp": "2026-03-13T00:31:36.093Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_BUNDLE_DONE",
+        "message": "Bundles recorded. 2 bundle(s).",
+        "id": "evt_00009",
+        "timestamp": "2026-03-13T00:31:36.093Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_GOVERNANCE_DONE",
+        "message": "Governance applied. 0 rule(s) executed.",
+        "id": "evt_00010",
+        "timestamp": "2026-03-13T00:31:36.093Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_RESOLVE_AUTHORITY_DONE",
+        "message": "Authority resolved for 1 stack(s).",
+        "id": "evt_00011",
+        "timestamp": "2026-03-13T00:31:36.093Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_PRIMARY_SELECTED",
+        "message": "Stack stack_support: selected primary blk_primary_support.",
+        "relatedStackIds": [
+          "stack_support"
+        ],
+        "relatedBlockIds": [
+          "blk_primary_support"
+        ],
+        "id": "evt_00012",
+        "timestamp": "2026-03-13T00:31:36.093Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_PRIMARY_SELECTION_DONE",
+        "message": "Primary selection complete for 1 stack(s).",
+        "id": "evt_00013",
+        "timestamp": "2026-03-13T00:31:36.093Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_DIRECTIVE_SELECTION_DONE",
+        "message": "Directive selection complete for 1 stack(s).",
+        "id": "evt_00014",
+        "timestamp": "2026-03-13T00:31:36.094Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_INSTRUCTION_SELECTION_DONE",
+        "message": "Instruction selection complete for 1 stack(s).",
+        "id": "evt_00015",
+        "timestamp": "2026-03-13T00:31:36.094Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_SUBJECT_SELECTION_DONE",
+        "message": "Subject selection complete for 1 stack(s).",
+        "id": "evt_00016",
+        "timestamp": "2026-03-13T00:31:36.094Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_BLUEPRINT_SELECTION_DONE",
+        "message": "Blueprint selection complete for 1 stack(s).",
+        "id": "evt_00017",
+        "timestamp": "2026-03-13T00:31:36.094Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_PROMPT_SPEC_DONE",
+        "message": "Built promptSpec for 1 neoBlocks.",
+        "id": "evt_00018",
+        "timestamp": "2026-03-13T00:31:36.108Z"
+      },
+      {
+        "kind": "pipeline_stage",
+        "severity": "info",
+        "code": "INFO_DONE",
+        "message": "compileSleeve(v0) succeeded. Active triggers: 0.",
+        "relatedTriggerIds": [],
+        "id": "evt_00019",
+        "timestamp": "2026-03-13T00:31:36.108Z"
+      }
+    ]
+  },
+  "hasErrors": false
+}

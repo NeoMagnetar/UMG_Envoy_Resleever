@@ -1,0 +1,26 @@
+{
+  "id": "NBK.EXAMPLE",
+  "name": "Example Analytical Intake NeoBlock",
+  "purpose": "Show how to bundle multiple MOLT blocks into a reusable unit.",
+  "category": "general",
+  "subcategory": "analytical",
+  "status": "example_only",
+  "version": "0.0.1",
+  "tags": ["neoblock", "analytical"],
+  "molt_block_ids": ["TRG.EXAMPLE", "DIR.EXAMPLE"],
+  "composition_logic": {
+    "sequence": ["TRG.EXAMPLE", "DIR.EXAMPLE"],
+    "parallel": [],
+    "conditions": ["if escalation required -> DIR.GOV"],
+    "notes": "Replace placeholders with real block IDs."
+  },
+  "governing_directives": ["DIR.EXAMPLE"],
+  "examples": ["intake workflow"],
+  "source": {
+    "library_name": "Example NeoBlock Library",
+    "library_version": "0.0.1",
+    "created": "2026-03-12",
+    "created_by": "Stage4-Agent"
+  },
+  "notes": "Example asset only."
+}

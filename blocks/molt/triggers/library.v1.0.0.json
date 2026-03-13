@@ -1,0 +1,3520 @@
+﻿{
+    "schema":  "https://umg.envoy/schemas/molt-trigger.library.schema.json",
+    "library":  {
+                    "name":  "MOLT Trigger Library",
+                    "version":  "1.0.0",
+                    "block_type":  "TRIGGER",
+                    "category":  "general",
+                    "description":  "Normalized trigger catalog produced during Stage 4",
+                    "source":  {
+                                   "provided_by":  "User supplied Stage 4 drop",
+                                   "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                   "ingested_by":  "Stage4-Agent"
+                               },
+                    "entry_count":  100
+                },
+    "entries":  [
+                    {
+                        "id":  "TRG.001",
+                        "type":  "TRIGGER",
+                        "name":  "Technical Analysis Request",
+                        "category":  "general",
+                        "subcategory":  "analytical_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "analytical-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Technical Analysis Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  "User requests analysis of code, system, or technical architecture",
+                        "examples":  [
+                                         "analyze this code",
+                                         "review system design",
+                                         "evaluate architecture"
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.002",
+                        "type":  "TRIGGER",
+                        "name":  "Data Evaluation Request",
+                        "category":  "general",
+                        "subcategory":  "analytical_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "analytical-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Data Evaluation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.003",
+                        "type":  "TRIGGER",
+                        "name":  "Comparison Request",
+                        "category":  "general",
+                        "subcategory":  "analytical_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "analytical-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Comparison Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.004",
+                        "type":  "TRIGGER",
+                        "name":  "Root Cause Analysis",
+                        "category":  "general",
+                        "subcategory":  "analytical_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "analytical-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Root Cause Analysis",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.005",
+                        "type":  "TRIGGER",
+                        "name":  "Risk Assessment Request",
+                        "category":  "general",
+                        "subcategory":  "analytical_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "analytical-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Risk Assessment Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.006",
+                        "type":  "TRIGGER",
+                        "name":  "Content Creation Request",
+                        "category":  "general",
+                        "subcategory":  "creative_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "creative-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Content Creation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.007",
+                        "type":  "TRIGGER",
+                        "name":  "Design Generation Request",
+                        "category":  "general",
+                        "subcategory":  "creative_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "creative-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Design Generation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.008",
+                        "type":  "TRIGGER",
+                        "name":  "Brainstorming Request",
+                        "category":  "general",
+                        "subcategory":  "creative_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "creative-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Brainstorming Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.009",
+                        "type":  "TRIGGER",
+                        "name":  "Synthesis Request",
+                        "category":  "general",
+                        "subcategory":  "creative_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "creative-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Synthesis Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.010",
+                        "type":  "TRIGGER",
+                        "name":  "Naming/Branding Request",
+                        "category":  "general",
+                        "subcategory":  "creative_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "creative-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Naming/Branding Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.011",
+                        "type":  "TRIGGER",
+                        "name":  "Concept Explanation Request",
+                        "category":  "general",
+                        "subcategory":  "learning_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "learning-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Concept Explanation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.012",
+                        "type":  "TRIGGER",
+                        "name":  "Step-by-Step Tutorial Request",
+                        "category":  "general",
+                        "subcategory":  "learning_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "learning-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Step-by-Step Tutorial Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.013",
+                        "type":  "TRIGGER",
+                        "name":  "Example Request",
+                        "category":  "general",
+                        "subcategory":  "learning_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "learning-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Example Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.014",
+                        "type":  "TRIGGER",
+                        "name":  "Simplification Request",
+                        "category":  "general",
+                        "subcategory":  "learning_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "learning-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Simplification Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.015",
+                        "type":  "TRIGGER",
+                        "name":  "Deep Dive Request",
+                        "category":  "general",
+                        "subcategory":  "learning_requests",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "learning-requests"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Deep Dive Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.016",
+                        "type":  "TRIGGER",
+                        "name":  "Recommendation Request",
+                        "category":  "general",
+                        "subcategory":  "decision_support",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "decision-support"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Recommendation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.017",
+                        "type":  "TRIGGER",
+                        "name":  "Trade-off Evaluation",
+                        "category":  "general",
+                        "subcategory":  "decision_support",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "decision-support"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Trade-off Evaluation",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.018",
+                        "type":  "TRIGGER",
+                        "name":  "Priority Assessment",
+                        "category":  "general",
+                        "subcategory":  "decision_support",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "decision-support"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Priority Assessment",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.019",
+                        "type":  "TRIGGER",
+                        "name":  "Decision Validation",
+                        "category":  "general",
+                        "subcategory":  "decision_support",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "decision-support"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Decision Validation",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.020",
+                        "type":  "TRIGGER",
+                        "name":  "Option Generation",
+                        "category":  "general",
+                        "subcategory":  "decision_support",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "decision-support"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Option Generation",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.021",
+                        "type":  "TRIGGER",
+                        "name":  "Error Resolution Request",
+                        "category":  "general",
+                        "subcategory":  "problem_solving",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "problem-solving"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Error Resolution Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.022",
+                        "type":  "TRIGGER",
+                        "name":  "Optimization Request",
+                        "category":  "general",
+                        "subcategory":  "problem_solving",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "problem-solving"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Optimization Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.023",
+                        "type":  "TRIGGER",
+                        "name":  "Alternative Approach Request",
+                        "category":  "general",
+                        "subcategory":  "problem_solving",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "problem-solving"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Alternative Approach Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.024",
+                        "type":  "TRIGGER",
+                        "name":  "Constraint Navigation",
+                        "category":  "general",
+                        "subcategory":  "problem_solving",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "problem-solving"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Constraint Navigation",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.025",
+                        "type":  "TRIGGER",
+                        "name":  "Stuck/Blocked Situation",
+                        "category":  "general",
+                        "subcategory":  "problem_solving",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "problem-solving"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Stuck/Blocked Situation",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.026",
+                        "type":  "TRIGGER",
+                        "name":  "Message Drafting Request",
+                        "category":  "general",
+                        "subcategory":  "communication_tasks",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "communication-tasks"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Message Drafting Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.027",
+                        "type":  "TRIGGER",
+                        "name":  "Tone Adjustment Request",
+                        "category":  "general",
+                        "subcategory":  "communication_tasks",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "communication-tasks"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Tone Adjustment Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.028",
+                        "type":  "TRIGGER",
+                        "name":  "Conflict Resolution Assistance",
+                        "category":  "general",
+                        "subcategory":  "communication_tasks",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "communication-tasks"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Conflict Resolution Assistance",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.029",
+                        "type":  "TRIGGER",
+                        "name":  "Clarification Request",
+                        "category":  "general",
+                        "subcategory":  "communication_tasks",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "communication-tasks"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Clarification Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.030",
+                        "type":  "TRIGGER",
+                        "name":  "Presentation Preparation",
+                        "category":  "general",
+                        "subcategory":  "communication_tasks",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "communication-tasks"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Presentation Preparation",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.031",
+                        "type":  "TRIGGER",
+                        "name":  "Project Planning Request",
+                        "category":  "general",
+                        "subcategory":  "planning_organization",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "planning-organization"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Project Planning Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.032",
+                        "type":  "TRIGGER",
+                        "name":  "Timeline Creation Request",
+                        "category":  "general",
+                        "subcategory":  "planning_organization",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "planning-organization"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Timeline Creation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.033",
+                        "type":  "TRIGGER",
+                        "name":  "Resource Allocation Request",
+                        "category":  "general",
+                        "subcategory":  "planning_organization",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "planning-organization"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Resource Allocation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.034",
+                        "type":  "TRIGGER",
+                        "name":  "Structure Creation Request",
+                        "category":  "general",
+                        "subcategory":  "planning_organization",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "planning-organization"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Structure Creation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.035",
+                        "type":  "TRIGGER",
+                        "name":  "Milestone Definition",
+                        "category":  "general",
+                        "subcategory":  "planning_organization",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "planning-organization"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Milestone Definition",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.036",
+                        "type":  "TRIGGER",
+                        "name":  "Information Gathering Request",
+                        "category":  "general",
+                        "subcategory":  "research_investigation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "research-investigation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Information Gathering Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.037",
+                        "type":  "TRIGGER",
+                        "name":  "Source Evaluation Request",
+                        "category":  "general",
+                        "subcategory":  "research_investigation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "research-investigation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Source Evaluation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.038",
+                        "type":  "TRIGGER",
+                        "name":  "Literature Review Request",
+                        "category":  "general",
+                        "subcategory":  "research_investigation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "research-investigation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Literature Review Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.039",
+                        "type":  "TRIGGER",
+                        "name":  "Fact-Checking Request",
+                        "category":  "general",
+                        "subcategory":  "research_investigation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "research-investigation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Fact-Checking Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.040",
+                        "type":  "TRIGGER",
+                        "name":  "Gap Identification",
+                        "category":  "general",
+                        "subcategory":  "research_investigation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "research-investigation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Gap Identification",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.041",
+                        "type":  "TRIGGER",
+                        "name":  "Code Generation Request",
+                        "category":  "general",
+                        "subcategory":  "technical_implementation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "technical-implementation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Code Generation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.042",
+                        "type":  "TRIGGER",
+                        "name":  "Debugging Request",
+                        "category":  "general",
+                        "subcategory":  "technical_implementation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "technical-implementation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Debugging Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.043",
+                        "type":  "TRIGGER",
+                        "name":  "Refactoring Request",
+                        "category":  "general",
+                        "subcategory":  "technical_implementation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "technical-implementation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Refactoring Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.044",
+                        "type":  "TRIGGER",
+                        "name":  "Documentation Request",
+                        "category":  "general",
+                        "subcategory":  "technical_implementation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "technical-implementation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Documentation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.045",
+                        "type":  "TRIGGER",
+                        "name":  "Testing Strategy Request",
+                        "category":  "general",
+                        "subcategory":  "technical_implementation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "technical-implementation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Testing Strategy Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.046",
+                        "type":  "TRIGGER",
+                        "name":  "Quality Assessment Request",
+                        "category":  "general",
+                        "subcategory":  "evaluation_review",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "evaluation-review"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Quality Assessment Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.047",
+                        "type":  "TRIGGER",
+                        "name":  "Improvement Suggestion Request",
+                        "category":  "general",
+                        "subcategory":  "evaluation_review",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "evaluation-review"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Improvement Suggestion Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.048",
+                        "type":  "TRIGGER",
+                        "name":  "Peer Review Simulation",
+                        "category":  "general",
+                        "subcategory":  "evaluation_review",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "evaluation-review"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Peer Review Simulation",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.049",
+                        "type":  "TRIGGER",
+                        "name":  "Standards Compliance Check",
+                        "category":  "general",
+                        "subcategory":  "evaluation_review",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "evaluation-review"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Standards Compliance Check",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.050",
+                        "type":  "TRIGGER",
+                        "name":  "Readability Assessment",
+                        "category":  "general",
+                        "subcategory":  "evaluation_review",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "evaluation-review"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Readability Assessment",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.051",
+                        "type":  "TRIGGER",
+                        "name":  "Philosophical Inquiry",
+                        "category":  "general",
+                        "subcategory":  "philosophical_conceptual",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "philosophical-conceptual"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Philosophical Inquiry",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.052",
+                        "type":  "TRIGGER",
+                        "name":  "Ethical Consideration Request",
+                        "category":  "general",
+                        "subcategory":  "philosophical_conceptual",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "philosophical-conceptual"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Ethical Consideration Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.053",
+                        "type":  "TRIGGER",
+                        "name":  "Paradigm Exploration",
+                        "category":  "general",
+                        "subcategory":  "philosophical_conceptual",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "philosophical-conceptual"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Paradigm Exploration",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.054",
+                        "type":  "TRIGGER",
+                        "name":  "Meaning Making Request",
+                        "category":  "general",
+                        "subcategory":  "philosophical_conceptual",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "philosophical-conceptual"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Meaning Making Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.055",
+                        "type":  "TRIGGER",
+                        "name":  "Assumption Challenge",
+                        "category":  "general",
+                        "subcategory":  "philosophical_conceptual",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "philosophical-conceptual"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Assumption Challenge",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.056",
+                        "type":  "TRIGGER",
+                        "name":  "Emotional Processing Assistance",
+                        "category":  "general",
+                        "subcategory":  "personal_wellbeing",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "personal-wellbeing"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Emotional Processing Assistance",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.057",
+                        "type":  "TRIGGER",
+                        "name":  "Life Decision Guidance",
+                        "category":  "general",
+                        "subcategory":  "personal_wellbeing",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "personal-wellbeing"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Life Decision Guidance",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.058",
+                        "type":  "TRIGGER",
+                        "name":  "Motivation/Encouragement Need",
+                        "category":  "general",
+                        "subcategory":  "personal_wellbeing",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "personal-wellbeing"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Motivation/Encouragement Need",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.059",
+                        "type":  "TRIGGER",
+                        "name":  "Perspective Seeking",
+                        "category":  "general",
+                        "subcategory":  "personal_wellbeing",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "personal-wellbeing"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Perspective Seeking",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.060",
+                        "type":  "TRIGGER",
+                        "name":  "Growth/Learning Guidance",
+                        "category":  "general",
+                        "subcategory":  "personal_wellbeing",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "personal-wellbeing"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Growth/Learning Guidance",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.061",
+                        "type":  "TRIGGER",
+                        "name":  "Competitive Analysis Request",
+                        "category":  "general",
+                        "subcategory":  "strategic_thinking",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "strategic-thinking"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Competitive Analysis Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.062",
+                        "type":  "TRIGGER",
+                        "name":  "Long-term Strategy Request",
+                        "category":  "general",
+                        "subcategory":  "strategic_thinking",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "strategic-thinking"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Long-term Strategy Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.063",
+                        "type":  "TRIGGER",
+                        "name":  "Scenario Planning Request",
+                        "category":  "general",
+                        "subcategory":  "strategic_thinking",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "strategic-thinking"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Scenario Planning Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.064",
+                        "type":  "TRIGGER",
+                        "name":  "Opportunity Identification",
+                        "category":  "general",
+                        "subcategory":  "strategic_thinking",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "strategic-thinking"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Opportunity Identification",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.065",
+                        "type":  "TRIGGER",
+                        "name":  "Threat Assessment",
+                        "category":  "general",
+                        "subcategory":  "strategic_thinking",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "strategic-thinking"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Threat Assessment",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.066",
+                        "type":  "TRIGGER",
+                        "name":  "Governance Check Request",
+                        "category":  "general",
+                        "subcategory":  "governance_compliance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "governance-compliance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Governance Check Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.067",
+                        "type":  "TRIGGER",
+                        "name":  "Boundary Clarification",
+                        "category":  "general",
+                        "subcategory":  "governance_compliance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "governance-compliance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Boundary Clarification",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.068",
+                        "type":  "TRIGGER",
+                        "name":  "Policy Interpretation",
+                        "category":  "general",
+                        "subcategory":  "governance_compliance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "governance-compliance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Policy Interpretation",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.069",
+                        "type":  "TRIGGER",
+                        "name":  "Compliance Verification",
+                        "category":  "general",
+                        "subcategory":  "governance_compliance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "governance-compliance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Compliance Verification",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.070",
+                        "type":  "TRIGGER",
+                        "name":  "Escalation Trigger",
+                        "category":  "general",
+                        "subcategory":  "governance_compliance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "governance-compliance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Escalation Trigger",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.071",
+                        "type":  "TRIGGER",
+                        "name":  "File Analysis Request",
+                        "category":  "general",
+                        "subcategory":  "context_integration",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "context-integration"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "File Analysis Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.072",
+                        "type":  "TRIGGER",
+                        "name":  "Context Synthesis Request",
+                        "category":  "general",
+                        "subcategory":  "context_integration",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "context-integration"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Context Synthesis Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.073",
+                        "type":  "TRIGGER",
+                        "name":  "Continuation Request",
+                        "category":  "general",
+                        "subcategory":  "context_integration",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "context-integration"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Continuation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.074",
+                        "type":  "TRIGGER",
+                        "name":  "Cross-Reference Request",
+                        "category":  "general",
+                        "subcategory":  "context_integration",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "context-integration"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Cross-Reference Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.075",
+                        "type":  "TRIGGER",
+                        "name":  "Historical Context Request",
+                        "category":  "general",
+                        "subcategory":  "context_integration",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "context-integration"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Historical Context Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.076",
+                        "type":  "TRIGGER",
+                        "name":  "Delegation Assistance",
+                        "category":  "general",
+                        "subcategory":  "collaboration_coordination",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "collaboration-coordination"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Delegation Assistance",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.077",
+                        "type":  "TRIGGER",
+                        "name":  "Stakeholder Communication",
+                        "category":  "general",
+                        "subcategory":  "collaboration_coordination",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "collaboration-coordination"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Stakeholder Communication",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.078",
+                        "type":  "TRIGGER",
+                        "name":  "Consensus Building Assistance",
+                        "category":  "general",
+                        "subcategory":  "collaboration_coordination",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "collaboration-coordination"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Consensus Building Assistance",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.079",
+                        "type":  "TRIGGER",
+                        "name":  "Multi-Agent Coordination",
+                        "category":  "general",
+                        "subcategory":  "collaboration_coordination",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "collaboration-coordination"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Multi-Agent Coordination",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.080",
+                        "type":  "TRIGGER",
+                        "name":  "Handoff Preparation",
+                        "category":  "general",
+                        "subcategory":  "collaboration_coordination",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "collaboration-coordination"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Handoff Preparation",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.081",
+                        "type":  "TRIGGER",
+                        "name":  "Format Translation Request",
+                        "category":  "general",
+                        "subcategory":  "format_conversion",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "format-conversion"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Format Translation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.082",
+                        "type":  "TRIGGER",
+                        "name":  "Summarization Request",
+                        "category":  "general",
+                        "subcategory":  "format_conversion",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "format-conversion"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Summarization Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.083",
+                        "type":  "TRIGGER",
+                        "name":  "Expansion Request",
+                        "category":  "general",
+                        "subcategory":  "format_conversion",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "format-conversion"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Expansion Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.084",
+                        "type":  "TRIGGER",
+                        "name":  "Visualization Request",
+                        "category":  "general",
+                        "subcategory":  "format_conversion",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "format-conversion"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Visualization Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.085",
+                        "type":  "TRIGGER",
+                        "name":  "Simplification for Audience",
+                        "category":  "general",
+                        "subcategory":  "format_conversion",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "format-conversion"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Simplification for Audience",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.086",
+                        "type":  "TRIGGER",
+                        "name":  "Accuracy Check Request",
+                        "category":  "general",
+                        "subcategory":  "verification_validation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "verification-validation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Accuracy Check Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.087",
+                        "type":  "TRIGGER",
+                        "name":  "Completeness Check Request",
+                        "category":  "general",
+                        "subcategory":  "verification_validation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "verification-validation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Completeness Check Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.088",
+                        "type":  "TRIGGER",
+                        "name":  "Logic Validation Request",
+                        "category":  "general",
+                        "subcategory":  "verification_validation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "verification-validation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Logic Validation Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.089",
+                        "type":  "TRIGGER",
+                        "name":  "Consistency Check Request",
+                        "category":  "general",
+                        "subcategory":  "verification_validation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "verification-validation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Consistency Check Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.090",
+                        "type":  "TRIGGER",
+                        "name":  "Edge Case Testing",
+                        "category":  "general",
+                        "subcategory":  "verification_validation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "verification-validation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Edge Case Testing",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.091",
+                        "type":  "TRIGGER",
+                        "name":  "Process Reflection Request",
+                        "category":  "general",
+                        "subcategory":  "meta_cognitive",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "meta-cognitive"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Process Reflection Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.092",
+                        "type":  "TRIGGER",
+                        "name":  "Understanding Verification",
+                        "category":  "general",
+                        "subcategory":  "meta_cognitive",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "meta-cognitive"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Understanding Verification",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.093",
+                        "type":  "TRIGGER",
+                        "name":  "Alternative Framework Request",
+                        "category":  "general",
+                        "subcategory":  "meta_cognitive",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "meta-cognitive"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Alternative Framework Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.094",
+                        "type":  "TRIGGER",
+                        "name":  "Metacognitive Guidance",
+                        "category":  "general",
+                        "subcategory":  "meta_cognitive",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "meta-cognitive"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Metacognitive Guidance",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.095",
+                        "type":  "TRIGGER",
+                        "name":  "Uncertainty Acknowledgment",
+                        "category":  "general",
+                        "subcategory":  "meta_cognitive",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "meta-cognitive"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Uncertainty Acknowledgment",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.096",
+                        "type":  "TRIGGER",
+                        "name":  "Sleeve Load Request",
+                        "category":  "general",
+                        "subcategory":  "umg_specific",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "umg-specific"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Sleeve Load Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.097",
+                        "type":  "TRIGGER",
+                        "name":  "Block Addition Request",
+                        "category":  "general",
+                        "subcategory":  "umg_specific",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "umg-specific"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Block Addition Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.098",
+                        "type":  "TRIGGER",
+                        "name":  "Governance Review Request",
+                        "category":  "general",
+                        "subcategory":  "umg_specific",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "umg-specific"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Governance Review Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.099",
+                        "type":  "TRIGGER",
+                        "name":  "Framework Development Request",
+                        "category":  "general",
+                        "subcategory":  "umg_specific",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "umg-specific"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Framework Development Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "TRG.100",
+                        "type":  "TRIGGER",
+                        "name":  "Envoy Coordination Request",
+                        "category":  "general",
+                        "subcategory":  "umg_specific",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "trigger",
+                                     "umg-specific"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT Trigger Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  null,
+                        "content":  {
+                                        "summary":  "Envoy Coordination Request",
+                                        "details":  null,
+                                        "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "activation":  null,
+                        "examples":  [
+
+                                     ],
+                        "notes":  null
+                    }
+                ]
+}

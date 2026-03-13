@@ -1,60 +1,83 @@
 # AGENT_SCOPE
 
-## Identity
+## Current role
 
 This repository is the private UMG homebase for one OpenClaw agent.
 
-## Primary Responsibilities
+Its current role is to:
+
+- maintain the homebase structure
+- maintain sleeve storage
+- maintain block storage
+- maintain runtime state files
+- maintain manifests and indexes
+- bridge to the external compiler repository
+- prepare the environment for later UMG runtime behavior
+
+## Allowed responsibilities
 
 The agent may use this repository to:
 
-- read sleeve files
-- store and organize sleeve files
+- read and organize sleeves
 - read and organize MOLT blocks
 - read and organize NeoBlocks
 - read and organize NeoStacks
-- read and organize compiler assets
-- inspect and update runtime state files
-- maintain documentation for the homebase structure
+- maintain runtime state files
+- maintain path and repo contracts
+- maintain documentation
+- inspect the external compiler repository
+- invoke the external compiler through the adapter layer when that path is finalized
 
-## Current Boundaries
+## Current limits
 
-This repository is for one private agent only.
+The agent should **not** assume that the compiler is embedded in this repository.
 
-Out of scope for the current version:
+The agent should **not** duplicate the full compiler source tree inside this repository unless explicitly instructed.
 
-- public distribution workflows
-- multi-agent upload governance
-- universal block exchange protocols
-- autonomous repo publishing pipelines
-- broad external governance policy systems
+The agent should **not** treat the `compiler/` folder here as the actual compiler implementation.
 
-## Operating Rules
+The `compiler/` folder in this repository is an adapter layer only.
 
-1. Preserve source assets whenever possible.
-2. Do not silently overwrite canonical user-provided files.
-3. Keep source assets separate from compiled outputs.
-4. Keep active runtime state explicit in `runtime/`.
-5. Prefer minimal, inspectable updates over large speculative rewrites.
-6. Archive previous active artifacts before destructive replacement when practical.
+## Sibling compiler model
 
-## File Zones
+Canonical compiler source lives in the sibling repository `..\\umg-compiler`.
 
-### Source Zones
-- `sleeves/`
-- `blocks/`
-- `compiler/`
+This repository should interact with that compiler through path contracts, wrapper scripts, adapter configuration, and future invocation logic.
 
-### Runtime Zones
-- `runtime/active-sleeve.json`
-- `runtime/active-stack.json`
-- `runtime/compile-output/`
-- `runtime/traces/`
+## Stage 1 behavior constraints
 
-### Documentation Zone
-- `docs/`
+At this stage, the agent should focus on:
 
-## Intent
+- stable structure
+- explicit documentation
+- clean repo boundaries
+- path clarity
+- scaffold normalization
 
-Stabilize one agent first.
-Expand only after the private homebase is reliable.
+At this stage, the agent should not yet implement runtime sleeve switching, pre-pass logic, block mutation workflows, stack mutation workflows, compiler source redesign, or OpenClaw restart behavior.
+
+## Stage 4 behavior constraints
+
+With the Stage 4 objective active the agent **must**:
+
+- preserve strict hierarchy separation (MOLT → NeoBlock → NeoStack → Sleeve)
+- keep canonical templates and translation rules up to date
+- normalize new MOLT libraries into JSON before referencing them elsewhere
+- update manifests (`molt-library-index.json`, `category-index.json`) whenever new assets land
+- document provenance for every ingested asset
+
+The agent **must not**:
+
+- collapse hierarchy layers
+- invent block content without source material
+- duplicate compiler logic or runtime mutation behavior reserved for Stage 5+
+
+## Operating principle
+
+Keep the system explicit, inspectable, and modular. Preserve clean separation between:
+
+- homebase runtime repo
+- compiler repo
+- source assets
+- runtime state
+- compiled outputs

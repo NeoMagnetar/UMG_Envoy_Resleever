@@ -1,0 +1,31 @@
+{
+  "id": "NST.EXAMPLE",
+  "name": "Example Intake Stack",
+  "purpose": "Reference structure for combining NeoBlocks into a stack.",
+  "category": "general",
+  "subcategory": "analytical",
+  "status": "example_only",
+  "version": "0.0.1",
+  "tags": ["neostack", "analytical"],
+  "neoblock_ids": ["NBK.EXAMPLE", "NBK.RESPONSE"],
+  "activation_logic": {
+    "entry": "Fire NBK.EXAMPLE when intake detected",
+    "sequence": ["NBK.EXAMPLE", "NBK.RESPONSE"],
+    "conditions": ["if escalation needed -> NBK.GOV"],
+    "fallback": "NBK.FALLBACK",
+    "notes": "Replace placeholder IDs before use."
+  },
+  "governance": {
+    "directive_ids": ["DIR.EXAMPLE"],
+    "policy_links": [],
+    "notes": "Example only"
+  },
+  "examples": [],
+  "source": {
+    "library_name": "Example NeoStack Library",
+    "library_version": "0.0.1",
+    "created": "2026-03-12",
+    "created_by": "Stage4-Agent"
+  },
+  "notes": "Example asset only."
+}

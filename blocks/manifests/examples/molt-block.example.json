@@ -1,0 +1,27 @@
+{
+  "id": "TRG.EXAMPLE",
+  "type": "TRIGGER",
+  "name": "Example Analytical Request",
+  "category": "general",
+  "subcategory": "analytical_requests",
+  "status": "example_only",
+  "version": "0.0.1",
+  "tags": ["trigger", "analytical"],
+  "source": {
+    "library_name": "Example Showcase",
+    "library_version": "0.0.1",
+    "created": "2026-03-12",
+    "created_by": "Stage4-Agent",
+    "reference": "blocks/manifests/examples/molt-block.example.json"
+  },
+  "scope": null,
+  "content": {
+    "summary": "Demonstrates the canonical trigger shape.",
+    "details": "Use this file as a reference only; replace all fields before committing production data.",
+    "structure": null
+  },
+  "constraints": [],
+  "activation": "Describe the signal that should fire this trigger.",
+  "examples": ["sample user request"],
+  "notes": "Example asset only."
+}

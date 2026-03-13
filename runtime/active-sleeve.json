@@ -1,9 +1,19 @@
-{
-  "active": false,
-  "sleeve_id": null,
-  "name": null,
-  "version": null,
-  "source_path": null,
-  "loaded_at": null,
-  "notes": "No active sleeve selected yet."
+﻿{
+    "active":  true,
+    "sleeve_id":  "sleeve_basic",
+    "sleeve_name":  "Basic Minimal",
+    "compiler_version":  "v0",
+    "source_sleeve_path":  "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\sleeves\\archive\\sample-basic_minimal.json",
+    "staged_input_path":  "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\staging\\sample-basic-minimal--promote--20260312-182853.json",
+    "compile_output_path":  "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\compile-output\\sample-basic-minimal--promote--20260312-182853.runtime.json",
+    "trace_path":  "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\traces\\sample-basic-minimal--promote--20260312-182853.trace.json",
+    "promotion_label":  "sample-basic",
+    "promoted_at":  "2026-03-12T18:31:48.7774302-06:00",
+    "backup_folder":  "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\backups\\20260312-183148-sleeve_basic-sample-basic",
+    "has_errors":  false,
+    "notes":  "Updated via promote-runtime.ps1",
+    "trace_summary":  {
+                          "events":  19,
+                          "last_event":  "INFO_DONE"
+                      }
 }

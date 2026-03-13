@@ -4,65 +4,85 @@ Private UMG homebase repository for one OpenClaw agent.
 
 ## Purpose
 
-This repository is the local and Git-backed homebase for a single OpenClaw agent using UMG-style structured configuration.
+This repository is the runtime homebase and organizational layer for a UMG-enabled OpenClaw agent. It is responsible for storing sleeves and blocks, tracking runtime state, maintaining manifests, and bridging to the external `umg-compiler` repository.
 
-It is used to store and manage:
+## What this repository is
 
-- sleeves
-- MOLT blocks
-- NeoBlocks
-- NeoStacks
-- compiler assets
+This repository is:
+
+- a private OpenClaw homebase
+- a UMG runtime and orchestration layer
+- a storage and management surface for sleeves, stacks, and blocks
+- the future control surface for resleeving and runtime reconfiguration
+
+## What this repository is not
+
+This repository is **not**:
+
+- the canonical compiler source
+- a duplicate copy of the compiler repo
+- a public marketplace
+- a generic prompt dump
+- a monolithic all-in-one codebase
+
+The compiler exists separately as a sibling repository: `..\\umg-compiler`.
+
+## Repository relationship
+
+These repositories are intentionally separated.
+
+### `UMG_Envoy_Resleever`
+Handles:
+
+- OpenClaw-facing skill behavior
+- UMG homebase organization
+- sleeve storage
+- block storage
 - runtime state
-- internal documentation
+- manifests
+- compiler bridge logic
 
-## Scope
+### `umg-compiler`
+Handles:
 
-This repository is intentionally private and single-agent.
+- compilation
+- transformation
+- synthesis
+- validation
+- trace generation
+- compiler-specific source logic
 
-It does **not** yet attempt to be:
+## Major folders
 
-- a public UMG marketplace
-- a multi-agent upload hub
-- a generalized governance framework
-- a universal skill registry
+- `blocks/` — MOLT, NeoBlock, and NeoStack storage
+- `sleeves/` — active, archived, and manifest-driven sleeve storage
+- `runtime/` — runtime state, compile outputs, traces
+- `compiler/` — adapter layer only, not compiler source
+- `docs/` — repo contracts and workflow documentation
 
-Its job is to stabilize one agent first.
+## Runtime design principle
 
-## Directory Layout
+UMG source assets, compiled outputs, and runtime state remain separate. This repository should preserve clean boundaries between source definitions, runtime state, compiler outputs, and external compiler logic.
 
-- `compiler/` — compiler code and related assets
-- `sleeves/active/` — currently active sleeve assets
-- `sleeves/archive/` — archived or prior sleeve assets
-- `sleeves/manifests/` — sleeve indexes and manifests
-- `blocks/molt/` — MOLT blocks
-- `blocks/neoblocks/` — NeoBlocks
-- `blocks/neostacks/` — NeoStacks
-- `blocks/manifests/` — block indexes and manifests
-- `runtime/active-sleeve.json` — current active sleeve reference
-- `runtime/active-stack.json` — current active runtime stack reference
-- `runtime/compile-output/` — compiler outputs
-- `runtime/traces/` — compile or runtime traces
-- `docs/` — internal repo and architecture documentation
+## Current status
 
-## Current State
+**Stage 1** established the foundations:
 
-This is the initial scaffold version of the homebase.
+- repo role separation
+- path contract
+- compiler adapter scaffolding
+- documentation for future automation
 
-Core OpenClaw skill activation is working.
-Directory structure is in place.
-Compiler assets, sleeve files, and block libraries will be added next.
+**Stage 2** layered in sleeve/block scaffolding and the runtime promotion helper.
 
-## Intended Workflow
+**Stage 3** activated sleeve inventory discovery, runtime staging/backups, promotion helpers, and the runtime promotion workflow/tests.
 
-1. Store source assets in the repo
-2. Select active sleeve and active stack state
-3. Run compiler or transformation steps
-4. Save outputs to `runtime/compile-output/`
-5. Preserve prior states in archive locations
-6. Sync changes back to GitHub
+**Stage 4** (this stage) adds:
 
-## Notes
+- canonical templates for every hierarchy level (MOLT, NeoBlock, NeoStack, Sleeve)
+- normalized machine-readable MOLT libraries (triggers populated, other types scaffolded for ingestion)
+- manifests and indexes (`molt-library-index.json`, `category-index.json`)
+- translation rules and worked examples for each level
+- repository config updates pointing at the normalized libraries/templates
 
-The repository should prefer explicit, inspectable files over hidden state.
-Source assets, compiled outputs, and active runtime state should remain separate.
+Upcoming stages will build on this foundation for fully automated sleeve activation, stack switching, pre-pass integration, compiler invocation, and runtime reconfiguration.

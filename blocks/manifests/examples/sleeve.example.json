@@ -1,0 +1,31 @@
+{
+  "id": "SLV.example-intake",
+  "name": "Example Intake Sleeve",
+  "purpose": "Demonstrate the canonical sleeve structure referencing NeoStacks.",
+  "category": "framework_specific",
+  "subcategory": "umg_envoy",
+  "status": "example_only",
+  "version": "0.0.1",
+  "tags": ["sleeve", "example"],
+  "neostack_ids": ["NST.EXAMPLE"],
+  "governance": {
+    "directive_ids": ["DIR.EXAMPLE"],
+    "policy_links": [],
+    "notes": "Replace with approved governance chain."
+  },
+  "runtime": {
+    "staging_file": "runtime/staging/example--promote--YYYYMMDD.json",
+    "active_stack_path": "runtime/active-stack.json",
+    "compiler_helper": ".\\compiler\\promote-runtime.ps1",
+    "notes": "Populate with actual runtime assets before activation."
+  },
+  "activation_notes": "Example only — do not deploy.",
+  "examples": [],
+  "source": {
+    "library_name": "Example Sleeve Library",
+    "library_version": "0.0.1",
+    "created": "2026-03-12",
+    "created_by": "Stage4-Agent"
+  },
+  "notes": "Example asset only."
+}

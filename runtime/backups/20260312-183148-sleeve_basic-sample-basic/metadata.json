@@ -1,0 +1,10 @@
+﻿{
+    "promoted_at":  "2026-03-12T18:31:48.7774302-06:00",
+    "sleeve_id":  "sleeve_basic",
+    "promotion_label":  "sample-basic",
+    "compiled_output":  "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\compile-output\\sample-basic-minimal--promote--20260312-182853.runtime.json",
+    "trace_path":  "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\traces\\sample-basic-minimal--promote--20260312-182853.trace.json",
+    "staged_input":  "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\staging\\sample-basic-minimal--promote--20260312-182853.json",
+    "source_sleeve":  "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\sleeves\\archive\\sample-basic_minimal.json",
+    "backup_folder":  "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\backups\\20260312-183148-sleeve_basic-sample-basic"
+}

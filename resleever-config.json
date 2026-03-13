@@ -1,45 +1,88 @@
-{
-  "repo_id": "UMG_Envoy_Resleever",
-  "mode": "private_single_agent",
-  "agent_id": "primary",
-  "description": "Private UMG homebase for one OpenClaw agent.",
-  "active_sleeve": null,
-  "active_stack": null,
-  "compiler": {
-    "enabled": true,
-    "path": "./compiler",
-    "mode": "local_repo_asset"
-  },
-  "paths": {
-    "root": ".",
-    "compiler": "./compiler",
-    "sleeves_root": "./sleeves",
-    "sleeves_active": "./sleeves/active",
-    "sleeves_archive": "./sleeves/archive",
-    "sleeves_manifests": "./sleeves/manifests",
-    "blocks_root": "./blocks",
-    "blocks_molt": "./blocks/molt",
-    "blocks_neoblocks": "./blocks/neoblocks",
-    "blocks_neostacks": "./blocks/neostacks",
-    "blocks_manifests": "./blocks/manifests",
-    "runtime_root": "./runtime",
-    "runtime_active_sleeve": "./runtime/active-sleeve.json",
-    "runtime_active_stack": "./runtime/active-stack.json",
-    "runtime_compile_output": "./runtime/compile-output",
-    "runtime_traces": "./runtime/traces",
-    "docs": "./docs"
-  },
-  "policies": {
-    "overwrite_source_assets": false,
-    "archive_previous_active_assets": true,
-    "allow_provisional_compile_outputs": true,
-    "allow_public_distribution": false,
-    "single_agent_only": true
-  },
-  "status": {
-    "skill_detected": true,
-    "compiler_loaded": false,
-    "sleeves_loaded": false,
-    "blocks_loaded": false
-  }
+﻿{
+    "repo_id":  "UMG_Envoy_Resleever",
+    "mode":  "private_single_agent",
+    "agent_id":  "primary",
+    "description":  "Private UMG homebase for one OpenClaw agent with sibling compiler integration.",
+    "active_sleeve":  null,
+    "active_stack":  null,
+    "compiler":  {
+                     "enabled":  true,
+                     "mode":  "sibling_repo",
+                     "path":  "..\\umg-compiler",
+                     "adapter_root":  ".\\compiler",
+                     "entrypoint":  "..\\umg-compiler\\compiler-v0\\dist\\cli.js",
+                     "command":  "node ..\\umg-compiler\\compiler-v0\\dist\\cli.js compile --in \u003cinput\u003e --out \u003coutput\u003e [--pretty]",
+                     "build_commands":  [
+                                            "npm install --prefix ..\\umg-compiler\\compiler-v0",
+                                            "npm run build --prefix ..\\umg-compiler\\compiler-v0"
+                                        ],
+                     "wrapper":  ".\\compiler\\invoke-compiler.ps1",
+                     "promotion_helper":  ".\\compiler\\promote-runtime.ps1",
+                     "invocation_status":  "verified"
+                 },
+    "paths":  {
+                  "root":  ".",
+                  "compiler_adapter":  ".\\compiler",
+                  "sleeves_root":  ".\\sleeves",
+                  "sleeves_active":  ".\\sleeves\\active",
+                  "sleeves_archive":  ".\\sleeves\\archive",
+                  "sleeves_manifests":  ".\\sleeves\\manifests",
+                  "blocks_root":  ".\\blocks",
+                  "blocks_molt":  ".\\blocks\\molt",
+                  "blocks_neoblocks":  ".\\blocks\\neoblocks",
+                  "blocks_neostacks":  ".\\blocks\\neostacks",
+                  "blocks_manifests":  ".\\blocks\\manifests",
+                  "runtime_root":  ".\\runtime",
+                  "runtime_active_sleeve":  ".\\runtime\\active-sleeve.json",
+                  "runtime_active_stack":  ".\\runtime\\active-stack.json",
+                  "runtime_compile_output":  ".\\runtime\\compile-output",
+                  "runtime_traces":  ".\\runtime\\traces",
+                  "runtime_staging":  ".\\runtime\\staging",
+                  "runtime_backups":  ".\\runtime\\backups",
+                  "docs":  ".\\docs"
+              },
+    "promotion":  {
+                      "staging_root":  ".\\runtime\\staging",
+                      "compile_output_root":  ".\\runtime\\compile-output",
+                      "traces_root":  ".\\runtime\\traces",
+                      "backups_root":  ".\\runtime\\backups",
+                      "active_sleeve_path":  ".\\runtime\\active-sleeve.json",
+                      "active_stack_path":  ".\\runtime\\active-stack.json",
+                      "helper_script":  ".\\compiler\\promote-runtime.ps1",
+                      "requires_backup":  true
+                  },
+    "policies":  {
+                     "overwrite_source_assets":  false,
+                     "archive_previous_active_assets":  true,
+                     "allow_provisional_compile_outputs":  true,
+                     "allow_public_distribution":  false,
+                     "single_agent_only":  true,
+                     "duplicate_compiler_source_inside_repo":  false
+                 },
+    "status":  {
+                   "skill_detected":  true,
+                   "compiler_loaded":  true,
+                   "compiler_invocation_finalized":  true,
+                   "promotion_ready":  true,
+                   "sleeves_loaded":  false,
+                   "blocks_loaded":  true,
+                   "templates_defined":  true,
+                   "translation_rules_defined":  true
+               },
+    "libraries":  {
+                      "molt_index":  ".\\\\blocks\\\\manifests\\\\molt-library-index.json",
+                      "category_index":  ".\\\\blocks\\\\manifests\\\\category-index.json",
+                      "templates":  {
+                                        "molt_block":  ".\\\\blocks\\\\manifests\\\\templates\\\\molt-block.template.json",
+                                        "neoblock":  ".\\\\blocks\\\\manifests\\\\templates\\\\neoblock.template.json",
+                                        "neostack":  ".\\\\blocks\\\\manifests\\\\templates\\\\neostack.template.json",
+                                        "sleeve":  ".\\\\blocks\\\\manifests\\\\templates\\\\sleeve.template.json"
+                                    },
+                      "examples":  {
+                                       "molt_block":  ".\\\\blocks\\\\manifests\\\\examples\\\\molt-block.example.json",
+                                       "neoblock":  ".\\\\blocks\\\\manifests\\\\examples\\\\neoblock.example.json",
+                                       "neostack":  ".\\\\blocks\\\\manifests\\\\examples\\\\neostack.example.json",
+                                       "sleeve":  ".\\\\blocks\\\\manifests\\\\examples\\\\sleeve.example.json"
+                                   }
+                  }
 }

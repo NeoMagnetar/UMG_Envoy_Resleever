@@ -1,0 +1,19 @@
+﻿{
+    "schema":  "https://umg.envoy/schemas/molt-instructions.library.schema.json",
+    "library":  {
+                    "name":  "MOLT INSTRUCTION Library",
+                    "version":  "1.0.0",
+                    "block_type":  "INSTRUCTION",
+                    "category":  "general",
+                    "description":  "Placeholder library awaiting normalized source ingestion",
+                    "source":  {
+                                   "provided_by":  "Pending user drop",
+                                   "ingested_at":  "2026-03-12T20:08:22-06:00",
+                                   "ingested_by":  "Stage4-Agent"
+                               },
+                    "entry_count":  0
+                },
+    "entries":  [
+
+                ]
+}

@@ -1,0 +1,49 @@
+{
+  "stage": 3,
+  "status": "invocation-and-promotion-ready",
+  "notes": [
+    "Stage 3 adds staging, artifact naming, and promotion helpers.",
+    "Compiler source remains isolated in the sibling repository.",
+    "Wrapper + promotion scripts read this file for path contracts."
+  ],
+  "paths": {
+    "workspace_root": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills",
+    "resleever_root": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever",
+    "compiler_root": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\umg-compiler",
+    "compiler_adapter_root": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\compiler",
+    "sleeves_root": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\sleeves",
+    "blocks_root": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\blocks",
+    "runtime_root": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime",
+    "compile_output_root": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\compile-output",
+    "traces_root": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\traces",
+    "staging_root": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\staging",
+    "backups_root": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\backups",
+    "active_sleeve_path": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\active-sleeve.json",
+    "active_stack_path": "C:\\Users\\Tammie\\.openclaw\\workspace\\skills\\UMG_Envoy_Resleever\\runtime\\active-stack.json"
+  },
+  "invocation": {
+    "mode": "node_cli",
+    "requires_build": true,
+    "node_version": ">=20",
+    "setup_commands": [
+      "npm install --prefix ..\\umg-compiler\\compiler-v0",
+      "npm run build --prefix ..\\umg-compiler\\compiler-v0"
+    ],
+    "entrypoint": "..\\umg-compiler\\compiler-v0\\dist\\cli.js",
+    "command_template": "node ..\\umg-compiler\\compiler-v0\\dist\\cli.js compile --in <input> --out <output> [--pretty]",
+    "wrapper_script": ".\\compiler\\invoke-compiler.ps1",
+    "promotion_script": ".\\compiler\\promote-runtime.ps1"
+  },
+  "compiler_entry_candidate": {
+    "status": "verified",
+    "entrypoint": "..\\umg-compiler\\compiler-v0\\dist\\cli.js",
+    "notes": [
+      "Entry file produced by TypeScript build (npm --prefix compiler-v0 run build).",
+      "CLI command `umg compile` maps to `node dist/cli.js compile`."
+    ]
+  },
+  "relative_paths": {
+    "from_resleever_root_to_compiler_root": "..\\umg-compiler",
+    "from_compiler_adapter_root_to_compiler_root": "..\\..\\umg-compiler"
+  }
+}

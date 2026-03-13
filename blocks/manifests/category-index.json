@@ -1,0 +1,312 @@
+﻿{
+    "generated_at":  "2026-03-12T20:08:22-06:00",
+    "top_categories":  [
+                           "general",
+                           "domain_specific",
+                           "framework_specific",
+                           "experimental",
+                           "archived"
+                       ],
+    "entries":  [
+                    {
+                        "category":  "general",
+                        "subcategory":  "analytical_requests",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.001",
+                                          "TRG.002",
+                                          "TRG.003",
+                                          "TRG.004",
+                                          "TRG.005"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "verification_validation",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.086",
+                                          "TRG.087",
+                                          "TRG.088",
+                                          "TRG.089",
+                                          "TRG.090"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "meta_cognitive",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.091",
+                                          "TRG.092",
+                                          "TRG.093",
+                                          "TRG.094",
+                                          "TRG.095"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "format_conversion",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.081",
+                                          "TRG.082",
+                                          "TRG.083",
+                                          "TRG.084",
+                                          "TRG.085"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "evaluation_review",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.046",
+                                          "TRG.047",
+                                          "TRG.048",
+                                          "TRG.049",
+                                          "TRG.050"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "strategic_thinking",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.061",
+                                          "TRG.062",
+                                          "TRG.063",
+                                          "TRG.064",
+                                          "TRG.065"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "collaboration_coordination",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.076",
+                                          "TRG.077",
+                                          "TRG.078",
+                                          "TRG.079",
+                                          "TRG.080"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "decision_support",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.016",
+                                          "TRG.017",
+                                          "TRG.018",
+                                          "TRG.019",
+                                          "TRG.020"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "personal_wellbeing",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.056",
+                                          "TRG.057",
+                                          "TRG.058",
+                                          "TRG.059",
+                                          "TRG.060"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "philosophical_conceptual",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.051",
+                                          "TRG.052",
+                                          "TRG.053",
+                                          "TRG.054",
+                                          "TRG.055"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "learning_requests",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.011",
+                                          "TRG.012",
+                                          "TRG.013",
+                                          "TRG.014",
+                                          "TRG.015"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "creative_requests",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.006",
+                                          "TRG.007",
+                                          "TRG.008",
+                                          "TRG.009",
+                                          "TRG.010"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "communication_tasks",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.026",
+                                          "TRG.027",
+                                          "TRG.028",
+                                          "TRG.029",
+                                          "TRG.030"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "planning_organization",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.031",
+                                          "TRG.032",
+                                          "TRG.033",
+                                          "TRG.034",
+                                          "TRG.035"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "problem_solving",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.021",
+                                          "TRG.022",
+                                          "TRG.023",
+                                          "TRG.024",
+                                          "TRG.025"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "governance_compliance",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.066",
+                                          "TRG.067",
+                                          "TRG.068",
+                                          "TRG.069",
+                                          "TRG.070"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "technical_implementation",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.041",
+                                          "TRG.042",
+                                          "TRG.043",
+                                          "TRG.044",
+                                          "TRG.045"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "context_integration",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.071",
+                                          "TRG.072",
+                                          "TRG.073",
+                                          "TRG.074",
+                                          "TRG.075"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "research_investigation",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.036",
+                                          "TRG.037",
+                                          "TRG.038",
+                                          "TRG.039",
+                                          "TRG.040"
+                                      ],
+                        "status":  "active"
+                    },
+                    {
+                        "category":  "general",
+                        "subcategory":  "umg_specific",
+                        "block_types":  [
+                                            "TRIGGER"
+                                        ],
+                        "block_ids":  [
+                                          "TRG.096",
+                                          "TRG.097",
+                                          "TRG.098",
+                                          "TRG.099",
+                                          "TRG.100"
+                                      ],
+                        "status":  "active"
+                    }
+                ]
+}
