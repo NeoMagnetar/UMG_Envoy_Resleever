@@ -8,10 +8,10 @@
                     "description":  "Normalized directive catalog produced during Stage 4",
                     "source":  {
                                    "provided_by":  "User supplied Stage 4 drop",
-                                   "ingested_at":  "2026-03-12T21:29:00-06:00",
+                                   "ingested_at":  "2026-03-13T08:24:59-06:00",
                                    "ingested_by":  "Stage4-Agent"
                                },
-                    "entry_count":  100
+                    "entry_count":  200
                 },
     "entries":  [
                     {
@@ -3111,6 +3111,3206 @@
                                     },
                         "constraints":  [
                                             "Runtime changes must remain structured, auditable, and recoverable"
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.101",
+                        "type":  "DIRECTIVE",
+                        "name":  "Maximize Revenue Growth",
+                        "category":  "sales_revenue",
+                        "subcategory":  "maximize_revenue_growth",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "sales-revenue",
+                                     "maximize-revenue-growth"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Drive top-line revenue growth through all available channels and methods",
+                        "content":  {
+                                       "summary":  "Maximize Revenue Growth",
+                                       "details":  "Prioritize actions that directly increase revenue, explore new revenue streams, optimize pricing, expand market reach",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.102",
+                        "type":  "DIRECTIVE",
+                        "name":  "Accelerate Sales Velocity",
+                        "category":  "sales_revenue",
+                        "subcategory":  "accelerate_sales_velocity",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "sales-revenue",
+                                     "accelerate-sales-velocity"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Shorten sales cycles and increase deal velocity through the pipeline",
+                        "content":  {
+                                       "summary":  "Accelerate Sales Velocity",
+                                       "details":  "Remove friction from sales process, enable faster decision-making, streamline approvals, reduce time-to-close",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.103",
+                        "type":  "DIRECTIVE",
+                        "name":  "Improve Win Rates",
+                        "category":  "sales_revenue",
+                        "subcategory":  "improve_win_rates",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "sales-revenue",
+                                     "improve-win-rates"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Increase percentage of opportunities that convert to closed-won deals",
+                        "content":  {
+                                       "summary":  "Improve Win Rates",
+                                       "details":  "Enhance competitive positioning, improve proposal quality, better qualify leads, optimize sales approach",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.104",
+                        "type":  "DIRECTIVE",
+                        "name":  "Expand Deal Sizes",
+                        "category":  "sales_revenue",
+                        "subcategory":  "expand_deal_sizes",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "sales-revenue",
+                                     "expand-deal-sizes"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Increase average contract value and deal size",
+                        "content":  {
+                                       "summary":  "Expand Deal Sizes",
+                                       "details":  "Upsell and cross-sell effectively, bundle offerings, demonstrate greater value, target larger opportunities",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.105",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Predictable Pipeline",
+                        "category":  "sales_revenue",
+                        "subcategory":  "build_predictable_pipeline",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "sales-revenue",
+                                     "build-predictable-pipeline"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create reliable, forecasted pipeline of opportunities",
+                        "content":  {
+                                       "summary":  "Build Predictable Pipeline",
+                                       "details":  "Establish consistent lead generation, improve pipeline visibility, enhance forecasting accuracy, reduce pipeline volatility",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.106",
+                        "type":  "DIRECTIVE",
+                        "name":  "Optimize Pricing Power",
+                        "category":  "sales_revenue",
+                        "subcategory":  "optimize_pricing_power",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "sales-revenue",
+                                     "optimize-pricing-power"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Maximize pricing while maintaining competitiveness and value perception",
+                        "content":  {
+                                       "summary":  "Optimize Pricing Power",
+                                       "details":  "Justify premium pricing, communicate value effectively, understand price elasticity, segment pricing strategically",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.107",
+                        "type":  "DIRECTIVE",
+                        "name":  "Scale Sales Operations",
+                        "category":  "sales_revenue",
+                        "subcategory":  "scale_sales_operations",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "sales-revenue",
+                                     "scale-sales-operations"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Build scalable, repeatable sales processes and systems",
+                        "content":  {
+                                       "summary":  "Scale Sales Operations",
+                                       "details":  "Standardize successful approaches, document best practices, enable rapid rep ramp-up, create leverage through process",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.108",
+                        "type":  "DIRECTIVE",
+                        "name":  "Dominate Target Accounts",
+                        "category":  "sales_revenue",
+                        "subcategory":  "dominate_target_accounts",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "sales-revenue",
+                                     "dominate-target-accounts"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Win and expand within strategically important accounts",
+                        "content":  {
+                                       "summary":  "Dominate Target Accounts",
+                                       "details":  "Focus on high-value targets, build deep relationships, create account plans, drive land-and-expand strategy",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.109",
+                        "type":  "DIRECTIVE",
+                        "name":  "Enable Sales Excellence",
+                        "category":  "sales_revenue",
+                        "subcategory":  "enable_sales_excellence",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "sales-revenue",
+                                     "enable-sales-excellence"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Equip sales team with tools, training, and resources for peak performance",
+                        "content":  {
+                                       "summary":  "Enable Sales Excellence",
+                                       "details":  "Provide relevant content, deliver ongoing training, create effective playbooks, supply competitive intelligence",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.110",
+                        "type":  "DIRECTIVE",
+                        "name":  "Capture Market Share",
+                        "category":  "sales_revenue",
+                        "subcategory":  "capture_market_share",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "sales-revenue",
+                                     "capture-market-share"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Win customers from competitors and increase overall market share",
+                        "content":  {
+                                       "summary":  "Capture Market Share",
+                                       "details":  "Identify competitive weaknesses, differentiate effectively, target competitor customers, execute displacement strategies",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.111",
+                        "type":  "DIRECTIVE",
+                        "name":  "Drive Demand Generation",
+                        "category":  "marketing_growth",
+                        "subcategory":  "drive_demand_generation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "marketing-growth",
+                                     "drive-demand-generation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create consistent flow of qualified leads and opportunities",
+                        "content":  {
+                                       "summary":  "Drive Demand Generation",
+                                       "details":  "Build awareness, generate interest, nurture prospects, deliver qualified pipeline, measure lead quality",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.112",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Brand Equity",
+                        "category":  "marketing_growth",
+                        "subcategory":  "build_brand_equity",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "marketing-growth",
+                                     "build-brand-equity"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Strengthen brand recognition, preference, and loyalty",
+                        "content":  {
+                                       "summary":  "Build Brand Equity",
+                                       "details":  "Create consistent brand experience, build emotional connection, differentiate from competitors, enhance brand perception",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.113",
+                        "type":  "DIRECTIVE",
+                        "name":  "Achieve Product-Market Fit",
+                        "category":  "marketing_growth",
+                        "subcategory":  "achieve_product_market_fit",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "marketing-growth",
+                                     "achieve-product-market-fit"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Align product offering with market needs and demand",
+                        "content":  {
+                                       "summary":  "Achieve Product-Market Fit",
+                                       "details":  "Validate market demand, refine value proposition, identify ideal customer profile, iterate based on feedback",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.114",
+                        "type":  "DIRECTIVE",
+                        "name":  "Optimize Customer Acquisition",
+                        "category":  "marketing_growth",
+                        "subcategory":  "optimize_customer_acquisition",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "marketing-growth",
+                                     "optimize-customer-acquisition"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Acquire customers efficiently at sustainable cost",
+                        "content":  {
+                                       "summary":  "Optimize Customer Acquisition",
+                                       "details":  "Reduce CAC, improve conversion rates, optimize channel mix, enhance targeting, scale what works",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.115",
+                        "type":  "DIRECTIVE",
+                        "name":  "Expand Market Reach",
+                        "category":  "marketing_growth",
+                        "subcategory":  "expand_market_reach",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "marketing-growth",
+                                     "expand-market-reach"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Enter new markets, segments, or geographies",
+                        "content":  {
+                                       "summary":  "Expand Market Reach",
+                                       "details":  "Identify growth opportunities, adapt offerings to new markets, build go-to-market capabilities, execute expansion plans",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.116",
+                        "type":  "DIRECTIVE",
+                        "name":  "Create Viral Growth",
+                        "category":  "marketing_growth",
+                        "subcategory":  "create_viral_growth",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "marketing-growth",
+                                     "create-viral-growth"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Build organic, self-sustaining growth mechanisms",
+                        "content":  {
+                                       "summary":  "Create Viral Growth",
+                                       "details":  "Design viral loops, incentivize referrals, create network effects, enable social sharing, reduce friction to sharing",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.117",
+                        "type":  "DIRECTIVE",
+                        "name":  "Dominate Content Leadership",
+                        "category":  "marketing_growth",
+                        "subcategory":  "dominate_content_leadership",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "marketing-growth",
+                                     "dominate-content-leadership"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Become the authoritative voice and thought leader in the category",
+                        "content":  {
+                                       "summary":  "Dominate Content Leadership",
+                                       "details":  "Create valuable content, build audience, demonstrate expertise, shape industry conversation, own mindshare",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.118",
+                        "type":  "DIRECTIVE",
+                        "name":  "Maximize Marketing ROI",
+                        "category":  "marketing_growth",
+                        "subcategory":  "maximize_marketing_roi",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "marketing-growth",
+                                     "maximize-marketing-roi"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Optimize marketing spend efficiency and return on investment",
+                        "content":  {
+                                       "summary":  "Maximize Marketing ROI",
+                                       "details":  "Track attribution, optimize channel mix, eliminate waste, double down on winners, measure rigorously",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.119",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Community",
+                        "category":  "marketing_growth",
+                        "subcategory":  "build_community",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "marketing-growth",
+                                     "build-community"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create engaged community of users, advocates, and partners",
+                        "content":  {
+                                       "summary":  "Build Community",
+                                       "details":  "Foster connections, provide value to community, enable peer support, recognize contributors, nurture engagement",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.120",
+                        "type":  "DIRECTIVE",
+                        "name":  "Achieve Category Leadership",
+                        "category":  "marketing_growth",
+                        "subcategory":  "achieve_category_leadership",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "marketing-growth",
+                                     "achieve-category-leadership"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Establish position as category leader or creator",
+                        "content":  {
+                                       "summary":  "Achieve Category Leadership",
+                                       "details":  "Define category, educate market, set standards, own category narrative, maintain leadership position",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.121",
+                        "type":  "DIRECTIVE",
+                        "name":  "Deliver Customer Value",
+                        "category":  "product_development",
+                        "subcategory":  "deliver_customer_value",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "product-development",
+                                     "deliver-customer-value"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create products that solve real customer problems and deliver meaningful value",
+                        "content":  {
+                                       "summary":  "Deliver Customer Value",
+                                       "details":  "Understand customer needs deeply, validate solutions, measure value delivered, iterate based on usage",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.122",
+                        "type":  "DIRECTIVE",
+                        "name":  "Achieve Product Excellence",
+                        "category":  "product_development",
+                        "subcategory":  "achieve_product_excellence",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "product-development",
+                                     "achieve-product-excellence"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Build products that delight users and exceed expectations",
+                        "content":  {
+                                       "summary":  "Achieve Product Excellence",
+                                       "details":  "Focus on quality, polish user experience, eliminate friction, add thoughtful details, create wow moments",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.123",
+                        "type":  "DIRECTIVE",
+                        "name":  "Innovate Continuously",
+                        "category":  "product_development",
+                        "subcategory":  "innovate_continuously",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "product-development",
+                                     "innovate-continuously"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Maintain innovation leadership through continuous product evolution",
+                        "content":  {
+                                       "summary":  "Innovate Continuously",
+                                       "details":  "Explore new technologies, experiment with features, stay ahead of market, challenge assumptions, embrace change",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.124",
+                        "type":  "DIRECTIVE",
+                        "name":  "Ship Rapidly",
+                        "category":  "product_development",
+                        "subcategory":  "ship_rapidly",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "product-development",
+                                     "ship-rapidly"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Accelerate time-to-market and iteration velocity",
+                        "content":  {
+                                       "summary":  "Ship Rapidly",
+                                       "details":  "Reduce cycle times, embrace MVP approach, ship incrementally, get feedback fast, iterate quickly",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.125",
+                        "type":  "DIRECTIVE",
+                        "name":  "Scale Product Sustainably",
+                        "category":  "product_development",
+                        "subcategory":  "scale_product_sustainably",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "product-development",
+                                     "scale-product-sustainably"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Build products that scale technically and economically",
+                        "content":  {
+                                       "summary":  "Scale Product Sustainably",
+                                       "details":  "Design for scale, optimize performance, manage technical debt, ensure unit economics work, maintain quality at scale",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.126",
+                        "type":  "DIRECTIVE",
+                        "name":  "Differentiate Competitively",
+                        "category":  "product_development",
+                        "subcategory":  "differentiate_competitively",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "product-development",
+                                     "differentiate-competitively"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create distinctive, defensible product advantages",
+                        "content":  {
+                                       "summary":  "Differentiate Competitively",
+                                       "details":  "Build unique capabilities, create switching costs, establish network effects, patent innovations, own key technologies",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.127",
+                        "type":  "DIRECTIVE",
+                        "name":  "Expand Product Portfolio",
+                        "category":  "product_development",
+                        "subcategory":  "expand_product_portfolio",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "product-development",
+                                     "expand-product-portfolio"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Grow product offering to serve broader customer needs",
+                        "content":  {
+                                       "summary":  "Expand Product Portfolio",
+                                       "details":  "Identify adjacent opportunities, build complementary products, create platform leverage, enable cross-sell",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.128",
+                        "type":  "DIRECTIVE",
+                        "name":  "Optimize Product Economics",
+                        "category":  "product_development",
+                        "subcategory":  "optimize_product_economics",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "product-development",
+                                     "optimize-product-economics"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Improve unit economics and product profitability",
+                        "content":  {
+                                       "summary":  "Optimize Product Economics",
+                                       "details":  "Reduce delivery costs, increase pricing power, improve gross margins, eliminate waste, scale efficiently",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.129",
+                        "type":  "DIRECTIVE",
+                        "name":  "Enable Product-Led Growth",
+                        "category":  "product_development",
+                        "subcategory":  "enable_product_led_growth",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "product-development",
+                                     "enable-product-led-growth"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Make product itself the primary driver of acquisition and expansion",
+                        "content":  {
+                                       "summary":  "Enable Product-Led Growth",
+                                       "details":  "Reduce friction to adoption, create viral mechanisms, enable self-service, demonstrate value quickly, facilitate upgrades",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.130",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Platform Ecosystem",
+                        "category":  "product_development",
+                        "subcategory":  "build_platform_ecosystem",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "product-development",
+                                     "build-platform-ecosystem"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create platform that enables third-party value creation",
+                        "content":  {
+                                       "summary":  "Build Platform Ecosystem",
+                                       "details":  "Design for extensibility, provide APIs, attract developers, foster ecosystem, create network effects",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.131",
+                        "type":  "DIRECTIVE",
+                        "name":  "Achieve Operational Excellence",
+                        "category":  "operations_processes",
+                        "subcategory":  "achieve_operational_excellence",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "operations-processes",
+                                     "achieve-operational-excellence"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Optimize operations for efficiency, quality, and reliability",
+                        "content":  {
+                                       "summary":  "Achieve Operational Excellence",
+                                       "details":  "Eliminate waste, standardize processes, pursue continuous improvement, measure performance, maintain high standards",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.132",
+                        "type":  "DIRECTIVE",
+                        "name":  "Scale Operations Efficiently",
+                        "category":  "operations_processes",
+                        "subcategory":  "scale_operations_efficiently",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "operations-processes",
+                                     "scale-operations-efficiently"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Grow operational capacity without proportional cost increase",
+                        "content":  {
+                                       "summary":  "Scale Operations Efficiently",
+                                       "details":  "Automate repetitive work, create leverage, build systems not heroics, invest in scalable infrastructure",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.133",
+                        "type":  "DIRECTIVE",
+                        "name":  "Ensure Quality Consistency",
+                        "category":  "operations_processes",
+                        "subcategory":  "ensure_quality_consistency",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "operations-processes",
+                                     "ensure-quality-consistency"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Deliver consistent, high-quality output across all operations",
+                        "content":  {
+                                       "summary":  "Ensure Quality Consistency",
+                                       "details":  "Standardize procedures, implement quality controls, train thoroughly, monitor performance, correct deviations",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.134",
+                        "type":  "DIRECTIVE",
+                        "name":  "Optimize Resource Utilization",
+                        "category":  "operations_processes",
+                        "subcategory":  "optimize_resource_utilization",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "operations-processes",
+                                     "optimize-resource-utilization"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Maximize productivity and efficiency of resources",
+                        "content":  {
+                                       "summary":  "Optimize Resource Utilization",
+                                       "details":  "Eliminate bottlenecks, balance capacity, reduce idle time, optimize allocation, measure utilization",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.135",
+                        "type":  "DIRECTIVE",
+                        "name":  "Minimize Operational Risk",
+                        "category":  "operations_processes",
+                        "subcategory":  "minimize_operational_risk",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "operations-processes",
+                                     "minimize-operational-risk"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Reduce operational risks and ensure business continuity",
+                        "content":  {
+                                       "summary":  "Minimize Operational Risk",
+                                       "details":  "Identify vulnerabilities, build redundancy, plan for contingencies, implement controls, test resilience",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.136",
+                        "type":  "DIRECTIVE",
+                        "name":  "Accelerate Cycle Times",
+                        "category":  "operations_processes",
+                        "subcategory":  "accelerate_cycle_times",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "operations-processes",
+                                     "accelerate-cycle-times"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Reduce time required to complete operational processes",
+                        "content":  {
+                                       "summary":  "Accelerate Cycle Times",
+                                       "details":  "Eliminate delays, streamline workflows, remove handoffs, automate steps, optimize sequencing",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.137",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Process Maturity",
+                        "category":  "operations_processes",
+                        "subcategory":  "build_process_maturity",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "operations-processes",
+                                     "build-process-maturity"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Evolve from ad hoc to optimized, repeatable processes",
+                        "content":  {
+                                       "summary":  "Build Process Maturity",
+                                       "details":  "Document processes, establish standards, measure compliance, refine continuously, achieve predictability",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.138",
+                        "type":  "DIRECTIVE",
+                        "name":  "Enhance Vendor Partnerships",
+                        "category":  "operations_processes",
+                        "subcategory":  "enhance_vendor_partnerships",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "operations-processes",
+                                     "enhance-vendor-partnerships"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Optimize vendor relationships for mutual value creation",
+                        "content":  {
+                                       "summary":  "Enhance Vendor Partnerships",
+                                       "details":  "Select strategic partners, align incentives, collaborate closely, measure performance, build long-term relationships",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.139",
+                        "type":  "DIRECTIVE",
+                        "name":  "Achieve Cost Leadership",
+                        "category":  "operations_processes",
+                        "subcategory":  "achieve_cost_leadership",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "operations-processes",
+                                     "achieve-cost-leadership"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Become the lowest-cost provider through operational efficiency",
+                        "content":  {
+                                       "summary":  "Achieve Cost Leadership",
+                                       "details":  "Optimize every cost, achieve economies of scale, innovate processes, eliminate non-value activities",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.140",
+                        "type":  "DIRECTIVE",
+                        "name":  "Enable Agile Operations",
+                        "category":  "operations_processes",
+                        "subcategory":  "enable_agile_operations",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "operations-processes",
+                                     "enable-agile-operations"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Build flexible, responsive operational capabilities",
+                        "content":  {
+                                       "summary":  "Enable Agile Operations",
+                                       "details":  "Design for adaptability, enable rapid reconfiguration, embrace change, reduce rigidity, build optionality",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.141",
+                        "type":  "DIRECTIVE",
+                        "name":  "Maximize Profitability",
+                        "category":  "finance_accounting",
+                        "subcategory":  "maximize_profitability",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "finance-accounting",
+                                     "maximize-profitability"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Optimize bottom-line profit and margin performance",
+                        "content":  {
+                                       "summary":  "Maximize Profitability",
+                                       "details":  "Increase revenue, reduce costs, improve pricing, optimize mix, enhance operational leverage",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.142",
+                        "type":  "DIRECTIVE",
+                        "name":  "Strengthen Financial Position",
+                        "category":  "finance_accounting",
+                        "subcategory":  "strengthen_financial_position",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "finance-accounting",
+                                     "strengthen-financial-position"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Build robust balance sheet and financial resilience",
+                        "content":  {
+                                       "summary":  "Strengthen Financial Position",
+                                       "details":  "Manage cash wisely, optimize capital structure, reduce debt, build reserves, maintain liquidity",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.143",
+                        "type":  "DIRECTIVE",
+                        "name":  "Optimize Cash Flow",
+                        "category":  "finance_accounting",
+                        "subcategory":  "optimize_cash_flow",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "finance-accounting",
+                                     "optimize-cash-flow"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Maximize cash generation and working capital efficiency",
+                        "content":  {
+                                       "summary":  "Optimize Cash Flow",
+                                       "details":  "Accelerate collections, optimize payment terms, reduce inventory, improve cash conversion cycle",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.144",
+                        "type":  "DIRECTIVE",
+                        "name":  "Achieve Unit Economics Excellence",
+                        "category":  "finance_accounting",
+                        "subcategory":  "achieve_unit_economics_excellence",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "finance-accounting",
+                                     "achieve-unit-economics-excellence"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Optimize profitability at the unit level",
+                        "content":  {
+                                       "summary":  "Achieve Unit Economics Excellence",
+                                       "details":  "Improve contribution margins, reduce variable costs, increase pricing power, scale efficiently",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.145",
+                        "type":  "DIRECTIVE",
+                        "name":  "Ensure Financial Discipline",
+                        "category":  "finance_accounting",
+                        "subcategory":  "ensure_financial_discipline",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "finance-accounting",
+                                     "ensure-financial-discipline"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Maintain rigorous financial controls and accountability",
+                        "content":  {
+                                       "summary":  "Ensure Financial Discipline",
+                                       "details":  "Enforce budgets, track variances, prevent waste, require approvals, maintain audit trail",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.146",
+                        "type":  "DIRECTIVE",
+                        "name":  "Maximize Return on Investment",
+                        "category":  "finance_accounting",
+                        "subcategory":  "maximize_return_on_investment",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "finance-accounting",
+                                     "maximize-return-on-investment"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Optimize returns on all capital deployed",
+                        "content":  {
+                                       "summary":  "Maximize Return on Investment",
+                                       "details":  "Evaluate investments rigorously, allocate to highest returns, divest underperformers, measure ROI consistently",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.147",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Investor Confidence",
+                        "category":  "finance_accounting",
+                        "subcategory":  "build_investor_confidence",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "finance-accounting",
+                                     "build-investor-confidence"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Strengthen trust and credibility with investors and stakeholders",
+                        "content":  {
+                                       "summary":  "Build Investor Confidence",
+                                       "details":  "Deliver on commitments, communicate transparently, show strong governance, demonstrate sustainable growth",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.148",
+                        "type":  "DIRECTIVE",
+                        "name":  "Achieve Cost Efficiency",
+                        "category":  "finance_accounting",
+                        "subcategory":  "achieve_cost_efficiency",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "finance-accounting",
+                                     "achieve-cost-efficiency"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Minimize cost structure while maintaining quality",
+                        "content":  {
+                                       "summary":  "Achieve Cost Efficiency",
+                                       "details":  "Eliminate unnecessary expenses, negotiate better terms, achieve economies of scale, optimize procurement",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.149",
+                        "type":  "DIRECTIVE",
+                        "name":  "Enhance Financial Visibility",
+                        "category":  "finance_accounting",
+                        "subcategory":  "enhance_financial_visibility",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "finance-accounting",
+                                     "enhance-financial-visibility"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Provide clear, timely, actionable financial insights",
+                        "content":  {
+                                       "summary":  "Enhance Financial Visibility",
+                                       "details":  "Improve reporting, enable real-time dashboards, ensure data accuracy, deliver predictive analytics",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.150",
+                        "type":  "DIRECTIVE",
+                        "name":  "Secure Growth Capital",
+                        "category":  "finance_accounting",
+                        "subcategory":  "secure_growth_capital",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "finance-accounting",
+                                     "secure-growth-capital"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Raise necessary funding to fuel strategic growth",
+                        "content":  {
+                                       "summary":  "Secure Growth Capital",
+                                       "details":  "Build compelling investment case, cultivate investor relationships, optimize valuation, choose right capital sources",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.151",
+                        "type":  "DIRECTIVE",
+                        "name":  "Attract Top Talent",
+                        "category":  "hr_people",
+                        "subcategory":  "attract_top_talent",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "hr-people",
+                                     "attract-top-talent"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Recruit the best people in the market",
+                        "content":  {
+                                       "summary":  "Attract Top Talent",
+                                       "details":  "Build strong employer brand, create compelling opportunities, compete for best candidates, hire for potential",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.152",
+                        "type":  "DIRECTIVE",
+                        "name":  "Develop People",
+                        "category":  "hr_people",
+                        "subcategory":  "develop_people",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "hr-people",
+                                     "develop-people"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Continuously grow capabilities and potential of employees",
+                        "content":  {
+                                       "summary":  "Develop People",
+                                       "details":  "Invest in training, provide growth opportunities, enable skill development, support career progression",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.153",
+                        "type":  "DIRECTIVE",
+                        "name":  "Retain Key Talent",
+                        "category":  "hr_people",
+                        "subcategory":  "retain_key_talent",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "hr-people",
+                                     "retain-key-talent"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Keep critical employees engaged and committed",
+                        "content":  {
+                                       "summary":  "Retain Key Talent",
+                                       "details":  "Create fulfilling work, provide fair compensation, offer growth paths, build strong culture, recognize contributions",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.154",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build High Performance Culture",
+                        "category":  "hr_people",
+                        "subcategory":  "build_high_performance_culture",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "hr-people",
+                                     "build-high-performance-culture"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create environment where excellence is the norm",
+                        "content":  {
+                                       "summary":  "Build High Performance Culture",
+                                       "details":  "Set high standards, reward performance, provide feedback, celebrate wins, address underperformance",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.155",
+                        "type":  "DIRECTIVE",
+                        "name":  "Foster Diversity and Inclusion",
+                        "category":  "hr_people",
+                        "subcategory":  "foster_diversity_and_inclusion",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "hr-people",
+                                     "foster-diversity-and-inclusion"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Build diverse team and inclusive environment",
+                        "content":  {
+                                       "summary":  "Foster Diversity and Inclusion",
+                                       "details":  "Recruit diversely, eliminate bias, create belonging, value differences, ensure equity",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.156",
+                        "type":  "DIRECTIVE",
+                        "name":  "Maximize Employee Engagement",
+                        "category":  "hr_people",
+                        "subcategory":  "maximize_employee_engagement",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "hr-people",
+                                     "maximize-employee-engagement"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create highly engaged, motivated workforce",
+                        "content":  {
+                                       "summary":  "Maximize Employee Engagement",
+                                       "details":  "Connect work to purpose, empower employees, recognize achievements, build community, enable autonomy",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.157",
+                        "type":  "DIRECTIVE",
+                        "name":  "Scale Organizational Capability",
+                        "category":  "hr_people",
+                        "subcategory":  "scale_organizational_capability",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "hr-people",
+                                     "scale-organizational-capability"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Build organizational capacity to support growth",
+                        "content":  {
+                                       "summary":  "Scale Organizational Capability",
+                                       "details":  "Hire ahead of need, develop leadership bench, build systems, create scalable processes, plan succession",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.158",
+                        "type":  "DIRECTIVE",
+                        "name":  "Optimize Organizational Design",
+                        "category":  "hr_people",
+                        "subcategory":  "optimize_organizational_design",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "hr-people",
+                                     "optimize-organizational-design"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Structure organization for maximum effectiveness",
+                        "content":  {
+                                       "summary":  "Optimize Organizational Design",
+                                       "details":  "Clarify roles, reduce silos, enable collaboration, streamline decision-making, balance centralization and autonomy",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.159",
+                        "type":  "DIRECTIVE",
+                        "name":  "Ensure Fair Compensation",
+                        "category":  "hr_people",
+                        "subcategory":  "ensure_fair_compensation",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "hr-people",
+                                     "ensure-fair-compensation"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Provide competitive, equitable compensation",
+                        "content":  {
+                                       "summary":  "Ensure Fair Compensation",
+                                       "details":  "Benchmark market rates, reward performance, ensure internal equity, align with value creation, maintain transparency",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.160",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Leadership Depth",
+                        "category":  "hr_people",
+                        "subcategory":  "build_leadership_depth",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "hr-people",
+                                     "build-leadership-depth"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Develop strong leaders at all levels",
+                        "content":  {
+                                       "summary":  "Build Leadership Depth",
+                                       "details":  "Invest in leadership development, provide coaching, create leadership opportunities, model effective leadership",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.161",
+                        "type":  "DIRECTIVE",
+                        "name":  "Achieve Strategic Clarity",
+                        "category":  "strategy_planning",
+                        "subcategory":  "achieve_strategic_clarity",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "strategy-planning",
+                                     "achieve-strategic-clarity"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Define clear, compelling strategic direction",
+                        "content":  {
+                                       "summary":  "Achieve Strategic Clarity",
+                                       "details":  "Articulate vision, set priorities, make choices, communicate strategy, align organization",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.162",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Competitive Advantage",
+                        "category":  "strategy_planning",
+                        "subcategory":  "build_competitive_advantage",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "strategy-planning",
+                                     "build-competitive-advantage"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create sustainable, defensible competitive advantages",
+                        "content":  {
+                                       "summary":  "Build Competitive Advantage",
+                                       "details":  "Identify unique strengths, build barriers to entry, create switching costs, establish network effects",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.163",
+                        "type":  "DIRECTIVE",
+                        "name":  "Pursue Strategic Growth",
+                        "category":  "strategy_planning",
+                        "subcategory":  "pursue_strategic_growth",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "strategy-planning",
+                                     "pursue-strategic-growth"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Grow business through strategic expansion and evolution",
+                        "content":  {
+                                       "summary":  "Pursue Strategic Growth",
+                                       "details":  "Enter new markets, develop new products, pursue M&A, build partnerships, expand capabilities",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.164",
+                        "type":  "DIRECTIVE",
+                        "name":  "Maintain Strategic Flexibility",
+                        "category":  "strategy_planning",
+                        "subcategory":  "maintain_strategic_flexibility",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "strategy-planning",
+                                     "maintain-strategic-flexibility"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Preserve ability to adapt strategy as conditions change",
+                        "content":  {
+                                       "summary":  "Maintain Strategic Flexibility",
+                                       "details":  "Build optionality, avoid lock-in, monitor environment, test assumptions, pivot when needed",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.165",
+                        "type":  "DIRECTIVE",
+                        "name":  "Create Category Leadership",
+                        "category":  "strategy_planning",
+                        "subcategory":  "create_category_leadership",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "strategy-planning",
+                                     "create-category-leadership"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Dominate or create market category",
+                        "content":  {
+                                       "summary":  "Create Category Leadership",
+                                       "details":  "Define category, educate market, set standards, build ecosystem, maintain leadership",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.166",
+                        "type":  "DIRECTIVE",
+                        "name":  "Execute Flawlessly",
+                        "category":  "strategy_planning",
+                        "subcategory":  "execute_flawlessly",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "strategy-planning",
+                                     "execute-flawlessly"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Translate strategy into excellent execution",
+                        "content":  {
+                                       "summary":  "Execute Flawlessly",
+                                       "details":  "Set clear goals, allocate resources, track progress, hold accountability, remove obstacles",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.167",
+                        "type":  "DIRECTIVE",
+                        "name":  "Disrupt Strategically",
+                        "category":  "strategy_planning",
+                        "subcategory":  "disrupt_strategically",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "strategy-planning",
+                                     "disrupt-strategically"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Use disruption as strategic advantage",
+                        "content":  {
+                                       "summary":  "Disrupt Strategically",
+                                       "details":  "Challenge industry assumptions, embrace new business models, leverage technology, move fast",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.168",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Strategic Partnerships",
+                        "category":  "strategy_planning",
+                        "subcategory":  "build_strategic_partnerships",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "strategy-planning",
+                                     "build-strategic-partnerships"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create value through strategic alliances and partnerships",
+                        "content":  {
+                                       "summary":  "Build Strategic Partnerships",
+                                       "details":  "Identify complementary partners, align interests, co-create value, manage relationships, scale together",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.169",
+                        "type":  "DIRECTIVE",
+                        "name":  "Optimize Portfolio Strategy",
+                        "category":  "strategy_planning",
+                        "subcategory":  "optimize_portfolio_strategy",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "strategy-planning",
+                                     "optimize-portfolio-strategy"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Maximize value across business portfolio",
+                        "content":  {
+                                       "summary":  "Optimize Portfolio Strategy",
+                                       "details":  "Balance portfolio, allocate capital strategically, divest non-core, double down on winners, maintain focus",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.170",
+                        "type":  "DIRECTIVE",
+                        "name":  "Ensure Long-Term Sustainability",
+                        "category":  "strategy_planning",
+                        "subcategory":  "ensure_long_term_sustainability",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "strategy-planning",
+                                     "ensure-long-term-sustainability"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Build business that thrives over long term",
+                        "content":  {
+                                       "summary":  "Ensure Long-Term Sustainability",
+                                       "details":  "Balance short and long term, invest in future, build durable advantages, maintain stakeholder trust",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.171",
+                        "type":  "DIRECTIVE",
+                        "name":  "Maximize Customer Value Realization",
+                        "category":  "customer_success",
+                        "subcategory":  "maximize_customer_value_realization",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "customer-success",
+                                     "maximize-customer-value-realization"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Ensure customers achieve intended outcomes and value",
+                        "content":  {
+                                       "summary":  "Maximize Customer Value Realization",
+                                       "details":  "Understand customer goals, guide to success, measure value delivered, optimize adoption, prove ROI",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.172",
+                        "type":  "DIRECTIVE",
+                        "name":  "Achieve Customer Excellence",
+                        "category":  "customer_success",
+                        "subcategory":  "achieve_customer_excellence",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "customer-success",
+                                     "achieve-customer-excellence"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Deliver exceptional customer experience at every touchpoint",
+                        "content":  {
+                                       "summary":  "Achieve Customer Excellence",
+                                       "details":  "Exceed expectations, respond quickly, resolve issues, personalize interactions, create delight",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.173",
+                        "type":  "DIRECTIVE",
+                        "name":  "Maximize Customer Retention",
+                        "category":  "customer_success",
+                        "subcategory":  "maximize_customer_retention",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "customer-success",
+                                     "maximize-customer-retention"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Keep customers engaged, satisfied, and renewing",
+                        "content":  {
+                                       "summary":  "Maximize Customer Retention",
+                                       "details":  "Prevent churn, address risks early, ensure ongoing value, build relationships, maintain engagement",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.174",
+                        "type":  "DIRECTIVE",
+                        "name":  "Drive Customer Expansion",
+                        "category":  "customer_success",
+                        "subcategory":  "drive_customer_expansion",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "customer-success",
+                                     "drive-customer-expansion"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Grow revenue within existing customer base",
+                        "content":  {
+                                       "summary":  "Drive Customer Expansion",
+                                       "details":  "Identify expansion opportunities, upsell and cross-sell, deepen product usage, expand to new teams",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.175",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Customer Advocacy",
+                        "category":  "customer_success",
+                        "subcategory":  "build_customer_advocacy",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "customer-success",
+                                     "build-customer-advocacy"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Turn customers into enthusiastic advocates and promoters",
+                        "content":  {
+                                       "summary":  "Build Customer Advocacy",
+                                       "details":  "Deliver exceptional value, create advocates, enable references, capture testimonials, facilitate word-of-mouth",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.176",
+                        "type":  "DIRECTIVE",
+                        "name":  "Understand Customer Deeply",
+                        "category":  "customer_success",
+                        "subcategory":  "understand_customer_deeply",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "customer-success",
+                                     "understand-customer-deeply"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Gain deep insights into customer needs, behaviors, and sentiment",
+                        "content":  {
+                                       "summary":  "Understand Customer Deeply",
+                                       "details":  "Listen actively, analyze feedback, track behavior, measure satisfaction, conduct research",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.177",
+                        "type":  "DIRECTIVE",
+                        "name":  "Reduce Customer Effort",
+                        "category":  "customer_success",
+                        "subcategory":  "reduce_customer_effort",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "customer-success",
+                                     "reduce-customer-effort"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Make it easy for customers to do business with you",
+                        "content":  {
+                                       "summary":  "Reduce Customer Effort",
+                                       "details":  "Simplify processes, reduce friction, enable self-service, provide clear guidance, remove obstacles",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.178",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Customer Community",
+                        "category":  "customer_success",
+                        "subcategory":  "build_customer_community",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "customer-success",
+                                     "build-customer-community"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create engaged community of customers",
+                        "content":  {
+                                       "summary":  "Build Customer Community",
+                                       "details":  "Facilitate connections, enable peer learning, host events, recognize contributors, foster belonging",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.179",
+                        "type":  "DIRECTIVE",
+                        "name":  "Ensure Customer Health",
+                        "category":  "customer_success",
+                        "subcategory":  "ensure_customer_health",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "customer-success",
+                                     "ensure-customer-health"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Proactively monitor and improve customer health",
+                        "content":  {
+                                       "summary":  "Ensure Customer Health",
+                                       "details":  "Track health metrics, identify risks, intervene early, maintain engagement, ensure value delivery",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.180",
+                        "type":  "DIRECTIVE",
+                        "name":  "Close the Feedback Loop",
+                        "category":  "customer_success",
+                        "subcategory":  "close_the_feedback_loop",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "customer-success",
+                                     "close-the-feedback-loop"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Act on customer feedback to drive continuous improvement",
+                        "content":  {
+                                       "summary":  "Close the Feedback Loop",
+                                       "details":  "Gather feedback systematically, analyze insights, prioritize improvements, communicate changes, close loop",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.181",
+                        "type":  "DIRECTIVE",
+                        "name":  "Ensure Full Compliance",
+                        "category":  "legal_compliance",
+                        "subcategory":  "ensure_full_compliance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "legal-compliance",
+                                     "ensure-full-compliance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Maintain complete adherence to all legal and regulatory requirements",
+                        "content":  {
+                                       "summary":  "Ensure Full Compliance",
+                                       "details":  "Know requirements, implement controls, monitor compliance, address gaps, maintain documentation",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.182",
+                        "type":  "DIRECTIVE",
+                        "name":  "Minimize Legal Risk",
+                        "category":  "legal_compliance",
+                        "subcategory":  "minimize_legal_risk",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "legal-compliance",
+                                     "minimize-legal-risk"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Reduce exposure to legal liabilities and disputes",
+                        "content":  {
+                                       "summary":  "Minimize Legal Risk",
+                                       "details":  "Identify risks, implement safeguards, review contracts carefully, maintain proper documentation, seek counsel",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.183",
+                        "type":  "DIRECTIVE",
+                        "name":  "Protect Intellectual Property",
+                        "category":  "legal_compliance",
+                        "subcategory":  "protect_intellectual_property",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "legal-compliance",
+                                     "protect-intellectual-property"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Safeguard company IP and respect others' IP",
+                        "content":  {
+                                       "summary":  "Protect Intellectual Property",
+                                       "details":  "Patent innovations, register trademarks, protect trade secrets, respect third-party IP, enforce rights",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.184",
+                        "type":  "DIRECTIVE",
+                        "name":  "Maintain Privacy and Security",
+                        "category":  "legal_compliance",
+                        "subcategory":  "maintain_privacy_and_security",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "legal-compliance",
+                                     "maintain-privacy-and-security"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Protect customer and company data privacy and security",
+                        "content":  {
+                                       "summary":  "Maintain Privacy and Security",
+                                       "details":  "Implement data protection, comply with privacy laws, secure systems, train employees, respond to breaches",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.185",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Ethical Culture",
+                        "category":  "legal_compliance",
+                        "subcategory":  "build_ethical_culture",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "legal-compliance",
+                                     "build-ethical-culture"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Foster culture of integrity and ethical business practices",
+                        "content":  {
+                                       "summary":  "Build Ethical Culture",
+                                       "details":  "Model ethics, communicate values, provide training, enable reporting, address violations",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.186",
+                        "type":  "DIRECTIVE",
+                        "name":  "Ensure Contractual Protection",
+                        "category":  "legal_compliance",
+                        "subcategory":  "ensure_contractual_protection",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "legal-compliance",
+                                     "ensure-contractual-protection"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Protect company interests through sound contracts",
+                        "content":  {
+                                       "summary":  "Ensure Contractual Protection",
+                                       "details":  "Use appropriate terms, negotiate favorable conditions, document agreements, manage obligations, enforce rights",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.187",
+                        "type":  "DIRECTIVE",
+                        "name":  "Maintain Regulatory Readiness",
+                        "category":  "legal_compliance",
+                        "subcategory":  "maintain_regulatory_readiness",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "legal-compliance",
+                                     "maintain-regulatory-readiness"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Stay prepared for regulatory changes and scrutiny",
+                        "content":  {
+                                       "summary":  "Maintain Regulatory Readiness",
+                                       "details":  "Monitor regulations, assess impact, implement requirements, maintain compliance programs, be audit-ready",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.188",
+                        "type":  "DIRECTIVE",
+                        "name":  "Strengthen Corporate Governance",
+                        "category":  "legal_compliance",
+                        "subcategory":  "strengthen_corporate_governance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "legal-compliance",
+                                     "strengthen-corporate-governance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Maintain strong governance structures and practices",
+                        "content":  {
+                                       "summary":  "Strengthen Corporate Governance",
+                                       "details":  "Establish clear accountability, maintain board effectiveness, ensure transparency, manage conflicts, follow best practices",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.189",
+                        "type":  "DIRECTIVE",
+                        "name":  "Manage Disputes Effectively",
+                        "category":  "legal_compliance",
+                        "subcategory":  "manage_disputes_effectively",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "legal-compliance",
+                                     "manage-disputes-effectively"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Resolve legal disputes efficiently and favorably",
+                        "content":  {
+                                       "summary":  "Manage Disputes Effectively",
+                                       "details":  "Assess disputes objectively, explore settlement, litigate when necessary, protect interests, learn from disputes",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.190",
+                        "type":  "DIRECTIVE",
+                        "name":  "Enable Legal Scalability",
+                        "category":  "legal_compliance",
+                        "subcategory":  "enable_legal_scalability",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "legal-compliance",
+                                     "enable-legal-scalability"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Build legal function that scales with business growth",
+                        "content":  {
+                                       "summary":  "Enable Legal Scalability",
+                                       "details":  "Create templates, establish processes, leverage technology, build expertise, partner with external counsel strategically",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.191",
+                        "type":  "DIRECTIVE",
+                        "name":  "Drive Digital Leadership",
+                        "category":  "digital_transformation",
+                        "subcategory":  "drive_digital_leadership",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "digital-transformation",
+                                     "drive-digital-leadership"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Become digital leader in industry or category",
+                        "content":  {
+                                       "summary":  "Drive Digital Leadership",
+                                       "details":  "Embrace digital-first mindset, invest in technology, innovate business model, build digital capabilities",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.192",
+                        "type":  "DIRECTIVE",
+                        "name":  "Leverage Data as Asset",
+                        "category":  "digital_transformation",
+                        "subcategory":  "leverage_data_as_asset",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "digital-transformation",
+                                     "leverage-data-as-asset"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Transform data into strategic competitive advantage",
+                        "content":  {
+                                       "summary":  "Leverage Data as Asset",
+                                       "details":  "Collect data systematically, ensure quality, analyze for insights, enable data-driven decisions, monetize where appropriate",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.193",
+                        "type":  "DIRECTIVE",
+                        "name":  "Accelerate Digital Adoption",
+                        "category":  "digital_transformation",
+                        "subcategory":  "accelerate_digital_adoption",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "digital-transformation",
+                                     "accelerate-digital-adoption"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Drive rapid adoption of digital technologies and practices",
+                        "content":  {
+                                       "summary":  "Accelerate Digital Adoption",
+                                       "details":  "Remove barriers, provide training, demonstrate value, celebrate wins, build momentum",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.194",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build Technology Excellence",
+                        "category":  "digital_transformation",
+                        "subcategory":  "build_technology_excellence",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "digital-transformation",
+                                     "build-technology-excellence"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Develop world-class technology capabilities and infrastructure",
+                        "content":  {
+                                       "summary":  "Build Technology Excellence",
+                                       "details":  "Invest in modern stack, attract technical talent, follow best practices, maintain high standards, innovate continuously",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.195",
+                        "type":  "DIRECTIVE",
+                        "name":  "Ensure Cybersecurity",
+                        "category":  "digital_transformation",
+                        "subcategory":  "ensure_cybersecurity",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "digital-transformation",
+                                     "ensure-cybersecurity"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Protect organization from cyber threats and vulnerabilities",
+                        "content":  {
+                                       "summary":  "Ensure Cybersecurity",
+                                       "details":  "Implement security controls, train employees, monitor threats, respond to incidents, maintain compliance",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.196",
+                        "type":  "DIRECTIVE",
+                        "name":  "Enable Digital Customer Experience",
+                        "category":  "digital_transformation",
+                        "subcategory":  "enable_digital_customer_experience",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "digital-transformation",
+                                     "enable-digital-customer-experience"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Deliver seamless, excellent digital customer experiences",
+                        "content":  {
+                                       "summary":  "Enable Digital Customer Experience",
+                                       "details":  "Design for digital, optimize user experience, provide omnichannel, personalize interactions, measure satisfaction",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.197",
+                        "type":  "DIRECTIVE",
+                        "name":  "Optimize Technology ROI",
+                        "category":  "digital_transformation",
+                        "subcategory":  "optimize_technology_roi",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "digital-transformation",
+                                     "optimize-technology-roi"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Maximize return on technology investments",
+                        "content":  {
+                                       "summary":  "Optimize Technology ROI",
+                                       "details":  "Prioritize high-value initiatives, measure outcomes, eliminate redundancy, optimize licensing, ensure adoption",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.198",
+                        "type":  "DIRECTIVE",
+                        "name":  "Build API Economy",
+                        "category":  "digital_transformation",
+                        "subcategory":  "build_api_economy",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "digital-transformation",
+                                     "build-api-economy"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create platform value through APIs and integrations",
+                        "content":  {
+                                       "summary":  "Build API Economy",
+                                       "details":  "Design API-first, enable partnerships, build ecosystem, monetize APIs, maintain quality",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.199",
+                        "type":  "DIRECTIVE",
+                        "name":  "Achieve Cloud Excellence",
+                        "category":  "digital_transformation",
+                        "subcategory":  "achieve_cloud_excellence",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "digital-transformation",
+                                     "achieve-cloud-excellence"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Optimize cloud strategy and operations",
+                        "content":  {
+                                       "summary":  "Achieve Cloud Excellence",
+                                       "details":  "Migrate strategically, optimize costs, ensure security, leverage cloud-native capabilities, maintain reliability",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
+                                        ],
+                        "notes":  null
+                    },
+                    {
+                        "id":  "DIR.200",
+                        "type":  "DIRECTIVE",
+                        "name":  "Harness AI/ML Power",
+                        "category":  "digital_transformation",
+                        "subcategory":  "harness_ai_ml_power",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "directive",
+                                     "digital-transformation",
+                                     "harness-ai-ml-power"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT DIRECTIVE Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:24:59-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "scope":  "Create value through artificial intelligence and machine learning",
+                        "content":  {
+                                       "summary":  "Harness AI/ML Power",
+                                       "details":  "Identify use cases, build capabilities, ensure ethical AI, measure impact, scale what works",
+                                       "structure":  null
+                                    },
+                        "constraints":  [
+
                                         ],
                         "notes":  null
                     }

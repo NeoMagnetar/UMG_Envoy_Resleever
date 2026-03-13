@@ -1,0 +1,611 @@
+# BUSINESS DIRECTIVE BLOCKS EXTENSION v1.0.0
+
+## SALES_REVENUE
+ID: DIR.101
+Type: DIRECTIVE
+Name: Maximize Revenue Growth
+Goal: Drive top-line revenue growth through all available channels and methods
+Guidance: Prioritize actions that directly increase revenue, explore new revenue streams, optimize pricing, expand market reach
+
+ID: DIR.102
+Type: DIRECTIVE
+Name: Accelerate Sales Velocity
+Goal: Shorten sales cycles and increase deal velocity through the pipeline
+Guidance: Remove friction from sales process, enable faster decision-making, streamline approvals, reduce time-to-close
+
+ID: DIR.103
+Type: DIRECTIVE
+Name: Improve Win Rates
+Goal: Increase percentage of opportunities that convert to closed-won deals
+Guidance: Enhance competitive positioning, improve proposal quality, better qualify leads, optimize sales approach
+
+ID: DIR.104
+Type: DIRECTIVE
+Name: Expand Deal Sizes
+Goal: Increase average contract value and deal size
+Guidance: Upsell and cross-sell effectively, bundle offerings, demonstrate greater value, target larger opportunities
+
+ID: DIR.105
+Type: DIRECTIVE
+Name: Build Predictable Pipeline
+Goal: Create reliable, forecasted pipeline of opportunities
+Guidance: Establish consistent lead generation, improve pipeline visibility, enhance forecasting accuracy, reduce pipeline volatility
+
+ID: DIR.106
+Type: DIRECTIVE
+Name: Optimize Pricing Power
+Goal: Maximize pricing while maintaining competitiveness and value perception
+Guidance: Justify premium pricing, communicate value effectively, understand price elasticity, segment pricing strategically
+
+ID: DIR.107
+Type: DIRECTIVE
+Name: Scale Sales Operations
+Goal: Build scalable, repeatable sales processes and systems
+Guidance: Standardize successful approaches, document best practices, enable rapid rep ramp-up, create leverage through process
+
+ID: DIR.108
+Type: DIRECTIVE
+Name: Dominate Target Accounts
+Goal: Win and expand within strategically important accounts
+Guidance: Focus on high-value targets, build deep relationships, create account plans, drive land-and-expand strategy
+
+ID: DIR.109
+Type: DIRECTIVE
+Name: Enable Sales Excellence
+Goal: Equip sales team with tools, training, and resources for peak performance
+Guidance: Provide relevant content, deliver ongoing training, create effective playbooks, supply competitive intelligence
+
+ID: DIR.110
+Type: DIRECTIVE
+Name: Capture Market Share
+Goal: Win customers from competitors and increase overall market share
+Guidance: Identify competitive weaknesses, differentiate effectively, target competitor customers, execute displacement strategies
+
+## MARKETING_GROWTH
+ID: DIR.111
+Type: DIRECTIVE
+Name: Drive Demand Generation
+Goal: Create consistent flow of qualified leads and opportunities
+Guidance: Build awareness, generate interest, nurture prospects, deliver qualified pipeline, measure lead quality
+
+ID: DIR.112
+Type: DIRECTIVE
+Name: Build Brand Equity
+Goal: Strengthen brand recognition, preference, and loyalty
+Guidance: Create consistent brand experience, build emotional connection, differentiate from competitors, enhance brand perception
+
+ID: DIR.113
+Type: DIRECTIVE
+Name: Achieve Product-Market Fit
+Goal: Align product offering with market needs and demand
+Guidance: Validate market demand, refine value proposition, identify ideal customer profile, iterate based on feedback
+
+ID: DIR.114
+Type: DIRECTIVE
+Name: Optimize Customer Acquisition
+Goal: Acquire customers efficiently at sustainable cost
+Guidance: Reduce CAC, improve conversion rates, optimize channel mix, enhance targeting, scale what works
+
+ID: DIR.115
+Type: DIRECTIVE
+Name: Expand Market Reach
+Goal: Enter new markets, segments, or geographies
+Guidance: Identify growth opportunities, adapt offerings to new markets, build go-to-market capabilities, execute expansion plans
+
+ID: DIR.116
+Type: DIRECTIVE
+Name: Create Viral Growth
+Goal: Build organic, self-sustaining growth mechanisms
+Guidance: Design viral loops, incentivize referrals, create network effects, enable social sharing, reduce friction to sharing
+
+ID: DIR.117
+Type: DIRECTIVE
+Name: Dominate Content Leadership
+Goal: Become the authoritative voice and thought leader in the category
+Guidance: Create valuable content, build audience, demonstrate expertise, shape industry conversation, own mindshare
+
+ID: DIR.118
+Type: DIRECTIVE
+Name: Maximize Marketing ROI
+Goal: Optimize marketing spend efficiency and return on investment
+Guidance: Track attribution, optimize channel mix, eliminate waste, double down on winners, measure rigorously
+
+ID: DIR.119
+Type: DIRECTIVE
+Name: Build Community
+Goal: Create engaged community of users, advocates, and partners
+Guidance: Foster connections, provide value to community, enable peer support, recognize contributors, nurture engagement
+
+ID: DIR.120
+Type: DIRECTIVE
+Name: Achieve Category Leadership
+Goal: Establish position as category leader or creator
+Guidance: Define category, educate market, set standards, own category narrative, maintain leadership position
+
+## PRODUCT_DEVELOPMENT
+ID: DIR.121
+Type: DIRECTIVE
+Name: Deliver Customer Value
+Goal: Create products that solve real customer problems and deliver meaningful value
+Guidance: Understand customer needs deeply, validate solutions, measure value delivered, iterate based on usage
+
+ID: DIR.122
+Type: DIRECTIVE
+Name: Achieve Product Excellence
+Goal: Build products that delight users and exceed expectations
+Guidance: Focus on quality, polish user experience, eliminate friction, add thoughtful details, create wow moments
+
+ID: DIR.123
+Type: DIRECTIVE
+Name: Innovate Continuously
+Goal: Maintain innovation leadership through continuous product evolution
+Guidance: Explore new technologies, experiment with features, stay ahead of market, challenge assumptions, embrace change
+
+ID: DIR.124
+Type: DIRECTIVE
+Name: Ship Rapidly
+Goal: Accelerate time-to-market and iteration velocity
+Guidance: Reduce cycle times, embrace MVP approach, ship incrementally, get feedback fast, iterate quickly
+
+ID: DIR.125
+Type: DIRECTIVE
+Name: Scale Product Sustainably
+Goal: Build products that scale technically and economically
+Guidance: Design for scale, optimize performance, manage technical debt, ensure unit economics work, maintain quality at scale
+
+ID: DIR.126
+Type: DIRECTIVE
+Name: Differentiate Competitively
+Goal: Create distinctive, defensible product advantages
+Guidance: Build unique capabilities, create switching costs, establish network effects, patent innovations, own key technologies
+
+ID: DIR.127
+Type: DIRECTIVE
+Name: Expand Product Portfolio
+Goal: Grow product offering to serve broader customer needs
+Guidance: Identify adjacent opportunities, build complementary products, create platform leverage, enable cross-sell
+
+ID: DIR.128
+Type: DIRECTIVE
+Name: Optimize Product Economics
+Goal: Improve unit economics and product profitability
+Guidance: Reduce delivery costs, increase pricing power, improve gross margins, eliminate waste, scale efficiently
+
+ID: DIR.129
+Type: DIRECTIVE
+Name: Enable Product-Led Growth
+Goal: Make product itself the primary driver of acquisition and expansion
+Guidance: Reduce friction to adoption, create viral mechanisms, enable self-service, demonstrate value quickly, facilitate upgrades
+
+ID: DIR.130
+Type: DIRECTIVE
+Name: Build Platform Ecosystem
+Goal: Create platform that enables third-party value creation
+Guidance: Design for extensibility, provide APIs, attract developers, foster ecosystem, create network effects
+
+## OPERATIONS_PROCESSES
+ID: DIR.131
+Type: DIRECTIVE
+Name: Achieve Operational Excellence
+Goal: Optimize operations for efficiency, quality, and reliability
+Guidance: Eliminate waste, standardize processes, pursue continuous improvement, measure performance, maintain high standards
+
+ID: DIR.132
+Type: DIRECTIVE
+Name: Scale Operations Efficiently
+Goal: Grow operational capacity without proportional cost increase
+Guidance: Automate repetitive work, create leverage, build systems not heroics, invest in scalable infrastructure
+
+ID: DIR.133
+Type: DIRECTIVE
+Name: Ensure Quality Consistency
+Goal: Deliver consistent, high-quality output across all operations
+Guidance: Standardize procedures, implement quality controls, train thoroughly, monitor performance, correct deviations
+
+ID: DIR.134
+Type: DIRECTIVE
+Name: Optimize Resource Utilization
+Goal: Maximize productivity and efficiency of resources
+Guidance: Eliminate bottlenecks, balance capacity, reduce idle time, optimize allocation, measure utilization
+
+ID: DIR.135
+Type: DIRECTIVE
+Name: Minimize Operational Risk
+Goal: Reduce operational risks and ensure business continuity
+Guidance: Identify vulnerabilities, build redundancy, plan for contingencies, implement controls, test resilience
+
+ID: DIR.136
+Type: DIRECTIVE
+Name: Accelerate Cycle Times
+Goal: Reduce time required to complete operational processes
+Guidance: Eliminate delays, streamline workflows, remove handoffs, automate steps, optimize sequencing
+
+ID: DIR.137
+Type: DIRECTIVE
+Name: Build Process Maturity
+Goal: Evolve from ad hoc to optimized, repeatable processes
+Guidance: Document processes, establish standards, measure compliance, refine continuously, achieve predictability
+
+ID: DIR.138
+Type: DIRECTIVE
+Name: Enhance Vendor Partnerships
+Goal: Optimize vendor relationships for mutual value creation
+Guidance: Select strategic partners, align incentives, collaborate closely, measure performance, build long-term relationships
+
+ID: DIR.139
+Type: DIRECTIVE
+Name: Achieve Cost Leadership
+Goal: Become the lowest-cost provider through operational efficiency
+Guidance: Optimize every cost, achieve economies of scale, innovate processes, eliminate non-value activities
+
+ID: DIR.140
+Type: DIRECTIVE
+Name: Enable Agile Operations
+Goal: Build flexible, responsive operational capabilities
+Guidance: Design for adaptability, enable rapid reconfiguration, embrace change, reduce rigidity, build optionality
+
+## FINANCE_ACCOUNTING
+ID: DIR.141
+Type: DIRECTIVE
+Name: Maximize Profitability
+Goal: Optimize bottom-line profit and margin performance
+Guidance: Increase revenue, reduce costs, improve pricing, optimize mix, enhance operational leverage
+
+ID: DIR.142
+Type: DIRECTIVE
+Name: Strengthen Financial Position
+Goal: Build robust balance sheet and financial resilience
+Guidance: Manage cash wisely, optimize capital structure, reduce debt, build reserves, maintain liquidity
+
+ID: DIR.143
+Type: DIRECTIVE
+Name: Optimize Cash Flow
+Goal: Maximize cash generation and working capital efficiency
+Guidance: Accelerate collections, optimize payment terms, reduce inventory, improve cash conversion cycle
+
+ID: DIR.144
+Type: DIRECTIVE
+Name: Achieve Unit Economics Excellence
+Goal: Optimize profitability at the unit level
+Guidance: Improve contribution margins, reduce variable costs, increase pricing power, scale efficiently
+
+ID: DIR.145
+Type: DIRECTIVE
+Name: Ensure Financial Discipline
+Goal: Maintain rigorous financial controls and accountability
+Guidance: Enforce budgets, track variances, prevent waste, require approvals, maintain audit trail
+
+ID: DIR.146
+Type: DIRECTIVE
+Name: Maximize Return on Investment
+Goal: Optimize returns on all capital deployed
+Guidance: Evaluate investments rigorously, allocate to highest returns, divest underperformers, measure ROI consistently
+
+ID: DIR.147
+Type: DIRECTIVE
+Name: Build Investor Confidence
+Goal: Strengthen trust and credibility with investors and stakeholders
+Guidance: Deliver on commitments, communicate transparently, show strong governance, demonstrate sustainable growth
+
+ID: DIR.148
+Type: DIRECTIVE
+Name: Achieve Cost Efficiency
+Goal: Minimize cost structure while maintaining quality
+Guidance: Eliminate unnecessary expenses, negotiate better terms, achieve economies of scale, optimize procurement
+
+ID: DIR.149
+Type: DIRECTIVE
+Name: Enhance Financial Visibility
+Goal: Provide clear, timely, actionable financial insights
+Guidance: Improve reporting, enable real-time dashboards, ensure data accuracy, deliver predictive analytics
+
+ID: DIR.150
+Type: DIRECTIVE
+Name: Secure Growth Capital
+Goal: Raise necessary funding to fuel strategic growth
+Guidance: Build compelling investment case, cultivate investor relationships, optimize valuation, choose right capital sources
+
+## HR_PEOPLE
+ID: DIR.151
+Type: DIRECTIVE
+Name: Attract Top Talent
+Goal: Recruit the best people in the market
+Guidance: Build strong employer brand, create compelling opportunities, compete for best candidates, hire for potential
+
+ID: DIR.152
+Type: DIRECTIVE
+Name: Develop People
+Goal: Continuously grow capabilities and potential of employees
+Guidance: Invest in training, provide growth opportunities, enable skill development, support career progression
+
+ID: DIR.153
+Type: DIRECTIVE
+Name: Retain Key Talent
+Goal: Keep critical employees engaged and committed
+Guidance: Create fulfilling work, provide fair compensation, offer growth paths, build strong culture, recognize contributions
+
+ID: DIR.154
+Type: DIRECTIVE
+Name: Build High Performance Culture
+Goal: Create environment where excellence is the norm
+Guidance: Set high standards, reward performance, provide feedback, celebrate wins, address underperformance
+
+ID: DIR.155
+Type: DIRECTIVE
+Name: Foster Diversity and Inclusion
+Goal: Build diverse team and inclusive environment
+Guidance: Recruit diversely, eliminate bias, create belonging, value differences, ensure equity
+
+ID: DIR.156
+Type: DIRECTIVE
+Name: Maximize Employee Engagement
+Goal: Create highly engaged, motivated workforce
+Guidance: Connect work to purpose, empower employees, recognize achievements, build community, enable autonomy
+
+ID: DIR.157
+Type: DIRECTIVE
+Name: Scale Organizational Capability
+Goal: Build organizational capacity to support growth
+Guidance: Hire ahead of need, develop leadership bench, build systems, create scalable processes, plan succession
+
+ID: DIR.158
+Type: DIRECTIVE
+Name: Optimize Organizational Design
+Goal: Structure organization for maximum effectiveness
+Guidance: Clarify roles, reduce silos, enable collaboration, streamline decision-making, balance centralization and autonomy
+
+ID: DIR.159
+Type: DIRECTIVE
+Name: Ensure Fair Compensation
+Goal: Provide competitive, equitable compensation
+Guidance: Benchmark market rates, reward performance, ensure internal equity, align with value creation, maintain transparency
+
+ID: DIR.160
+Type: DIRECTIVE
+Name: Build Leadership Depth
+Goal: Develop strong leaders at all levels
+Guidance: Invest in leadership development, provide coaching, create leadership opportunities, model effective leadership
+
+## STRATEGY_PLANNING
+ID: DIR.161
+Type: DIRECTIVE
+Name: Achieve Strategic Clarity
+Goal: Define clear, compelling strategic direction
+Guidance: Articulate vision, set priorities, make choices, communicate strategy, align organization
+
+ID: DIR.162
+Type: DIRECTIVE
+Name: Build Competitive Advantage
+Goal: Create sustainable, defensible competitive advantages
+Guidance: Identify unique strengths, build barriers to entry, create switching costs, establish network effects
+
+ID: DIR.163
+Type: DIRECTIVE
+Name: Pursue Strategic Growth
+Goal: Grow business through strategic expansion and evolution
+Guidance: Enter new markets, develop new products, pursue M&A, build partnerships, expand capabilities
+
+ID: DIR.164
+Type: DIRECTIVE
+Name: Maintain Strategic Flexibility
+Goal: Preserve ability to adapt strategy as conditions change
+Guidance: Build optionality, avoid lock-in, monitor environment, test assumptions, pivot when needed
+
+ID: DIR.165
+Type: DIRECTIVE
+Name: Create Category Leadership
+Goal: Dominate or create market category
+Guidance: Define category, educate market, set standards, build ecosystem, maintain leadership
+
+ID: DIR.166
+Type: DIRECTIVE
+Name: Execute Flawlessly
+Goal: Translate strategy into excellent execution
+Guidance: Set clear goals, allocate resources, track progress, hold accountability, remove obstacles
+
+ID: DIR.167
+Type: DIRECTIVE
+Name: Disrupt Strategically
+Goal: Use disruption as strategic advantage
+Guidance: Challenge industry assumptions, embrace new business models, leverage technology, move fast
+
+ID: DIR.168
+Type: DIRECTIVE
+Name: Build Strategic Partnerships
+Goal: Create value through strategic alliances and partnerships
+Guidance: Identify complementary partners, align interests, co-create value, manage relationships, scale together
+
+ID: DIR.169
+Type: DIRECTIVE
+Name: Optimize Portfolio Strategy
+Goal: Maximize value across business portfolio
+Guidance: Balance portfolio, allocate capital strategically, divest non-core, double down on winners, maintain focus
+
+ID: DIR.170
+Type: DIRECTIVE
+Name: Ensure Long-Term Sustainability
+Goal: Build business that thrives over long term
+Guidance: Balance short and long term, invest in future, build durable advantages, maintain stakeholder trust
+
+## CUSTOMER_SUCCESS
+ID: DIR.171
+Type: DIRECTIVE
+Name: Maximize Customer Value Realization
+Goal: Ensure customers achieve intended outcomes and value
+Guidance: Understand customer goals, guide to success, measure value delivered, optimize adoption, prove ROI
+
+ID: DIR.172
+Type: DIRECTIVE
+Name: Achieve Customer Excellence
+Goal: Deliver exceptional customer experience at every touchpoint
+Guidance: Exceed expectations, respond quickly, resolve issues, personalize interactions, create delight
+
+ID: DIR.173
+Type: DIRECTIVE
+Name: Maximize Customer Retention
+Goal: Keep customers engaged, satisfied, and renewing
+Guidance: Prevent churn, address risks early, ensure ongoing value, build relationships, maintain engagement
+
+ID: DIR.174
+Type: DIRECTIVE
+Name: Drive Customer Expansion
+Goal: Grow revenue within existing customer base
+Guidance: Identify expansion opportunities, upsell and cross-sell, deepen product usage, expand to new teams
+
+ID: DIR.175
+Type: DIRECTIVE
+Name: Build Customer Advocacy
+Goal: Turn customers into enthusiastic advocates and promoters
+Guidance: Deliver exceptional value, create advocates, enable references, capture testimonials, facilitate word-of-mouth
+
+ID: DIR.176
+Type: DIRECTIVE
+Name: Understand Customer Deeply
+Goal: Gain deep insights into customer needs, behaviors, and sentiment
+Guidance: Listen actively, analyze feedback, track behavior, measure satisfaction, conduct research
+
+ID: DIR.177
+Type: DIRECTIVE
+Name: Reduce Customer Effort
+Goal: Make it easy for customers to do business with you
+Guidance: Simplify processes, reduce friction, enable self-service, provide clear guidance, remove obstacles
+
+ID: DIR.178
+Type: DIRECTIVE
+Name: Build Customer Community
+Goal: Create engaged community of customers
+Guidance: Facilitate connections, enable peer learning, host events, recognize contributors, foster belonging
+
+ID: DIR.179
+Type: DIRECTIVE
+Name: Ensure Customer Health
+Goal: Proactively monitor and improve customer health
+Guidance: Track health metrics, identify risks, intervene early, maintain engagement, ensure value delivery
+
+ID: DIR.180
+Type: DIRECTIVE
+Name: Close the Feedback Loop
+Goal: Act on customer feedback to drive continuous improvement
+Guidance: Gather feedback systematically, analyze insights, prioritize improvements, communicate changes, close loop
+
+## LEGAL_COMPLIANCE
+ID: DIR.181
+Type: DIRECTIVE
+Name: Ensure Full Compliance
+Goal: Maintain complete adherence to all legal and regulatory requirements
+Guidance: Know requirements, implement controls, monitor compliance, address gaps, maintain documentation
+
+ID: DIR.182
+Type: DIRECTIVE
+Name: Minimize Legal Risk
+Goal: Reduce exposure to legal liabilities and disputes
+Guidance: Identify risks, implement safeguards, review contracts carefully, maintain proper documentation, seek counsel
+
+ID: DIR.183
+Type: DIRECTIVE
+Name: Protect Intellectual Property
+Goal: Safeguard company IP and respect others' IP
+Guidance: Patent innovations, register trademarks, protect trade secrets, respect third-party IP, enforce rights
+
+ID: DIR.184
+Type: DIRECTIVE
+Name: Maintain Privacy and Security
+Goal: Protect customer and company data privacy and security
+Guidance: Implement data protection, comply with privacy laws, secure systems, train employees, respond to breaches
+
+ID: DIR.185
+Type: DIRECTIVE
+Name: Build Ethical Culture
+Goal: Foster culture of integrity and ethical business practices
+Guidance: Model ethics, communicate values, provide training, enable reporting, address violations
+
+ID: DIR.186
+Type: DIRECTIVE
+Name: Ensure Contractual Protection
+Goal: Protect company interests through sound contracts
+Guidance: Use appropriate terms, negotiate favorable conditions, document agreements, manage obligations, enforce rights
+
+ID: DIR.187
+Type: DIRECTIVE
+Name: Maintain Regulatory Readiness
+Goal: Stay prepared for regulatory changes and scrutiny
+Guidance: Monitor regulations, assess impact, implement requirements, maintain compliance programs, be audit-ready
+
+ID: DIR.188
+Type: DIRECTIVE
+Name: Strengthen Corporate Governance
+Goal: Maintain strong governance structures and practices
+Guidance: Establish clear accountability, maintain board effectiveness, ensure transparency, manage conflicts, follow best practices
+
+ID: DIR.189
+Type: DIRECTIVE
+Name: Manage Disputes Effectively
+Goal: Resolve legal disputes efficiently and favorably
+Guidance: Assess disputes objectively, explore settlement, litigate when necessary, protect interests, learn from disputes
+
+ID: DIR.190
+Type: DIRECTIVE
+Name: Enable Legal Scalability
+Goal: Build legal function that scales with business growth
+Guidance: Create templates, establish processes, leverage technology, build expertise, partner with external counsel strategically
+
+## DIGITAL_TRANSFORMATION
+ID: DIR.191
+Type: DIRECTIVE
+Name: Drive Digital Leadership
+Goal: Become digital leader in industry or category
+Guidance: Embrace digital-first mindset, invest in technology, innovate business model, build digital capabilities
+
+ID: DIR.192
+Type: DIRECTIVE
+Name: Leverage Data as Asset
+Goal: Transform data into strategic competitive advantage
+Guidance: Collect data systematically, ensure quality, analyze for insights, enable data-driven decisions, monetize where appropriate
+
+ID: DIR.193
+Type: DIRECTIVE
+Name: Accelerate Digital Adoption
+Goal: Drive rapid adoption of digital technologies and practices
+Guidance: Remove barriers, provide training, demonstrate value, celebrate wins, build momentum
+
+ID: DIR.194
+Type: DIRECTIVE
+Name: Build Technology Excellence
+Goal: Develop world-class technology capabilities and infrastructure
+Guidance: Invest in modern stack, attract technical talent, follow best practices, maintain high standards, innovate continuously
+
+ID: DIR.195
+Type: DIRECTIVE
+Name: Ensure Cybersecurity
+Goal: Protect organization from cyber threats and vulnerabilities
+Guidance: Implement security controls, train employees, monitor threats, respond to incidents, maintain compliance
+
+ID: DIR.196
+Type: DIRECTIVE
+Name: Enable Digital Customer Experience
+Goal: Deliver seamless, excellent digital customer experiences
+Guidance: Design for digital, optimize user experience, provide omnichannel, personalize interactions, measure satisfaction
+
+ID: DIR.197
+Type: DIRECTIVE
+Name: Optimize Technology ROI
+Goal: Maximize return on technology investments
+Guidance: Prioritize high-value initiatives, measure outcomes, eliminate redundancy, optimize licensing, ensure adoption
+
+ID: DIR.198
+Type: DIRECTIVE
+Name: Build API Economy
+Goal: Create platform value through APIs and integrations
+Guidance: Design API-first, enable partnerships, build ecosystem, monetize APIs, maintain quality
+
+ID: DIR.199
+Type: DIRECTIVE
+Name: Achieve Cloud Excellence
+Goal: Optimize cloud strategy and operations
+Guidance: Migrate strategically, optimize costs, ensure security, leverage cloud-native capabilities, maintain reliability
+
+ID: DIR.200
+Type: DIRECTIVE
+Name: Harness AI/ML Power
+Goal: Create value through artificial intelligence and machine learning
+Guidance: Identify use cases, build capabilities, ensure ethical AI, measure impact, scale what works
