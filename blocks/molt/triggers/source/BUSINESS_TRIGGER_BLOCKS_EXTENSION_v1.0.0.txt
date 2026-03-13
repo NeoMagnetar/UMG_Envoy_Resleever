@@ -1,0 +1,1011 @@
+# BUSINESS TRIGGER BLOCKS EXTENSION v1.0.0
+
+## SALES_REVENUE
+ID: TRG.101
+Type: TRIGGER
+Name: Sales Pipeline Review Request
+Description: Request to analyze sales pipeline health, conversion rates, and revenue forecasting
+Activation Patterns:
+- review pipeline
+- sales forecast
+- deal flow analysis
+- funnel health
+
+ID: TRG.102
+Type: TRIGGER
+Name: Pricing Strategy Request
+Description: Request to develop, analyze, or optimize pricing models and strategies
+Activation Patterns:
+- pricing strategy
+- price optimization
+- value-based pricing
+- pricing tiers
+
+ID: TRG.103
+Type: TRIGGER
+Name: Sales Enablement Request
+Description: Request for sales training materials, playbooks, or tools
+Activation Patterns:
+- sales enablement
+- sales playbook
+- sales training
+- deal closing support
+
+ID: TRG.104
+Type: TRIGGER
+Name: Revenue Model Design
+Description: Request to design or evaluate business revenue models
+Activation Patterns:
+- revenue model
+- monetization strategy
+- business model canvas
+- revenue streams
+
+ID: TRG.105
+Type: TRIGGER
+Name: Customer Acquisition Cost Analysis
+Description: Request to analyze CAC, payback periods, and acquisition efficiency
+Activation Patterns:
+- CAC analysis
+- acquisition cost
+- customer acquisition
+- marketing efficiency
+
+ID: TRG.106
+Type: TRIGGER
+Name: Proposal Development Request
+Description: Request to create business proposals, RFP responses, or pitch decks
+Activation Patterns:
+- create proposal
+- RFP response
+- pitch deck
+- business proposal
+
+ID: TRG.107
+Type: TRIGGER
+Name: Deal Structure Request
+Description: Request to design deal structures, terms, and contract frameworks
+Activation Patterns:
+- deal structure
+- contract terms
+- partnership terms
+- deal design
+
+ID: TRG.108
+Type: TRIGGER
+Name: Win-Loss Analysis Request
+Description: Request to analyze why deals were won or lost
+Activation Patterns:
+- win-loss analysis
+- deal post-mortem
+- why we lost
+- competitive wins
+
+ID: TRG.109
+Type: TRIGGER
+Name: Territory Planning Request
+Description: Request to design or optimize sales territory assignments
+Activation Patterns:
+- territory planning
+- sales territories
+- regional strategy
+- coverage model
+
+ID: TRG.110
+Type: TRIGGER
+Name: Quota Setting Request
+Description: Request to establish sales quotas and targets
+Activation Patterns:
+- set quotas
+- sales targets
+- quota allocation
+- revenue targets
+
+## MARKETING_GROWTH
+ID: TRG.111
+Type: TRIGGER
+Name: Go-To-Market Strategy Request
+Description: Request to develop GTM strategy for product or market entry
+Activation Patterns:
+- GTM strategy
+- go-to-market plan
+- launch strategy
+- market entry
+
+ID: TRG.112
+Type: TRIGGER
+Name: Customer Segmentation Request
+Description: Request to segment customer base or market
+Activation Patterns:
+- customer segmentation
+- market segments
+- persona development
+- target segments
+
+ID: TRG.113
+Type: TRIGGER
+Name: Brand Positioning Request
+Description: Request to define or refine brand positioning
+Activation Patterns:
+- brand positioning
+- brand strategy
+- positioning statement
+- brand identity
+
+ID: TRG.114
+Type: TRIGGER
+Name: Marketing Campaign Design
+Description: Request to design marketing campaign strategy and execution
+Activation Patterns:
+- campaign design
+- marketing campaign
+- campaign strategy
+- promotional campaign
+
+ID: TRG.115
+Type: TRIGGER
+Name: Content Marketing Strategy
+Description: Request to develop content marketing approach and calendar
+Activation Patterns:
+- content strategy
+- content marketing
+- content calendar
+- editorial plan
+
+ID: TRG.116
+Type: TRIGGER
+Name: Customer Lifetime Value Analysis
+Description: Request to calculate and optimize customer LTV
+Activation Patterns:
+- LTV analysis
+- lifetime value
+- customer value
+- LTV:CAC ratio
+
+ID: TRG.117
+Type: TRIGGER
+Name: Growth Experiment Design
+Description: Request to design growth experiments and A/B tests
+Activation Patterns:
+- growth experiment
+- A/B test design
+- growth hacking
+- experiment framework
+
+ID: TRG.118
+Type: TRIGGER
+Name: Channel Strategy Request
+Description: Request to develop multi-channel marketing strategy
+Activation Patterns:
+- channel strategy
+- omnichannel
+- marketing channels
+- channel mix
+
+ID: TRG.119
+Type: TRIGGER
+Name: Customer Journey Mapping
+Description: Request to map and optimize customer journey
+Activation Patterns:
+- customer journey
+- journey mapping
+- touchpoint analysis
+- customer experience
+
+ID: TRG.120
+Type: TRIGGER
+Name: Viral Loop Design
+Description: Request to design viral growth mechanisms
+Activation Patterns:
+- viral loop
+- referral program
+- network effects
+- growth loops
+
+## PRODUCT_DEVELOPMENT
+ID: TRG.121
+Type: TRIGGER
+Name: Product Roadmap Request
+Description: Request to create or update product roadmap
+Activation Patterns:
+- product roadmap
+- roadmap planning
+- feature roadmap
+- product plan
+
+ID: TRG.122
+Type: TRIGGER
+Name: Feature Prioritization Request
+Description: Request to prioritize product features or backlog
+Activation Patterns:
+- prioritize features
+- backlog prioritization
+- feature ranking
+- roadmap priorities
+
+ID: TRG.123
+Type: TRIGGER
+Name: Product-Market Fit Assessment
+Description: Request to evaluate product-market fit
+Activation Patterns:
+- product-market fit
+- PMF assessment
+- market validation
+- fit analysis
+
+ID: TRG.124
+Type: TRIGGER
+Name: User Story Development
+Description: Request to write user stories and acceptance criteria
+Activation Patterns:
+- user stories
+- write stories
+- acceptance criteria
+- story mapping
+
+ID: TRG.125
+Type: TRIGGER
+Name: Product Launch Planning
+Description: Request to plan product or feature launch
+Activation Patterns:
+- launch plan
+- product launch
+- release planning
+- launch strategy
+
+ID: TRG.126
+Type: TRIGGER
+Name: Competitive Feature Analysis
+Description: Request to analyze competitor product features
+Activation Patterns:
+- competitive features
+- feature comparison
+- competitor analysis
+- feature gap
+
+ID: TRG.127
+Type: TRIGGER
+Name: Product Metrics Definition
+Description: Request to define product success metrics and KPIs
+Activation Patterns:
+- product metrics
+- success metrics
+- KPI definition
+- product analytics
+
+ID: TRG.128
+Type: TRIGGER
+Name: MVP Scope Request
+Description: Request to define minimum viable product scope
+Activation Patterns:
+- MVP scope
+- minimum viable product
+- MVP definition
+- MVP features
+
+ID: TRG.129
+Type: TRIGGER
+Name: Product Sunset Planning
+Description: Request to plan product or feature deprecation
+Activation Patterns:
+- sunset plan
+- deprecation strategy
+- end-of-life
+- product retirement
+
+ID: TRG.130
+Type: TRIGGER
+Name: Product Portfolio Review
+Description: Request to review and optimize product portfolio
+Activation Patterns:
+- portfolio review
+- product portfolio
+- portfolio strategy
+- product mix
+
+## OPERATIONS_PROCESSES
+ID: TRG.131
+Type: TRIGGER
+Name: Process Mapping Request
+Description: Request to map current business processes
+Activation Patterns:
+- process mapping
+- map process
+- workflow diagram
+- process documentation
+
+ID: TRG.132
+Type: TRIGGER
+Name: Process Optimization Request
+Description: Request to optimize or reengineer business processes
+Activation Patterns:
+- optimize process
+- process improvement
+- streamline operations
+- efficiency gains
+
+ID: TRG.133
+Type: TRIGGER
+Name: SOP Development Request
+Description: Request to create standard operating procedures
+Activation Patterns:
+- create SOP
+- standard procedures
+- operational procedures
+- process documentation
+
+ID: TRG.134
+Type: TRIGGER
+Name: Capacity Planning Request
+Description: Request to plan operational capacity and resource allocation
+Activation Patterns:
+- capacity planning
+- resource planning
+- capacity analysis
+- scaling operations
+
+ID: TRG.135
+Type: TRIGGER
+Name: Vendor Selection Request
+Description: Request to evaluate and select vendors or suppliers
+Activation Patterns:
+- vendor selection
+- supplier evaluation
+- RFP process
+- vendor comparison
+
+ID: TRG.136
+Type: TRIGGER
+Name: Quality Assurance Design
+Description: Request to design QA processes and standards
+Activation Patterns:
+- QA process
+- quality assurance
+- quality standards
+- quality control
+
+ID: TRG.137
+Type: TRIGGER
+Name: Inventory Management Request
+Description: Request to optimize inventory levels and management
+Activation Patterns:
+- inventory optimization
+- inventory management
+- stock levels
+- supply planning
+
+ID: TRG.138
+Type: TRIGGER
+Name: Automation Opportunity Analysis
+Description: Request to identify automation opportunities
+Activation Patterns:
+- automation opportunities
+- automate process
+- workflow automation
+- RPA candidates
+
+ID: TRG.139
+Type: TRIGGER
+Name: Service Level Agreement Design
+Description: Request to design or evaluate SLAs
+Activation Patterns:
+- SLA design
+- service level agreement
+- SLA definition
+- service standards
+
+ID: TRG.140
+Type: TRIGGER
+Name: Business Continuity Planning
+Description: Request to develop business continuity and disaster recovery plans
+Activation Patterns:
+- business continuity
+- disaster recovery
+- BCP planning
+- continuity strategy
+
+## FINANCE_ACCOUNTING
+ID: TRG.141
+Type: TRIGGER
+Name: Financial Model Development
+Description: Request to build financial models and projections
+Activation Patterns:
+- financial model
+- build model
+- financial projections
+- pro forma
+
+ID: TRG.142
+Type: TRIGGER
+Name: Budget Planning Request
+Description: Request to create or review budgets
+Activation Patterns:
+- budget planning
+- create budget
+- budget review
+- annual budget
+
+ID: TRG.143
+Type: TRIGGER
+Name: Variance Analysis Request
+Description: Request to analyze budget vs actual variances
+Activation Patterns:
+- variance analysis
+- budget variance
+- actual vs budget
+- variance report
+
+ID: TRG.144
+Type: TRIGGER
+Name: Cash Flow Forecast
+Description: Request to forecast cash flow and liquidity
+Activation Patterns:
+- cash flow forecast
+- cash projection
+- liquidity planning
+- working capital
+
+ID: TRG.145
+Type: TRIGGER
+Name: Unit Economics Analysis
+Description: Request to analyze unit economics and contribution margins
+Activation Patterns:
+- unit economics
+- contribution margin
+- unit profitability
+- per-unit analysis
+
+ID: TRG.146
+Type: TRIGGER
+Name: Break-Even Analysis
+Description: Request to calculate break-even points and scenarios
+Activation Patterns:
+- break-even analysis
+- break-even point
+- profitability threshold
+- BEP calculation
+
+ID: TRG.147
+Type: TRIGGER
+Name: Investment Evaluation Request
+Description: Request to evaluate capital investments and ROI
+Activation Patterns:
+- investment evaluation
+- ROI analysis
+- capital allocation
+- IRR calculation
+
+ID: TRG.148
+Type: TRIGGER
+Name: Cost Structure Analysis
+Description: Request to analyze and optimize cost structure
+Activation Patterns:
+- cost structure
+- cost analysis
+- cost optimization
+- expense breakdown
+
+ID: TRG.149
+Type: TRIGGER
+Name: Financial Ratio Analysis
+Description: Request to calculate and interpret financial ratios
+Activation Patterns:
+- financial ratios
+- ratio analysis
+- financial metrics
+- profitability ratios
+
+ID: TRG.150
+Type: TRIGGER
+Name: Fundraising Preparation
+Description: Request to prepare materials for fundraising
+Activation Patterns:
+- fundraising prep
+- investor deck
+- due diligence
+- raise capital
+
+## HR_PEOPLE
+ID: TRG.151
+Type: TRIGGER
+Name: Org Chart Design Request
+Description: Request to design organizational structure
+Activation Patterns:
+- org chart
+- organizational structure
+- org design
+- reporting structure
+
+ID: TRG.152
+Type: TRIGGER
+Name: Job Description Creation
+Description: Request to write job descriptions and requirements
+Activation Patterns:
+- job description
+- JD creation
+- role definition
+- position requirements
+
+ID: TRG.153
+Type: TRIGGER
+Name: Compensation Strategy Request
+Description: Request to design compensation and benefits strategy
+Activation Patterns:
+- compensation strategy
+- pay structure
+- benefits design
+- comp planning
+
+ID: TRG.154
+Type: TRIGGER
+Name: Performance Review Design
+Description: Request to design performance evaluation systems
+Activation Patterns:
+- performance review
+- evaluation system
+- performance management
+- review process
+
+ID: TRG.155
+Type: TRIGGER
+Name: Employee Onboarding Plan
+Description: Request to design employee onboarding program
+Activation Patterns:
+- onboarding plan
+- new hire program
+- employee onboarding
+- orientation design
+
+ID: TRG.156
+Type: TRIGGER
+Name: Talent Gap Analysis
+Description: Request to identify talent and skill gaps
+Activation Patterns:
+- talent gap
+- skill gap analysis
+- capability assessment
+- workforce planning
+
+ID: TRG.157
+Type: TRIGGER
+Name: Culture Initiative Design
+Description: Request to design company culture initiatives
+Activation Patterns:
+- culture initiative
+- culture building
+- company values
+- culture program
+
+ID: TRG.158
+Type: TRIGGER
+Name: Succession Planning Request
+Description: Request to develop succession plans for key roles
+Activation Patterns:
+- succession planning
+- leadership pipeline
+- talent pipeline
+- succession strategy
+
+ID: TRG.159
+Type: TRIGGER
+Name: Employee Engagement Survey
+Description: Request to design or analyze employee engagement surveys
+Activation Patterns:
+- engagement survey
+- employee survey
+- engagement assessment
+- culture survey
+
+ID: TRG.160
+Type: TRIGGER
+Name: Training Program Development
+Description: Request to develop employee training programs
+Activation Patterns:
+- training program
+- employee development
+- learning curriculum
+- skills training
+
+## STRATEGY_PLANNING
+ID: TRG.161
+Type: TRIGGER
+Name: Strategic Planning Request
+Description: Request to develop corporate or business unit strategy
+Activation Patterns:
+- strategic planning
+- strategy development
+- strategic plan
+- long-term strategy
+
+ID: TRG.162
+Type: TRIGGER
+Name: SWOT Analysis Request
+Description: Request to conduct SWOT analysis
+Activation Patterns:
+- SWOT analysis
+- strengths weaknesses
+- strategic assessment
+- situation analysis
+
+ID: TRG.163
+Type: TRIGGER
+Name: Market Entry Strategy
+Description: Request to plan entry into new markets
+Activation Patterns:
+- market entry
+- new market strategy
+- geographic expansion
+- market penetration
+
+ID: TRG.164
+Type: TRIGGER
+Name: M&A Target Evaluation
+Description: Request to evaluate potential acquisition or merger targets
+Activation Patterns:
+- M&A evaluation
+- acquisition target
+- merger analysis
+- target assessment
+
+ID: TRG.165
+Type: TRIGGER
+Name: Business Model Innovation
+Description: Request to innovate or transform business model
+Activation Patterns:
+- business model innovation
+- model transformation
+- new business model
+- model disruption
+
+ID: TRG.166
+Type: TRIGGER
+Name: Diversification Strategy
+Description: Request to develop diversification plans
+Activation Patterns:
+- diversification strategy
+- product diversification
+- portfolio expansion
+- new ventures
+
+ID: TRG.167
+Type: TRIGGER
+Name: Turnaround Strategy Request
+Description: Request to develop strategy for struggling business
+Activation Patterns:
+- turnaround strategy
+- business recovery
+- restructuring plan
+- performance improvement
+
+ID: TRG.168
+Type: TRIGGER
+Name: Partnership Strategy Request
+Description: Request to develop strategic partnership approach
+Activation Patterns:
+- partnership strategy
+- strategic alliances
+- collaboration model
+- ecosystem strategy
+
+ID: TRG.169
+Type: TRIGGER
+Name: Exit Strategy Planning
+Description: Request to plan business exit or divestiture
+Activation Patterns:
+- exit strategy
+- divestiture plan
+- business sale
+- exit planning
+
+ID: TRG.170
+Type: TRIGGER
+Name: Innovation Strategy Request
+Description: Request to develop innovation and R&D strategy
+Activation Patterns:
+- innovation strategy
+- R&D strategy
+- innovation framework
+- innovation pipeline
+
+## CUSTOMER_SUCCESS
+ID: TRG.171
+Type: TRIGGER
+Name: Churn Analysis Request
+Description: Request to analyze customer churn and retention
+Activation Patterns:
+- churn analysis
+- customer retention
+- churn rate
+- retention strategy
+
+ID: TRG.172
+Type: TRIGGER
+Name: Customer Success Playbook
+Description: Request to create customer success processes and playbooks
+Activation Patterns:
+- CS playbook
+- customer success process
+- onboarding playbook
+- success framework
+
+ID: TRG.173
+Type: TRIGGER
+Name: NPS Program Design
+Description: Request to design Net Promoter Score program
+Activation Patterns:
+- NPS program
+- net promoter score
+- customer satisfaction
+- NPS survey
+
+ID: TRG.174
+Type: TRIGGER
+Name: Customer Health Scoring
+Description: Request to design customer health score system
+Activation Patterns:
+- health scoring
+- customer health
+- risk scoring
+- account health
+
+ID: TRG.175
+Type: TRIGGER
+Name: Expansion Revenue Strategy
+Description: Request to develop upsell and cross-sell strategy
+Activation Patterns:
+- expansion revenue
+- upsell strategy
+- cross-sell
+- account expansion
+
+ID: TRG.176
+Type: TRIGGER
+Name: Customer Feedback Analysis
+Description: Request to analyze and synthesize customer feedback
+Activation Patterns:
+- feedback analysis
+- customer insights
+- voice of customer
+- feedback synthesis
+
+ID: TRG.177
+Type: TRIGGER
+Name: Renewal Strategy Request
+Description: Request to develop customer renewal strategy
+Activation Patterns:
+- renewal strategy
+- contract renewal
+- retention program
+- renewal process
+
+ID: TRG.178
+Type: TRIGGER
+Name: Customer Advocacy Program
+Description: Request to design customer advocacy and reference program
+Activation Patterns:
+- advocacy program
+- customer references
+- case studies
+- testimonial program
+
+ID: TRG.179
+Type: TRIGGER
+Name: Support Ticket Analysis
+Description: Request to analyze support tickets for insights
+Activation Patterns:
+- ticket analysis
+- support analytics
+- issue trends
+- support insights
+
+ID: TRG.180
+Type: TRIGGER
+Name: Customer Segmentation Strategy
+Description: Request to segment customers for tailored approaches
+Activation Patterns:
+- customer segmentation
+- account segmentation
+- tiering strategy
+- segment strategy
+
+## LEGAL_COMPLIANCE
+ID: TRG.181
+Type: TRIGGER
+Name: Contract Template Creation
+Description: Request to create contract templates and terms
+Activation Patterns:
+- contract template
+- agreement template
+- terms template
+- contract design
+
+ID: TRG.182
+Type: TRIGGER
+Name: Compliance Framework Design
+Description: Request to design compliance framework and controls
+Activation Patterns:
+- compliance framework
+- regulatory compliance
+- compliance program
+- control design
+
+ID: TRG.183
+Type: TRIGGER
+Name: Privacy Policy Development
+Description: Request to develop privacy policies and practices
+Activation Patterns:
+- privacy policy
+- data privacy
+- GDPR compliance
+- privacy framework
+
+ID: TRG.184
+Type: TRIGGER
+Name: IP Strategy Request
+Description: Request to develop intellectual property strategy
+Activation Patterns:
+- IP strategy
+- patent strategy
+- trademark strategy
+- intellectual property
+
+ID: TRG.185
+Type: TRIGGER
+Name: Risk Register Development
+Description: Request to create and maintain risk register
+Activation Patterns:
+- risk register
+- risk tracking
+- risk inventory
+- risk catalog
+
+ID: TRG.186
+Type: TRIGGER
+Name: Regulatory Impact Analysis
+Description: Request to assess impact of regulatory changes
+Activation Patterns:
+- regulatory impact
+- regulation analysis
+- compliance impact
+- regulatory change
+
+ID: TRG.187
+Type: TRIGGER
+Name: Audit Preparation Request
+Description: Request to prepare for internal or external audit
+Activation Patterns:
+- audit prep
+- audit readiness
+- audit preparation
+- compliance audit
+
+ID: TRG.188
+Type: TRIGGER
+Name: Ethics Policy Development
+Description: Request to develop corporate ethics policies
+Activation Patterns:
+- ethics policy
+- code of conduct
+- ethical guidelines
+- business ethics
+
+ID: TRG.189
+Type: TRIGGER
+Name: Dispute Resolution Strategy
+Description: Request to develop approach to legal disputes
+Activation Patterns:
+- dispute resolution
+- litigation strategy
+- conflict resolution
+- legal dispute
+
+ID: TRG.190
+Type: TRIGGER
+Name: Corporate Governance Design
+Description: Request to design corporate governance structure
+Activation Patterns:
+- corporate governance
+- board governance
+- governance framework
+- governance design
+
+## DIGITAL_TRANSFORMATION
+ID: TRG.191
+Type: TRIGGER
+Name: Digital Strategy Request
+Description: Request to develop digital transformation strategy
+Activation Patterns:
+- digital strategy
+- digital transformation
+- digitalization plan
+- digital roadmap
+
+ID: TRG.192
+Type: TRIGGER
+Name: Technology Stack Evaluation
+Description: Request to evaluate and select technology solutions
+Activation Patterns:
+- tech stack
+- technology evaluation
+- platform selection
+- tool assessment
+
+ID: TRG.193
+Type: TRIGGER
+Name: Data Strategy Request
+Description: Request to develop data strategy and governance
+Activation Patterns:
+- data strategy
+- data governance
+- data management
+- data architecture
+
+ID: TRG.194
+Type: TRIGGER
+Name: AI/ML Implementation Planning
+Description: Request to plan AI/ML adoption and use cases
+Activation Patterns:
+- AI strategy
+- ML implementation
+- AI use cases
+- machine learning plan
+
+ID: TRG.195
+Type: TRIGGER
+Name: Cloud Migration Strategy
+Description: Request to plan cloud migration and architecture
+Activation Patterns:
+- cloud migration
+- cloud strategy
+- cloud adoption
+- migration plan
+
+ID: TRG.196
+Type: TRIGGER
+Name: Cybersecurity Assessment
+Description: Request to assess cybersecurity posture and strategy
+Activation Patterns:
+- cybersecurity assessment
+- security audit
+- security strategy
+- threat analysis
+
+ID: TRG.197
+Type: TRIGGER
+Name: API Strategy Request
+Description: Request to develop API strategy and ecosystem
+Activation Patterns:
+- API strategy
+- API ecosystem
+- integration strategy
+- API design
+
+ID: TRG.198
+Type: TRIGGER
+Name: CRM Implementation Planning
+Description: Request to plan CRM system implementation
+Activation Patterns:
+- CRM implementation
+- CRM strategy
+- customer system
+- CRM rollout
+
+ID: TRG.199
+Type: TRIGGER
+Name: Business Intelligence Design
+Description: Request to design BI and analytics infrastructure
+Activation Patterns:
+- BI strategy
+- business intelligence
+- analytics platform
+- reporting infrastructure
+
+ID: TRG.200
+Type: TRIGGER
+Name: E-Commerce Strategy Request
+Description: Request to develop e-commerce and online sales strategy
+Activation Patterns:
+- e-commerce strategy
+- online sales
+- digital commerce
+- e-commerce platform
