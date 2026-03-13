@@ -1,0 +1,611 @@
+# BUSINESS INSTRUCTION BLOCKS EXTENSION v1.0.0
+
+## SALES_REVENUE
+ID: INST.101
+Type: INSTRUCTION
+Name: Qualify leads rigorously
+Action: Apply qualification framework (BANT, MEDDIC, etc.) to assess lead fit and priority
+Tactical Guidance: Evaluate budget, authority, need, timeline; score and rank leads; focus on high-potential opportunities
+
+ID: INST.102
+Type: INSTRUCTION
+Name: Build value-based proposals
+Action: Create proposals that emphasize customer ROI and business value over features
+Tactical Guidance: Quantify customer benefits, show ROI calculations, tie to business objectives, make compelling business case
+
+ID: INST.103
+Type: INSTRUCTION
+Name: Conduct discovery calls
+Action: Run structured discovery to understand customer situation, needs, and decision criteria
+Tactical Guidance: Ask open-ended questions, listen actively, identify pain points, uncover buying process, map stakeholders
+
+ID: INST.104
+Type: INSTRUCTION
+Name: Deliver compelling demos
+Action: Demonstrate product focused on customer-specific use cases and value
+Tactical Guidance: Customize to customer needs, show relevant features, tell stories, handle objections, create wow moments
+
+ID: INST.105
+Type: INSTRUCTION
+Name: Navigate procurement processes
+Action: Guide deals through customer procurement and approval workflows
+Tactical Guidance: Understand approval chain, provide required documentation, address legal/security concerns, manage timeline
+
+ID: INST.106
+Type: INSTRUCTION
+Name: Execute account planning
+Action: Develop comprehensive plans for strategic accounts
+Tactical Guidance: Map organization structure, identify key stakeholders, define expansion opportunities, set account goals, track progress
+
+ID: INST.107
+Type: INSTRUCTION
+Name: Conduct competitive displacement
+Action: Win business from competitors through strategic positioning
+Tactical Guidance: Identify competitor weaknesses, highlight differentiation, build switching case, de-risk transition, provide incentives
+
+ID: INST.108
+Type: INSTRUCTION
+Name: Negotiate win-win terms
+Action: Structure deals that satisfy both parties and preserve margin
+Tactical Guidance: Understand positions and interests, create options, find mutual value, avoid race to bottom, document agreements
+
+ID: INST.109
+Type: INSTRUCTION
+Name: Manage sales pipeline
+Action: Actively manage opportunities through sales stages
+Tactical Guidance: Update CRM consistently, advance stalled deals, identify risks, forecast accurately, prioritize efforts
+
+ID: INST.110
+Type: INSTRUCTION
+Name: Execute territory strategy
+Action: Systematically work assigned territory for maximum coverage
+Tactical Guidance: Segment accounts, prioritize targets, plan outreach cadence, track activity, measure results
+
+## MARKETING_GROWTH
+ID: INST.111
+Type: INSTRUCTION
+Name: Develop buyer personas
+Action: Create detailed profiles of ideal customer types
+Tactical Guidance: Research target customers, identify demographics, understand motivations, map pain points, document use cases
+
+ID: INST.112
+Type: INSTRUCTION
+Name: Execute ABM campaigns
+Action: Run account-based marketing to target high-value accounts
+Tactical Guidance: Select target accounts, personalize messaging, coordinate multi-channel outreach, measure engagement, align with sales
+
+ID: INST.113
+Type: INSTRUCTION
+Name: Optimize conversion funnels
+Action: Improve conversion rates at each stage of customer journey
+Tactical Guidance: Map current funnel, identify drop-off points, test improvements, measure lift, iterate continuously
+
+ID: INST.114
+Type: INSTRUCTION
+Name: Create thought leadership content
+Action: Develop authoritative content that demonstrates expertise
+Tactical Guidance: Identify key topics, research thoroughly, provide unique insights, publish consistently, promote strategically
+
+ID: INST.115
+Type: INSTRUCTION
+Name: Build referral programs
+Action: Design and launch customer referral incentive programs
+Tactical Guidance: Create compelling incentives, make sharing easy, track referrals, reward promptly, optimize program
+
+ID: INST.116
+Type: INSTRUCTION
+Name: Execute growth experiments
+Action: Run rapid tests to identify growth opportunities
+Tactical Guidance: Form hypotheses, design experiments, set success metrics, run tests, analyze results, scale winners
+
+ID: INST.117
+Type: INSTRUCTION
+Name: Develop messaging framework
+Action: Create consistent positioning and messaging across touchpoints
+Tactical Guidance: Define value proposition, identify key messages, tailor by audience, test messaging, document framework
+
+ID: INST.118
+Type: INSTRUCTION
+Name: Optimize SEO strategy
+Action: Improve organic search visibility and traffic
+Tactical Guidance: Research keywords, optimize on-page elements, build quality backlinks, create valuable content, track rankings
+
+ID: INST.119
+Type: INSTRUCTION
+Name: Launch multi-channel campaigns
+Action: Execute coordinated campaigns across multiple channels
+Tactical Guidance: Define campaign goals, select channels, coordinate messaging, schedule touchpoints, measure integrated impact
+
+ID: INST.120
+Type: INSTRUCTION
+Name: Measure marketing attribution
+Action: Track which marketing activities drive conversions and revenue
+Tactical Guidance: Implement tracking, attribute credit appropriately, analyze contribution, optimize spend allocation, report ROI
+
+## PRODUCT_DEVELOPMENT
+ID: INST.121
+Type: INSTRUCTION
+Name: Conduct user research
+Action: Gather insights directly from target users through research
+Tactical Guidance: Define research questions, recruit participants, conduct interviews/surveys, synthesize findings, share insights
+
+ID: INST.122
+Type: INSTRUCTION
+Name: Prioritize features using frameworks
+Action: Apply prioritization frameworks (RICE, ICE, MoSCoW) to backlog
+Tactical Guidance: Score features objectively, consider reach/impact/confidence/effort, align with strategy, communicate decisions
+
+ID: INST.123
+Type: INSTRUCTION
+Name: Write clear PRDs
+Action: Create comprehensive product requirement documents
+Tactical Guidance: Define problem, specify requirements, include acceptance criteria, add context, attach designs, enable development
+
+ID: INST.124
+Type: INSTRUCTION
+Name: Run beta programs
+Action: Execute controlled beta testing with select users
+Tactical Guidance: Recruit beta users, set expectations, gather feedback, track metrics, iterate based on learnings
+
+ID: INST.125
+Type: INSTRUCTION
+Name: Analyze product metrics
+Action: Track and interpret product usage and performance data
+Tactical Guidance: Define key metrics, instrument tracking, create dashboards, identify trends, derive actionable insights
+
+ID: INST.126
+Type: INSTRUCTION
+Name: Conduct competitive teardowns
+Action: Systematically analyze competitor products
+Tactical Guidance: Use competitor products, document features, assess UX, identify strengths/weaknesses, find opportunities
+
+ID: INST.127
+Type: INSTRUCTION
+Name: Create product roadmaps
+Action: Develop and communicate product development timeline
+Tactical Guidance: Align with strategy, sequence initiatives, estimate timelines, visualize clearly, update regularly, share broadly
+
+ID: INST.128
+Type: INSTRUCTION
+Name: Run design sprints
+Action: Execute rapid prototyping and testing cycles
+Tactical Guidance: Define challenge, ideate solutions, create prototype, test with users, iterate quickly
+
+ID: INST.129
+Type: INSTRUCTION
+Name: Manage technical debt
+Action: Balance new features with code quality and maintainability
+Tactical Guidance: Document debt, estimate impact, prioritize repayment, allocate capacity, track progress
+
+ID: INST.130
+Type: INSTRUCTION
+Name: Orchestrate product launches
+Action: Coordinate cross-functional efforts for product releases
+Tactical Guidance: Create launch plan, align teams, prepare assets, coordinate timing, measure success, gather feedback
+
+## OPERATIONS_PROCESSES
+ID: INST.131
+Type: INSTRUCTION
+Name: Document processes comprehensively
+Action: Create detailed documentation of operational workflows
+Tactical Guidance: Map current state, identify steps, note decision points, specify roles, include examples, maintain documentation
+
+ID: INST.132
+Type: INSTRUCTION
+Name: Implement process controls
+Action: Establish checkpoints and quality gates in workflows
+Tactical Guidance: Define control points, specify criteria, assign responsibility, document exceptions, monitor compliance
+
+ID: INST.133
+Type: INSTRUCTION
+Name: Conduct capacity analysis
+Action: Assess operational capacity and identify constraints
+Tactical Guidance: Measure current utilization, identify bottlenecks, model scenarios, plan capacity additions, optimize allocation
+
+ID: INST.134
+Type: INSTRUCTION
+Name: Execute process audits
+Action: Review processes for compliance and effectiveness
+Tactical Guidance: Select processes to audit, gather evidence, assess compliance, identify gaps, recommend improvements
+
+ID: INST.135
+Type: INSTRUCTION
+Name: Implement automation solutions
+Action: Deploy technology to automate manual processes
+Tactical Guidance: Identify automation candidates, select tools, design workflows, test thoroughly, train users, monitor performance
+
+ID: INST.136
+Type: INSTRUCTION
+Name: Manage vendor relationships
+Action: Actively oversee vendor performance and partnerships
+Tactical Guidance: Set expectations, track SLAs, conduct regular reviews, address issues, optimize value, maintain relationships
+
+ID: INST.137
+Type: INSTRUCTION
+Name: Optimize inventory levels
+Action: Balance inventory to meet demand while minimizing carrying costs
+Tactical Guidance: Forecast demand, set reorder points, track turnover, minimize obsolescence, optimize working capital
+
+ID: INST.138
+Type: INSTRUCTION
+Name: Implement quality metrics
+Action: Define and track quality performance indicators
+Tactical Guidance: Select relevant metrics, establish baselines, set targets, measure consistently, report visibly, drive improvement
+
+ID: INST.139
+Type: INSTRUCTION
+Name: Execute kaizen events
+Action: Run focused improvement workshops on specific processes
+Tactical Guidance: Select target process, assemble team, analyze current state, brainstorm improvements, implement changes, measure impact
+
+ID: INST.140
+Type: INSTRUCTION
+Name: Test business continuity plans
+Action: Validate that continuity plans work through exercises
+Tactical Guidance: Design realistic scenarios, execute tests, observe performance, identify gaps, update plans, train staff
+
+## FINANCE_ACCOUNTING
+ID: INST.141
+Type: INSTRUCTION
+Name: Build financial models
+Action: Develop spreadsheet models for financial planning and analysis
+Tactical Guidance: Structure assumptions clearly, build flexible formulas, include sensitivity analysis, validate accuracy, document methodology
+
+ID: INST.142
+Type: INSTRUCTION
+Name: Conduct variance analysis
+Action: Compare actual results to budget and explain differences
+Tactical Guidance: Calculate variances, investigate significant deviations, identify root causes, report findings, recommend actions
+
+ID: INST.143
+Type: INSTRUCTION
+Name: Manage cash forecasting
+Action: Project cash inflows and outflows to manage liquidity
+Tactical Guidance: Gather inputs, model scenarios, identify gaps, plan financing, update regularly, maintain reserves
+
+ID: INST.144
+Type: INSTRUCTION
+Name: Perform ratio analysis
+Action: Calculate and interpret key financial ratios
+Tactical Guidance: Compute standard ratios, trend over time, benchmark against peers, identify strengths/weaknesses, communicate insights
+
+ID: INST.145
+Type: INSTRUCTION
+Name: Execute monthly close
+Action: Complete monthly accounting close process efficiently
+Tactical Guidance: Follow close calendar, reconcile accounts, review entries, analyze results, prepare reports, meet deadlines
+
+ID: INST.146
+Type: INSTRUCTION
+Name: Optimize working capital
+Action: Manage receivables, payables, and inventory for cash efficiency
+Tactical Guidance: Accelerate collections, optimize payment timing, reduce inventory, improve cash conversion cycle
+
+ID: INST.147
+Type: INSTRUCTION
+Name: Prepare investor materials
+Action: Create presentations and documents for investor communications
+Tactical Guidance: Tell compelling story, provide key metrics, show traction, explain strategy, address risks, anticipate questions
+
+ID: INST.148
+Type: INSTRUCTION
+Name: Implement zero-based budgeting
+Action: Build budgets from zero rather than incrementing prior year
+Tactical Guidance: Justify every expense, question assumptions, align to priorities, eliminate non-value activities, optimize allocation
+
+ID: INST.149
+Type: INSTRUCTION
+Name: Conduct financial due diligence
+Action: Thoroughly review financial position for transactions
+Tactical Guidance: Analyze financial statements, verify assumptions, assess risks, evaluate quality of earnings, identify issues
+
+ID: INST.150
+Type: INSTRUCTION
+Name: Track unit economics
+Action: Monitor profitability metrics at the unit level
+Tactical Guidance: Define relevant unit, calculate contribution margin, track CAC and LTV, analyze cohorts, identify improvement levers
+
+## HR_PEOPLE
+ID: INST.151
+Type: INSTRUCTION
+Name: Structure interview processes
+Action: Design consistent, effective hiring interview workflows
+Tactical Guidance: Define competencies, create scorecards, train interviewers, standardize questions, calibrate decisions, reduce bias
+
+ID: INST.152
+Type: INSTRUCTION
+Name: Conduct performance reviews
+Action: Execute structured performance evaluation conversations
+Tactical Guidance: Gather input, prepare feedback, discuss performance, set goals, document outcomes, follow up on plans
+
+ID: INST.153
+Type: INSTRUCTION
+Name: Design compensation bands
+Action: Create salary ranges and levels for roles
+Tactical Guidance: Benchmark market data, define levels, set ranges, ensure equity, document philosophy, communicate transparently
+
+ID: INST.154
+Type: INSTRUCTION
+Name: Build onboarding programs
+Action: Create comprehensive new hire onboarding experiences
+Tactical Guidance: Plan first 90 days, assign mentors, schedule training, set early goals, gather feedback, iterate program
+
+ID: INST.155
+Type: INSTRUCTION
+Name: Conduct stay interviews
+Action: Proactively interview employees to understand retention factors
+Tactical Guidance: Ask about satisfaction, identify concerns, understand motivations, address issues, show investment in people
+
+ID: INST.156
+Type: INSTRUCTION
+Name: Execute talent reviews
+Action: Systematically assess and plan for talent across organization
+Tactical Guidance: Rate performance and potential, identify high performers, spot flight risks, plan succession, allocate development
+
+ID: INST.157
+Type: INSTRUCTION
+Name: Facilitate skip-level meetings
+Action: Conduct conversations between leaders and employees beyond direct reports
+Tactical Guidance: Schedule regularly, ask open questions, listen for insights, identify issues, maintain trust, take action
+
+ID: INST.158
+Type: INSTRUCTION
+Name: Implement career frameworks
+Action: Create clear progression paths and development roadmaps
+Tactical Guidance: Define levels, specify criteria, show progression, enable self-assessment, support development planning
+
+ID: INST.159
+Type: INSTRUCTION
+Name: Run engagement surveys
+Action: Measure employee engagement and act on results
+Tactical Guidance: Design survey, ensure participation, analyze results, share findings, create action plans, track progress
+
+ID: INST.160
+Type: INSTRUCTION
+Name: Execute offboarding properly
+Action: Conduct professional, thoughtful employee departures
+Tactical Guidance: Conduct exit interviews, transfer knowledge, collect equipment, maintain relationships, learn from feedback
+
+## STRATEGY_PLANNING
+ID: INST.161
+Type: INSTRUCTION
+Name: Conduct strategic planning sessions
+Action: Facilitate structured strategy development workshops
+Tactical Guidance: Prepare materials, gather stakeholders, facilitate discussion, capture decisions, document strategy, communicate broadly
+
+ID: INST.162
+Type: INSTRUCTION
+Name: Perform market sizing
+Action: Estimate total addressable market and opportunity size
+Tactical Guidance: Use top-down and bottom-up approaches, validate assumptions, segment market, show methodology, update regularly
+
+ID: INST.163
+Type: INSTRUCTION
+Name: Execute scenario planning
+Action: Develop and analyze multiple strategic scenarios
+Tactical Guidance: Identify key uncertainties, create plausible scenarios, assess implications, develop contingency plans, monitor indicators
+
+ID: INST.164
+Type: INSTRUCTION
+Name: Map competitive landscape
+Action: Systematically analyze competitive environment
+Tactical Guidance: Identify all competitors, assess capabilities, map positioning, track moves, identify threats and opportunities
+
+ID: INST.165
+Type: INSTRUCTION
+Name: Define strategic objectives
+Action: Establish clear, measurable strategic goals
+Tactical Guidance: Align with vision, make specific and measurable, set timeframes, assign ownership, cascade to teams
+
+ID: INST.166
+Type: INSTRUCTION
+Name: Conduct M&A screening
+Action: Evaluate potential acquisition targets systematically
+Tactical Guidance: Define criteria, identify candidates, assess strategic fit, estimate valuation, prioritize targets, initiate outreach
+
+ID: INST.167
+Type: INSTRUCTION
+Name: Execute business model canvas
+Action: Map and analyze business model using canvas framework
+Tactical Guidance: Document all nine blocks, identify dependencies, test assumptions, spot gaps, iterate model, validate with customers
+
+ID: INST.168
+Type: INSTRUCTION
+Name: Develop partnership criteria
+Action: Define what makes ideal strategic partners
+Tactical Guidance: Specify partner characteristics, define value exchange, set evaluation criteria, establish decision framework
+
+ID: INST.169
+Type: INSTRUCTION
+Name: Track strategic initiatives
+Action: Monitor progress of strategic projects and programs
+Tactical Guidance: Define milestones, assign owners, track status, identify blockers, report regularly, ensure accountability
+
+ID: INST.170
+Type: INSTRUCTION
+Name: Facilitate strategy reviews
+Action: Conduct regular reviews of strategy execution
+Tactical Guidance: Review progress, assess environment changes, test assumptions, adjust course, reallocate resources, communicate updates
+
+## CUSTOMER_SUCCESS
+ID: INST.171
+Type: INSTRUCTION
+Name: Execute customer onboarding
+Action: Guide new customers to successful adoption and first value
+Tactical Guidance: Welcome warmly, set expectations, provide training, track milestones, ensure quick wins, measure time-to-value
+
+ID: INST.172
+Type: INSTRUCTION
+Name: Conduct business reviews
+Action: Run quarterly business review meetings with key customers
+Tactical Guidance: Prepare customer-specific data, review goals and progress, share insights, identify opportunities, strengthen relationships
+
+ID: INST.173
+Type: INSTRUCTION
+Name: Monitor health scores
+Action: Track customer health metrics and intervene on risks
+Tactical Guidance: Define health criteria, calculate scores, identify at-risk accounts, trigger interventions, track recovery
+
+ID: INST.174
+Type: INSTRUCTION
+Name: Manage renewal campaigns
+Action: Systematically drive contract renewals
+Tactical Guidance: Start early, demonstrate value, address concerns, negotiate terms, secure commitment, celebrate renewals
+
+ID: INST.175
+Type: INSTRUCTION
+Name: Execute expansion plays
+Action: Identify and pursue upsell and cross-sell opportunities
+Tactical Guidance: Analyze usage patterns, identify whitespace, make recommendations, demonstrate value, facilitate trials, close expansion
+
+ID: INST.176
+Type: INSTRUCTION
+Name: Gather Voice of Customer
+Action: Systematically collect and synthesize customer feedback
+Tactical Guidance: Conduct surveys, run interviews, analyze support data, identify themes, share insights, close feedback loop
+
+ID: INST.177
+Type: INSTRUCTION
+Name: Build customer playbooks
+Action: Create standardized approaches for customer interactions
+Tactical Guidance: Document best practices, define triggers, specify actions, provide templates, train team, measure effectiveness
+
+ID: INST.178
+Type: INSTRUCTION
+Name: Cultivate customer advocates
+Action: Identify and develop customer champions and references
+Tactical Guidance: Find satisfied customers, request participation, make it easy, show appreciation, maintain relationships, leverage effectively
+
+ID: INST.179
+Type: INSTRUCTION
+Name: Analyze churn patterns
+Action: Study customer churn to identify root causes and trends
+Tactical Guidance: Track churn metrics, conduct exit interviews, identify patterns, categorize reasons, address root causes, prevent future churn
+
+ID: INST.180
+Type: INSTRUCTION
+Name: Create customer journey maps
+Action: Visualize end-to-end customer experience and touchpoints
+Tactical Guidance: Map current journey, identify touchpoints, note pain points and delights, prioritize improvements, track changes
+
+## LEGAL_COMPLIANCE
+ID: INST.181
+Type: INSTRUCTION
+Name: Draft standardized contracts
+Action: Create template agreements for common transactions
+Tactical Guidance: Define standard terms, include necessary protections, allow for customization, get legal review, maintain version control
+
+ID: INST.182
+Type: INSTRUCTION
+Name: Conduct compliance audits
+Action: Review adherence to legal and regulatory requirements
+Tactical Guidance: Plan audit scope, gather evidence, assess compliance, document findings, remediate gaps, report results
+
+ID: INST.183
+Type: INSTRUCTION
+Name: Implement data privacy controls
+Action: Deploy technical and organizational privacy measures
+Tactical Guidance: Map data flows, implement access controls, enable consent management, document processes, train staff, monitor compliance
+
+ID: INST.184
+Type: INSTRUCTION
+Name: File IP protections
+Action: Secure patents, trademarks, and copyrights appropriately
+Tactical Guidance: Identify protectable IP, assess value, prepare applications, work with counsel, track filings, maintain registrations
+
+ID: INST.185
+Type: INSTRUCTION
+Name: Maintain risk registers
+Action: Document and track organizational risks systematically
+Tactical Guidance: Identify risks, assess likelihood and impact, assign owners, define mitigation, monitor status, update regularly
+
+ID: INST.186
+Type: INSTRUCTION
+Name: Respond to regulatory changes
+Action: Assess and implement required changes from new regulations
+Tactical Guidance: Monitor regulatory environment, analyze impact, plan implementation, update policies and processes, communicate changes
+
+ID: INST.187
+Type: INSTRUCTION
+Name: Conduct legal training
+Action: Educate employees on relevant legal and compliance topics
+Tactical Guidance: Identify training needs, develop materials, deliver sessions, track completion, test understanding, refresh regularly
+
+ID: INST.188
+Type: INSTRUCTION
+Name: Manage contract lifecycle
+Action: Oversee contracts from creation through renewal or termination
+Tactical Guidance: Track obligations, monitor performance, flag milestones, manage renewals, handle amendments, archive properly
+
+ID: INST.189
+Type: INSTRUCTION
+Name: Execute dispute resolution
+Action: Follow structured process for resolving legal disputes
+Tactical Guidance: Assess situation, gather facts, evaluate options, negotiate settlement, escalate if needed, document resolution
+
+ID: INST.190
+Type: INSTRUCTION
+Name: Prepare board materials
+Action: Create comprehensive materials for board meetings
+Tactical Guidance: Gather relevant information, prepare presentations, draft resolutions, distribute in advance, document decisions
+
+## DIGITAL_TRANSFORMATION
+ID: INST.191
+Type: INSTRUCTION
+Name: Assess digital maturity
+Action: Evaluate current state of digital capabilities and adoption
+Tactical Guidance: Define maturity model, assess current state, identify gaps, prioritize improvements, create transformation roadmap
+
+ID: INST.192
+Type: INSTRUCTION
+Name: Execute technology evaluations
+Action: Systematically assess and select technology solutions
+Tactical Guidance: Define requirements, research options, conduct demos, assess fit, check references, negotiate terms, make decision
+
+ID: INST.193
+Type: INSTRUCTION
+Name: Implement data governance
+Action: Establish policies and processes for data management
+Tactical Guidance: Define standards, assign stewardship, implement controls, ensure quality, track lineage, enable access appropriately
+
+ID: INST.194
+Type: INSTRUCTION
+Name: Deploy AI/ML models
+Action: Move machine learning models from development to production
+Tactical Guidance: Validate performance, prepare infrastructure, implement monitoring, ensure governance, train users, iterate based on feedback
+
+ID: INST.195
+Type: INSTRUCTION
+Name: Execute cloud migrations
+Action: Move workloads and applications to cloud infrastructure
+Tactical Guidance: Assess readiness, prioritize workloads, design architecture, execute migration, optimize costs, validate performance
+
+ID: INST.196
+Type: INSTRUCTION
+Name: Conduct security assessments
+Action: Evaluate cybersecurity posture and identify vulnerabilities
+Tactical Guidance: Run penetration tests, review configurations, assess policies, identify risks, prioritize remediation, track improvements
+
+ID: INST.197
+Type: INSTRUCTION
+Name: Build API strategies
+Action: Design and implement API programs for integration and ecosystems
+Tactical Guidance: Define standards, design APIs, implement security, create documentation, enable developers, monitor usage
+
+ID: INST.198
+Type: INSTRUCTION
+Name: Configure CRM systems
+Action: Set up and customize customer relationship management platforms
+Tactical Guidance: Define requirements, configure workflows, customize fields, integrate systems, migrate data, train users
+
+ID: INST.199
+Type: INSTRUCTION
+Name: Design analytics dashboards
+Action: Create business intelligence visualizations and reports
+Tactical Guidance: Identify key metrics, design layouts, connect data sources, build visualizations, validate accuracy, enable self-service
+
+ID: INST.200
+Type: INSTRUCTION
+Name: Implement e-commerce platforms
+Action: Deploy online sales and transaction capabilities
+Tactical Guidance: Select platform, design experience, configure payments, integrate inventory, test thoroughly, launch and optimize

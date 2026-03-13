@@ -8,10 +8,10 @@
                     "description":  "Normalized instruction catalog produced during Stage 4",
                     "source":  {
                                    "provided_by":  "User supplied Stage 4 drop",
-                                   "ingested_at":  "2026-03-12T22:27:00-06:00",
+                                   "ingested_at":  "2026-03-13T08:28:50-06:00",
                                    "ingested_by":  "Stage4-Agent"
                                },
-                    "entry_count":  100
+                    "entry_count":  200
                 },
     "entries":  [
                     {
@@ -2912,6 +2912,3006 @@
                                     },
                         "action":  "Synchronize with other UMG-governed agents",
                         "expected_output":  "Multi-agent coordination achieved",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.101",
+                        "type":  "INSTRUCTION",
+                        "name":  "Qualify leads rigorously",
+                        "category":  "sales_revenue",
+                        "subcategory":  "qualify_leads_rigorously",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "sales-revenue",
+                                     "qualify-leads-rigorously"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Qualify leads rigorously",
+                                       "details":  "Evaluate budget, authority, need, timeline; score and rank leads; focus on high-potential opportunities",
+                                       "structure":  null
+                                    },
+                        "action":  "Apply qualification framework (BANT, MEDDIC, etc.) to assess lead fit and priority",
+                        "expected_output":  "Apply qualification framework (BANT, MEDDIC, etc.) to assess lead fit and priority",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.102",
+                        "type":  "INSTRUCTION",
+                        "name":  "Build value-based proposals",
+                        "category":  "sales_revenue",
+                        "subcategory":  "build_value_based_proposals",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "sales-revenue",
+                                     "build-value-based-proposals"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Build value-based proposals",
+                                       "details":  "Quantify customer benefits, show ROI calculations, tie to business objectives, make compelling business case",
+                                       "structure":  null
+                                    },
+                        "action":  "Create proposals that emphasize customer ROI and business value over features",
+                        "expected_output":  "Create proposals that emphasize customer ROI and business value over features",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.103",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct discovery calls",
+                        "category":  "sales_revenue",
+                        "subcategory":  "conduct_discovery_calls",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "sales-revenue",
+                                     "conduct-discovery-calls"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct discovery calls",
+                                       "details":  "Ask open-ended questions, listen actively, identify pain points, uncover buying process, map stakeholders",
+                                       "structure":  null
+                                    },
+                        "action":  "Run structured discovery to understand customer situation, needs, and decision criteria",
+                        "expected_output":  "Run structured discovery to understand customer situation, needs, and decision criteria",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.104",
+                        "type":  "INSTRUCTION",
+                        "name":  "Deliver compelling demos",
+                        "category":  "sales_revenue",
+                        "subcategory":  "deliver_compelling_demos",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "sales-revenue",
+                                     "deliver-compelling-demos"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Deliver compelling demos",
+                                       "details":  "Customize to customer needs, show relevant features, tell stories, handle objections, create wow moments",
+                                       "structure":  null
+                                    },
+                        "action":  "Demonstrate product focused on customer-specific use cases and value",
+                        "expected_output":  "Demonstrate product focused on customer-specific use cases and value",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.105",
+                        "type":  "INSTRUCTION",
+                        "name":  "Navigate procurement processes",
+                        "category":  "sales_revenue",
+                        "subcategory":  "navigate_procurement_processes",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "sales-revenue",
+                                     "navigate-procurement-processes"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Navigate procurement processes",
+                                       "details":  "Understand approval chain, provide required documentation, address legal/security concerns, manage timeline",
+                                       "structure":  null
+                                    },
+                        "action":  "Guide deals through customer procurement and approval workflows",
+                        "expected_output":  "Guide deals through customer procurement and approval workflows",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.106",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute account planning",
+                        "category":  "sales_revenue",
+                        "subcategory":  "execute_account_planning",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "sales-revenue",
+                                     "execute-account-planning"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute account planning",
+                                       "details":  "Map organization structure, identify key stakeholders, define expansion opportunities, set account goals, track progress",
+                                       "structure":  null
+                                    },
+                        "action":  "Develop comprehensive plans for strategic accounts",
+                        "expected_output":  "Develop comprehensive plans for strategic accounts",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.107",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct competitive displacement",
+                        "category":  "sales_revenue",
+                        "subcategory":  "conduct_competitive_displacement",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "sales-revenue",
+                                     "conduct-competitive-displacement"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct competitive displacement",
+                                       "details":  "Identify competitor weaknesses, highlight differentiation, build switching case, de-risk transition, provide incentives",
+                                       "structure":  null
+                                    },
+                        "action":  "Win business from competitors through strategic positioning",
+                        "expected_output":  "Win business from competitors through strategic positioning",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.108",
+                        "type":  "INSTRUCTION",
+                        "name":  "Negotiate win-win terms",
+                        "category":  "sales_revenue",
+                        "subcategory":  "negotiate_win_win_terms",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "sales-revenue",
+                                     "negotiate-win-win-terms"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Negotiate win-win terms",
+                                       "details":  "Understand positions and interests, create options, find mutual value, avoid race to bottom, document agreements",
+                                       "structure":  null
+                                    },
+                        "action":  "Structure deals that satisfy both parties and preserve margin",
+                        "expected_output":  "Structure deals that satisfy both parties and preserve margin",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.109",
+                        "type":  "INSTRUCTION",
+                        "name":  "Manage sales pipeline",
+                        "category":  "sales_revenue",
+                        "subcategory":  "manage_sales_pipeline",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "sales-revenue",
+                                     "manage-sales-pipeline"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Manage sales pipeline",
+                                       "details":  "Update CRM consistently, advance stalled deals, identify risks, forecast accurately, prioritize efforts",
+                                       "structure":  null
+                                    },
+                        "action":  "Actively manage opportunities through sales stages",
+                        "expected_output":  "Actively manage opportunities through sales stages",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.110",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute territory strategy",
+                        "category":  "sales_revenue",
+                        "subcategory":  "execute_territory_strategy",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "sales-revenue",
+                                     "execute-territory-strategy"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute territory strategy",
+                                       "details":  "Segment accounts, prioritize targets, plan outreach cadence, track activity, measure results",
+                                       "structure":  null
+                                    },
+                        "action":  "Systematically work assigned territory for maximum coverage",
+                        "expected_output":  "Systematically work assigned territory for maximum coverage",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.111",
+                        "type":  "INSTRUCTION",
+                        "name":  "Develop buyer personas",
+                        "category":  "marketing_growth",
+                        "subcategory":  "develop_buyer_personas",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "marketing-growth",
+                                     "develop-buyer-personas"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Develop buyer personas",
+                                       "details":  "Research target customers, identify demographics, understand motivations, map pain points, document use cases",
+                                       "structure":  null
+                                    },
+                        "action":  "Create detailed profiles of ideal customer types",
+                        "expected_output":  "Create detailed profiles of ideal customer types",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.112",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute ABM campaigns",
+                        "category":  "marketing_growth",
+                        "subcategory":  "execute_abm_campaigns",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "marketing-growth",
+                                     "execute-abm-campaigns"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute ABM campaigns",
+                                       "details":  "Select target accounts, personalize messaging, coordinate multi-channel outreach, measure engagement, align with sales",
+                                       "structure":  null
+                                    },
+                        "action":  "Run account-based marketing to target high-value accounts",
+                        "expected_output":  "Run account-based marketing to target high-value accounts",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.113",
+                        "type":  "INSTRUCTION",
+                        "name":  "Optimize conversion funnels",
+                        "category":  "marketing_growth",
+                        "subcategory":  "optimize_conversion_funnels",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "marketing-growth",
+                                     "optimize-conversion-funnels"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Optimize conversion funnels",
+                                       "details":  "Map current funnel, identify drop-off points, test improvements, measure lift, iterate continuously",
+                                       "structure":  null
+                                    },
+                        "action":  "Improve conversion rates at each stage of customer journey",
+                        "expected_output":  "Improve conversion rates at each stage of customer journey",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.114",
+                        "type":  "INSTRUCTION",
+                        "name":  "Create thought leadership content",
+                        "category":  "marketing_growth",
+                        "subcategory":  "create_thought_leadership_content",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "marketing-growth",
+                                     "create-thought-leadership-content"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Create thought leadership content",
+                                       "details":  "Identify key topics, research thoroughly, provide unique insights, publish consistently, promote strategically",
+                                       "structure":  null
+                                    },
+                        "action":  "Develop authoritative content that demonstrates expertise",
+                        "expected_output":  "Develop authoritative content that demonstrates expertise",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.115",
+                        "type":  "INSTRUCTION",
+                        "name":  "Build referral programs",
+                        "category":  "marketing_growth",
+                        "subcategory":  "build_referral_programs",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "marketing-growth",
+                                     "build-referral-programs"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Build referral programs",
+                                       "details":  "Create compelling incentives, make sharing easy, track referrals, reward promptly, optimize program",
+                                       "structure":  null
+                                    },
+                        "action":  "Design and launch customer referral incentive programs",
+                        "expected_output":  "Design and launch customer referral incentive programs",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.116",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute growth experiments",
+                        "category":  "marketing_growth",
+                        "subcategory":  "execute_growth_experiments",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "marketing-growth",
+                                     "execute-growth-experiments"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute growth experiments",
+                                       "details":  "Form hypotheses, design experiments, set success metrics, run tests, analyze results, scale winners",
+                                       "structure":  null
+                                    },
+                        "action":  "Run rapid tests to identify growth opportunities",
+                        "expected_output":  "Run rapid tests to identify growth opportunities",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.117",
+                        "type":  "INSTRUCTION",
+                        "name":  "Develop messaging framework",
+                        "category":  "marketing_growth",
+                        "subcategory":  "develop_messaging_framework",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "marketing-growth",
+                                     "develop-messaging-framework"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Develop messaging framework",
+                                       "details":  "Define value proposition, identify key messages, tailor by audience, test messaging, document framework",
+                                       "structure":  null
+                                    },
+                        "action":  "Create consistent positioning and messaging across touchpoints",
+                        "expected_output":  "Create consistent positioning and messaging across touchpoints",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.118",
+                        "type":  "INSTRUCTION",
+                        "name":  "Optimize SEO strategy",
+                        "category":  "marketing_growth",
+                        "subcategory":  "optimize_seo_strategy",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "marketing-growth",
+                                     "optimize-seo-strategy"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Optimize SEO strategy",
+                                       "details":  "Research keywords, optimize on-page elements, build quality backlinks, create valuable content, track rankings",
+                                       "structure":  null
+                                    },
+                        "action":  "Improve organic search visibility and traffic",
+                        "expected_output":  "Improve organic search visibility and traffic",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.119",
+                        "type":  "INSTRUCTION",
+                        "name":  "Launch multi-channel campaigns",
+                        "category":  "marketing_growth",
+                        "subcategory":  "launch_multi_channel_campaigns",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "marketing-growth",
+                                     "launch-multi-channel-campaigns"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Launch multi-channel campaigns",
+                                       "details":  "Define campaign goals, select channels, coordinate messaging, schedule touchpoints, measure integrated impact",
+                                       "structure":  null
+                                    },
+                        "action":  "Execute coordinated campaigns across multiple channels",
+                        "expected_output":  "Execute coordinated campaigns across multiple channels",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.120",
+                        "type":  "INSTRUCTION",
+                        "name":  "Measure marketing attribution",
+                        "category":  "marketing_growth",
+                        "subcategory":  "measure_marketing_attribution",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "marketing-growth",
+                                     "measure-marketing-attribution"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Measure marketing attribution",
+                                       "details":  "Implement tracking, attribute credit appropriately, analyze contribution, optimize spend allocation, report ROI",
+                                       "structure":  null
+                                    },
+                        "action":  "Track which marketing activities drive conversions and revenue",
+                        "expected_output":  "Track which marketing activities drive conversions and revenue",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.121",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct user research",
+                        "category":  "product_development",
+                        "subcategory":  "conduct_user_research",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "product-development",
+                                     "conduct-user-research"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct user research",
+                                       "details":  "Define research questions, recruit participants, conduct interviews/surveys, synthesize findings, share insights",
+                                       "structure":  null
+                                    },
+                        "action":  "Gather insights directly from target users through research",
+                        "expected_output":  "Gather insights directly from target users through research",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.122",
+                        "type":  "INSTRUCTION",
+                        "name":  "Prioritize features using frameworks",
+                        "category":  "product_development",
+                        "subcategory":  "prioritize_features_using_frameworks",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "product-development",
+                                     "prioritize-features-using-frameworks"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Prioritize features using frameworks",
+                                       "details":  "Score features objectively, consider reach/impact/confidence/effort, align with strategy, communicate decisions",
+                                       "structure":  null
+                                    },
+                        "action":  "Apply prioritization frameworks (RICE, ICE, MoSCoW) to backlog",
+                        "expected_output":  "Apply prioritization frameworks (RICE, ICE, MoSCoW) to backlog",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.123",
+                        "type":  "INSTRUCTION",
+                        "name":  "Write clear PRDs",
+                        "category":  "product_development",
+                        "subcategory":  "write_clear_prds",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "product-development",
+                                     "write-clear-prds"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Write clear PRDs",
+                                       "details":  "Define problem, specify requirements, include acceptance criteria, add context, attach designs, enable development",
+                                       "structure":  null
+                                    },
+                        "action":  "Create comprehensive product requirement documents",
+                        "expected_output":  "Create comprehensive product requirement documents",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.124",
+                        "type":  "INSTRUCTION",
+                        "name":  "Run beta programs",
+                        "category":  "product_development",
+                        "subcategory":  "run_beta_programs",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "product-development",
+                                     "run-beta-programs"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Run beta programs",
+                                       "details":  "Recruit beta users, set expectations, gather feedback, track metrics, iterate based on learnings",
+                                       "structure":  null
+                                    },
+                        "action":  "Execute controlled beta testing with select users",
+                        "expected_output":  "Execute controlled beta testing with select users",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.125",
+                        "type":  "INSTRUCTION",
+                        "name":  "Analyze product metrics",
+                        "category":  "product_development",
+                        "subcategory":  "analyze_product_metrics",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "product-development",
+                                     "analyze-product-metrics"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Analyze product metrics",
+                                       "details":  "Define key metrics, instrument tracking, create dashboards, identify trends, derive actionable insights",
+                                       "structure":  null
+                                    },
+                        "action":  "Track and interpret product usage and performance data",
+                        "expected_output":  "Track and interpret product usage and performance data",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.126",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct competitive teardowns",
+                        "category":  "product_development",
+                        "subcategory":  "conduct_competitive_teardowns",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "product-development",
+                                     "conduct-competitive-teardowns"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct competitive teardowns",
+                                       "details":  "Use competitor products, document features, assess UX, identify strengths/weaknesses, find opportunities",
+                                       "structure":  null
+                                    },
+                        "action":  "Systematically analyze competitor products",
+                        "expected_output":  "Systematically analyze competitor products",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.127",
+                        "type":  "INSTRUCTION",
+                        "name":  "Create product roadmaps",
+                        "category":  "product_development",
+                        "subcategory":  "create_product_roadmaps",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "product-development",
+                                     "create-product-roadmaps"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Create product roadmaps",
+                                       "details":  "Align with strategy, sequence initiatives, estimate timelines, visualize clearly, update regularly, share broadly",
+                                       "structure":  null
+                                    },
+                        "action":  "Develop and communicate product development timeline",
+                        "expected_output":  "Develop and communicate product development timeline",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.128",
+                        "type":  "INSTRUCTION",
+                        "name":  "Run design sprints",
+                        "category":  "product_development",
+                        "subcategory":  "run_design_sprints",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "product-development",
+                                     "run-design-sprints"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Run design sprints",
+                                       "details":  "Define challenge, ideate solutions, create prototype, test with users, iterate quickly",
+                                       "structure":  null
+                                    },
+                        "action":  "Execute rapid prototyping and testing cycles",
+                        "expected_output":  "Execute rapid prototyping and testing cycles",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.129",
+                        "type":  "INSTRUCTION",
+                        "name":  "Manage technical debt",
+                        "category":  "product_development",
+                        "subcategory":  "manage_technical_debt",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "product-development",
+                                     "manage-technical-debt"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Manage technical debt",
+                                       "details":  "Document debt, estimate impact, prioritize repayment, allocate capacity, track progress",
+                                       "structure":  null
+                                    },
+                        "action":  "Balance new features with code quality and maintainability",
+                        "expected_output":  "Balance new features with code quality and maintainability",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.130",
+                        "type":  "INSTRUCTION",
+                        "name":  "Orchestrate product launches",
+                        "category":  "product_development",
+                        "subcategory":  "orchestrate_product_launches",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "product-development",
+                                     "orchestrate-product-launches"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Orchestrate product launches",
+                                       "details":  "Create launch plan, align teams, prepare assets, coordinate timing, measure success, gather feedback",
+                                       "structure":  null
+                                    },
+                        "action":  "Coordinate cross-functional efforts for product releases",
+                        "expected_output":  "Coordinate cross-functional efforts for product releases",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.131",
+                        "type":  "INSTRUCTION",
+                        "name":  "Document processes comprehensively",
+                        "category":  "operations_processes",
+                        "subcategory":  "document_processes_comprehensively",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "operations-processes",
+                                     "document-processes-comprehensively"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Document processes comprehensively",
+                                       "details":  "Map current state, identify steps, note decision points, specify roles, include examples, maintain documentation",
+                                       "structure":  null
+                                    },
+                        "action":  "Create detailed documentation of operational workflows",
+                        "expected_output":  "Create detailed documentation of operational workflows",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.132",
+                        "type":  "INSTRUCTION",
+                        "name":  "Implement process controls",
+                        "category":  "operations_processes",
+                        "subcategory":  "implement_process_controls",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "operations-processes",
+                                     "implement-process-controls"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Implement process controls",
+                                       "details":  "Define control points, specify criteria, assign responsibility, document exceptions, monitor compliance",
+                                       "structure":  null
+                                    },
+                        "action":  "Establish checkpoints and quality gates in workflows",
+                        "expected_output":  "Establish checkpoints and quality gates in workflows",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.133",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct capacity analysis",
+                        "category":  "operations_processes",
+                        "subcategory":  "conduct_capacity_analysis",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "operations-processes",
+                                     "conduct-capacity-analysis"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct capacity analysis",
+                                       "details":  "Measure current utilization, identify bottlenecks, model scenarios, plan capacity additions, optimize allocation",
+                                       "structure":  null
+                                    },
+                        "action":  "Assess operational capacity and identify constraints",
+                        "expected_output":  "Assess operational capacity and identify constraints",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.134",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute process audits",
+                        "category":  "operations_processes",
+                        "subcategory":  "execute_process_audits",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "operations-processes",
+                                     "execute-process-audits"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute process audits",
+                                       "details":  "Select processes to audit, gather evidence, assess compliance, identify gaps, recommend improvements",
+                                       "structure":  null
+                                    },
+                        "action":  "Review processes for compliance and effectiveness",
+                        "expected_output":  "Review processes for compliance and effectiveness",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.135",
+                        "type":  "INSTRUCTION",
+                        "name":  "Implement automation solutions",
+                        "category":  "operations_processes",
+                        "subcategory":  "implement_automation_solutions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "operations-processes",
+                                     "implement-automation-solutions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Implement automation solutions",
+                                       "details":  "Identify automation candidates, select tools, design workflows, test thoroughly, train users, monitor performance",
+                                       "structure":  null
+                                    },
+                        "action":  "Deploy technology to automate manual processes",
+                        "expected_output":  "Deploy technology to automate manual processes",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.136",
+                        "type":  "INSTRUCTION",
+                        "name":  "Manage vendor relationships",
+                        "category":  "operations_processes",
+                        "subcategory":  "manage_vendor_relationships",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "operations-processes",
+                                     "manage-vendor-relationships"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Manage vendor relationships",
+                                       "details":  "Set expectations, track SLAs, conduct regular reviews, address issues, optimize value, maintain relationships",
+                                       "structure":  null
+                                    },
+                        "action":  "Actively oversee vendor performance and partnerships",
+                        "expected_output":  "Actively oversee vendor performance and partnerships",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.137",
+                        "type":  "INSTRUCTION",
+                        "name":  "Optimize inventory levels",
+                        "category":  "operations_processes",
+                        "subcategory":  "optimize_inventory_levels",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "operations-processes",
+                                     "optimize-inventory-levels"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Optimize inventory levels",
+                                       "details":  "Forecast demand, set reorder points, track turnover, minimize obsolescence, optimize working capital",
+                                       "structure":  null
+                                    },
+                        "action":  "Balance inventory to meet demand while minimizing carrying costs",
+                        "expected_output":  "Balance inventory to meet demand while minimizing carrying costs",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.138",
+                        "type":  "INSTRUCTION",
+                        "name":  "Implement quality metrics",
+                        "category":  "operations_processes",
+                        "subcategory":  "implement_quality_metrics",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "operations-processes",
+                                     "implement-quality-metrics"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Implement quality metrics",
+                                       "details":  "Select relevant metrics, establish baselines, set targets, measure consistently, report visibly, drive improvement",
+                                       "structure":  null
+                                    },
+                        "action":  "Define and track quality performance indicators",
+                        "expected_output":  "Define and track quality performance indicators",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.139",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute kaizen events",
+                        "category":  "operations_processes",
+                        "subcategory":  "execute_kaizen_events",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "operations-processes",
+                                     "execute-kaizen-events"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute kaizen events",
+                                       "details":  "Select target process, assemble team, analyze current state, brainstorm improvements, implement changes, measure impact",
+                                       "structure":  null
+                                    },
+                        "action":  "Run focused improvement workshops on specific processes",
+                        "expected_output":  "Run focused improvement workshops on specific processes",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.140",
+                        "type":  "INSTRUCTION",
+                        "name":  "Test business continuity plans",
+                        "category":  "operations_processes",
+                        "subcategory":  "test_business_continuity_plans",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "operations-processes",
+                                     "test-business-continuity-plans"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Test business continuity plans",
+                                       "details":  "Design realistic scenarios, execute tests, observe performance, identify gaps, update plans, train staff",
+                                       "structure":  null
+                                    },
+                        "action":  "Validate that continuity plans work through exercises",
+                        "expected_output":  "Validate that continuity plans work through exercises",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.141",
+                        "type":  "INSTRUCTION",
+                        "name":  "Build financial models",
+                        "category":  "finance_accounting",
+                        "subcategory":  "build_financial_models",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "finance-accounting",
+                                     "build-financial-models"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Build financial models",
+                                       "details":  "Structure assumptions clearly, build flexible formulas, include sensitivity analysis, validate accuracy, document methodology",
+                                       "structure":  null
+                                    },
+                        "action":  "Develop spreadsheet models for financial planning and analysis",
+                        "expected_output":  "Develop spreadsheet models for financial planning and analysis",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.142",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct variance analysis",
+                        "category":  "finance_accounting",
+                        "subcategory":  "conduct_variance_analysis",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "finance-accounting",
+                                     "conduct-variance-analysis"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct variance analysis",
+                                       "details":  "Calculate variances, investigate significant deviations, identify root causes, report findings, recommend actions",
+                                       "structure":  null
+                                    },
+                        "action":  "Compare actual results to budget and explain differences",
+                        "expected_output":  "Compare actual results to budget and explain differences",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.143",
+                        "type":  "INSTRUCTION",
+                        "name":  "Manage cash forecasting",
+                        "category":  "finance_accounting",
+                        "subcategory":  "manage_cash_forecasting",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "finance-accounting",
+                                     "manage-cash-forecasting"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Manage cash forecasting",
+                                       "details":  "Gather inputs, model scenarios, identify gaps, plan financing, update regularly, maintain reserves",
+                                       "structure":  null
+                                    },
+                        "action":  "Project cash inflows and outflows to manage liquidity",
+                        "expected_output":  "Project cash inflows and outflows to manage liquidity",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.144",
+                        "type":  "INSTRUCTION",
+                        "name":  "Perform ratio analysis",
+                        "category":  "finance_accounting",
+                        "subcategory":  "perform_ratio_analysis",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "finance-accounting",
+                                     "perform-ratio-analysis"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Perform ratio analysis",
+                                       "details":  "Compute standard ratios, trend over time, benchmark against peers, identify strengths/weaknesses, communicate insights",
+                                       "structure":  null
+                                    },
+                        "action":  "Calculate and interpret key financial ratios",
+                        "expected_output":  "Calculate and interpret key financial ratios",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.145",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute monthly close",
+                        "category":  "finance_accounting",
+                        "subcategory":  "execute_monthly_close",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "finance-accounting",
+                                     "execute-monthly-close"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute monthly close",
+                                       "details":  "Follow close calendar, reconcile accounts, review entries, analyze results, prepare reports, meet deadlines",
+                                       "structure":  null
+                                    },
+                        "action":  "Complete monthly accounting close process efficiently",
+                        "expected_output":  "Complete monthly accounting close process efficiently",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.146",
+                        "type":  "INSTRUCTION",
+                        "name":  "Optimize working capital",
+                        "category":  "finance_accounting",
+                        "subcategory":  "optimize_working_capital",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "finance-accounting",
+                                     "optimize-working-capital"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Optimize working capital",
+                                       "details":  "Accelerate collections, optimize payment timing, reduce inventory, improve cash conversion cycle",
+                                       "structure":  null
+                                    },
+                        "action":  "Manage receivables, payables, and inventory for cash efficiency",
+                        "expected_output":  "Manage receivables, payables, and inventory for cash efficiency",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.147",
+                        "type":  "INSTRUCTION",
+                        "name":  "Prepare investor materials",
+                        "category":  "finance_accounting",
+                        "subcategory":  "prepare_investor_materials",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "finance-accounting",
+                                     "prepare-investor-materials"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Prepare investor materials",
+                                       "details":  "Tell compelling story, provide key metrics, show traction, explain strategy, address risks, anticipate questions",
+                                       "structure":  null
+                                    },
+                        "action":  "Create presentations and documents for investor communications",
+                        "expected_output":  "Create presentations and documents for investor communications",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.148",
+                        "type":  "INSTRUCTION",
+                        "name":  "Implement zero-based budgeting",
+                        "category":  "finance_accounting",
+                        "subcategory":  "implement_zero_based_budgeting",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "finance-accounting",
+                                     "implement-zero-based-budgeting"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Implement zero-based budgeting",
+                                       "details":  "Justify every expense, question assumptions, align to priorities, eliminate non-value activities, optimize allocation",
+                                       "structure":  null
+                                    },
+                        "action":  "Build budgets from zero rather than incrementing prior year",
+                        "expected_output":  "Build budgets from zero rather than incrementing prior year",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.149",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct financial due diligence",
+                        "category":  "finance_accounting",
+                        "subcategory":  "conduct_financial_due_diligence",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "finance-accounting",
+                                     "conduct-financial-due-diligence"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct financial due diligence",
+                                       "details":  "Analyze financial statements, verify assumptions, assess risks, evaluate quality of earnings, identify issues",
+                                       "structure":  null
+                                    },
+                        "action":  "Thoroughly review financial position for transactions",
+                        "expected_output":  "Thoroughly review financial position for transactions",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.150",
+                        "type":  "INSTRUCTION",
+                        "name":  "Track unit economics",
+                        "category":  "finance_accounting",
+                        "subcategory":  "track_unit_economics",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "finance-accounting",
+                                     "track-unit-economics"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Track unit economics",
+                                       "details":  "Define relevant unit, calculate contribution margin, track CAC and LTV, analyze cohorts, identify improvement levers",
+                                       "structure":  null
+                                    },
+                        "action":  "Monitor profitability metrics at the unit level",
+                        "expected_output":  "Monitor profitability metrics at the unit level",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.151",
+                        "type":  "INSTRUCTION",
+                        "name":  "Structure interview processes",
+                        "category":  "hr_people",
+                        "subcategory":  "structure_interview_processes",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "hr-people",
+                                     "structure-interview-processes"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Structure interview processes",
+                                       "details":  "Define competencies, create scorecards, train interviewers, standardize questions, calibrate decisions, reduce bias",
+                                       "structure":  null
+                                    },
+                        "action":  "Design consistent, effective hiring interview workflows",
+                        "expected_output":  "Design consistent, effective hiring interview workflows",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.152",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct performance reviews",
+                        "category":  "hr_people",
+                        "subcategory":  "conduct_performance_reviews",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "hr-people",
+                                     "conduct-performance-reviews"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct performance reviews",
+                                       "details":  "Gather input, prepare feedback, discuss performance, set goals, document outcomes, follow up on plans",
+                                       "structure":  null
+                                    },
+                        "action":  "Execute structured performance evaluation conversations",
+                        "expected_output":  "Execute structured performance evaluation conversations",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.153",
+                        "type":  "INSTRUCTION",
+                        "name":  "Design compensation bands",
+                        "category":  "hr_people",
+                        "subcategory":  "design_compensation_bands",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "hr-people",
+                                     "design-compensation-bands"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Design compensation bands",
+                                       "details":  "Benchmark market data, define levels, set ranges, ensure equity, document philosophy, communicate transparently",
+                                       "structure":  null
+                                    },
+                        "action":  "Create salary ranges and levels for roles",
+                        "expected_output":  "Create salary ranges and levels for roles",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.154",
+                        "type":  "INSTRUCTION",
+                        "name":  "Build onboarding programs",
+                        "category":  "hr_people",
+                        "subcategory":  "build_onboarding_programs",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "hr-people",
+                                     "build-onboarding-programs"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Build onboarding programs",
+                                       "details":  "Plan first 90 days, assign mentors, schedule training, set early goals, gather feedback, iterate program",
+                                       "structure":  null
+                                    },
+                        "action":  "Create comprehensive new hire onboarding experiences",
+                        "expected_output":  "Create comprehensive new hire onboarding experiences",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.155",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct stay interviews",
+                        "category":  "hr_people",
+                        "subcategory":  "conduct_stay_interviews",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "hr-people",
+                                     "conduct-stay-interviews"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct stay interviews",
+                                       "details":  "Ask about satisfaction, identify concerns, understand motivations, address issues, show investment in people",
+                                       "structure":  null
+                                    },
+                        "action":  "Proactively interview employees to understand retention factors",
+                        "expected_output":  "Proactively interview employees to understand retention factors",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.156",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute talent reviews",
+                        "category":  "hr_people",
+                        "subcategory":  "execute_talent_reviews",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "hr-people",
+                                     "execute-talent-reviews"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute talent reviews",
+                                       "details":  "Rate performance and potential, identify high performers, spot flight risks, plan succession, allocate development",
+                                       "structure":  null
+                                    },
+                        "action":  "Systematically assess and plan for talent across organization",
+                        "expected_output":  "Systematically assess and plan for talent across organization",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.157",
+                        "type":  "INSTRUCTION",
+                        "name":  "Facilitate skip-level meetings",
+                        "category":  "hr_people",
+                        "subcategory":  "facilitate_skip_level_meetings",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "hr-people",
+                                     "facilitate-skip-level-meetings"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Facilitate skip-level meetings",
+                                       "details":  "Schedule regularly, ask open questions, listen for insights, identify issues, maintain trust, take action",
+                                       "structure":  null
+                                    },
+                        "action":  "Conduct conversations between leaders and employees beyond direct reports",
+                        "expected_output":  "Conduct conversations between leaders and employees beyond direct reports",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.158",
+                        "type":  "INSTRUCTION",
+                        "name":  "Implement career frameworks",
+                        "category":  "hr_people",
+                        "subcategory":  "implement_career_frameworks",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "hr-people",
+                                     "implement-career-frameworks"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Implement career frameworks",
+                                       "details":  "Define levels, specify criteria, show progression, enable self-assessment, support development planning",
+                                       "structure":  null
+                                    },
+                        "action":  "Create clear progression paths and development roadmaps",
+                        "expected_output":  "Create clear progression paths and development roadmaps",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.159",
+                        "type":  "INSTRUCTION",
+                        "name":  "Run engagement surveys",
+                        "category":  "hr_people",
+                        "subcategory":  "run_engagement_surveys",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "hr-people",
+                                     "run-engagement-surveys"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Run engagement surveys",
+                                       "details":  "Design survey, ensure participation, analyze results, share findings, create action plans, track progress",
+                                       "structure":  null
+                                    },
+                        "action":  "Measure employee engagement and act on results",
+                        "expected_output":  "Measure employee engagement and act on results",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.160",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute offboarding properly",
+                        "category":  "hr_people",
+                        "subcategory":  "execute_offboarding_properly",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "hr-people",
+                                     "execute-offboarding-properly"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute offboarding properly",
+                                       "details":  "Conduct exit interviews, transfer knowledge, collect equipment, maintain relationships, learn from feedback",
+                                       "structure":  null
+                                    },
+                        "action":  "Conduct professional, thoughtful employee departures",
+                        "expected_output":  "Conduct professional, thoughtful employee departures",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.161",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct strategic planning sessions",
+                        "category":  "strategy_planning",
+                        "subcategory":  "conduct_strategic_planning_sessions",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategy-planning",
+                                     "conduct-strategic-planning-sessions"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct strategic planning sessions",
+                                       "details":  "Prepare materials, gather stakeholders, facilitate discussion, capture decisions, document strategy, communicate broadly",
+                                       "structure":  null
+                                    },
+                        "action":  "Facilitate structured strategy development workshops",
+                        "expected_output":  "Facilitate structured strategy development workshops",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.162",
+                        "type":  "INSTRUCTION",
+                        "name":  "Perform market sizing",
+                        "category":  "strategy_planning",
+                        "subcategory":  "perform_market_sizing",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategy-planning",
+                                     "perform-market-sizing"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Perform market sizing",
+                                       "details":  "Use top-down and bottom-up approaches, validate assumptions, segment market, show methodology, update regularly",
+                                       "structure":  null
+                                    },
+                        "action":  "Estimate total addressable market and opportunity size",
+                        "expected_output":  "Estimate total addressable market and opportunity size",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.163",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute scenario planning",
+                        "category":  "strategy_planning",
+                        "subcategory":  "execute_scenario_planning",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategy-planning",
+                                     "execute-scenario-planning"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute scenario planning",
+                                       "details":  "Identify key uncertainties, create plausible scenarios, assess implications, develop contingency plans, monitor indicators",
+                                       "structure":  null
+                                    },
+                        "action":  "Develop and analyze multiple strategic scenarios",
+                        "expected_output":  "Develop and analyze multiple strategic scenarios",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.164",
+                        "type":  "INSTRUCTION",
+                        "name":  "Map competitive landscape",
+                        "category":  "strategy_planning",
+                        "subcategory":  "map_competitive_landscape",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategy-planning",
+                                     "map-competitive-landscape"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Map competitive landscape",
+                                       "details":  "Identify all competitors, assess capabilities, map positioning, track moves, identify threats and opportunities",
+                                       "structure":  null
+                                    },
+                        "action":  "Systematically analyze competitive environment",
+                        "expected_output":  "Systematically analyze competitive environment",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.165",
+                        "type":  "INSTRUCTION",
+                        "name":  "Define strategic objectives",
+                        "category":  "strategy_planning",
+                        "subcategory":  "define_strategic_objectives",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategy-planning",
+                                     "define-strategic-objectives"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Define strategic objectives",
+                                       "details":  "Align with vision, make specific and measurable, set timeframes, assign ownership, cascade to teams",
+                                       "structure":  null
+                                    },
+                        "action":  "Establish clear, measurable strategic goals",
+                        "expected_output":  "Establish clear, measurable strategic goals",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.166",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct M&A screening",
+                        "category":  "strategy_planning",
+                        "subcategory":  "conduct_m_a_screening",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategy-planning",
+                                     "conduct-m-a-screening"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct M&A screening",
+                                       "details":  "Define criteria, identify candidates, assess strategic fit, estimate valuation, prioritize targets, initiate outreach",
+                                       "structure":  null
+                                    },
+                        "action":  "Evaluate potential acquisition targets systematically",
+                        "expected_output":  "Evaluate potential acquisition targets systematically",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.167",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute business model canvas",
+                        "category":  "strategy_planning",
+                        "subcategory":  "execute_business_model_canvas",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategy-planning",
+                                     "execute-business-model-canvas"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute business model canvas",
+                                       "details":  "Document all nine blocks, identify dependencies, test assumptions, spot gaps, iterate model, validate with customers",
+                                       "structure":  null
+                                    },
+                        "action":  "Map and analyze business model using canvas framework",
+                        "expected_output":  "Map and analyze business model using canvas framework",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.168",
+                        "type":  "INSTRUCTION",
+                        "name":  "Develop partnership criteria",
+                        "category":  "strategy_planning",
+                        "subcategory":  "develop_partnership_criteria",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategy-planning",
+                                     "develop-partnership-criteria"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Develop partnership criteria",
+                                       "details":  "Specify partner characteristics, define value exchange, set evaluation criteria, establish decision framework",
+                                       "structure":  null
+                                    },
+                        "action":  "Define what makes ideal strategic partners",
+                        "expected_output":  "Define what makes ideal strategic partners",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.169",
+                        "type":  "INSTRUCTION",
+                        "name":  "Track strategic initiatives",
+                        "category":  "strategy_planning",
+                        "subcategory":  "track_strategic_initiatives",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategy-planning",
+                                     "track-strategic-initiatives"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Track strategic initiatives",
+                                       "details":  "Define milestones, assign owners, track status, identify blockers, report regularly, ensure accountability",
+                                       "structure":  null
+                                    },
+                        "action":  "Monitor progress of strategic projects and programs",
+                        "expected_output":  "Monitor progress of strategic projects and programs",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.170",
+                        "type":  "INSTRUCTION",
+                        "name":  "Facilitate strategy reviews",
+                        "category":  "strategy_planning",
+                        "subcategory":  "facilitate_strategy_reviews",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "strategy-planning",
+                                     "facilitate-strategy-reviews"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Facilitate strategy reviews",
+                                       "details":  "Review progress, assess environment changes, test assumptions, adjust course, reallocate resources, communicate updates",
+                                       "structure":  null
+                                    },
+                        "action":  "Conduct regular reviews of strategy execution",
+                        "expected_output":  "Conduct regular reviews of strategy execution",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.171",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute customer onboarding",
+                        "category":  "customer_success",
+                        "subcategory":  "execute_customer_onboarding",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "customer-success",
+                                     "execute-customer-onboarding"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute customer onboarding",
+                                       "details":  "Welcome warmly, set expectations, provide training, track milestones, ensure quick wins, measure time-to-value",
+                                       "structure":  null
+                                    },
+                        "action":  "Guide new customers to successful adoption and first value",
+                        "expected_output":  "Guide new customers to successful adoption and first value",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.172",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct business reviews",
+                        "category":  "customer_success",
+                        "subcategory":  "conduct_business_reviews",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "customer-success",
+                                     "conduct-business-reviews"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct business reviews",
+                                       "details":  "Prepare customer-specific data, review goals and progress, share insights, identify opportunities, strengthen relationships",
+                                       "structure":  null
+                                    },
+                        "action":  "Run quarterly business review meetings with key customers",
+                        "expected_output":  "Run quarterly business review meetings with key customers",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.173",
+                        "type":  "INSTRUCTION",
+                        "name":  "Monitor health scores",
+                        "category":  "customer_success",
+                        "subcategory":  "monitor_health_scores",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "customer-success",
+                                     "monitor-health-scores"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Monitor health scores",
+                                       "details":  "Define health criteria, calculate scores, identify at-risk accounts, trigger interventions, track recovery",
+                                       "structure":  null
+                                    },
+                        "action":  "Track customer health metrics and intervene on risks",
+                        "expected_output":  "Track customer health metrics and intervene on risks",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.174",
+                        "type":  "INSTRUCTION",
+                        "name":  "Manage renewal campaigns",
+                        "category":  "customer_success",
+                        "subcategory":  "manage_renewal_campaigns",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "customer-success",
+                                     "manage-renewal-campaigns"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Manage renewal campaigns",
+                                       "details":  "Start early, demonstrate value, address concerns, negotiate terms, secure commitment, celebrate renewals",
+                                       "structure":  null
+                                    },
+                        "action":  "Systematically drive contract renewals",
+                        "expected_output":  "Systematically drive contract renewals",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.175",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute expansion plays",
+                        "category":  "customer_success",
+                        "subcategory":  "execute_expansion_plays",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "customer-success",
+                                     "execute-expansion-plays"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute expansion plays",
+                                       "details":  "Analyze usage patterns, identify whitespace, make recommendations, demonstrate value, facilitate trials, close expansion",
+                                       "structure":  null
+                                    },
+                        "action":  "Identify and pursue upsell and cross-sell opportunities",
+                        "expected_output":  "Identify and pursue upsell and cross-sell opportunities",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.176",
+                        "type":  "INSTRUCTION",
+                        "name":  "Gather Voice of Customer",
+                        "category":  "customer_success",
+                        "subcategory":  "gather_voice_of_customer",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "customer-success",
+                                     "gather-voice-of-customer"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Gather Voice of Customer",
+                                       "details":  "Conduct surveys, run interviews, analyze support data, identify themes, share insights, close feedback loop",
+                                       "structure":  null
+                                    },
+                        "action":  "Systematically collect and synthesize customer feedback",
+                        "expected_output":  "Systematically collect and synthesize customer feedback",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.177",
+                        "type":  "INSTRUCTION",
+                        "name":  "Build customer playbooks",
+                        "category":  "customer_success",
+                        "subcategory":  "build_customer_playbooks",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "customer-success",
+                                     "build-customer-playbooks"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Build customer playbooks",
+                                       "details":  "Document best practices, define triggers, specify actions, provide templates, train team, measure effectiveness",
+                                       "structure":  null
+                                    },
+                        "action":  "Create standardized approaches for customer interactions",
+                        "expected_output":  "Create standardized approaches for customer interactions",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.178",
+                        "type":  "INSTRUCTION",
+                        "name":  "Cultivate customer advocates",
+                        "category":  "customer_success",
+                        "subcategory":  "cultivate_customer_advocates",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "customer-success",
+                                     "cultivate-customer-advocates"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Cultivate customer advocates",
+                                       "details":  "Find satisfied customers, request participation, make it easy, show appreciation, maintain relationships, leverage effectively",
+                                       "structure":  null
+                                    },
+                        "action":  "Identify and develop customer champions and references",
+                        "expected_output":  "Identify and develop customer champions and references",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.179",
+                        "type":  "INSTRUCTION",
+                        "name":  "Analyze churn patterns",
+                        "category":  "customer_success",
+                        "subcategory":  "analyze_churn_patterns",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "customer-success",
+                                     "analyze-churn-patterns"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Analyze churn patterns",
+                                       "details":  "Track churn metrics, conduct exit interviews, identify patterns, categorize reasons, address root causes, prevent future churn",
+                                       "structure":  null
+                                    },
+                        "action":  "Study customer churn to identify root causes and trends",
+                        "expected_output":  "Study customer churn to identify root causes and trends",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.180",
+                        "type":  "INSTRUCTION",
+                        "name":  "Create customer journey maps",
+                        "category":  "customer_success",
+                        "subcategory":  "create_customer_journey_maps",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "customer-success",
+                                     "create-customer-journey-maps"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Create customer journey maps",
+                                       "details":  "Map current journey, identify touchpoints, note pain points and delights, prioritize improvements, track changes",
+                                       "structure":  null
+                                    },
+                        "action":  "Visualize end-to-end customer experience and touchpoints",
+                        "expected_output":  "Visualize end-to-end customer experience and touchpoints",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.181",
+                        "type":  "INSTRUCTION",
+                        "name":  "Draft standardized contracts",
+                        "category":  "legal_compliance",
+                        "subcategory":  "draft_standardized_contracts",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "legal-compliance",
+                                     "draft-standardized-contracts"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Draft standardized contracts",
+                                       "details":  "Define standard terms, include necessary protections, allow for customization, get legal review, maintain version control",
+                                       "structure":  null
+                                    },
+                        "action":  "Create template agreements for common transactions",
+                        "expected_output":  "Create template agreements for common transactions",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.182",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct compliance audits",
+                        "category":  "legal_compliance",
+                        "subcategory":  "conduct_compliance_audits",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "legal-compliance",
+                                     "conduct-compliance-audits"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct compliance audits",
+                                       "details":  "Plan audit scope, gather evidence, assess compliance, document findings, remediate gaps, report results",
+                                       "structure":  null
+                                    },
+                        "action":  "Review adherence to legal and regulatory requirements",
+                        "expected_output":  "Review adherence to legal and regulatory requirements",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.183",
+                        "type":  "INSTRUCTION",
+                        "name":  "Implement data privacy controls",
+                        "category":  "legal_compliance",
+                        "subcategory":  "implement_data_privacy_controls",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "legal-compliance",
+                                     "implement-data-privacy-controls"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Implement data privacy controls",
+                                       "details":  "Map data flows, implement access controls, enable consent management, document processes, train staff, monitor compliance",
+                                       "structure":  null
+                                    },
+                        "action":  "Deploy technical and organizational privacy measures",
+                        "expected_output":  "Deploy technical and organizational privacy measures",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.184",
+                        "type":  "INSTRUCTION",
+                        "name":  "File IP protections",
+                        "category":  "legal_compliance",
+                        "subcategory":  "file_ip_protections",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "legal-compliance",
+                                     "file-ip-protections"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "File IP protections",
+                                       "details":  "Identify protectable IP, assess value, prepare applications, work with counsel, track filings, maintain registrations",
+                                       "structure":  null
+                                    },
+                        "action":  "Secure patents, trademarks, and copyrights appropriately",
+                        "expected_output":  "Secure patents, trademarks, and copyrights appropriately",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.185",
+                        "type":  "INSTRUCTION",
+                        "name":  "Maintain risk registers",
+                        "category":  "legal_compliance",
+                        "subcategory":  "maintain_risk_registers",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "legal-compliance",
+                                     "maintain-risk-registers"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Maintain risk registers",
+                                       "details":  "Identify risks, assess likelihood and impact, assign owners, define mitigation, monitor status, update regularly",
+                                       "structure":  null
+                                    },
+                        "action":  "Document and track organizational risks systematically",
+                        "expected_output":  "Document and track organizational risks systematically",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.186",
+                        "type":  "INSTRUCTION",
+                        "name":  "Respond to regulatory changes",
+                        "category":  "legal_compliance",
+                        "subcategory":  "respond_to_regulatory_changes",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "legal-compliance",
+                                     "respond-to-regulatory-changes"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Respond to regulatory changes",
+                                       "details":  "Monitor regulatory environment, analyze impact, plan implementation, update policies and processes, communicate changes",
+                                       "structure":  null
+                                    },
+                        "action":  "Assess and implement required changes from new regulations",
+                        "expected_output":  "Assess and implement required changes from new regulations",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.187",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct legal training",
+                        "category":  "legal_compliance",
+                        "subcategory":  "conduct_legal_training",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "legal-compliance",
+                                     "conduct-legal-training"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct legal training",
+                                       "details":  "Identify training needs, develop materials, deliver sessions, track completion, test understanding, refresh regularly",
+                                       "structure":  null
+                                    },
+                        "action":  "Educate employees on relevant legal and compliance topics",
+                        "expected_output":  "Educate employees on relevant legal and compliance topics",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.188",
+                        "type":  "INSTRUCTION",
+                        "name":  "Manage contract lifecycle",
+                        "category":  "legal_compliance",
+                        "subcategory":  "manage_contract_lifecycle",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "legal-compliance",
+                                     "manage-contract-lifecycle"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Manage contract lifecycle",
+                                       "details":  "Track obligations, monitor performance, flag milestones, manage renewals, handle amendments, archive properly",
+                                       "structure":  null
+                                    },
+                        "action":  "Oversee contracts from creation through renewal or termination",
+                        "expected_output":  "Oversee contracts from creation through renewal or termination",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.189",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute dispute resolution",
+                        "category":  "legal_compliance",
+                        "subcategory":  "execute_dispute_resolution",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "legal-compliance",
+                                     "execute-dispute-resolution"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute dispute resolution",
+                                       "details":  "Assess situation, gather facts, evaluate options, negotiate settlement, escalate if needed, document resolution",
+                                       "structure":  null
+                                    },
+                        "action":  "Follow structured process for resolving legal disputes",
+                        "expected_output":  "Follow structured process for resolving legal disputes",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.190",
+                        "type":  "INSTRUCTION",
+                        "name":  "Prepare board materials",
+                        "category":  "legal_compliance",
+                        "subcategory":  "prepare_board_materials",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "legal-compliance",
+                                     "prepare-board-materials"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Prepare board materials",
+                                       "details":  "Gather relevant information, prepare presentations, draft resolutions, distribute in advance, document decisions",
+                                       "structure":  null
+                                    },
+                        "action":  "Create comprehensive materials for board meetings",
+                        "expected_output":  "Create comprehensive materials for board meetings",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.191",
+                        "type":  "INSTRUCTION",
+                        "name":  "Assess digital maturity",
+                        "category":  "digital_transformation",
+                        "subcategory":  "assess_digital_maturity",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "digital-transformation",
+                                     "assess-digital-maturity"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Assess digital maturity",
+                                       "details":  "Define maturity model, assess current state, identify gaps, prioritize improvements, create transformation roadmap",
+                                       "structure":  null
+                                    },
+                        "action":  "Evaluate current state of digital capabilities and adoption",
+                        "expected_output":  "Evaluate current state of digital capabilities and adoption",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.192",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute technology evaluations",
+                        "category":  "digital_transformation",
+                        "subcategory":  "execute_technology_evaluations",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "digital-transformation",
+                                     "execute-technology-evaluations"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute technology evaluations",
+                                       "details":  "Define requirements, research options, conduct demos, assess fit, check references, negotiate terms, make decision",
+                                       "structure":  null
+                                    },
+                        "action":  "Systematically assess and select technology solutions",
+                        "expected_output":  "Systematically assess and select technology solutions",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.193",
+                        "type":  "INSTRUCTION",
+                        "name":  "Implement data governance",
+                        "category":  "digital_transformation",
+                        "subcategory":  "implement_data_governance",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "digital-transformation",
+                                     "implement-data-governance"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Implement data governance",
+                                       "details":  "Define standards, assign stewardship, implement controls, ensure quality, track lineage, enable access appropriately",
+                                       "structure":  null
+                                    },
+                        "action":  "Establish policies and processes for data management",
+                        "expected_output":  "Establish policies and processes for data management",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.194",
+                        "type":  "INSTRUCTION",
+                        "name":  "Deploy AI/ML models",
+                        "category":  "digital_transformation",
+                        "subcategory":  "deploy_ai_ml_models",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "digital-transformation",
+                                     "deploy-ai-ml-models"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Deploy AI/ML models",
+                                       "details":  "Validate performance, prepare infrastructure, implement monitoring, ensure governance, train users, iterate based on feedback",
+                                       "structure":  null
+                                    },
+                        "action":  "Move machine learning models from development to production",
+                        "expected_output":  "Move machine learning models from development to production",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.195",
+                        "type":  "INSTRUCTION",
+                        "name":  "Execute cloud migrations",
+                        "category":  "digital_transformation",
+                        "subcategory":  "execute_cloud_migrations",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "digital-transformation",
+                                     "execute-cloud-migrations"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Execute cloud migrations",
+                                       "details":  "Assess readiness, prioritize workloads, design architecture, execute migration, optimize costs, validate performance",
+                                       "structure":  null
+                                    },
+                        "action":  "Move workloads and applications to cloud infrastructure",
+                        "expected_output":  "Move workloads and applications to cloud infrastructure",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.196",
+                        "type":  "INSTRUCTION",
+                        "name":  "Conduct security assessments",
+                        "category":  "digital_transformation",
+                        "subcategory":  "conduct_security_assessments",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "digital-transformation",
+                                     "conduct-security-assessments"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Conduct security assessments",
+                                       "details":  "Run penetration tests, review configurations, assess policies, identify risks, prioritize remediation, track improvements",
+                                       "structure":  null
+                                    },
+                        "action":  "Evaluate cybersecurity posture and identify vulnerabilities",
+                        "expected_output":  "Evaluate cybersecurity posture and identify vulnerabilities",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.197",
+                        "type":  "INSTRUCTION",
+                        "name":  "Build API strategies",
+                        "category":  "digital_transformation",
+                        "subcategory":  "build_api_strategies",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "digital-transformation",
+                                     "build-api-strategies"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Build API strategies",
+                                       "details":  "Define standards, design APIs, implement security, create documentation, enable developers, monitor usage",
+                                       "structure":  null
+                                    },
+                        "action":  "Design and implement API programs for integration and ecosystems",
+                        "expected_output":  "Design and implement API programs for integration and ecosystems",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.198",
+                        "type":  "INSTRUCTION",
+                        "name":  "Configure CRM systems",
+                        "category":  "digital_transformation",
+                        "subcategory":  "configure_crm_systems",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "digital-transformation",
+                                     "configure-crm-systems"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Configure CRM systems",
+                                       "details":  "Define requirements, configure workflows, customize fields, integrate systems, migrate data, train users",
+                                       "structure":  null
+                                    },
+                        "action":  "Set up and customize customer relationship management platforms",
+                        "expected_output":  "Set up and customize customer relationship management platforms",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.199",
+                        "type":  "INSTRUCTION",
+                        "name":  "Design analytics dashboards",
+                        "category":  "digital_transformation",
+                        "subcategory":  "design_analytics_dashboards",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "digital-transformation",
+                                     "design-analytics-dashboards"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Design analytics dashboards",
+                                       "details":  "Identify key metrics, design layouts, connect data sources, build visualizations, validate accuracy, enable self-service",
+                                       "structure":  null
+                                    },
+                        "action":  "Create business intelligence visualizations and reports",
+                        "expected_output":  "Create business intelligence visualizations and reports",
+                        "notes":  null
+                    },
+                    {
+                        "id":  "INST.200",
+                        "type":  "INSTRUCTION",
+                        "name":  "Implement e-commerce platforms",
+                        "category":  "digital_transformation",
+                        "subcategory":  "implement_e_commerce_platforms",
+                        "status":  "active",
+                        "version":  "1.0.0",
+                        "tags":  [
+                                     "instruction",
+                                     "digital-transformation",
+                                     "implement-e-commerce-platforms"
+                                 ],
+                        "source":  {
+                                       "library_name":  "MOLT INSTRUCTION Library",
+                                       "library_version":  "1.0.0",
+                                       "provided_by":  "User supplied Stage 4 drop",
+                                       "ingested_at":  "2026-03-13T08:28:50-06:00",
+                                       "ingested_by":  "Stage4-Agent",
+                                       "supervised_by":  "NeoMAG"
+                                   },
+                        "content":  {
+                                       "summary":  "Implement e-commerce platforms",
+                                       "details":  "Select platform, design experience, configure payments, integrate inventory, test thoroughly, launch and optimize",
+                                       "structure":  null
+                                    },
+                        "action":  "Deploy online sales and transaction capabilities",
+                        "expected_output":  "Deploy online sales and transaction capabilities",
                         "notes":  null
                     }
                 ]
