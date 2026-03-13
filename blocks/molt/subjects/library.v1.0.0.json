@@ -8,10 +8,10 @@
         "description": "Normalized subject catalog produced during Stage 4",
         "source": {
             "provided_by": "User supplied Stage 4 drop",
-            "ingested_at": "2026-03-13T07:44:23-06:00",
+            "ingested_at": "2026-03-13T08:32:28-06:00",
             "ingested_by": "Stage4-Agent"
         },
-        "entry_count": 100
+        "entry_count": 200
     },
     "entries": [
         {
@@ -3012,6 +3012,3106 @@
                 "Tool Anchor Ethos",
                 "human sovereignty",
                 "bounded agency"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.101",
+            "type": "SUBJECT",
+            "name": "Sales Pipeline",
+            "category": "sales_revenue",
+            "subcategory": "sales_pipeline",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "sales-revenue",
+                "sales-pipeline"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Collection of opportunities at various stages moving toward closure",
+            "examples": [
+                "Deal flow",
+                "Opportunity stages",
+                "Funnel metrics",
+                "Pipeline coverage",
+                "Forecast pipeline"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.102",
+            "type": "SUBJECT",
+            "name": "Sales Proposals",
+            "category": "sales_revenue",
+            "subcategory": "sales_proposals",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "sales-revenue",
+                "sales-proposals"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Formal offers and business proposals presented to prospects",
+            "examples": [
+                "RFP responses",
+                "Statement of work",
+                "Pricing proposals",
+                "Value propositions",
+                "Deal terms"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.103",
+            "type": "SUBJECT",
+            "name": "Customer Accounts",
+            "category": "sales_revenue",
+            "subcategory": "customer_accounts",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "sales-revenue",
+                "customer-accounts"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Individual customer or prospect organizations and their relationships",
+            "examples": [
+                "Enterprise accounts",
+                "Strategic accounts",
+                "Target accounts",
+                "Account hierarchies",
+                "Account plans"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.104",
+            "type": "SUBJECT",
+            "name": "Sales Territories",
+            "category": "sales_revenue",
+            "subcategory": "sales_territories",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "sales-revenue",
+                "sales-territories"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Geographic or market segments assigned to sales representatives",
+            "examples": [
+                "Regional territories",
+                "Vertical assignments",
+                "Named accounts",
+                "Territory coverage",
+                "Geographic regions"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.105",
+            "type": "SUBJECT",
+            "name": "Sales Quotas",
+            "category": "sales_revenue",
+            "subcategory": "sales_quotas",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "sales-revenue",
+                "sales-quotas"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Revenue or unit targets assigned to sales personnel",
+            "examples": [
+                "Annual quotas",
+                "Quarterly targets",
+                "Individual quotas",
+                "Team quotas",
+                "Quota attainment"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.106",
+            "type": "SUBJECT",
+            "name": "Pricing Models",
+            "category": "sales_revenue",
+            "subcategory": "pricing_models",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "sales-revenue",
+                "pricing-models"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Frameworks and structures for product and service pricing",
+            "examples": [
+                "Tiered pricing",
+                "Usage-based pricing",
+                "Value-based pricing",
+                "Price lists",
+                "Discount structures"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.107",
+            "type": "SUBJECT",
+            "name": "Sales Playbooks",
+            "category": "sales_revenue",
+            "subcategory": "sales_playbooks",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "sales-revenue",
+                "sales-playbooks"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Documented best practices and processes for sales execution",
+            "examples": [
+                "Discovery playbooks",
+                "Objection handling",
+                "Deal closing guides",
+                "Sales methodologies",
+                "Battle cards"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.108",
+            "type": "SUBJECT",
+            "name": "Deal Structures",
+            "category": "sales_revenue",
+            "subcategory": "deal_structures",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "sales-revenue",
+                "deal-structures"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Commercial terms and arrangements for customer agreements",
+            "examples": [
+                "Contract terms",
+                "Payment schedules",
+                "SLA commitments",
+                "Licensing models",
+                "Partnership agreements"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.109",
+            "type": "SUBJECT",
+            "name": "Revenue Forecasts",
+            "category": "sales_revenue",
+            "subcategory": "revenue_forecasts",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "sales-revenue",
+                "revenue-forecasts"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Projections of future revenue based on pipeline and trends",
+            "examples": [
+                "Quarterly forecasts",
+                "Annual projections",
+                "Weighted pipeline",
+                "Forecast accuracy",
+                "Revenue predictions"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.110",
+            "type": "SUBJECT",
+            "name": "Win-Loss Records",
+            "category": "sales_revenue",
+            "subcategory": "win_loss_records",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "sales-revenue",
+                "win-loss-records"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Documentation of closed deals and their outcomes",
+            "examples": [
+                "Win analysis",
+                "Loss reasons",
+                "Competitive losses",
+                "Deal post-mortems",
+                "Success patterns"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.111",
+            "type": "SUBJECT",
+            "name": "Marketing Campaigns",
+            "category": "marketing_growth",
+            "subcategory": "marketing_campaigns",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "marketing-growth",
+                "marketing-campaigns"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Coordinated marketing initiatives with specific goals and timelines",
+            "examples": [
+                "Email campaigns",
+                "Product launches",
+                "Awareness campaigns",
+                "Lead generation programs",
+                "Seasonal campaigns"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.112",
+            "type": "SUBJECT",
+            "name": "Buyer Personas",
+            "category": "marketing_growth",
+            "subcategory": "buyer_personas",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "marketing-growth",
+                "buyer-personas"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Detailed profiles representing ideal customer types",
+            "examples": [
+                "Customer archetypes",
+                "User profiles",
+                "Decision-maker personas",
+                "Influencer personas",
+                "Target segments"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.113",
+            "type": "SUBJECT",
+            "name": "Brand Assets",
+            "category": "marketing_growth",
+            "subcategory": "brand_assets",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "marketing-growth",
+                "brand-assets"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Visual and verbal elements representing brand identity",
+            "examples": [
+                "Logo designs",
+                "Brand guidelines",
+                "Color palettes",
+                "Messaging frameworks",
+                "Brand voice"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.114",
+            "type": "SUBJECT",
+            "name": "Content Calendar",
+            "category": "marketing_growth",
+            "subcategory": "content_calendar",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "marketing-growth",
+                "content-calendar"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Scheduled plan for content creation and publication",
+            "examples": [
+                "Editorial calendar",
+                "Social media schedule",
+                "Blog roadmap",
+                "Content pipeline",
+                "Publication timeline"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.115",
+            "type": "SUBJECT",
+            "name": "Marketing Metrics",
+            "category": "marketing_growth",
+            "subcategory": "marketing_metrics",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "marketing-growth",
+                "marketing-metrics"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Measurements tracking marketing performance and effectiveness",
+            "examples": [
+                "CAC metrics",
+                "Conversion rates",
+                "Engagement metrics",
+                "Brand awareness",
+                "Marketing ROI"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.116",
+            "type": "SUBJECT",
+            "name": "Lead Scoring Models",
+            "category": "marketing_growth",
+            "subcategory": "lead_scoring_models",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "marketing-growth",
+                "lead-scoring-models"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Frameworks for ranking and prioritizing prospects",
+            "examples": [
+                "Point systems",
+                "Behavioral scoring",
+                "Demographic scoring",
+                "Lead grades",
+                "MQL definitions"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.117",
+            "type": "SUBJECT",
+            "name": "Customer Journey Maps",
+            "category": "marketing_growth",
+            "subcategory": "customer_journey_maps",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "marketing-growth",
+                "customer-journey-maps"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Visual representations of customer experience across touchpoints",
+            "examples": [
+                "Awareness journey",
+                "Purchase path",
+                "Touchpoint maps",
+                "Experience flows",
+                "Lifecycle stages"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.118",
+            "type": "SUBJECT",
+            "name": "Growth Experiments",
+            "category": "marketing_growth",
+            "subcategory": "growth_experiments",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "marketing-growth",
+                "growth-experiments"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Tests designed to identify scalable growth opportunities",
+            "examples": [
+                "A/B tests",
+                "Viral loop tests",
+                "Channel experiments",
+                "Pricing tests",
+                "Messaging experiments"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.119",
+            "type": "SUBJECT",
+            "name": "Marketing Channels",
+            "category": "marketing_growth",
+            "subcategory": "marketing_channels",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "marketing-growth",
+                "marketing-channels"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Mediums and platforms for reaching target audiences",
+            "examples": [
+                "Social platforms",
+                "Email marketing",
+                "Paid advertising",
+                "Content marketing",
+                "Event marketing"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.120",
+            "type": "SUBJECT",
+            "name": "Referral Programs",
+            "category": "marketing_growth",
+            "subcategory": "referral_programs",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "marketing-growth",
+                "referral-programs"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Incentive systems encouraging customer word-of-mouth",
+            "examples": [
+                "Referral rewards",
+                "Affiliate programs",
+                "Ambassador programs",
+                "Partner referrals",
+                "Incentive structures"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.121",
+            "type": "SUBJECT",
+            "name": "Product Roadmaps",
+            "category": "product_development",
+            "subcategory": "product_roadmaps",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "product-development",
+                "product-roadmaps"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Strategic plans showing product development timeline and priorities",
+            "examples": [
+                "Feature roadmaps",
+                "Release schedules",
+                "Strategic roadmaps",
+                "Technology roadmaps",
+                "Platform roadmaps"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.122",
+            "type": "SUBJECT",
+            "name": "Feature Backlogs",
+            "category": "product_development",
+            "subcategory": "feature_backlogs",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "product-development",
+                "feature-backlogs"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Prioritized lists of potential product features and enhancements",
+            "examples": [
+                "Development backlog",
+                "Feature requests",
+                "Enhancement queue",
+                "Bug backlog",
+                "Technical debt items"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.123",
+            "type": "SUBJECT",
+            "name": "User Stories",
+            "category": "product_development",
+            "subcategory": "user_stories",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "product-development",
+                "user-stories"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Simple descriptions of features from end-user perspective",
+            "examples": [
+                "Epic stories",
+                "User narratives",
+                "Acceptance criteria",
+                "Story points",
+                "Story maps"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.124",
+            "type": "SUBJECT",
+            "name": "Product Metrics",
+            "category": "product_development",
+            "subcategory": "product_metrics",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "product-development",
+                "product-metrics"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Key performance indicators measuring product success",
+            "examples": [
+                "Usage metrics",
+                "Engagement rates",
+                "Feature adoption",
+                "Performance metrics",
+                "Quality metrics"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.125",
+            "type": "SUBJECT",
+            "name": "Product Requirements",
+            "category": "product_development",
+            "subcategory": "product_requirements",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "product-development",
+                "product-requirements"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Detailed specifications for product features and capabilities",
+            "examples": [
+                "PRDs",
+                "Functional specs",
+                "Technical requirements",
+                "User requirements",
+                "System requirements"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.126",
+            "type": "SUBJECT",
+            "name": "Product Prototypes",
+            "category": "product_development",
+            "subcategory": "product_prototypes",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "product-development",
+                "product-prototypes"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Early versions or mockups for testing and validation",
+            "examples": [
+                "Wireframes",
+                "Mockups",
+                "Interactive prototypes",
+                "MVPs",
+                "Beta versions"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.127",
+            "type": "SUBJECT",
+            "name": "User Feedback",
+            "category": "product_development",
+            "subcategory": "user_feedback",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "product-development",
+                "user-feedback"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Input and opinions from product users",
+            "examples": [
+                "User interviews",
+                "Survey responses",
+                "Beta feedback",
+                "Support tickets",
+                "Feature requests"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.128",
+            "type": "SUBJECT",
+            "name": "Product Analytics",
+            "category": "product_development",
+            "subcategory": "product_analytics",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "product-development",
+                "product-analytics"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Data and insights about product usage and performance",
+            "examples": [
+                "Usage data",
+                "Funnel analysis",
+                "Cohort analysis",
+                "Retention curves",
+                "Session data"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.129",
+            "type": "SUBJECT",
+            "name": "Competitive Features",
+            "category": "product_development",
+            "subcategory": "competitive_features",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "product-development",
+                "competitive-features"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Product capabilities offered by competitors",
+            "examples": [
+                "Feature matrices",
+                "Competitive analysis",
+                "Capability gaps",
+                "Differentiation points",
+                "Feature parity"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.130",
+            "type": "SUBJECT",
+            "name": "Product Portfolio",
+            "category": "product_development",
+            "subcategory": "product_portfolio",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "product-development",
+                "product-portfolio"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Complete set of products and services offered",
+            "examples": [
+                "Product lines",
+                "SKUs",
+                "Product mix",
+                "Service offerings",
+                "Product hierarchy"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.131",
+            "type": "SUBJECT",
+            "name": "Process Documentation",
+            "category": "operations_processes",
+            "subcategory": "process_documentation",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "operations-processes",
+                "process-documentation"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Written procedures and workflow descriptions",
+            "examples": [
+                "SOPs",
+                "Process maps",
+                "Workflow diagrams",
+                "Procedure manuals",
+                "Work instructions"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.132",
+            "type": "SUBJECT",
+            "name": "Operational Capacity",
+            "category": "operations_processes",
+            "subcategory": "operational_capacity",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "operations-processes",
+                "operational-capacity"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Available resources and throughput potential",
+            "examples": [
+                "Production capacity",
+                "Staffing levels",
+                "Equipment capacity",
+                "Bandwidth availability",
+                "Throughput limits"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.133",
+            "type": "SUBJECT",
+            "name": "Quality Standards",
+            "category": "operations_processes",
+            "subcategory": "quality_standards",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "operations-processes",
+                "quality-standards"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Defined criteria and benchmarks for output quality",
+            "examples": [
+                "Quality metrics",
+                "Performance standards",
+                "Acceptance criteria",
+                "Quality gates",
+                "Defect rates"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.134",
+            "type": "SUBJECT",
+            "name": "Vendor Contracts",
+            "category": "operations_processes",
+            "subcategory": "vendor_contracts",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "operations-processes",
+                "vendor-contracts"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Agreements with suppliers and service providers",
+            "examples": [
+                "Service agreements",
+                "Purchase orders",
+                "Master agreements",
+                "SLAs",
+                "Vendor terms"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.135",
+            "type": "SUBJECT",
+            "name": "Inventory Systems",
+            "category": "operations_processes",
+            "subcategory": "inventory_systems",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "operations-processes",
+                "inventory-systems"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Stock levels and inventory management data",
+            "examples": [
+                "Stock levels",
+                "Reorder points",
+                "SKU management",
+                "Warehouse inventory",
+                "Supply chain data"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.136",
+            "type": "SUBJECT",
+            "name": "Process Metrics",
+            "category": "operations_processes",
+            "subcategory": "process_metrics",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "operations-processes",
+                "process-metrics"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Measurements of operational efficiency and performance",
+            "examples": [
+                "Cycle time",
+                "Throughput",
+                "Utilization rates",
+                "Error rates",
+                "Process efficiency"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.137",
+            "type": "SUBJECT",
+            "name": "Automation Workflows",
+            "category": "operations_processes",
+            "subcategory": "automation_workflows",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "operations-processes",
+                "automation-workflows"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Automated process sequences and rules",
+            "examples": [
+                "RPA bots",
+                "Workflow automation",
+                "Scheduled jobs",
+                "Integration flows",
+                "Trigger sequences"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.138",
+            "type": "SUBJECT",
+            "name": "Service Level Agreements",
+            "category": "operations_processes",
+            "subcategory": "service_level_agreements",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "operations-processes",
+                "service-level-agreements"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Commitments regarding service performance and quality",
+            "examples": [
+                "Uptime SLAs",
+                "Response times",
+                "Performance targets",
+                "Support SLAs",
+                "Availability commitments"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.139",
+            "type": "SUBJECT",
+            "name": "Business Continuity Plans",
+            "category": "operations_processes",
+            "subcategory": "business_continuity_plans",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "operations-processes",
+                "business-continuity-plans"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Strategies for maintaining operations during disruptions",
+            "examples": [
+                "Disaster recovery",
+                "Contingency plans",
+                "Backup procedures",
+                "Emergency protocols",
+                "Recovery plans"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.140",
+            "type": "SUBJECT",
+            "name": "Operational Dashboards",
+            "category": "operations_processes",
+            "subcategory": "operational_dashboards",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "operations-processes",
+                "operational-dashboards"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Real-time displays of operational metrics and status",
+            "examples": [
+                "KPI dashboards",
+                "Performance monitors",
+                "Status boards",
+                "Metric displays",
+                "Alert systems"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.141",
+            "type": "SUBJECT",
+            "name": "Financial Models",
+            "category": "finance_accounting",
+            "subcategory": "financial_models",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "finance-accounting",
+                "financial-models"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Spreadsheet-based projections and analyses",
+            "examples": [
+                "Revenue models",
+                "Cash flow models",
+                "Valuation models",
+                "Scenario models",
+                "Budget models"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.142",
+            "type": "SUBJECT",
+            "name": "Budget Plans",
+            "category": "finance_accounting",
+            "subcategory": "budget_plans",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "finance-accounting",
+                "budget-plans"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Planned allocation of financial resources",
+            "examples": [
+                "Annual budgets",
+                "Department budgets",
+                "Project budgets",
+                "Capital budgets",
+                "Operating budgets"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.143",
+            "type": "SUBJECT",
+            "name": "Financial Statements",
+            "category": "finance_accounting",
+            "subcategory": "financial_statements",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "finance-accounting",
+                "financial-statements"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Formal reports of financial position and performance",
+            "examples": [
+                "Income statements",
+                "Balance sheets",
+                "Cash flow statements",
+                "P&L reports",
+                "Financial reports"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.144",
+            "type": "SUBJECT",
+            "name": "Cash Flow Projections",
+            "category": "finance_accounting",
+            "subcategory": "cash_flow_projections",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "finance-accounting",
+                "cash-flow-projections"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Forecasts of cash inflows and outflows",
+            "examples": [
+                "Cash forecasts",
+                "Liquidity projections",
+                "Working capital forecasts",
+                "Cash position",
+                "Burn rate"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.145",
+            "type": "SUBJECT",
+            "name": "Financial Ratios",
+            "category": "finance_accounting",
+            "subcategory": "financial_ratios",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "finance-accounting",
+                "financial-ratios"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Calculated metrics for financial analysis",
+            "examples": [
+                "Profitability ratios",
+                "Liquidity ratios",
+                "Efficiency ratios",
+                "Leverage ratios",
+                "Market ratios"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.146",
+            "type": "SUBJECT",
+            "name": "Unit Economics",
+            "category": "finance_accounting",
+            "subcategory": "unit_economics",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "finance-accounting",
+                "unit-economics"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Per-unit revenue and cost metrics",
+            "examples": [
+                "Contribution margin",
+                "Unit profitability",
+                "CAC/LTV ratios",
+                "Cost per unit",
+                "Revenue per unit"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.147",
+            "type": "SUBJECT",
+            "name": "Variance Reports",
+            "category": "finance_accounting",
+            "subcategory": "variance_reports",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "finance-accounting",
+                "variance-reports"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Analyses comparing actual to budgeted performance",
+            "examples": [
+                "Budget variances",
+                "Forecast variances",
+                "Performance gaps",
+                "Variance explanations",
+                "Deviation analysis"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.148",
+            "type": "SUBJECT",
+            "name": "Investment Proposals",
+            "category": "finance_accounting",
+            "subcategory": "investment_proposals",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "finance-accounting",
+                "investment-proposals"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Business cases for capital allocation decisions",
+            "examples": [
+                "ROI analysis",
+                "Capital requests",
+                "Project business cases",
+                "IRR calculations",
+                "Payback analysis"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.149",
+            "type": "SUBJECT",
+            "name": "Chart of Accounts",
+            "category": "finance_accounting",
+            "subcategory": "chart_of_accounts",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "finance-accounting",
+                "chart-of-accounts"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Organized listing of all financial accounts",
+            "examples": [
+                "Account structures",
+                "GL accounts",
+                "Account mappings",
+                "Account hierarchies",
+                "Financial categories"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.150",
+            "type": "SUBJECT",
+            "name": "Investor Presentations",
+            "category": "finance_accounting",
+            "subcategory": "investor_presentations",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "finance-accounting",
+                "investor-presentations"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Materials for communicating with investors and stakeholders",
+            "examples": [
+                "Pitch decks",
+                "Investor updates",
+                "Board presentations",
+                "Fundraising materials",
+                "Quarterly reports"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.151",
+            "type": "SUBJECT",
+            "name": "Organization Charts",
+            "category": "hr_people",
+            "subcategory": "organization_charts",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "hr-people",
+                "organization-charts"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Visual representations of organizational structure",
+            "examples": [
+                "Org structures",
+                "Reporting lines",
+                "Team hierarchies",
+                "Department structures",
+                "Span of control"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.152",
+            "type": "SUBJECT",
+            "name": "Job Descriptions",
+            "category": "hr_people",
+            "subcategory": "job_descriptions",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "hr-people",
+                "job-descriptions"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Formal documentation of role requirements and responsibilities",
+            "examples": [
+                "Position descriptions",
+                "Role profiles",
+                "Responsibility matrices",
+                "Job specs",
+                "Competency profiles"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.153",
+            "type": "SUBJECT",
+            "name": "Compensation Structures",
+            "category": "hr_people",
+            "subcategory": "compensation_structures",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "hr-people",
+                "compensation-structures"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Pay scales, bands, and benefit frameworks",
+            "examples": [
+                "Salary bands",
+                "Pay grades",
+                "Bonus structures",
+                "Benefits packages",
+                "Equity plans"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.154",
+            "type": "SUBJECT",
+            "name": "Performance Reviews",
+            "category": "hr_people",
+            "subcategory": "performance_reviews",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "hr-people",
+                "performance-reviews"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Documented evaluations of employee performance",
+            "examples": [
+                "Annual reviews",
+                "360 feedback",
+                "Performance ratings",
+                "Development plans",
+                "Goal assessments"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.155",
+            "type": "SUBJECT",
+            "name": "Onboarding Programs",
+            "category": "hr_people",
+            "subcategory": "onboarding_programs",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "hr-people",
+                "onboarding-programs"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Structured processes for integrating new employees",
+            "examples": [
+                "New hire programs",
+                "Orientation schedules",
+                "Training curricula",
+                "30-60-90 plans",
+                "Buddy systems"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.156",
+            "type": "SUBJECT",
+            "name": "Talent Pipelines",
+            "category": "hr_people",
+            "subcategory": "talent_pipelines",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "hr-people",
+                "talent-pipelines"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Pools of candidates and succession candidates",
+            "examples": [
+                "Candidate pools",
+                "Succession plans",
+                "High potential lists",
+                "Leadership pipeline",
+                "Talent inventory"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.157",
+            "type": "SUBJECT",
+            "name": "Employee Engagement Data",
+            "category": "hr_people",
+            "subcategory": "employee_engagement_data",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "hr-people",
+                "employee-engagement-data"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Information about employee satisfaction and commitment",
+            "examples": [
+                "Survey results",
+                "Engagement scores",
+                "Sentiment analysis",
+                "Pulse surveys",
+                "Exit interviews"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.158",
+            "type": "SUBJECT",
+            "name": "Training Programs",
+            "category": "hr_people",
+            "subcategory": "training_programs",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "hr-people",
+                "training-programs"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Educational initiatives for skill development",
+            "examples": [
+                "Training curricula",
+                "Learning paths",
+                "Certification programs",
+                "Leadership development",
+                "Skills training"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.159",
+            "type": "SUBJECT",
+            "name": "HR Policies",
+            "category": "hr_people",
+            "subcategory": "hr_policies",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "hr-people",
+                "hr-policies"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Formal guidelines governing workplace practices",
+            "examples": [
+                "Employee handbooks",
+                "Policy documents",
+                "Code of conduct",
+                "Work policies",
+                "HR procedures"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.160",
+            "type": "SUBJECT",
+            "name": "Workforce Analytics",
+            "category": "hr_people",
+            "subcategory": "workforce_analytics",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "hr-people",
+                "workforce-analytics"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Metrics and data about workforce composition and trends",
+            "examples": [
+                "Headcount data",
+                "Turnover rates",
+                "Diversity metrics",
+                "Productivity data",
+                "Span metrics"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.161",
+            "type": "SUBJECT",
+            "name": "Strategic Plans",
+            "category": "strategy_planning",
+            "subcategory": "strategic_plans",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "strategy-planning",
+                "strategic-plans"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Long-term organizational strategies and objectives",
+            "examples": [
+                "Corporate strategy",
+                "Business unit plans",
+                "Strategic initiatives",
+                "Vision statements",
+                "Strategic themes"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.162",
+            "type": "SUBJECT",
+            "name": "Market Analysis",
+            "category": "strategy_planning",
+            "subcategory": "market_analysis",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "strategy-planning",
+                "market-analysis"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Research and insights about target markets",
+            "examples": [
+                "Market sizing",
+                "Competitive analysis",
+                "Market trends",
+                "Industry reports",
+                "Market segmentation"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.163",
+            "type": "SUBJECT",
+            "name": "SWOT Analyses",
+            "category": "strategy_planning",
+            "subcategory": "swot_analyses",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "strategy-planning",
+                "swot-analyses"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Evaluations of strengths, weaknesses, opportunities, threats",
+            "examples": [
+                "Strategic assessments",
+                "Situation analysis",
+                "Competitive position",
+                "Environmental scan",
+                "Capability analysis"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.164",
+            "type": "SUBJECT",
+            "name": "Business Cases",
+            "category": "strategy_planning",
+            "subcategory": "business_cases",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "strategy-planning",
+                "business-cases"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Justifications for strategic initiatives and investments",
+            "examples": [
+                "Investment cases",
+                "Project proposals",
+                "Initiative justifications",
+                "Strategic proposals",
+                "Decision memos"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.165",
+            "type": "SUBJECT",
+            "name": "Strategic Objectives",
+            "category": "strategy_planning",
+            "subcategory": "strategic_objectives",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "strategy-planning",
+                "strategic-objectives"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Key goals and targets aligned with strategy",
+            "examples": [
+                "OKRs",
+                "Strategic goals",
+                "Key results",
+                "Target outcomes",
+                "Success metrics"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.166",
+            "type": "SUBJECT",
+            "name": "Scenario Plans",
+            "category": "strategy_planning",
+            "subcategory": "scenario_plans",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "strategy-planning",
+                "scenario-plans"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Alternative strategic pathways based on different futures",
+            "examples": [
+                "Scenario models",
+                "Contingency plans",
+                "What-if scenarios",
+                "Future states",
+                "Strategic options"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.167",
+            "type": "SUBJECT",
+            "name": "M&A Targets",
+            "category": "strategy_planning",
+            "subcategory": "m_a_targets",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "strategy-planning",
+                "m-a-targets"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Potential acquisition or merger candidates",
+            "examples": [
+                "Target lists",
+                "Acquisition candidates",
+                "Strategic fits",
+                "Target profiles",
+                "Deal pipeline"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.168",
+            "type": "SUBJECT",
+            "name": "Partnership Agreements",
+            "category": "strategy_planning",
+            "subcategory": "partnership_agreements",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "strategy-planning",
+                "partnership-agreements"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Strategic alliance and collaboration arrangements",
+            "examples": [
+                "Partnership terms",
+                "Alliance agreements",
+                "Joint ventures",
+                "Collaboration frameworks",
+                "Strategic partnerships"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.169",
+            "type": "SUBJECT",
+            "name": "Business Models",
+            "category": "strategy_planning",
+            "subcategory": "business_models",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "strategy-planning",
+                "business-models"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Frameworks for how organizations create and capture value",
+            "examples": [
+                "Revenue models",
+                "Business model canvas",
+                "Value propositions",
+                "Operating models",
+                "Go-to-market models"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.170",
+            "type": "SUBJECT",
+            "name": "Innovation Portfolios",
+            "category": "strategy_planning",
+            "subcategory": "innovation_portfolios",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "strategy-planning",
+                "innovation-portfolios"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Collections of innovation initiatives and R&D projects",
+            "examples": [
+                "Innovation pipeline",
+                "R&D projects",
+                "Pilot programs",
+                "Innovation initiatives",
+                "Experiment portfolio"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.171",
+            "type": "SUBJECT",
+            "name": "Customer Health Scores",
+            "category": "customer_success",
+            "subcategory": "customer_health_scores",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "customer-success",
+                "customer-health-scores"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Metrics indicating customer relationship strength and risk",
+            "examples": [
+                "Health metrics",
+                "Risk scores",
+                "Engagement scores",
+                "Satisfaction indices",
+                "Churn risk"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.172",
+            "type": "SUBJECT",
+            "name": "Renewal Schedules",
+            "category": "customer_success",
+            "subcategory": "renewal_schedules",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "customer-success",
+                "renewal-schedules"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Timelines of upcoming contract renewals",
+            "examples": [
+                "Renewal dates",
+                "Contract expirations",
+                "Renewal pipeline",
+                "Renewal forecasts",
+                "At-risk renewals"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.173",
+            "type": "SUBJECT",
+            "name": "Customer Success Plans",
+            "category": "customer_success",
+            "subcategory": "customer_success_plans",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "customer-success",
+                "customer-success-plans"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Documented strategies for customer value realization",
+            "examples": [
+                "Success plans",
+                "Adoption roadmaps",
+                "Value plans",
+                "Implementation plans",
+                "Engagement strategies"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.174",
+            "type": "SUBJECT",
+            "name": "NPS Scores",
+            "category": "customer_success",
+            "subcategory": "nps_scores",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "customer-success",
+                "nps-scores"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Net Promoter Score data and trends",
+            "examples": [
+                "NPS surveys",
+                "Promoter percentages",
+                "Detractor feedback",
+                "Score trends",
+                "Benchmark comparisons"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.175",
+            "type": "SUBJECT",
+            "name": "Expansion Opportunities",
+            "category": "customer_success",
+            "subcategory": "expansion_opportunities",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "customer-success",
+                "expansion-opportunities"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Potential upsell and cross-sell possibilities",
+            "examples": [
+                "Whitespace analysis",
+                "Upsell targets",
+                "Cross-sell opportunities",
+                "Expansion pipeline",
+                "Growth potential"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.176",
+            "type": "SUBJECT",
+            "name": "Customer Feedback",
+            "category": "customer_success",
+            "subcategory": "customer_feedback",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "customer-success",
+                "customer-feedback"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Input and opinions from customers across channels",
+            "examples": [
+                "Survey responses",
+                "Interview notes",
+                "Support feedback",
+                "Feature requests",
+                "Testimonials"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.177",
+            "type": "SUBJECT",
+            "name": "Churn Data",
+            "category": "customer_success",
+            "subcategory": "churn_data",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "customer-success",
+                "churn-data"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Information about customer attrition and reasons",
+            "examples": [
+                "Churn rates",
+                "Cancellation reasons",
+                "Lost revenue",
+                "Churn patterns",
+                "Exit interviews"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.178",
+            "type": "SUBJECT",
+            "name": "Customer Advocates",
+            "category": "customer_success",
+            "subcategory": "customer_advocates",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "customer-success",
+                "customer-advocates"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Satisfied customers willing to provide references",
+            "examples": [
+                "Reference accounts",
+                "Case study subjects",
+                "Testimonial providers",
+                "Speaking references",
+                "Advocate community"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.179",
+            "type": "SUBJECT",
+            "name": "Usage Analytics",
+            "category": "customer_success",
+            "subcategory": "usage_analytics",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "customer-success",
+                "usage-analytics"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Data about how customers use products and services",
+            "examples": [
+                "Feature usage",
+                "Login frequency",
+                "Adoption metrics",
+                "Engagement data",
+                "Activity patterns"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.180",
+            "type": "SUBJECT",
+            "name": "Business Review Materials",
+            "category": "customer_success",
+            "subcategory": "business_review_materials",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "customer-success",
+                "business-review-materials"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Presentations and data for customer review meetings",
+            "examples": [
+                "QBR decks",
+                "Value reports",
+                "ROI analysis",
+                "Usage reports",
+                "Strategic recommendations"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.181",
+            "type": "SUBJECT",
+            "name": "Contract Templates",
+            "category": "legal_compliance",
+            "subcategory": "contract_templates",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "legal-compliance",
+                "contract-templates"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Standardized agreement formats for common transactions",
+            "examples": [
+                "MSAs",
+                "NDAs",
+                "SOWs",
+                "Terms of service",
+                "License agreements"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.182",
+            "type": "SUBJECT",
+            "name": "Compliance Frameworks",
+            "category": "legal_compliance",
+            "subcategory": "compliance_frameworks",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "legal-compliance",
+                "compliance-frameworks"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Structures for meeting regulatory requirements",
+            "examples": [
+                "GDPR programs",
+                "SOX controls",
+                "HIPAA compliance",
+                "Compliance manuals",
+                "Control matrices"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.183",
+            "type": "SUBJECT",
+            "name": "Privacy Policies",
+            "category": "legal_compliance",
+            "subcategory": "privacy_policies",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "legal-compliance",
+                "privacy-policies"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Documents governing data collection and use",
+            "examples": [
+                "Privacy notices",
+                "Cookie policies",
+                "Data handling procedures",
+                "Consent mechanisms",
+                "Privacy frameworks"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.184",
+            "type": "SUBJECT",
+            "name": "Intellectual Property",
+            "category": "legal_compliance",
+            "subcategory": "intellectual_property",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "legal-compliance",
+                "intellectual-property"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Protected creations and proprietary assets",
+            "examples": [
+                "Patents",
+                "Trademarks",
+                "Copyrights",
+                "Trade secrets",
+                "IP portfolio"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.185",
+            "type": "SUBJECT",
+            "name": "Risk Registers",
+            "category": "legal_compliance",
+            "subcategory": "risk_registers",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "legal-compliance",
+                "risk-registers"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Documented inventories of organizational risks",
+            "examples": [
+                "Risk catalogs",
+                "Risk assessments",
+                "Threat inventories",
+                "Risk matrices",
+                "Control mappings"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.186",
+            "type": "SUBJECT",
+            "name": "Regulatory Requirements",
+            "category": "legal_compliance",
+            "subcategory": "regulatory_requirements",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "legal-compliance",
+                "regulatory-requirements"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Legal and compliance obligations from authorities",
+            "examples": [
+                "Regulations",
+                "Compliance mandates",
+                "Legal requirements",
+                "Industry standards",
+                "Regulatory guidance"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.187",
+            "type": "SUBJECT",
+            "name": "Audit Reports",
+            "category": "legal_compliance",
+            "subcategory": "audit_reports",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "legal-compliance",
+                "audit-reports"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Findings from internal or external compliance reviews",
+            "examples": [
+                "Audit findings",
+                "Compliance reports",
+                "Assessment results",
+                "Gap analyses",
+                "Remediation plans"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.188",
+            "type": "SUBJECT",
+            "name": "Corporate Governance Documents",
+            "category": "legal_compliance",
+            "subcategory": "corporate_governance_documents",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "legal-compliance",
+                "corporate-governance-documents"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Materials governing corporate structure and oversight",
+            "examples": [
+                "Bylaws",
+                "Board charters",
+                "Governance policies",
+                "Board minutes",
+                "Committee charters"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.189",
+            "type": "SUBJECT",
+            "name": "Legal Disputes",
+            "category": "legal_compliance",
+            "subcategory": "legal_disputes",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "legal-compliance",
+                "legal-disputes"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Active or potential litigation and claims",
+            "examples": [
+                "Lawsuits",
+                "Claims",
+                "Disputes",
+                "Settlements",
+                "Legal matters"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.190",
+            "type": "SUBJECT",
+            "name": "Ethics Policies",
+            "category": "legal_compliance",
+            "subcategory": "ethics_policies",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "legal-compliance",
+                "ethics-policies"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Guidelines for ethical business conduct",
+            "examples": [
+                "Code of conduct",
+                "Ethics guidelines",
+                "Conflict policies",
+                "Gift policies",
+                "Whistleblower procedures"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.191",
+            "type": "SUBJECT",
+            "name": "Digital Strategies",
+            "category": "digital_technology",
+            "subcategory": "digital_strategies",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "digital-technology",
+                "digital-strategies"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Plans for digital transformation and technology adoption",
+            "examples": [
+                "Transformation roadmaps",
+                "Digital initiatives",
+                "Technology strategies",
+                "Innovation plans",
+                "Digital vision"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.192",
+            "type": "SUBJECT",
+            "name": "Technology Stack",
+            "category": "digital_technology",
+            "subcategory": "technology_stack",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "digital-technology",
+                "technology-stack"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Collection of software and systems in use",
+            "examples": [
+                "Software inventory",
+                "Platform architecture",
+                "Tool ecosystem",
+                "System landscape",
+                "Technology portfolio"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.193",
+            "type": "SUBJECT",
+            "name": "Data Governance Frameworks",
+            "category": "digital_technology",
+            "subcategory": "data_governance_frameworks",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "digital-technology",
+                "data-governance-frameworks"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Policies and processes for managing data assets",
+            "examples": [
+                "Data policies",
+                "Data standards",
+                "Data catalogs",
+                "Governance models",
+                "Stewardship structures"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.194",
+            "type": "SUBJECT",
+            "name": "AI/ML Models",
+            "category": "digital_technology",
+            "subcategory": "ai_ml_models",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "digital-technology",
+                "ai-ml-models"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Machine learning algorithms and artificial intelligence systems",
+            "examples": [
+                "Prediction models",
+                "Classification models",
+                "Neural networks",
+                "AI applications",
+                "ML pipelines"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.195",
+            "type": "SUBJECT",
+            "name": "Cloud Infrastructure",
+            "category": "digital_technology",
+            "subcategory": "cloud_infrastructure",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "digital-technology",
+                "cloud-infrastructure"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Cloud-based computing resources and architecture",
+            "examples": [
+                "Cloud environments",
+                "AWS resources",
+                "Azure services",
+                "Cloud architecture",
+                "Infrastructure as code"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.196",
+            "type": "SUBJECT",
+            "name": "Security Controls",
+            "category": "digital_technology",
+            "subcategory": "security_controls",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "digital-technology",
+                "security-controls"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Technical and procedural safeguards protecting systems",
+            "examples": [
+                "Access controls",
+                "Encryption systems",
+                "Security policies",
+                "Firewall rules",
+                "Authentication systems"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.197",
+            "type": "SUBJECT",
+            "name": "API Ecosystems",
+            "category": "digital_technology",
+            "subcategory": "api_ecosystems",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "digital-technology",
+                "api-ecosystems"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Collections of application programming interfaces",
+            "examples": [
+                "API catalog",
+                "Integration points",
+                "API documentation",
+                "Developer portals",
+                "API gateways"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.198",
+            "type": "SUBJECT",
+            "name": "CRM Systems",
+            "category": "digital_technology",
+            "subcategory": "crm_systems",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "digital-technology",
+                "crm-systems"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Customer relationship management platforms and data",
+            "examples": [
+                "Salesforce instances",
+                "Contact databases",
+                "Pipeline data",
+                "Customer records",
+                "CRM workflows"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.199",
+            "type": "SUBJECT",
+            "name": "Analytics Dashboards",
+            "category": "digital_technology",
+            "subcategory": "analytics_dashboards",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "digital-technology",
+                "analytics-dashboards"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Visual displays of business intelligence and metrics",
+            "examples": [
+                "BI dashboards",
+                "Executive dashboards",
+                "Operational reports",
+                "KPI displays",
+                "Data visualizations"
+            ],
+            "notes": null
+        },
+        {
+            "id": "SUBJ.200",
+            "type": "SUBJECT",
+            "name": "E-Commerce Platforms",
+            "category": "digital_technology",
+            "subcategory": "e_commerce_platforms",
+            "status": "active",
+            "version": "1.0.0",
+            "tags": [
+                "subject",
+                "digital-technology",
+                "e-commerce-platforms"
+            ],
+            "source": {
+                "library_name": "MOLT SUBJECT Library",
+                "library_version": "1.0.0",
+                "provided_by": "User supplied Stage 4 drop",
+                "ingested_at": "2026-03-13T08:32:28-06:00",
+                "ingested_by": "Stage4-Agent",
+                "supervised_by": "NeoMAG"
+            },
+            "definition": "Online sales and transaction systems",
+            "examples": [
+                "Online stores",
+                "Shopping carts",
+                "Payment systems",
+                "Product catalogs",
+                "Order management"
             ],
             "notes": null
         }

@@ -1,0 +1,1111 @@
+# BUSINESS SUBJECT BLOCKS EXTENSION v1.0.0
+
+## SALES_REVENUE
+ID: SUBJ.101
+Type: SUBJECT
+Name: Sales Pipeline
+Definition: Collection of opportunities at various stages moving toward closure
+Examples:
+- Deal flow
+- Opportunity stages
+- Funnel metrics
+- Pipeline coverage
+- Forecast pipeline
+
+ID: SUBJ.102
+Type: SUBJECT
+Name: Sales Proposals
+Definition: Formal offers and business proposals presented to prospects
+Examples:
+- RFP responses
+- Statement of work
+- Pricing proposals
+- Value propositions
+- Deal terms
+
+ID: SUBJ.103
+Type: SUBJECT
+Name: Customer Accounts
+Definition: Individual customer or prospect organizations and their relationships
+Examples:
+- Enterprise accounts
+- Strategic accounts
+- Target accounts
+- Account hierarchies
+- Account plans
+
+ID: SUBJ.104
+Type: SUBJECT
+Name: Sales Territories
+Definition: Geographic or market segments assigned to sales representatives
+Examples:
+- Regional territories
+- Vertical assignments
+- Named accounts
+- Territory coverage
+- Geographic regions
+
+ID: SUBJ.105
+Type: SUBJECT
+Name: Sales Quotas
+Definition: Revenue or unit targets assigned to sales personnel
+Examples:
+- Annual quotas
+- Quarterly targets
+- Individual quotas
+- Team quotas
+- Quota attainment
+
+ID: SUBJ.106
+Type: SUBJECT
+Name: Pricing Models
+Definition: Frameworks and structures for product and service pricing
+Examples:
+- Tiered pricing
+- Usage-based pricing
+- Value-based pricing
+- Price lists
+- Discount structures
+
+ID: SUBJ.107
+Type: SUBJECT
+Name: Sales Playbooks
+Definition: Documented best practices and processes for sales execution
+Examples:
+- Discovery playbooks
+- Objection handling
+- Deal closing guides
+- Sales methodologies
+- Battle cards
+
+ID: SUBJ.108
+Type: SUBJECT
+Name: Deal Structures
+Definition: Commercial terms and arrangements for customer agreements
+Examples:
+- Contract terms
+- Payment schedules
+- SLA commitments
+- Licensing models
+- Partnership agreements
+
+ID: SUBJ.109
+Type: SUBJECT
+Name: Revenue Forecasts
+Definition: Projections of future revenue based on pipeline and trends
+Examples:
+- Quarterly forecasts
+- Annual projections
+- Weighted pipeline
+- Forecast accuracy
+- Revenue predictions
+
+ID: SUBJ.110
+Type: SUBJECT
+Name: Win-Loss Records
+Definition: Documentation of closed deals and their outcomes
+Examples:
+- Win analysis
+- Loss reasons
+- Competitive losses
+- Deal post-mortems
+- Success patterns
+
+## MARKETING_GROWTH
+ID: SUBJ.111
+Type: SUBJECT
+Name: Marketing Campaigns
+Definition: Coordinated marketing initiatives with specific goals and timelines
+Examples:
+- Email campaigns
+- Product launches
+- Awareness campaigns
+- Lead generation programs
+- Seasonal campaigns
+
+ID: SUBJ.112
+Type: SUBJECT
+Name: Buyer Personas
+Definition: Detailed profiles representing ideal customer types
+Examples:
+- Customer archetypes
+- User profiles
+- Decision-maker personas
+- Influencer personas
+- Target segments
+
+ID: SUBJ.113
+Type: SUBJECT
+Name: Brand Assets
+Definition: Visual and verbal elements representing brand identity
+Examples:
+- Logo designs
+- Brand guidelines
+- Color palettes
+- Messaging frameworks
+- Brand voice
+
+ID: SUBJ.114
+Type: SUBJECT
+Name: Content Calendar
+Definition: Scheduled plan for content creation and publication
+Examples:
+- Editorial calendar
+- Social media schedule
+- Blog roadmap
+- Content pipeline
+- Publication timeline
+
+ID: SUBJ.115
+Type: SUBJECT
+Name: Marketing Metrics
+Definition: Measurements tracking marketing performance and effectiveness
+Examples:
+- CAC metrics
+- Conversion rates
+- Engagement metrics
+- Brand awareness
+- Marketing ROI
+
+ID: SUBJ.116
+Type: SUBJECT
+Name: Lead Scoring Models
+Definition: Frameworks for ranking and prioritizing prospects
+Examples:
+- Point systems
+- Behavioral scoring
+- Demographic scoring
+- Lead grades
+- MQL definitions
+
+ID: SUBJ.117
+Type: SUBJECT
+Name: Customer Journey Maps
+Definition: Visual representations of customer experience across touchpoints
+Examples:
+- Awareness journey
+- Purchase path
+- Touchpoint maps
+- Experience flows
+- Lifecycle stages
+
+ID: SUBJ.118
+Type: SUBJECT
+Name: Growth Experiments
+Definition: Tests designed to identify scalable growth opportunities
+Examples:
+- A/B tests
+- Viral loop tests
+- Channel experiments
+- Pricing tests
+- Messaging experiments
+
+ID: SUBJ.119
+Type: SUBJECT
+Name: Marketing Channels
+Definition: Mediums and platforms for reaching target audiences
+Examples:
+- Social platforms
+- Email marketing
+- Paid advertising
+- Content marketing
+- Event marketing
+
+ID: SUBJ.120
+Type: SUBJECT
+Name: Referral Programs
+Definition: Incentive systems encouraging customer word-of-mouth
+Examples:
+- Referral rewards
+- Affiliate programs
+- Ambassador programs
+- Partner referrals
+- Incentive structures
+
+## PRODUCT_DEVELOPMENT
+ID: SUBJ.121
+Type: SUBJECT
+Name: Product Roadmaps
+Definition: Strategic plans showing product development timeline and priorities
+Examples:
+- Feature roadmaps
+- Release schedules
+- Strategic roadmaps
+- Technology roadmaps
+- Platform roadmaps
+
+ID: SUBJ.122
+Type: SUBJECT
+Name: Feature Backlogs
+Definition: Prioritized lists of potential product features and enhancements
+Examples:
+- Development backlog
+- Feature requests
+- Enhancement queue
+- Bug backlog
+- Technical debt items
+
+ID: SUBJ.123
+Type: SUBJECT
+Name: User Stories
+Definition: Simple descriptions of features from end-user perspective
+Examples:
+- Epic stories
+- User narratives
+- Acceptance criteria
+- Story points
+- Story maps
+
+ID: SUBJ.124
+Type: SUBJECT
+Name: Product Metrics
+Definition: Key performance indicators measuring product success
+Examples:
+- Usage metrics
+- Engagement rates
+- Feature adoption
+- Performance metrics
+- Quality metrics
+
+ID: SUBJ.125
+Type: SUBJECT
+Name: Product Requirements
+Definition: Detailed specifications for product features and capabilities
+Examples:
+- PRDs
+- Functional specs
+- Technical requirements
+- User requirements
+- System requirements
+
+ID: SUBJ.126
+Type: SUBJECT
+Name: Product Prototypes
+Definition: Early versions or mockups for testing and validation
+Examples:
+- Wireframes
+- Mockups
+- Interactive prototypes
+- MVPs
+- Beta versions
+
+ID: SUBJ.127
+Type: SUBJECT
+Name: User Feedback
+Definition: Input and opinions from product users
+Examples:
+- User interviews
+- Survey responses
+- Beta feedback
+- Support tickets
+- Feature requests
+
+ID: SUBJ.128
+Type: SUBJECT
+Name: Product Analytics
+Definition: Data and insights about product usage and performance
+Examples:
+- Usage data
+- Funnel analysis
+- Cohort analysis
+- Retention curves
+- Session data
+
+ID: SUBJ.129
+Type: SUBJECT
+Name: Competitive Features
+Definition: Product capabilities offered by competitors
+Examples:
+- Feature matrices
+- Competitive analysis
+- Capability gaps
+- Differentiation points
+- Feature parity
+
+ID: SUBJ.130
+Type: SUBJECT
+Name: Product Portfolio
+Definition: Complete set of products and services offered
+Examples:
+- Product lines
+- SKUs
+- Product mix
+- Service offerings
+- Product hierarchy
+
+## OPERATIONS_PROCESSES
+ID: SUBJ.131
+Type: SUBJECT
+Name: Process Documentation
+Definition: Written procedures and workflow descriptions
+Examples:
+- SOPs
+- Process maps
+- Workflow diagrams
+- Procedure manuals
+- Work instructions
+
+ID: SUBJ.132
+Type: SUBJECT
+Name: Operational Capacity
+Definition: Available resources and throughput potential
+Examples:
+- Production capacity
+- Staffing levels
+- Equipment capacity
+- Bandwidth availability
+- Throughput limits
+
+ID: SUBJ.133
+Type: SUBJECT
+Name: Quality Standards
+Definition: Defined criteria and benchmarks for output quality
+Examples:
+- Quality metrics
+- Performance standards
+- Acceptance criteria
+- Quality gates
+- Defect rates
+
+ID: SUBJ.134
+Type: SUBJECT
+Name: Vendor Contracts
+Definition: Agreements with suppliers and service providers
+Examples:
+- Service agreements
+- Purchase orders
+- Master agreements
+- SLAs
+- Vendor terms
+
+ID: SUBJ.135
+Type: SUBJECT
+Name: Inventory Systems
+Definition: Stock levels and inventory management data
+Examples:
+- Stock levels
+- Reorder points
+- SKU management
+- Warehouse inventory
+- Supply chain data
+
+ID: SUBJ.136
+Type: SUBJECT
+Name: Process Metrics
+Definition: Measurements of operational efficiency and performance
+Examples:
+- Cycle time
+- Throughput
+- Utilization rates
+- Error rates
+- Process efficiency
+
+ID: SUBJ.137
+Type: SUBJECT
+Name: Automation Workflows
+Definition: Automated process sequences and rules
+Examples:
+- RPA bots
+- Workflow automation
+- Scheduled jobs
+- Integration flows
+- Trigger sequences
+
+ID: SUBJ.138
+Type: SUBJECT
+Name: Service Level Agreements
+Definition: Commitments regarding service performance and quality
+Examples:
+- Uptime SLAs
+- Response times
+- Performance targets
+- Support SLAs
+- Availability commitments
+
+ID: SUBJ.139
+Type: SUBJECT
+Name: Business Continuity Plans
+Definition: Strategies for maintaining operations during disruptions
+Examples:
+- Disaster recovery
+- Contingency plans
+- Backup procedures
+- Emergency protocols
+- Recovery plans
+
+ID: SUBJ.140
+Type: SUBJECT
+Name: Operational Dashboards
+Definition: Real-time displays of operational metrics and status
+Examples:
+- KPI dashboards
+- Performance monitors
+- Status boards
+- Metric displays
+- Alert systems
+
+## FINANCE_ACCOUNTING
+ID: SUBJ.141
+Type: SUBJECT
+Name: Financial Models
+Definition: Spreadsheet-based projections and analyses
+Examples:
+- Revenue models
+- Cash flow models
+- Valuation models
+- Scenario models
+- Budget models
+
+ID: SUBJ.142
+Type: SUBJECT
+Name: Budget Plans
+Definition: Planned allocation of financial resources
+Examples:
+- Annual budgets
+- Department budgets
+- Project budgets
+- Capital budgets
+- Operating budgets
+
+ID: SUBJ.143
+Type: SUBJECT
+Name: Financial Statements
+Definition: Formal reports of financial position and performance
+Examples:
+- Income statements
+- Balance sheets
+- Cash flow statements
+- P&L reports
+- Financial reports
+
+ID: SUBJ.144
+Type: SUBJECT
+Name: Cash Flow Projections
+Definition: Forecasts of cash inflows and outflows
+Examples:
+- Cash forecasts
+- Liquidity projections
+- Working capital forecasts
+- Cash position
+- Burn rate
+
+ID: SUBJ.145
+Type: SUBJECT
+Name: Financial Ratios
+Definition: Calculated metrics for financial analysis
+Examples:
+- Profitability ratios
+- Liquidity ratios
+- Efficiency ratios
+- Leverage ratios
+- Market ratios
+
+ID: SUBJ.146
+Type: SUBJECT
+Name: Unit Economics
+Definition: Per-unit revenue and cost metrics
+Examples:
+- Contribution margin
+- Unit profitability
+- CAC/LTV ratios
+- Cost per unit
+- Revenue per unit
+
+ID: SUBJ.147
+Type: SUBJECT
+Name: Variance Reports
+Definition: Analyses comparing actual to budgeted performance
+Examples:
+- Budget variances
+- Forecast variances
+- Performance gaps
+- Variance explanations
+- Deviation analysis
+
+ID: SUBJ.148
+Type: SUBJECT
+Name: Investment Proposals
+Definition: Business cases for capital allocation decisions
+Examples:
+- ROI analysis
+- Capital requests
+- Project business cases
+- IRR calculations
+- Payback analysis
+
+ID: SUBJ.149
+Type: SUBJECT
+Name: Chart of Accounts
+Definition: Organized listing of all financial accounts
+Examples:
+- Account structures
+- GL accounts
+- Account mappings
+- Account hierarchies
+- Financial categories
+
+ID: SUBJ.150
+Type: SUBJECT
+Name: Investor Presentations
+Definition: Materials for communicating with investors and stakeholders
+Examples:
+- Pitch decks
+- Investor updates
+- Board presentations
+- Fundraising materials
+- Quarterly reports
+
+## HR_PEOPLE
+ID: SUBJ.151
+Type: SUBJECT
+Name: Organization Charts
+Definition: Visual representations of organizational structure
+Examples:
+- Org structures
+- Reporting lines
+- Team hierarchies
+- Department structures
+- Span of control
+
+ID: SUBJ.152
+Type: SUBJECT
+Name: Job Descriptions
+Definition: Formal documentation of role requirements and responsibilities
+Examples:
+- Position descriptions
+- Role profiles
+- Responsibility matrices
+- Job specs
+- Competency profiles
+
+ID: SUBJ.153
+Type: SUBJECT
+Name: Compensation Structures
+Definition: Pay scales, bands, and benefit frameworks
+Examples:
+- Salary bands
+- Pay grades
+- Bonus structures
+- Benefits packages
+- Equity plans
+
+ID: SUBJ.154
+Type: SUBJECT
+Name: Performance Reviews
+Definition: Documented evaluations of employee performance
+Examples:
+- Annual reviews
+- 360 feedback
+- Performance ratings
+- Development plans
+- Goal assessments
+
+ID: SUBJ.155
+Type: SUBJECT
+Name: Onboarding Programs
+Definition: Structured processes for integrating new employees
+Examples:
+- New hire programs
+- Orientation schedules
+- Training curricula
+- 30-60-90 plans
+- Buddy systems
+
+ID: SUBJ.156
+Type: SUBJECT
+Name: Talent Pipelines
+Definition: Pools of candidates and succession candidates
+Examples:
+- Candidate pools
+- Succession plans
+- High potential lists
+- Leadership pipeline
+- Talent inventory
+
+ID: SUBJ.157
+Type: SUBJECT
+Name: Employee Engagement Data
+Definition: Information about employee satisfaction and commitment
+Examples:
+- Survey results
+- Engagement scores
+- Sentiment analysis
+- Pulse surveys
+- Exit interviews
+
+ID: SUBJ.158
+Type: SUBJECT
+Name: Training Programs
+Definition: Educational initiatives for skill development
+Examples:
+- Training curricula
+- Learning paths
+- Certification programs
+- Leadership development
+- Skills training
+
+ID: SUBJ.159
+Type: SUBJECT
+Name: HR Policies
+Definition: Formal guidelines governing workplace practices
+Examples:
+- Employee handbooks
+- Policy documents
+- Code of conduct
+- Work policies
+- HR procedures
+
+ID: SUBJ.160
+Type: SUBJECT
+Name: Workforce Analytics
+Definition: Metrics and data about workforce composition and trends
+Examples:
+- Headcount data
+- Turnover rates
+- Diversity metrics
+- Productivity data
+- Span metrics
+
+## STRATEGY_PLANNING
+ID: SUBJ.161
+Type: SUBJECT
+Name: Strategic Plans
+Definition: Long-term organizational strategies and objectives
+Examples:
+- Corporate strategy
+- Business unit plans
+- Strategic initiatives
+- Vision statements
+- Strategic themes
+
+ID: SUBJ.162
+Type: SUBJECT
+Name: Market Analysis
+Definition: Research and insights about target markets
+Examples:
+- Market sizing
+- Competitive analysis
+- Market trends
+- Industry reports
+- Market segmentation
+
+ID: SUBJ.163
+Type: SUBJECT
+Name: SWOT Analyses
+Definition: Evaluations of strengths, weaknesses, opportunities, threats
+Examples:
+- Strategic assessments
+- Situation analysis
+- Competitive position
+- Environmental scan
+- Capability analysis
+
+ID: SUBJ.164
+Type: SUBJECT
+Name: Business Cases
+Definition: Justifications for strategic initiatives and investments
+Examples:
+- Investment cases
+- Project proposals
+- Initiative justifications
+- Strategic proposals
+- Decision memos
+
+ID: SUBJ.165
+Type: SUBJECT
+Name: Strategic Objectives
+Definition: Key goals and targets aligned with strategy
+Examples:
+- OKRs
+- Strategic goals
+- Key results
+- Target outcomes
+- Success metrics
+
+ID: SUBJ.166
+Type: SUBJECT
+Name: Scenario Plans
+Definition: Alternative strategic pathways based on different futures
+Examples:
+- Scenario models
+- Contingency plans
+- What-if scenarios
+- Future states
+- Strategic options
+
+ID: SUBJ.167
+Type: SUBJECT
+Name: M&A Targets
+Definition: Potential acquisition or merger candidates
+Examples:
+- Target lists
+- Acquisition candidates
+- Strategic fits
+- Target profiles
+- Deal pipeline
+
+ID: SUBJ.168
+Type: SUBJECT
+Name: Partnership Agreements
+Definition: Strategic alliance and collaboration arrangements
+Examples:
+- Partnership terms
+- Alliance agreements
+- Joint ventures
+- Collaboration frameworks
+- Strategic partnerships
+
+ID: SUBJ.169
+Type: SUBJECT
+Name: Business Models
+Definition: Frameworks for how organizations create and capture value
+Examples:
+- Revenue models
+- Business model canvas
+- Value propositions
+- Operating models
+- Go-to-market models
+
+ID: SUBJ.170
+Type: SUBJECT
+Name: Innovation Portfolios
+Definition: Collections of innovation initiatives and R&D projects
+Examples:
+- Innovation pipeline
+- R&D projects
+- Pilot programs
+- Innovation initiatives
+- Experiment portfolio
+
+## CUSTOMER_SUCCESS
+ID: SUBJ.171
+Type: SUBJECT
+Name: Customer Health Scores
+Definition: Metrics indicating customer relationship strength and risk
+Examples:
+- Health metrics
+- Risk scores
+- Engagement scores
+- Satisfaction indices
+- Churn risk
+
+ID: SUBJ.172
+Type: SUBJECT
+Name: Renewal Schedules
+Definition: Timelines of upcoming contract renewals
+Examples:
+- Renewal dates
+- Contract expirations
+- Renewal pipeline
+- Renewal forecasts
+- At-risk renewals
+
+ID: SUBJ.173
+Type: SUBJECT
+Name: Customer Success Plans
+Definition: Documented strategies for customer value realization
+Examples:
+- Success plans
+- Adoption roadmaps
+- Value plans
+- Implementation plans
+- Engagement strategies
+
+ID: SUBJ.174
+Type: SUBJECT
+Name: NPS Scores
+Definition: Net Promoter Score data and trends
+Examples:
+- NPS surveys
+- Promoter percentages
+- Detractor feedback
+- Score trends
+- Benchmark comparisons
+
+ID: SUBJ.175
+Type: SUBJECT
+Name: Expansion Opportunities
+Definition: Potential upsell and cross-sell possibilities
+Examples:
+- Whitespace analysis
+- Upsell targets
+- Cross-sell opportunities
+- Expansion pipeline
+- Growth potential
+
+ID: SUBJ.176
+Type: SUBJECT
+Name: Customer Feedback
+Definition: Input and opinions from customers across channels
+Examples:
+- Survey responses
+- Interview notes
+- Support feedback
+- Feature requests
+- Testimonials
+
+ID: SUBJ.177
+Type: SUBJECT
+Name: Churn Data
+Definition: Information about customer attrition and reasons
+Examples:
+- Churn rates
+- Cancellation reasons
+- Lost revenue
+- Churn patterns
+- Exit interviews
+
+ID: SUBJ.178
+Type: SUBJECT
+Name: Customer Advocates
+Definition: Satisfied customers willing to provide references
+Examples:
+- Reference accounts
+- Case study subjects
+- Testimonial providers
+- Speaking references
+- Advocate community
+
+ID: SUBJ.179
+Type: SUBJECT
+Name: Usage Analytics
+Definition: Data about how customers use products and services
+Examples:
+- Feature usage
+- Login frequency
+- Adoption metrics
+- Engagement data
+- Activity patterns
+
+ID: SUBJ.180
+Type: SUBJECT
+Name: Business Review Materials
+Definition: Presentations and data for customer review meetings
+Examples:
+- QBR decks
+- Value reports
+- ROI analysis
+- Usage reports
+- Strategic recommendations
+
+## LEGAL_COMPLIANCE
+ID: SUBJ.181
+Type: SUBJECT
+Name: Contract Templates
+Definition: Standardized agreement formats for common transactions
+Examples:
+- MSAs
+- NDAs
+- SOWs
+- Terms of service
+- License agreements
+
+ID: SUBJ.182
+Type: SUBJECT
+Name: Compliance Frameworks
+Definition: Structures for meeting regulatory requirements
+Examples:
+- GDPR programs
+- SOX controls
+- HIPAA compliance
+- Compliance manuals
+- Control matrices
+
+ID: SUBJ.183
+Type: SUBJECT
+Name: Privacy Policies
+Definition: Documents governing data collection and use
+Examples:
+- Privacy notices
+- Cookie policies
+- Data handling procedures
+- Consent mechanisms
+- Privacy frameworks
+
+ID: SUBJ.184
+Type: SUBJECT
+Name: Intellectual Property
+Definition: Protected creations and proprietary assets
+Examples:
+- Patents
+- Trademarks
+- Copyrights
+- Trade secrets
+- IP portfolio
+
+ID: SUBJ.185
+Type: SUBJECT
+Name: Risk Registers
+Definition: Documented inventories of organizational risks
+Examples:
+- Risk catalogs
+- Risk assessments
+- Threat inventories
+- Risk matrices
+- Control mappings
+
+ID: SUBJ.186
+Type: SUBJECT
+Name: Regulatory Requirements
+Definition: Legal and compliance obligations from authorities
+Examples:
+- Regulations
+- Compliance mandates
+- Legal requirements
+- Industry standards
+- Regulatory guidance
+
+ID: SUBJ.187
+Type: SUBJECT
+Name: Audit Reports
+Definition: Findings from internal or external compliance reviews
+Examples:
+- Audit findings
+- Compliance reports
+- Assessment results
+- Gap analyses
+- Remediation plans
+
+ID: SUBJ.188
+Type: SUBJECT
+Name: Corporate Governance Documents
+Definition: Materials governing corporate structure and oversight
+Examples:
+- Bylaws
+- Board charters
+- Governance policies
+- Board minutes
+- Committee charters
+
+ID: SUBJ.189
+Type: SUBJECT
+Name: Legal Disputes
+Definition: Active or potential litigation and claims
+Examples:
+- Lawsuits
+- Claims
+- Disputes
+- Settlements
+- Legal matters
+
+ID: SUBJ.190
+Type: SUBJECT
+Name: Ethics Policies
+Definition: Guidelines for ethical business conduct
+Examples:
+- Code of conduct
+- Ethics guidelines
+- Conflict policies
+- Gift policies
+- Whistleblower procedures
+
+## DIGITAL_TECHNOLOGY
+ID: SUBJ.191
+Type: SUBJECT
+Name: Digital Strategies
+Definition: Plans for digital transformation and technology adoption
+Examples:
+- Transformation roadmaps
+- Digital initiatives
+- Technology strategies
+- Innovation plans
+- Digital vision
+
+ID: SUBJ.192
+Type: SUBJECT
+Name: Technology Stack
+Definition: Collection of software and systems in use
+Examples:
+- Software inventory
+- Platform architecture
+- Tool ecosystem
+- System landscape
+- Technology portfolio
+
+ID: SUBJ.193
+Type: SUBJECT
+Name: Data Governance Frameworks
+Definition: Policies and processes for managing data assets
+Examples:
+- Data policies
+- Data standards
+- Data catalogs
+- Governance models
+- Stewardship structures
+
+ID: SUBJ.194
+Type: SUBJECT
+Name: AI/ML Models
+Definition: Machine learning algorithms and artificial intelligence systems
+Examples:
+- Prediction models
+- Classification models
+- Neural networks
+- AI applications
+- ML pipelines
+
+ID: SUBJ.195
+Type: SUBJECT
+Name: Cloud Infrastructure
+Definition: Cloud-based computing resources and architecture
+Examples:
+- Cloud environments
+- AWS resources
+- Azure services
+- Cloud architecture
+- Infrastructure as code
+
+ID: SUBJ.196
+Type: SUBJECT
+Name: Security Controls
+Definition: Technical and procedural safeguards protecting systems
+Examples:
+- Access controls
+- Encryption systems
+- Security policies
+- Firewall rules
+- Authentication systems
+
+ID: SUBJ.197
+Type: SUBJECT
+Name: API Ecosystems
+Definition: Collections of application programming interfaces
+Examples:
+- API catalog
+- Integration points
+- API documentation
+- Developer portals
+- API gateways
+
+ID: SUBJ.198
+Type: SUBJECT
+Name: CRM Systems
+Definition: Customer relationship management platforms and data
+Examples:
+- Salesforce instances
+- Contact databases
+- Pipeline data
+- Customer records
+- CRM workflows
+
+ID: SUBJ.199
+Type: SUBJECT
+Name: Analytics Dashboards
+Definition: Visual displays of business intelligence and metrics
+Examples:
+- BI dashboards
+- Executive dashboards
+- Operational reports
+- KPI displays
+- Data visualizations
+
+ID: SUBJ.200
+Type: SUBJECT
+Name: E-Commerce Platforms
+Definition: Online sales and transaction systems
+Examples:
+- Online stores
+- Shopping carts
+- Payment systems
+- Product catalogs
+- Order management
