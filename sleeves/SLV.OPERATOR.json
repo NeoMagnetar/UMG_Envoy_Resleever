@@ -1,0 +1,36 @@
+{
+ "id": "SLV.OPERATOR",
+ "version": "1.0.0",
+ "mode": "operator",
+ "bpMode": "NL",
+ "stacks": [
+ "NSTK.CONTEXT.MAPPING.v1",
+ "NSTK.SYSTEM.MAPPING.v1",
+ "NSTK.OUTCOME.FOCUS.v1",
+ "NSTK.SIMPLIFICATION.ENGINE.v1"
+ ],
+ "posture": {
+ "localFirst": true,
+ "repoOperator": true,
+ "browserEnabled": true,
+ "execEnabled": true,
+ "lowGovernance": true,
+ "askBeforeExternalOnly": true
+ },
+ "tools": {
+ "exec": "broad",
+ "browser": "broad",
+ "web": "broad",
+ "fileOps": "broad",
+ "github": "broad"
+ },
+ "capabilities": {
+ "codeEdit": true,
+ "fileReadWrite": true,
+ "repoWork": true,
+ "browserAutomation": true,
+ "webResearch": true,
+ "runtimeActivation": true
+ },
+ "notes": "Proof-of-concept operator sleeve. Broad local computer access posture. Minimal governance. Intended for coding, repo work, browser use, and system integration testing."
+}
